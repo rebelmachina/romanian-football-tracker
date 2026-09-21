@@ -71,23 +71,58 @@ VEN=The SMISA Stadium, TWN=Paisley, etc.
 Parse strategy: split on `~` into records, split each on `¬` into fields,
 split each field on the first `÷` into (key, value).
 
-## NOT yet verified — discover via Playwright network capture (plan Task 1)
+## Verified: Player data is embedded in the player page HTML ✅
 
-The following are needed but their exact feed names were not found by
-guessing. Open the relevant Flashscore page in Playwright, capture the
-XHR requests to `*.flashscore.ninja/.../x/feed/`, and record the feed
-name + a saved response fixture:
+The player page does NOT use per-player `/x/feed/` calls for its data —
+the whole dataset is embedded in the initial HTML as a JSON blob:
 
-1. **Player season stats** (goals, assists, minutes for current season)
-   — open `https://www.flashscore.com/player/{slug}/{playerId}/`
-2. **Player match log** (list of the player's matches with match IDs)
-   — same player page, "Matches" tab
-3. **Team results/fixtures** (a club's recent results, each with a match ID)
-   — open `https://www.flashscore.com/team/{slug}/{teamId}/`
+```
+GET https://www.flashscore.com/player/{slug}/{playerId}/
+Headers: Referer + normal User-Agent   (no x-fsign needed; plain HTML)
+```
 
-## YouTube highlight extraction — verify in Task 1
+Extract with a regex:
+`window.playerProfilePageEnvironment\s*=\s*(\{.*?\})\s*;\s*\n`
 
-On a match page, Flashscore may embed a highlights/video link. Determine
-via Playwright whether it appears in a feed (e.g. a `_hl_`/video feed) or
-only in the rendered DOM, and record the selector or feed. Expect it to
-be absent for many lower-tier leagues.
+Useful keys in that object:
+- `careerTables` — list of tables (`table_id` ∈ league / nacional-cup /
+  international-cups / national-team). The **league** table's `seasons[0]`
+  is the current season row, with: `tournament_name` (league), `flag_name`
+  (country), `season_name`, `matches_played`, `goals`, `assists`,
+  `avg_fs_rating`, `team_name`, `url` (team), `team_id`. Missing numbers
+  come through as `"-"` — coerce to 0.
+- `lastMatchesData.lastMatches` — recent matches, each with:
+  `eventEncodedId` (8-char match id), `eventStartTime` ("DD.MM.YY"),
+  `homeParticipantName`/`awayParticipantName`, `homeScore`/`awayScore`,
+  `tournamentTitle` (e.g. "Premiership (Scotland)"), `winLoseShort`
+  (W/D/L), `rating`, and `stats` — a dict of `{type, value}` where
+  `type == "minutes-played"` gives e.g. "90'" and `type == "goal"` gives
+  the player's goals in that match. (Assists that are 0 show as
+  `type == "grey"`, so per-match assists are unreliable; use the season
+  `assists` from careerTables instead.)
+
+No minutes field exists at season level — we sum per-match minutes over
+recent league matches as a best-effort "minutes" figure.
+
+## Verified: YouTube highlights feed ✅
+
+```
+GET https://global.flashscore.ninja/2/x/feed/df_hi_1_{matchId}
+Header REQUIRED: x-fsign: SW9D1eZo   + Referer
+```
+
+Pipe-delimited. `HUO` = YouTube watch URL, `HUR` = embed URL,
+`HHV` = provider ("YouTube"), `HTI` = title. A match with no highlight
+returns HTTP 404 (HTML error body). Works over plain HTTP — no browser.
+
+## Consequence: no browser needed
+
+Player stats+matches (player page HTML), position/club/nationality
+(search API), and highlights (`df_hi` feed) are all plain HTTP. Playwright
+was used only for one-time discovery and is NOT a runtime dependency.
+
+## Still open (future): deep backfill
+
+`lastMatchesData` has `hasMoreLastMatches`/`rowsLimitNext` (pagination for
+older matches); the exact "load more" feed was not pinned down. Recent
+matches cover the primary view; multi-year backfill is a future addition.
