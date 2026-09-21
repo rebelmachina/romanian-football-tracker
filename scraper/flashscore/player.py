@@ -8,11 +8,14 @@ fetch the page over plain HTTP and parse that blob — no browser needed.
 from __future__ import annotations
 import json
 import re
+import time
 from dataclasses import dataclass, field
 import requests
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+FEED_HOST = "https://global.flashscore.ninja/2/x/feed/"
+FSIGN = "SW9D1eZo"
 
 _ENV_RE = re.compile(
     r"window\.playerProfilePageEnvironment\s*=\s*(\{.*?\})\s*;\s*\n", re.DOTALL)
@@ -236,6 +239,45 @@ def parse_player_env(env: dict, player_id: str, club_id: str | None = None,
     return PlayerData(player_id, team_name, league, country, stats, results,
                       team_logo=team_logo, nt=_nt_stats(career),
                       career_teams=_career_teams(career, club_id, club_name))
+
+
+def fetch_match_history(player_id: str, session: requests.Session,
+                        since: str | None = None, max_pages: int = 30,
+                        delay: float = 0.0) -> list[MatchResult]:
+    """All the player's matches (newest first), paging plm_ until `since` (ISO date)."""
+    raw: list[dict] = []
+    for page in range(1, max_pages + 1):
+        resp = session.get(
+            FEED_HOST + f"plm_{player_id}_{page}",
+            headers={"x-fsign": FSIGN, "Referer": "https://www.flashscore.com/", "User-Agent": UA},
+            timeout=20,
+        )
+        if resp.status_code != 200:
+            break
+        try:
+            page_matches = resp.json().get("lastMatches", [])
+        except ValueError:
+            break
+        if not page_matches:
+            break
+        raw.extend(page_matches)
+        oldest = min((_parse_date(m["eventStartTime"]) for m in page_matches
+                      if m.get("eventStartTime")), default=None)
+        if since and oldest and oldest < since:
+            break
+        if delay:
+            time.sleep(delay)
+
+    results = _parse_matches(raw)
+    if since:
+        results = [r for r in results if r.date >= since]
+    seen: set[str] = set()
+    uniq: list[MatchResult] = []
+    for r in results:
+        if r.match_id and r.match_id not in seen:
+            seen.add(r.match_id)
+            uniq.append(r)
+    return uniq
 
 
 def fetch_player_data(player_id: str, slug: str,

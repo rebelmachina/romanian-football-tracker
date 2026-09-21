@@ -1,5 +1,5 @@
 from datetime import date, timedelta
-from scrape import merge_youtube, build_player_record, group_label, needs_highlight_check
+from scrape import merge_youtube, build_player_record, group_label, needs_highlight_check, _merge_results
 from config import PlayerConfig
 from flashscore.search import PlayerHit
 from flashscore.player import PlayerData, SeasonStats, MatchResult
@@ -35,6 +35,16 @@ def test_group_label_uses_live_league_and_country():
 
 def test_group_label_falls_back_when_league_missing():
     assert group_label(None, None, fallback="Turcia") == "Turcia"
+
+
+def test_merge_results_dedupes_filters_and_sorts():
+    def mr(mid, d):
+        return MatchResult(mid, d, "H", "A", "1-0", "L", "W", 90, 0)
+    recent = [mr("m3", "2026-09-01"), mr("m2", "2026-06-01")]
+    history = [mr("m2", "2026-06-01"), mr("m1", "2024-01-01"), mr("old", "2020-01-01")]
+    out = _merge_results(recent, history, since="2023-01-01")
+    ids = [r.match_id for r in out]
+    assert ids == ["m3", "m2", "m1"]      # deduped, newest first, "old" filtered out
 
 
 def test_needs_highlight_check_only_recent():

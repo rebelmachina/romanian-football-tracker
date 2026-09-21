@@ -2,7 +2,12 @@ name: Daily scrape
 on:
   schedule:
     - cron: "0 6 * * *"     # 06:00 UTC daily
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      years:
+        description: "Years of history to scrape (blank = players.yaml default). Use e.g. 3 to backfill."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -14,6 +19,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 330       # allow long one-off backfills
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,7 +28,12 @@ jobs:
       - run: pip install -r scraper/requirements.txt
       - name: Scrape
         working-directory: scraper
-        run: python scrape.py
+        run: |
+          if [ -n "${{ inputs.years }}" ]; then
+            python scrape.py --years "${{ inputs.years }}"
+          else
+            python scrape.py
+          fi
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"

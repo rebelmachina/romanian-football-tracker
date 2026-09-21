@@ -39,6 +39,32 @@ python scrape.py                       # writes ../site/data.json
 cd ../site && python -m http.server 8080   # open http://localhost:8080
 ```
 
+## How far back to scrape
+
+`players.yaml` has a top-level **`history_years`** setting — how many years of
+match history to pull (results, YouTube highlights, and goal/assist minutes):
+
+```yaml
+history_years: 3      # last 3 years
+```
+
+Change it and re-run the scrape to backfill. You can also override per-run:
+
+```bash
+python scrape.py --years 3          # or: --since 2023-01-01
+```
+
+Or from GitHub: **Actions → Daily scrape → Run workflow → years: 3**.
+
+Notes:
+- Match history comes from Flashscore's paginated `plm` feed, merged with the
+  latest matches. The first deep backfill is slow (it checks highlights and
+  goal/assist minutes for every match) but results are cached, so later runs are
+  fast. Highlights are only looked up for matches under ~500 days old — older
+  ones don't have highlight embeds on Flashscore anyway (add them via `links.json`).
+- A larger window makes `site/data.json` bigger; the UI still shows the 5 most
+  recent per player with a "show all" toggle.
+
 ## Managing the roster
 
 `players.yaml` holds `{name, flashscore_id, country}` per player. `country` is a

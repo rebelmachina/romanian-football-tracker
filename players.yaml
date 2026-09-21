@@ -1,3 +1,7 @@
+# How many years of match history to scrape (results, highlights, minutes).
+# Change this and re-run the scrape to backfill further, e.g. 3 for last 3 years.
+history_years: 3
+
 players:
 - name: Andrei Borza
   flashscore_id: nVBUi3w2
