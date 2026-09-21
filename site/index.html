@@ -17,6 +17,16 @@
     </div>
     <div class="controls">
       <input id="filter" type="search" placeholder="Caută jucător sau echipă…" autocomplete="off">
+      <select id="filter-pos" class="fsel" aria-label="Filtrează după poziție">
+        <option value="">Toate pozițiile</option>
+        <option value="Goalkeeper">Portari</option>
+        <option value="Defender">Fundași</option>
+        <option value="Midfielder">Mijlocași</option>
+        <option value="Forward">Atacanți</option>
+      </select>
+      <select id="filter-league" class="fsel" aria-label="Filtrează după ligă">
+        <option value="">Toate ligile</option>
+      </select>
       <button id="refresh" title="Reîncarcă linkurile YouTube">↻ Highlights</button>
       <div class="views" role="group" aria-label="Vizualizare">
         <button class="view-btn" data-view="classic" title="Vizualizare clasică">▦ Clasic</button>

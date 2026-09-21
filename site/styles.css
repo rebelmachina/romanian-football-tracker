@@ -86,6 +86,13 @@ body {
 }
 #filter::placeholder { color: rgba(255,255,255,.6); }
 #filter:focus { border-color: var(--ro-yellow); }
+.fsel {
+  background: var(--topbar-input); border: 1px solid rgba(255,255,255,.22);
+  color: #fff; border-radius: 999px; padding: 7px 12px; font-size: 13px;
+  cursor: pointer; outline: none; max-width: 190px;
+}
+.fsel:focus { border-color: var(--ro-yellow); }
+.fsel option { color: #14213d; background: #fff; }
 #refresh {
   background: var(--ro-yellow); color: #1a1300; border: none;
   border-radius: 999px; padding: 8px 14px; font-weight: 700;

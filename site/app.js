@@ -4,7 +4,7 @@
 const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
-let STATE = { players: [], filter: "", view: "classic", sel: 0, list: [] };
+let STATE = { players: [], filter: "", pos: "", league: "", view: "classic", sel: 0, list: [] };
 
 function posAbbr(p) { return POS[p] || "UNK"; }
 
@@ -81,7 +81,7 @@ function card(p) {
     ? `<span class="rating">★ ${esc(p.season_stats.rating)}</span>` : "";
   return `<div class="card">
     <div class="card-top">
-      ${avatar(p, "card")}
+      ${avatar(p, "sm")}
       <div class="who">
         <div class="name">${esc(p.name)}</div>
         <div class="team">${esc(p.team || "—")} ${rating}</div>
@@ -95,8 +95,14 @@ function card(p) {
 }
 
 function matchesFilter(p, f) {
+  if (STATE.pos && p.position !== STATE.pos) return false;
+  if (STATE.league && p.group !== STATE.league) return false;
   if (!f) return true;
   return (p.name + " " + (p.team || "") + " " + (p.group || "")).toLowerCase().includes(f);
+}
+
+function anyFilterActive() {
+  return !!(STATE.filter.trim() || STATE.pos || STATE.league);
 }
 
 function filteredPlayers() {
@@ -121,7 +127,7 @@ function renderClassic() {
   app.innerHTML = names.map(g => {
     const players = groups[g].sort((a, b) =>
       (b.season_stats.goals + b.season_stats.assists) - (a.season_stats.goals + a.season_stats.assists));
-    const closed = localStorage.getItem("lg:" + g) === "closed" && !f;
+    const closed = localStorage.getItem("lg:" + g) === "closed" && !anyFilterActive();
     return `<section class="league">
       <div class="league-head" data-group="${esc(g)}">
         <span class="caret">${closed ? "▸" : "▾"}</span>
@@ -308,8 +314,17 @@ function initIntro() {
   }
 }
 
+function populateLeagues() {
+  const leagues = [...new Set(STATE.players.map(p => p.group).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b));
+  const sel = document.getElementById("filter-league");
+  sel.innerHTML = `<option value="">Toate ligile</option>` +
+    leagues.map(g => `<option value="${esc(g)}">${esc(g)}</option>`).join("");
+}
+
 function boot(data) {
   STATE.players = data.players || [];
+  populateLeagues();
   const totalGoals = STATE.players.reduce((s, p) => s + (p.season_stats?.goals || 0), 0);
   document.getElementById("summary").textContent =
     `${STATE.players.length} jucători · ${totalGoals} goluri în acest sezon`;
@@ -327,10 +342,15 @@ initView();
 document.addEventListener("click", onClick);
 document.addEventListener("keydown", onKey);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
+function onFilterChange() { if (STATE.view === "arcade") STATE.sel = 0; render(); }
 document.getElementById("filter").addEventListener("input", e => {
-  STATE.filter = e.target.value;
-  if (STATE.view === "arcade") STATE.sel = 0;
-  render();
+  STATE.filter = e.target.value; onFilterChange();
+});
+document.getElementById("filter-pos").addEventListener("change", e => {
+  STATE.pos = e.target.value; onFilterChange();
+});
+document.getElementById("filter-league").addEventListener("change", e => {
+  STATE.league = e.target.value; onFilterChange();
 });
 
 fetch("./data.json")

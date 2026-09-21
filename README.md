@@ -94,6 +94,12 @@ git-ignored `site/token.js` loaded in `index.html`.
 
 The choice is remembered per browser.
 
+### Filtering
+
+The header has a text search (name / team / league) plus two dropdowns —
+**position** (Goalkeeper / Defender / Midfielder / Forward) and **league** —
+which combine. Filtering works in both views.
+
 ### Theme
 
 Top-right selector: 💻 system (follows your OS), ☀️ light, 🌙 dark. The choice
