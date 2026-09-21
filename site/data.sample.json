@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-09-21T06:00:00Z",
+  "players": [
+    {
+      "name": "Kevin Ciubotaru", "flashscore_id": "O2o2L2iA", "slug": "ciubotaru-kevin",
+      "position": "Defender", "team": "Dundee Utd", "league": "Premiership",
+      "country": "Scotland", "group": "Premiership (Scotland)",
+      "season_stats": {"goals": 1, "assists": 0, "appearances": 3, "minutes": 206, "rating": "6.8"},
+      "results": [
+        {"match_id": "jiBADrkI", "date": "2026-09-19", "home_team": "St. Mirren", "away_team": "Dundee Utd",
+         "score": "0-3", "competition": "Premiership (Scotland)", "result": "W", "player_minutes": 90,
+         "player_goals": 1, "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
+         "youtube_url": "https://www.youtube.com/watch?v=ECitipBT3P8"},
+        {"match_id": "abc00002", "date": "2026-09-05", "home_team": "Dundee Utd", "away_team": "Falkirk",
+         "score": "1-1", "competition": "Premiership (Scotland)", "result": "D", "player_minutes": 90,
+         "player_goals": 0, "flashscore_url": "https://www.flashscore.com/match/abc00002/", "youtube_url": null}
+      ]
+    },
+    {
+      "name": "Ianis Hagi", "flashscore_id": "CM16Bvc5", "slug": "hagi-ianis",
+      "position": "Midfielder", "team": "Alanyaspor", "league": "Süper Lig",
+      "country": "Turkey", "group": "Süper Lig (Turkey)",
+      "season_stats": {"goals": 3, "assists": 2, "appearances": 6, "minutes": 480, "rating": "7.2"},
+      "results": [
+        {"match_id": "hagi0001", "date": "2026-09-20", "home_team": "Alanyaspor", "away_team": "Trabzonspor",
+         "score": "2-1", "competition": "Süper Lig (Turkey)", "result": "W", "player_minutes": 88,
+         "player_goals": 1, "flashscore_url": "https://www.flashscore.com/match/hagi0001/", "youtube_url": null}
+      ]
+    }
+  ]
+}

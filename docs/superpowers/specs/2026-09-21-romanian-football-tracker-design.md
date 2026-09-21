@@ -11,6 +11,24 @@ A personal web application that tracks ~80 Romanian football players competing i
 
 ---
 
+## Implementation Update (2026-09-21)
+
+Empirical discovery during implementation simplified the design from the
+original plan:
+
+- **No browser / Playwright.** The entire pipeline is plain HTTP. Player
+  season stats + recent matches are read from the JSON blob embedded in the
+  player page HTML; YouTube highlights come from Flashscore's `df_hi` feed
+  (not a rendered page). See `docs/flashscore-api-notes.md`.
+- **Grouping is by live league** (e.g. "Süper Lig (Turkey)"), read from
+  Flashscore per player, not by a static country field. The `country` field
+  in `players.yaml` is only a fallback section label.
+- **Highlights refresh** is a fast HTTP re-fetch (`--highlights-only`), so the
+  "Refresh Highlights" workflow no longer needs a browser.
+
+The rest of this document reflects the original design; where it mentions
+Playwright or pipe-delimited player feeds, the HTTP approach above supersedes it.
+
 ## Goals
 
 - Track a configurable roster of Romanian players abroad

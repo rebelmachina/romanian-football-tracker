@@ -1,0 +1,241 @@
+players:
+- name: Andrei Borza
+  flashscore_id: nVBUi3w2
+  country: Turcia
+- name: Matei Ilie
+  flashscore_id: MJHUOQk1
+  country: Turcia
+- name: Deian Sorescu
+  flashscore_id: 8lTdDnXs
+  country: Turcia
+- name: Alexandru Maxim
+  flashscore_id: EFNpqcTT
+  country: Turcia
+- name: Valentin Mihaila
+  flashscore_id: OOFN5OX4
+  country: Turcia
+- name: Iustin Doicaru
+  flashscore_id: WxrTardp
+  country: Turcia
+- name: Horatiu Moldovan
+  flashscore_id: SxjadbLU
+  country: Turcia
+- name: Ianis Hagi
+  flashscore_id: CM16Bvc5
+  country: Turcia
+- name: Marius Corbu
+  flashscore_id: vgDQPYCi
+  country: Ungaria
+- name: Stefan Vladoiu
+  flashscore_id: EDMFR6EF
+  country: Ungaria
+- name: Paul Anton
+  flashscore_id: 2k0DlQqa
+  country: Ungaria
+- name: Claudiu Bumba
+  flashscore_id: OANMpDg3
+  country: Ungaria
+- name: Efraim Bodo
+  flashscore_id: phSscj3c
+  country: Ungaria
+- name: Deian Boldor
+  flashscore_id: jNc8T5b3
+  country: Ungaria
+- name: Otto Hindrich
+  flashscore_id: lCZ2EtN8
+  country: Polonia
+- name: Mihai Popa
+  flashscore_id: ETwnLl9f
+  country: Polonia
+- name: Valentin Cojocaru
+  flashscore_id: MN37gnsn
+  country: Polonia
+- name: Bogdan Racovitan
+  flashscore_id: Kpq2SX0B
+  country: Polonia
+- name: Ioan Vermesan
+  flashscore_id: xpz5QLfl
+  country: Polonia
+- name: Antonio Sefer
+  flashscore_id: nsDflbah
+  country: Israel
+- name: Raul Balbarau
+  flashscore_id: ldPya5KI
+  country: Israel
+- name: Daniel Paraschiv
+  flashscore_id: GxH7SxPr
+  country: Israel
+- name: Alexandru Pop
+  flashscore_id: 4hhmfiGH
+  country: Israel
+- name: Gabriel Simion
+  flashscore_id: ""   # UNRESOLVED: no Maccabi Netanya profile found on Flashscore (verify)
+  country: Israel
+- name: Nicolae Stanciu
+  flashscore_id: tY8uva0F
+  country: China
+- name: Andrei Burca
+  flashscore_id: 0QYAKJRN
+  country: China
+- name: Alexandru Ionita
+  flashscore_id: d8R9tJwK
+  country: China
+- name: Alexandru Mitrita
+  flashscore_id: I3EOIMtl
+  country: China
+- name: Alexandru Cimpanu
+  flashscore_id: GYzkDZSr
+  country: China
+- name: Rares Ilie
+  flashscore_id: jNjnLyHF
+  country: Serie B
+- name: Rares Burnete
+  flashscore_id: vVyq9D0S
+  country: Serie B
+- name: Antonio David
+  flashscore_id: ju6yFXN1
+  country: Serie B
+- name: Francesco Serban
+  flashscore_id: tW9alLBa
+  country: Serie B
+- name: Razvan Marin
+  flashscore_id: WYOcFAQk
+  country: Grecia
+- name: Alexandru Pantea
+  flashscore_id: 67qSFgVp
+  country: Grecia
+- name: Adrian Sut
+  flashscore_id: URPwCKBE
+  country: Grecia
+- name: Octavian Popescu
+  flashscore_id: zXcBtGXG
+  country: Grecia
+- name: Vlad Dragomir
+  flashscore_id: G41aVCK1
+  country: Cipru
+- name: Florin Tanase
+  flashscore_id: AZzWG5Q2
+  country: Cipru
+- name: Atanas Trica
+  flashscore_id: pUPrg1F1
+  country: Cipru
+- name: Louis Munteanu
+  flashscore_id: Ugzfi6aP
+  country: SUA
+- name: Alexandru Matan
+  flashscore_id: A9cyouqp
+  country: SUA
+- name: Stefan Chirila
+  flashscore_id: 4hwk5EB6
+  country: SUA
+- name: Ionut Radu
+  flashscore_id: 4xYjfkEG
+  country: LaLiga
+- name: Andrei Ratiu
+  flashscore_id: Eo8SAMoI
+  country: LaLiga
+- name: Radu Dragusin
+  flashscore_id: ELzKkDJF
+  country: Serie A
+- name: Daniel Birligea
+  flashscore_id: rioZTll9
+  country: Serie A
+- name: Lisav Eissat
+  flashscore_id: O02miEUm
+  country: Championship
+- name: Andrei Coubis
+  flashscore_id: Ywf0GF3H
+  country: Championship
+- name: Alexandru Isfan
+  flashscore_id: vwalXaul
+  country: Segunda Division
+- name: Enes Sali
+  flashscore_id: 61JVneEl
+  country: Segunda Division
+- name: Andrei Dragu
+  flashscore_id: xQUj8SuF
+  country: Azerbaidjan
+- name: Vlad Pop
+  flashscore_id: WMKNEADT
+  country: Azerbaidjan
+- name: Tony Strata
+  flashscore_id: 4xeKQf0n
+  country: Portugalia
+- name: Ianis Stoica
+  flashscore_id: CGYK9J8D
+  country: Portugalia
+- name: Catalin Itu
+  flashscore_id: xdqFaent
+  country: Bulgaria
+- name: Andrei Chindris
+  flashscore_id: trwgtOY1
+  country: Bulgaria
+- name: Liviu Antal
+  flashscore_id: EV0g43T4
+  country: Lituania
+- name: Grigore Turda
+  flashscore_id: hQ209NMd
+  country: Lituania
+- name: Alexandru Tudorie
+  flashscore_id: hhD9Rh3o
+  country: Thailanda
+- name: Cristian Magerusan
+  flashscore_id: IB21elhn
+  country: Thailanda
+- name: Andrei Florea
+  flashscore_id: IFLpmkad
+  country: Slovacia
+- name: Nandor Tamas
+  flashscore_id: ITcS2aZF
+  country: Slovacia
+- name: Kevin Ciubotaru
+  flashscore_id: O2o2L2iA
+  country: Scotia
+- name: Mihai Butean
+  flashscore_id: lQuBB9Kj
+  country: Serbia
+- name: Darius Oroian
+  flashscore_id: 4Uh0wDvh
+  country: Slovenia
+- name: Cristian Catrina
+  flashscore_id: ""   # UNRESOLVED: no Al Rustaq/Oman profile found on Flashscore (verify)
+  country: Oman
+- name: Virgil Ghita
+  flashscore_id: dthOfJCO
+  country: 2. Bundesliga
+- name: Ionut Nedelcearu
+  flashscore_id: MqNVQa4o
+  country: Rusia
+- name: Raul Feher
+  flashscore_id: 0dmkaS1f
+  country: Cambodgia
+- name: Marius Marin
+  flashscore_id: IeO9PQjK
+  country: Emiratele Arabe Unite
+- name: Mihai Lixandru
+  flashscore_id: 06eZqNb0
+  country: Arabia Saudita
+- name: Mihai Capatina
+  flashscore_id: 21RPSdX8
+  country: Kazahstan
+- name: Darius Olaru
+  flashscore_id: CWEdtJWa
+  country: Belgia
+- name: Valentin Costache
+  flashscore_id: YoooEtDn
+  country: Armenia
+- name: Florinel Coman
+  flashscore_id: vsoaSbd6
+  country: Qatar
+- name: Ionut Cojocaru
+  flashscore_id: h4fY57YP
+  country: Malta
+- name: Dennis Man
+  flashscore_id: zwvX5g6l
+  country: Olanda
+- name: Ahmed Bani
+  flashscore_id: zamA4CY8
+  country: Iordania
+- name: Andrei Ivan
+  flashscore_id: vcoMAB7F
+  country: Vietnam
