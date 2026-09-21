@@ -15,6 +15,9 @@ POSITION_TYPES: dict[int, str] = {
 }
 
 
+IMAGE_BASE = "https://static.flashscore.com/res/image/data/"
+
+
 @dataclass
 class PlayerHit:
     id: str
@@ -24,6 +27,7 @@ class PlayerHit:
     nationality: str | None
     club_name: str | None
     club_id: str | None
+    photo: str | None = None
 
 
 def _position_from_types(participant_types: list[dict]) -> str | None:
@@ -41,6 +45,15 @@ def _club_from_teams(teams: list[dict]) -> tuple[str | None, str | None]:
     return None, None
 
 
+def _photo_from_images(images: list[dict]) -> str | None:
+    # usageId 3 is the participant headshot; prefer a .png (transparent) then any.
+    photos = [i.get("path") for i in images if i.get("usageId") == 3 and i.get("path")]
+    if not photos:
+        return None
+    png = next((p for p in photos if p.endswith(".png")), None)
+    return IMAGE_BASE + (png or photos[0])
+
+
 def parse_search(payload: list[dict]) -> list[PlayerHit]:
     hits: list[PlayerHit] = []
     for r in payload:
@@ -55,6 +68,7 @@ def parse_search(payload: list[dict]) -> list[PlayerHit]:
             nationality=r.get("defaultCountry", {}).get("name"),
             club_name=club_name,
             club_id=club_id,
+            photo=_photo_from_images(r.get("images", [])),
         ))
     return hits
 

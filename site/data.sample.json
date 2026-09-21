@@ -3,6 +3,7 @@
   "players": [
     {
       "name": "Kevin Ciubotaru", "flashscore_id": "O2o2L2iA", "slug": "ciubotaru-kevin",
+      "photo": "https://static.flashscore.com/res/image/data/IaCBIHcM-hfjX2SLC.png",
       "position": "Defender", "team": "Dundee Utd", "league": "Premiership",
       "country": "Scotland", "group": "Premiership (Scotland)",
       "season_stats": {"goals": 1, "assists": 0, "appearances": 3, "minutes": 206, "rating": "6.8"},
@@ -18,6 +19,7 @@
     },
     {
       "name": "Ianis Hagi", "flashscore_id": "CM16Bvc5", "slug": "hagi-ianis",
+      "photo": "https://static.flashscore.com/res/image/data/YeGoVRZA-KG4I8Y4i.png",
       "position": "Midfielder", "team": "Alanyaspor", "league": "Süper Lig",
       "country": "Turkey", "group": "Süper Lig (Turkey)",
       "season_stats": {"goals": 3, "assists": 2, "appearances": 6, "minutes": 480, "rating": "7.2"},

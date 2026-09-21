@@ -122,7 +122,20 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
   border-radius: var(--radius); padding: 14px;
   display: flex; flex-direction: column; gap: 10px;
 }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.card-top { display: flex; justify-content: flex-start; align-items: flex-start; gap: 10px; }
+.card-top .who { flex: 1; min-width: 0; }
+.avatar {
+  flex: 0 0 auto; width: 44px; height: 44px; border-radius: 50%;
+  background-size: cover; background-position: center top;
+  background-color: var(--panel-2); border: 2px solid var(--line);
+  display: inline-flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.avatar.ini { font-weight: 800; font-size: 15px; color: #fff; }
+.avatar.ini.pos-GK { background: var(--gk); color: #1a1300; border-color: var(--gk); }
+.avatar.ini.pos-DEF { background: var(--def); border-color: var(--def); }
+.avatar.ini.pos-MID { background: var(--mid); border-color: var(--mid); }
+.avatar.ini.pos-FWD { background: var(--fwd); border-color: var(--fwd); }
+.avatar.ini.pos-UNK { background: var(--muted); border-color: var(--muted); }
 .card .name { font-weight: 680; font-size: 15px; }
 .card .team { color: var(--muted); font-size: 12.5px; margin-top: 1px; }
 .pos {
@@ -167,6 +180,50 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .ga { font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
 .ga.goals { color: var(--accent); }
 .ga.assists { color: var(--accent-2); }
+
+/* View toggle (Classic / Arcade) */
+.views { display: inline-flex; gap: 2px; background: rgba(255,255,255,.14); border-radius: 999px; padding: 3px; }
+.view-btn {
+  border: none; background: none; color: #fff; cursor: pointer;
+  font-size: 12px; font-weight: 600; padding: 5px 11px; border-radius: 999px; opacity: .72;
+  white-space: nowrap;
+}
+.view-btn:hover { opacity: 1; }
+.view-btn.active { opacity: 1; background: rgba(255,255,255,.94); color: var(--ro-blue); }
+
+/* Arcade (Mortal-Kombat-style) select screen */
+.mk-hint { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.mk { display: flex; gap: 16px; align-items: flex-start; }
+.mk-grid {
+  flex: 1 1 auto; display: grid; gap: 7px;
+  grid-template-columns: repeat(auto-fill, minmax(74px, 1fr));
+}
+.mk-tile {
+  position: relative; border: 2px solid var(--line); background: var(--panel-2);
+  border-radius: 10px; padding: 0; cursor: pointer; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+.mk-tile .avatar.face {
+  width: 100%; height: auto; aspect-ratio: 1; border-radius: 0; border: none;
+  font-size: 20px;
+}
+.mk-name {
+  font-size: 10.5px; font-weight: 700; padding: 3px 3px; text-align: center;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: var(--panel);
+}
+.mk-pos { position: absolute; top: 4px; left: 4px; font-size: 8.5px; padding: 2px 4px; box-shadow: 0 1px 2px rgba(0,0,0,.4); }
+.mk-tile:hover { border-color: var(--accent-2); }
+.mk-tile.sel {
+  border-color: var(--ro-yellow);
+  box-shadow: 0 0 0 2px var(--ro-yellow), 0 0 16px rgba(252,209,22,.55);
+  z-index: 1;
+}
+.mk-panel { flex: 0 0 322px; position: sticky; top: 78px; align-self: flex-start; }
+.mk-panel .card { margin: 0; }
+@media (max-width: 720px) {
+  .mk { flex-direction: column; }
+  .mk-panel { position: static; width: 100%; order: -1; }
+}
 
 /* Theme selector (sits on the blue topbar) */
 .themes { display: inline-flex; gap: 2px; background: rgba(255,255,255,.14); border-radius: 999px; padding: 3px; }

@@ -18,6 +18,10 @@
     <div class="controls">
       <input id="filter" type="search" placeholder="Caută jucător sau echipă…" autocomplete="off">
       <button id="refresh" title="Reîncarcă linkurile YouTube">↻ Highlights</button>
+      <div class="views" role="group" aria-label="Vizualizare">
+        <button class="view-btn" data-view="classic" title="Vizualizare clasică">▦ Clasic</button>
+        <button class="view-btn" data-view="arcade" title="Vizualizare arcade">🎮 Arcade</button>
+      </div>
       <span class="updated" id="updated"></span>
       <button id="help" class="help-btn" title="Ce este asta?" aria-label="Ajutor">?</button>
       <div class="themes" role="group" aria-label="Temă">
@@ -51,6 +55,7 @@
         <li><span class="lg">⚽ <span class="ga assists">👟</span></span> goluri / pase decisive în <b>acel meci</b></li>
         <li><span class="lg"><span class="ytm">▶</span> ↗</span> rezumat YouTube · pagina meciului (Flashscore)</li>
         <li>Echipa jucătorului e evidențiată cu <b class="hl">galben</b> în fiecare rezultat.</li>
+        <li><b>▦ Clasic / 🎮 Arcade</b> — două moduri de vizualizare; în Arcade alegi jucătorii cu săgețile sau click</li>
         <li><b>↻ Highlights</b> reîmprospătează video · <b>💻 ☀️ 🌙</b> schimbă tema</li>
       </ul>
       <button id="intro-close" class="intro-close">Am înțeles</button>

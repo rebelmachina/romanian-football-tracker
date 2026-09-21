@@ -86,11 +86,19 @@ The repo is preset in `site/app.js` (`OWNER_REPO`). Click **↻ Highlights**:
 To pre-fill it for a private deployment, set `window.__GH_TOKEN__` from a
 git-ignored `site/token.js` loaded in `index.html`.
 
+### Views
+
+- **▦ Clasic** (default) — player cards grouped by league, each with a profile photo.
+- **🎮 Arcade** — a fighter-select-style grid of player faces; navigate with the
+  arrow keys (← ↑ ↓ →) or click, and the selected player's card shows on the right.
+
+The choice is remembered per browser.
+
 ### Theme
 
 Top-right selector: 💻 system (follows your OS), ☀️ light, 🌙 dark. The choice
 is remembered per browser. Colors come from the Romanian flag (blue #002B7F,
-yellow #FCD116, red #CE1126).
+yellow #FCD116, red #CE1126). Player photos come from Flashscore.
 
 ## Notes / limitations
 

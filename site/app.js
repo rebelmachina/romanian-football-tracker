@@ -4,13 +4,23 @@
 const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
-let STATE = { players: [], filter: "" };
+let STATE = { players: [], filter: "", view: "classic", sel: 0, list: [] };
 
 function posAbbr(p) { return POS[p] || "UNK"; }
 
 function esc(s) {
   return String(s ?? "").replace(/[&<>"]/g, c =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+function initials(name) {
+  return String(name || "?").trim().split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase();
+}
+
+function avatar(p, cls) {
+  if (p.photo)
+    return `<span class="avatar ${cls}" style="background-image:url('${esc(p.photo)}')"></span>`;
+  return `<span class="avatar ${cls} ini pos-${posAbbr(p.position)}">${esc(initials(p.name))}</span>`;
 }
 
 function teamMark(name, myTeam) {
@@ -71,7 +81,8 @@ function card(p) {
     ? `<span class="rating">★ ${esc(p.season_stats.rating)}</span>` : "";
   return `<div class="card">
     <div class="card-top">
-      <div>
+      ${avatar(p, "card")}
+      <div class="who">
         <div class="name">${esc(p.name)}</div>
         <div class="team">${esc(p.team || "—")} ${rating}</div>
       </div>
@@ -88,14 +99,21 @@ function matchesFilter(p, f) {
   return (p.name + " " + (p.team || "") + " " + (p.group || "")).toLowerCase().includes(f);
 }
 
+function filteredPlayers() {
+  const f = STATE.filter.trim().toLowerCase();
+  return STATE.players.filter(p => matchesFilter(p, f));
+}
+
 function render() {
+  if (STATE.view === "arcade") renderArcade();
+  else renderClassic();
+}
+
+function renderClassic() {
   const app = document.getElementById("app");
   const f = STATE.filter.trim().toLowerCase();
   const groups = {};
-  for (const p of STATE.players) {
-    if (!matchesFilter(p, f)) continue;
-    (groups[p.group || "Alții"] ??= []).push(p);
-  }
+  for (const p of filteredPlayers()) (groups[p.group || "Alții"] ??= []).push(p);
   const names = Object.keys(groups).sort((a, b) =>
     groups[b].length - groups[a].length || a.localeCompare(b));
   if (!names.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
@@ -115,9 +133,88 @@ function render() {
   }).join("");
 }
 
+function lastName(name) { const t = String(name || "").split(/\s+/); return t[t.length - 1]; }
+
+function renderArcade() {
+  const app = document.getElementById("app");
+  const list = filteredPlayers().slice().sort((a, b) =>
+    (a.group || "").localeCompare(b.group || "") ||
+    (b.season_stats.goals + b.season_stats.assists) - (a.season_stats.goals + a.season_stats.assists));
+  STATE.list = list;
+  if (!list.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
+  if (STATE.sel >= list.length) STATE.sel = 0;
+
+  const tiles = list.map((p, i) => `
+    <button class="mk-tile${i === STATE.sel ? " sel" : ""}" data-idx="${i}" title="${esc(p.name)}">
+      ${avatar(p, "face")}
+      <span class="mk-name">${esc(lastName(p.name))}</span>
+      <span class="pos mk-pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>
+    </button>`).join("");
+
+  app.innerHTML = `
+    <p class="mk-hint">🎮 Folosește săgețile <b>← ↑ ↓ →</b> sau click pentru a alege un jucător.</p>
+    <div class="mk">
+      <div class="mk-grid" id="mkgrid">${tiles}</div>
+      <aside class="mk-panel" id="mkpanel">${card(list[STATE.sel])}</aside>
+    </div>`;
+  scrollSelIntoView();
+}
+
+function scrollSelIntoView() {
+  const el = document.querySelector(".mk-tile.sel");
+  if (el) el.scrollIntoView({ block: "nearest", inline: "nearest" });
+}
+
+function gridCols() {
+  const tiles = document.querySelectorAll(".mk-tile");
+  if (tiles.length < 2) return 1;
+  const top0 = tiles[0].offsetTop;
+  let c = 0;
+  for (const t of tiles) { if (t.offsetTop === top0) c++; else break; }
+  return Math.max(1, c);
+}
+
+function updateSel(next) {
+  const n = STATE.list.length;
+  if (!n) return;
+  STATE.sel = Math.max(0, Math.min(n - 1, next));
+  document.querySelectorAll(".mk-tile").forEach((el, i) => el.classList.toggle("sel", i === STATE.sel));
+  const panel = document.getElementById("mkpanel");
+  if (panel) panel.innerHTML = card(STATE.list[STATE.sel]);
+  scrollSelIntoView();
+}
+
+function onKey(e) {
+  if (STATE.view !== "arcade") return;
+  if (document.activeElement && document.activeElement.id === "filter") return;
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
+  e.preventDefault();
+  const cols = gridCols();
+  const d = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -cols, ArrowDown: cols }[e.key];
+  updateSel(STATE.sel + d);
+}
+
+function setView(v) {
+  STATE.view = v; STATE.sel = 0;
+  document.querySelectorAll(".view-btn").forEach(b => b.classList.toggle("active", b.dataset.view === v));
+  try { localStorage.setItem("view", v); } catch {}
+  render();
+}
+
+function initView() {
+  let v = "classic";
+  try { v = localStorage.getItem("view") || "classic"; } catch {}
+  STATE.view = v;
+  document.querySelectorAll(".view-btn").forEach(b => b.classList.toggle("active", b.dataset.view === v));
+}
+
 function onClick(e) {
   const themeBtn = e.target.closest(".theme-btn");
   if (themeBtn) { applyTheme(themeBtn.dataset.theme); return; }
+  const viewBtn = e.target.closest(".view-btn");
+  if (viewBtn) { setView(viewBtn.dataset.view); return; }
+  const tile = e.target.closest(".mk-tile");
+  if (tile) { updateSel(+tile.dataset.idx); return; }
   const showall = e.target.closest(".showall");
   if (showall) {
     const more = showall.nextElementSibling;
@@ -226,10 +323,14 @@ function boot(data) {
 
 initTheme();
 initIntro();
+initView();
 document.addEventListener("click", onClick);
+document.addEventListener("keydown", onKey);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
 document.getElementById("filter").addEventListener("input", e => {
-  STATE.filter = e.target.value; render();
+  STATE.filter = e.target.value;
+  if (STATE.view === "arcade") STATE.sel = 0;
+  render();
 });
 
 fetch("./data.json")

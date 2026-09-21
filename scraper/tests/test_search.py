@@ -16,6 +16,8 @@ def test_parse_search_extracts_player_hit():
     assert kevin.nationality == "Romania"
     assert kevin.club_name == "Dundee Utd"
     assert kevin.club_id == "8QEB2FFp"
+    assert kevin.photo and kevin.photo.startswith(
+        "https://static.flashscore.com/res/image/data/")
 
 
 def test_parse_search_ignores_non_player_results():
