@@ -4,6 +4,30 @@
 const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
+// League strength: curated top order, then UEFA-ish country coefficient for the rest.
+const TOP_LEAGUES = [
+  "Serie A (Italy)", "LaLiga (Spain)", "Eredivisie (Netherlands)",
+  "Liga Portugal (Portugal)", "Jupiler Pro League (Belgium)",
+  "Super Lig (Turkey)", "Super League (Greece)",
+  "Championship (England)", "Serie B (Italy)", "LaLiga2 (Spain)", "2. Bundesliga (Germany)",
+  "Ekstraklasa (Poland)", "Premiership (Scotland)", "Ligat ha'Al (Israel)",
+];
+const COUNTRY_RANK = {
+  England: 1, Italy: 2, Spain: 3, Germany: 4, France: 5, Netherlands: 6,
+  Portugal: 7, Belgium: 8, Turkey: 9, Greece: 10, Russia: 11, Scotland: 12,
+  Poland: 13, Israel: 14, Serbia: 15, Cyprus: 16, Hungary: 17, Slovakia: 18,
+  Slovenia: 19, Azerbaijan: 20, Bulgaria: 21, Lithuania: 22, Armenia: 23,
+  Kazakhstan: 24, Malta: 25,
+  "Saudi Arabia": 40, USA: 41, Qatar: 42, "United Arab Emirates": 43, China: 44,
+  Thailand: 45, Vietnam: 46, Jordan: 47, Oman: 48, Cambodia: 49,
+};
+function groupRank(group) {
+  const i = TOP_LEAGUES.indexOf(group);
+  if (i >= 0) return i;
+  const m = group.match(/\(([^)]+)\)\s*$/);
+  return 100 + (COUNTRY_RANK[m ? m[1] : ""] ?? 90);
+}
+
 const YT_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="1" y="4.6" width="22" height="14.8" rx="4.2" fill="#FF0000"/><path d="M9.9 8.4v7.2l6-3.6z" fill="#fff"/></svg>`;
 const FS_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="2" y="2.5" width="20" height="19" rx="4.6" fill="#f5471e"/><path d="M13.2 4.7l-6 8.2h3.7l-1.1 5.9 5.9-8.1h-3.6z" fill="#fff"/></svg>`;
 
@@ -71,11 +95,16 @@ function teamMark(name, myTeam) {
 
 function contribBadges(r) {
   const g = r.player_goals || 0, a = r.player_assists || 0;
+  const gm = r.goal_minutes || [], am = r.assist_minutes || [];
   const out = [];
-  if (g > 0)
-    out.push(`<span class="ga goals" title="${g} gol${g > 1 ? "uri" : ""} în acest meci">⚽${g > 1 ? "×" + g : ""}</span>`);
-  if (a > 0)
-    out.push(`<span class="ga assists" title="${a} pas${a > 1 ? "e" : "ă"} decisiv${a > 1 ? "e" : "ă"}">👟${a > 1 ? "×" + a : ""}</span>`);
+  if (g > 0) {
+    const lbl = gm.length ? " " + gm.join(", ") : (g > 1 ? "×" + g : "");
+    out.push(`<span class="ga goals" title="${g} gol${g > 1 ? "uri" : ""} în acest meci">⚽${lbl}</span>`);
+  }
+  if (a > 0) {
+    const lbl = am.length ? " " + am.join(", ") : (a > 1 ? "×" + a : "");
+    out.push(`<span class="ga assists" title="${a} pas${a > 1 ? "e" : "ă"} decisiv${a > 1 ? "e" : "ă"}">👟${lbl}</span>`);
+  }
   return out.join("");
 }
 
@@ -85,8 +114,9 @@ function resultRow(r, myTeam) {
     links.push(`<button class="icl ytbtn" data-yt="${esc(r.youtube_url)}" title="Vezi rezumatul aici">${YT_ICON}</button>`);
   if (r.flashscore_url)
     links.push(`<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Deschide pe Flashscore">${FS_ICON}</a>`);
-  const fix = `${teamMark(r.home_team, myTeam)} <span class="sc">${esc(r.score)}</span> ${teamMark(r.away_team, myTeam)}`;
-  return `<div class="res">
+  const flag = r.is_national ? `<span title="Meci la națională">🇷🇴</span> ` : "";
+  const fix = `${flag}${teamMark(r.home_team, myTeam)} <span class="sc">${esc(r.score)}</span> ${teamMark(r.away_team, myTeam)}`;
+  return `<div class="res${r.is_national ? " nat" : ""}">
     <span class="date">${esc(r.date)}</span>
     <span class="fix">${fix}</span>
     <span class="res-right">${contribBadges(r)}${links.join("")}</span>
@@ -122,17 +152,25 @@ function card(p) {
   if (p.age) bio.push(`${p.age} ani`);
   if (p.market_value) bio.push(`<b class="mv">${esc(p.market_value)}</b>`);
   const bioLine = bio.length ? `<div class="bio">${bio.join(" · ")}</div>` : "";
+  const crest = p.team_logo
+    ? `<img class="crest" src="${esc(p.team_logo)}" alt="" loading="lazy">` : "";
+  const nt = p.nt && p.nt.caps
+    ? `<div class="nt" title="Statistici la echipa națională a României">
+         <span class="nt-flag">🇷🇴</span> Națională
+         <b>${p.nt.caps}</b> meciuri · <b>${p.nt.goals}</b> G · <b>${p.nt.assists}</b> A
+       </div>` : "";
   return `<div class="card">
     <div class="card-top">
       ${avatar(p, "sm")}
       <div class="who">
         <div class="name">${esc(p.name)}</div>
-        <div class="team">${esc(p.team || "—")} ${rating}</div>
+        <div class="team">${crest}${esc(p.team || "—")} ${rating}</div>
         ${bioLine}
       </div>
       <span class="pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>
     </div>
     <div class="stats">${statBlock(p.season_stats)}</div>
+    ${nt}
     <div class="form">${formDots(results)}</div>
     <div class="results">${shown}${toggle}</div>
   </div>`;
@@ -165,7 +203,7 @@ function renderClassic() {
   const groups = {};
   for (const p of filteredPlayers()) (groups[p.group || "Alții"] ??= []).push(p);
   const names = Object.keys(groups).sort((a, b) =>
-    groups[b].length - groups[a].length || a.localeCompare(b));
+    groupRank(a) - groupRank(b) || a.localeCompare(b));
   if (!names.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
 
   app.innerHTML = names.map(g => {
@@ -188,6 +226,7 @@ function lastName(name) { const t = String(name || "").split(/\s+/); return t[t.
 function renderArcade() {
   const app = document.getElementById("app");
   const list = filteredPlayers().slice().sort((a, b) =>
+    groupRank(a.group || "") - groupRank(b.group || "") ||
     (a.group || "").localeCompare(b.group || "") ||
     (b.season_stats.goals + b.season_stats.assists) - (a.season_stats.goals + a.season_stats.assists));
   STATE.list = list;

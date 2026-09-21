@@ -66,6 +66,42 @@ def test_parse_player_env_results():
     assert dates == sorted(dates, reverse=True)
 
 
+def test_parse_player_env_prefers_current_club_row():
+    # seasons[0] is a stale higher-division row; the current club (by id) is row 2
+    env = {"careerTables": [{"table_id": "league", "seasons": [
+        {"season_name": "2025/2026", "tournament_name": "Serie A", "flag_name": "Italy",
+         "team_name": "Verona", "url": "/team/verona/AAAAAAAA/", "matches_played": 6,
+         "goals": 0, "assists": 0},
+        {"season_name": "2026/2027", "tournament_name": "Ekstraklasa", "flag_name": "Poland",
+         "team_name": "Widzew Lodz", "url": "/team/widzew-lodz/BBBBBBBB/", "matches_played": 5,
+         "goals": 2, "assists": 1}]}],
+        "lastMatchesData": {"lastMatches": []}}
+    data = parse_player_env(env, "pid", club_id="BBBBBBBB")
+    assert data.team_name == "Widzew Lodz"
+    assert data.league == "Ekstraklasa"
+    assert data.country == "Poland"
+
+
+def test_parse_player_env_stale_transfer_uses_recent_games():
+    # careerTables only has the OLD club; current club (by id) has no row, so
+    # we derive from recent games at the current club and leave league unset.
+    env = {"careerTables": [{"table_id": "league", "seasons": [
+        {"season_name": "2025/2026", "tournament_name": "Serie A", "flag_name": "Italy",
+         "team_name": "Verona", "url": "/team/verona/AAAAAAAA/", "matches_played": 6,
+         "goals": 0, "assists": 0}]}],
+        "lastMatchesData": {"lastMatches": [
+            {"eventEncodedId": "m1", "eventStartTime": "18.09.26",
+             "homeParticipantName": "Widzew Lodz", "awayParticipantName": "Legia",
+             "homeScore": 2, "awayScore": 2, "tournamentTitle": "Ekstraklasa (Poland)",
+             "winLoseShort": "D", "stats": {"595": {"type": "minutes-played", "value": "90'"},
+                                            "596": {"type": "goal", "value": "1"}}}]}}
+    data = parse_player_env(env, "pid", club_id="ZZZZZZZZ", club_name="Widzew Lodz")
+    assert data.team_name == "Widzew Lodz"
+    assert data.league is None          # falls back to config group
+    assert data.season_stats.goals == 1
+    assert data.season_stats.appearances == 1
+
+
 def test_parse_info_age_and_market_value():
     html = (
         '<div class="playerInfoItem"><span>Age</span><span>:</span>'

@@ -1,9 +1,15 @@
 # Jucători Români în Lume — Romanian Football Tracker
 
-Tracks ~80 Romanian footballers playing abroad: current-season goals/assists,
-appearances, minutes and position, each player's recent team results, and a
-YouTube highlight link per match when Flashscore has one. Static site on GitHub
+Tracks ~80 Romanian footballers playing abroad. Per player: photo, club crest,
+position, age, market value, current-season goals/assists/appearances/minutes,
+Romania national-team caps/goals/assists, and recent results — each with the
+player's goal/assist minutes, W/D/L, an embedded YouTube highlight, and a
+Flashscore link. Sections are ordered by league strength. Static site on GitHub
 Pages, updated daily by a GitHub Actions scraper reading Flashscore.
+
+Two views: **Classic** (cards grouped by league) and **Arcade** (a
+fighter-select grid of faces navigated with the arrow keys, with the selected
+player's card and an inline video beside it).
 
 ## How it works
 

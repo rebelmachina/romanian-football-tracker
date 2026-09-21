@@ -4,14 +4,15 @@
     {
       "name": "Kevin Ciubotaru", "flashscore_id": "O2o2L2iA", "slug": "ciubotaru-kevin",
       "photo": "https://static.flashscore.com/res/image/data/IaCBIHcM-hfjX2SLC.png",
-      "age": 22, "market_value": "€570k",
+      "age": 22, "market_value": "€570k", "team_logo": null, "nt": null,
       "position": "Defender", "team": "Dundee Utd", "league": "Premiership",
       "country": "Scotland", "group": "Premiership (Scotland)",
       "season_stats": {"goals": 1, "assists": 0, "appearances": 3, "minutes": 206, "rating": "6.8"},
       "results": [
         {"match_id": "jiBADrkI", "date": "2026-09-19", "home_team": "St. Mirren", "away_team": "Dundee Utd",
          "score": "0-3", "competition": "Premiership (Scotland)", "result": "W", "player_minutes": 90,
-         "player_goals": 1, "player_assists": 0, "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
+         "player_goals": 1, "player_assists": 0, "goal_minutes": ["67'"], "assist_minutes": [], "is_national": false,
+         "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
          "youtube_url": "https://www.youtube.com/watch?v=ECitipBT3P8"},
         {"match_id": "abc00002", "date": "2026-09-05", "home_team": "Dundee Utd", "away_team": "Falkirk",
          "score": "1-1", "competition": "Premiership (Scotland)", "result": "D", "player_minutes": 90,
@@ -21,14 +22,16 @@
     {
       "name": "Ianis Hagi", "flashscore_id": "CM16Bvc5", "slug": "hagi-ianis",
       "photo": "https://static.flashscore.com/res/image/data/YeGoVRZA-KG4I8Y4i.png",
-      "age": 27, "market_value": "€4.0m",
-      "position": "Midfielder", "team": "Alanyaspor", "league": "Süper Lig",
-      "country": "Turkey", "group": "Süper Lig (Turkey)",
+      "age": 27, "market_value": "€4.0m", "team_logo": null,
+      "nt": {"caps": 33, "goals": 9, "assists": 8},
+      "position": "Midfielder", "team": "Alanyaspor", "league": "Super Lig",
+      "country": "Turkey", "group": "Super Lig (Turkey)",
       "season_stats": {"goals": 3, "assists": 2, "appearances": 6, "minutes": 480, "rating": "7.2"},
       "results": [
         {"match_id": "hagi0001", "date": "2026-09-20", "home_team": "Alanyaspor", "away_team": "Trabzonspor",
-         "score": "2-1", "competition": "Süper Lig (Turkey)", "result": "W", "player_minutes": 88,
-         "player_goals": 1, "flashscore_url": "https://www.flashscore.com/match/hagi0001/", "youtube_url": null}
+         "score": "2-1", "competition": "Super Lig (Turkey)", "result": "W", "player_minutes": 88,
+         "player_goals": 1, "player_assists": 0, "goal_minutes": ["45'"], "assist_minutes": [], "is_national": false,
+         "flashscore_url": "https://www.flashscore.com/match/hagi0001/", "youtube_url": null}
       ]
     }
   ]

@@ -39,6 +39,9 @@ class MatchResult:
     player_minutes: int | None
     player_goals: int
     player_assists: int = 0
+    goal_minutes: list[str] = field(default_factory=list)
+    assist_minutes: list[str] = field(default_factory=list)
+    is_national: bool = False
 
 
 @dataclass
@@ -51,6 +54,8 @@ class PlayerData:
     results: list[MatchResult] = field(default_factory=list)
     age: int | None = None
     market_value: str | None = None
+    team_logo: str | None = None
+    nt: dict | None = None
 
 
 def _safe_int(value) -> int:
@@ -88,6 +93,25 @@ def _league_table(career_tables: list[dict]) -> dict | None:
     return career_tables[0] if career_tables else None
 
 
+def _current_season(seasons: list[dict], club_id: str | None) -> dict | None:
+    """The season row for the player's current club, or None if not present.
+
+    careerTables is not reliably current-first (a past top-division stint can
+    sit above the current club, and a just-joined club may be missing entirely),
+    so when we know the current club id (from the search API) we pick the row
+    whose team url carries that id; None means careerTables is stale.
+    """
+    if not seasons:
+        return None
+    if not club_id:
+        return seasons[0]
+    for s in seasons:
+        m = re.search(r"/([A-Za-z0-9]{8})/?$", s.get("url", ""))
+        if m and m.group(1) == club_id:
+            return s
+    return None
+
+
 def _stat_minutes(stats: dict) -> int | None:
     for s in stats.values():
         if s.get("type") == "minutes-played":
@@ -102,10 +126,25 @@ def _stat_by_type(stats: dict, wanted: str) -> int:
     return 0
 
 
+def _nt_stats(career_tables: list[dict]) -> dict | None:
+    """Aggregate senior Romania national-team caps/goals/assists."""
+    caps = goals = assists = 0
+    for t in career_tables:
+        if t.get("table_id") != "national-team":
+            continue
+        for s in t.get("seasons", []):
+            if s.get("team_name") == "Romania":
+                caps += _safe_int(s.get("matches_played"))
+                goals += _safe_int(s.get("goals"))
+                assists += _safe_int(s.get("assists"))
+    return {"caps": caps, "goals": goals, "assists": assists} if caps else None
+
+
 def _parse_matches(last_matches: list[dict]) -> list[MatchResult]:
     out: list[MatchResult] = []
     for m in last_matches:
         stats = m.get("stats") or {}
+        names = m.get("homeParticipantName", "") + "|" + m.get("awayParticipantName", "")
         out.append(MatchResult(
             match_id=m.get("eventEncodedId", ""),
             date=_parse_date(m["eventStartTime"]),
@@ -117,42 +156,65 @@ def _parse_matches(last_matches: list[dict]) -> list[MatchResult]:
             player_minutes=_stat_minutes(stats),
             player_goals=_stat_by_type(stats, "goal"),
             player_assists=_stat_by_type(stats, "assist"),
+            is_national="Romania" in names,
         ))
     out.sort(key=lambda r: r.date, reverse=True)
     return out
 
 
-def parse_player_env(env: dict, player_id: str) -> PlayerData:
+def _club_match(name: str, club: str | None) -> bool:
+    if not club:
+        return False
+    a, b = name.lower(), club.lower()
+    return a in b or b in a
+
+
+def parse_player_env(env: dict, player_id: str, club_id: str | None = None,
+                     club_name: str | None = None) -> PlayerData:
     league_tbl = _league_table(env.get("careerTables", []))
     seasons = (league_tbl or {}).get("seasons", [])
-    current = seasons[0] if seasons else {}
-
-    league = current.get("tournament_name")
-    country = current.get("flag_name")
-    team_name = current.get("team_name")
+    current = _current_season(seasons, club_id)
 
     results = _parse_matches(
         (env.get("lastMatchesData") or {}).get("lastMatches", []))
 
-    # Season minutes: sum per-match minutes over recent matches in this league.
-    minutes = 0
-    if league:
-        for r in results:
-            if league in r.competition and r.player_minutes:
-                minutes += r.player_minutes
+    if current is not None:
+        league = current.get("tournament_name")
+        country = current.get("flag_name")
+        team_name = current.get("team_name")
+        team_logo = current.get("logo")
+        minutes = sum(r.player_minutes for r in results
+                      if league and league in r.competition and r.player_minutes)
+        stats = SeasonStats(
+            goals=_safe_int(current.get("goals")),
+            assists=_safe_int(current.get("assists")),
+            appearances=_safe_int(current.get("matches_played")),
+            minutes=minutes,
+            rating=current.get("avg_fs_rating"),
+        )
+    else:
+        # careerTables has no row for the current club (recent transfer) — derive
+        # from the current club's recent matches; group falls back to the config.
+        league = country = team_logo = None
+        team_name = club_name
+        club_games = [r for r in results
+                      if _club_match(r.home_team, club_name) or _club_match(r.away_team, club_name)]
+        stats = SeasonStats(
+            goals=sum(r.player_goals for r in club_games),
+            assists=sum(r.player_assists for r in club_games),
+            appearances=sum(1 for r in club_games if r.player_minutes),
+            minutes=sum(r.player_minutes or 0 for r in club_games),
+            rating=None,
+        )
 
-    stats = SeasonStats(
-        goals=_safe_int(current.get("goals")),
-        assists=_safe_int(current.get("assists")),
-        appearances=_safe_int(current.get("matches_played")),
-        minutes=minutes,
-        rating=current.get("avg_fs_rating"),
-    )
-    return PlayerData(player_id, team_name, league, country, stats, results)
+    return PlayerData(player_id, team_name, league, country, stats, results,
+                      team_logo=team_logo, nt=_nt_stats(env.get("careerTables", [])))
 
 
 def fetch_player_data(player_id: str, slug: str,
-                      session: requests.Session | None = None) -> PlayerData:
+                      session: requests.Session | None = None,
+                      club_id: str | None = None,
+                      club_name: str | None = None) -> PlayerData:
     s = session or requests.Session()
     url = f"https://www.flashscore.com/player/{slug}/{player_id}/"
     resp = s.get(url, headers={"Referer": "https://www.flashscore.com/",
@@ -162,7 +224,7 @@ def fetch_player_data(player_id: str, slug: str,
     if not match:
         raise ValueError(f"player env blob not found for {player_id}")
     env = json.loads(match.group(1))
-    data = parse_player_env(env, player_id)
+    data = parse_player_env(env, player_id, club_id=club_id, club_name=club_name)
     info = parse_info(resp.text)
     data.age = info["age"]
     data.market_value = info["market_value"]

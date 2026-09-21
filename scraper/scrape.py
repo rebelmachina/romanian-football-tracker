@@ -23,11 +23,13 @@ from config import load_players, PlayerConfig
 from flashscore.search import search_players, PlayerHit
 from flashscore.player import fetch_player_data, PlayerData
 from flashscore.highlights import fetch_highlight
+from flashscore.incidents import fetch_incidents, player_minutes
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "site" / "data.json"
 LINKS_PATH = ROOT / "links.json"
 CACHE_PATH = Path(__file__).resolve().parent / "cache.json"
+INC_CACHE_PATH = Path(__file__).resolve().parent / "incidents_cache.json"
 
 HIGHLIGHT_WINDOW_DAYS = 30
 REQUEST_DELAY = 0.3
@@ -73,9 +75,11 @@ def build_player_record(cfg: PlayerConfig, hit: PlayerHit,
         "age": pdata.age,
         "market_value": pdata.market_value,
         "team": team,
+        "team_logo": pdata.team_logo,
         "league": league,
         "country": country,
         "group": group_label(league, country, fallback=cfg.country or "Other"),
+        "nt": pdata.nt,
         "season_stats": asdict(pdata.season_stats),
         "results": [
             {**asdict(r),
@@ -108,8 +112,26 @@ def _resolve_highlights(match_ids: list[str], cache: dict[str, str],
     return found
 
 
+def _fill_minutes(results: list[dict], player_name: str, player_id: str,
+                  inc_cache: dict, session: requests.Session) -> None:
+    """Attach per-goal/assist minutes for matches where the player scored/assisted."""
+    for r in results:
+        if not (r["player_goals"] or r["player_assists"]):
+            continue
+        key = f"{r['match_id']}:{player_id}"
+        if key in inc_cache:
+            entry = inc_cache[key]
+        else:
+            events = fetch_incidents(r["match_id"], session)
+            gm, am = player_minutes(events, player_name)
+            entry = inc_cache[key] = {"g": gm, "a": am}
+            time.sleep(REQUEST_DELAY)
+        r["goal_minutes"] = entry["g"]
+        r["assist_minutes"] = entry["a"]
+
+
 def run_full(session: requests.Session, players: list[PlayerConfig],
-             overrides: dict, cache: dict, today: date) -> dict:
+             overrides: dict, cache: dict, inc_cache: dict, today: date) -> dict:
     records = []
     for cfg in players:
         try:
@@ -118,7 +140,8 @@ def run_full(session: requests.Session, players: list[PlayerConfig],
             if hit is None:
                 print(f"  ! no search match for {cfg.name} ({cfg.flashscore_id})")
                 continue
-            pdata = fetch_player_data(cfg.flashscore_id, hit.slug, session=session)
+            pdata = fetch_player_data(cfg.flashscore_id, hit.slug, session=session,
+                                      club_id=hit.club_id, club_name=hit.club_name)
         except Exception as exc:  # keep going; one bad player shouldn't kill the run
             print(f"  ! error for {cfg.name}: {exc}")
             continue
@@ -127,6 +150,7 @@ def run_full(session: requests.Session, players: list[PlayerConfig],
                   if needs_highlight_check(r["date"], today, HIGHLIGHT_WINDOW_DAYS)]
         scraped = _resolve_highlights(recent, cache, session)
         merge_youtube(rec["results"], overrides, scraped)
+        _fill_minutes(rec["results"], hit.name, cfg.flashscore_id, inc_cache, session)
         records.append(rec)
         print(f"  ok {cfg.name}: {rec['team']} · {rec['league']} · "
               f"{rec['season_stats']['goals']}G/{rec['season_stats']['assists']}A")
@@ -154,6 +178,7 @@ def main(argv=None) -> int:
     session = requests.Session()
     overrides = _load_json(LINKS_PATH, {})
     cache = _load_json(CACHE_PATH, {})
+    inc_cache = _load_json(INC_CACHE_PATH, {})
     today = date.today()
 
     if args.highlights_only:
@@ -162,12 +187,13 @@ def main(argv=None) -> int:
     else:
         players = load_players(ROOT / "players.yaml")
         print(f"Scraping {len(players)} players…")
-        data = run_full(session, players, overrides, cache, today)
+        data = run_full(session, players, overrides, cache, inc_cache, today)
 
     data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DATA_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    INC_CACHE_PATH.write_text(json.dumps(inc_cache, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {DATA_PATH} ({len(data.get('players', []))} players)")
     return 0
 
