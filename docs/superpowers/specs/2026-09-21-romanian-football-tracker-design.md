@@ -118,16 +118,24 @@ Manual YouTube link overrides, keyed by Flashscore match ID. These persist acros
 
 ### Flashscore API Client (`flashscore.py`)
 
-Uses Flashscore's internal (undocumented) JSON API — the same endpoints the web app uses. No browser needed. Returns structured data: player profile (current club, league, position), season stats (goals, assists, minutes), and match history.
+Uses Flashscore's internal (undocumented) API — the same endpoints the web app uses. No browser needed for the parts that work over plain HTTP. See `docs/flashscore-api-notes.md` for the verified endpoint details captured on 2026-09-21.
 
-Key endpoints pattern (reverse-engineered from Flashscore web traffic):
-- Player profile: `https://d.flashscore.com/x/feed/dc_1_{player_id}`
-- Player matches: `https://d.flashscore.com/x/feed/pr_1_{player_id}`
+Two verified data sources:
+
+1. **Search API (JSON)** — resolves a player name → stable player ID, position, nationality, and **current club** (transfer-aware):
+   ```
+   GET https://s.livesport.services/api/v2/search/?q={name}&lang-id=1&project-id=2&project-type-id=1&sport-ids=1&type-ids=1,2,3,4
+   ```
+   Filter results to `type.name == "PlayerInTeam"`. Position comes from the non-"Player" entry in `participantTypes`; current club is the `teams` entry with `kind == "TEAM"`.
+
+2. **Match/team feeds (pipe-delimited)** — host `https://global.flashscore.ninja/2/x/feed/{feed}` with required header `x-fsign: SW9D1eZo` and `Referer: https://www.flashscore.com/`. Format: records separated by `~`, fields by `¬`, key/value by `÷`. (The older `d.flashscore.com` host now returns empty — do not use it.)
+
+The exact feed names for **player season stats**, **player match log**, and **team results** were not found by guessing and must be discovered empirically via a Playwright network-capture spike (see implementation plan Task 1). Once discovered, they are fetched with plain HTTP `requests` (fast); Playwright is only needed for the one-time discovery and for YouTube extraction.
 
 The client handles:
-- Request headers to avoid bot detection (standard browser UA + Flashscore's `X-Fsign` header)
+- Request headers (standard browser UA + `x-fsign` + Referer)
 - Rate limiting (small delay between requests)
-- Parsing the pipe-delimited response format Flashscore uses
+- Parsing the pipe-delimited response format
 
 ### Highlights Extractor (`highlights.py`)
 
