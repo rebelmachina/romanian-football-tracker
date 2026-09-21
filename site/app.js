@@ -7,6 +7,42 @@ const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FW
 const YT_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="1" y="4.6" width="22" height="14.8" rx="4.2" fill="#FF0000"/><path d="M9.9 8.4v7.2l6-3.6z" fill="#fff"/></svg>`;
 const FS_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="2" y="2.5" width="20" height="19" rx="4.6" fill="#f5471e"/><path d="M13.2 4.7l-6 8.2h3.7l-1.1 5.9 5.9-8.1h-3.6z" fill="#fff"/></svg>`;
 
+function ytId(url) {
+  const m = String(url || "").match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+function ytEmbed(id) {
+  return `<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1"` +
+    ` title="Rezumat video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen"` +
+    ` allowfullscreen loading="lazy"></iframe></div>`;
+}
+
+function playVideo(url) {
+  const id = ytId(url);
+  if (!id) { window.open(url, "_blank", "noopener"); return; }
+  if (STATE.view === "arcade") {
+    const slot = document.getElementById("mkvideo");
+    if (slot) {
+      slot.innerHTML = ytEmbed(id) +
+        `<button class="video-close" data-close-video>× Închide videoul</button>`;
+      slot.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  } else {
+    const dlg = document.getElementById("video-modal");
+    document.getElementById("video-slot").innerHTML = ytEmbed(id);
+    if (typeof dlg.showModal === "function") dlg.showModal(); else dlg.setAttribute("open", "");
+  }
+}
+
+function clearArcadeVideo() {
+  const slot = document.getElementById("mkvideo");
+  if (slot) slot.innerHTML = "";
+}
+function closeVideoModal() {
+  const dlg = document.getElementById("video-modal");
+  if (dlg) { dlg.close(); document.getElementById("video-slot").innerHTML = ""; }
+}
+
 let STATE = { players: [], filter: "", pos: "", league: "", view: "classic", sel: 0, list: [] };
 
 function posAbbr(p) { return POS[p] || "UNK"; }
@@ -46,9 +82,9 @@ function contribBadges(r) {
 function resultRow(r, myTeam) {
   const links = [];
   if (r.youtube_url)
-    links.push(`<a class="icl" href="${esc(r.youtube_url)}" target="_blank" rel="noopener" title="Highlights YouTube">${YT_ICON}</a>`);
+    links.push(`<button class="icl ytbtn" data-yt="${esc(r.youtube_url)}" title="Vezi rezumatul aici">${YT_ICON}</button>`);
   if (r.flashscore_url)
-    links.push(`<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">${FS_ICON}</a>`);
+    links.push(`<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Deschide pe Flashscore">${FS_ICON}</a>`);
   const fix = `${teamMark(r.home_team, myTeam)} <span class="sc">${esc(r.score)}</span> ${teamMark(r.away_team, myTeam)}`;
   return `<div class="res">
     <span class="date">${esc(r.date)}</span>
@@ -169,7 +205,10 @@ function renderArcade() {
     <p class="mk-hint">🎮 Folosește săgețile <b>← ↑ ↓ →</b> sau click pentru a alege un jucător.</p>
     <div class="mk">
       <div class="mk-grid" id="mkgrid">${tiles}</div>
-      <aside class="mk-panel" id="mkpanel">${card(list[STATE.sel])}</aside>
+      <aside class="mk-panel">
+        <div id="mkcard">${card(list[STATE.sel])}</div>
+        <div id="mkvideo" class="mk-video"></div>
+      </aside>
     </div>`;
   scrollSelIntoView();
 }
@@ -193,8 +232,9 @@ function updateSel(next) {
   if (!n) return;
   STATE.sel = Math.max(0, Math.min(n - 1, next));
   document.querySelectorAll(".mk-tile").forEach((el, i) => el.classList.toggle("sel", i === STATE.sel));
-  const panel = document.getElementById("mkpanel");
-  if (panel) panel.innerHTML = card(STATE.list[STATE.sel]);
+  const cardEl = document.getElementById("mkcard");
+  if (cardEl) cardEl.innerHTML = card(STATE.list[STATE.sel]);
+  clearArcadeVideo();
   scrollSelIntoView();
 }
 
@@ -210,9 +250,16 @@ function onKey(e) {
 
 function setView(v) {
   STATE.view = v; STATE.sel = 0;
+  closeVideoModal();
   document.querySelectorAll(".view-btn").forEach(b => b.classList.toggle("active", b.dataset.view === v));
   try { localStorage.setItem("view", v); } catch {}
   render();
+}
+
+function initVideoModal() {
+  const dlg = document.getElementById("video-modal");
+  dlg.addEventListener("close", () => { document.getElementById("video-slot").innerHTML = ""; });
+  dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
 }
 
 function initView() {
@@ -227,6 +274,10 @@ function onClick(e) {
   if (themeBtn) { applyTheme(themeBtn.dataset.theme); return; }
   const viewBtn = e.target.closest(".view-btn");
   if (viewBtn) { setView(viewBtn.dataset.view); return; }
+  const ytbtn = e.target.closest(".ytbtn");
+  if (ytbtn) { playVideo(ytbtn.dataset.yt); return; }
+  if (e.target.closest("[data-close-video]")) { clearArcadeVideo(); return; }
+  if (e.target.closest("[data-close-modal]")) { closeVideoModal(); return; }
   const tile = e.target.closest(".mk-tile");
   if (tile) { updateSel(+tile.dataset.idx); return; }
   const showall = e.target.closest(".showall");
@@ -347,6 +398,7 @@ function boot(data) {
 initTheme();
 initIntro();
 initView();
+initVideoModal();
 document.addEventListener("click", onClick);
 document.addEventListener("keydown", onKey);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
