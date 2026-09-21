@@ -80,6 +80,18 @@ function initials(name) {
   return String(name || "?").trim().split(/\s+/).map(w => w[0]).slice(0, 2).join("").toUpperCase();
 }
 
+function crestStack(p) {
+  let teams = (p.career_teams && p.career_teams.length) ? p.career_teams : [];
+  if (!teams.length && p.team_logo) teams = [{ name: p.team, logo: p.team_logo, current: true }];
+  if (!teams.length) return "";
+  // current first (bigger, in front); past clubs fan out behind
+  const badges = teams.map((t, i) =>
+    `<img class="crest ${t.current ? "cur" : "past"}" style="z-index:${20 - i}"` +
+    ` src="${esc(t.logo)}" alt="" title="${esc(t.name)}${t.current ? " (actual)" : ""}" loading="lazy">`
+  ).join("");
+  return `<span class="crests">${badges}</span>`;
+}
+
 function avatar(p, cls) {
   if (p.photo)
     return `<span class="avatar ${cls}" style="background-image:url('${esc(p.photo)}')"></span>`;
@@ -152,8 +164,7 @@ function card(p) {
   if (p.age) bio.push(`${p.age} ani`);
   if (p.market_value) bio.push(`<b class="mv">${esc(p.market_value)}</b>`);
   const bioLine = bio.length ? `<div class="bio">${bio.join(" · ")}</div>` : "";
-  const crest = p.team_logo
-    ? `<img class="crest" src="${esc(p.team_logo)}" alt="" loading="lazy">` : "";
+  const crest = crestStack(p);
   const nt = p.nt && p.nt.caps
     ? `<div class="nt" title="Statistici la echipa națională a României">
          <span class="nt-flag">🇷🇴</span> Națională
@@ -164,7 +175,7 @@ function card(p) {
       ${avatar(p, "sm")}
       <div class="who">
         <div class="name">${esc(p.name)}</div>
-        <div class="team">${crest}${esc(p.team || "—")} ${rating}</div>
+        <div class="team">${crest}<span class="tn">${esc(p.team || "—")}</span> ${rating}</div>
         ${bioLine}
       </div>
       <span class="pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>

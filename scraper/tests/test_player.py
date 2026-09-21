@@ -102,6 +102,19 @@ def test_parse_player_env_stale_transfer_uses_recent_games():
     assert data.season_stats.appearances == 1
 
 
+def test_career_teams_current_first_deduped_by_crest():
+    from flashscore.player import _career_teams
+    tables = [{"table_id": "league", "seasons": [
+        {"team_name": "Verona U20", "logo": "verona.png", "url": "/team/verona-u20/AA111111/"},
+        {"team_name": "Verona", "logo": "verona.png", "url": "/team/verona/BB222222/"},  # dup crest
+        {"team_name": "Widzew Lodz", "logo": "widzew.png", "url": "/team/widzew/CC333333/"},
+    ]}, {"table_id": "national-team", "seasons": [
+        {"team_name": "Romania", "logo": "ro.png", "url": "/team/romania/DD444444/"}]}]
+    teams = _career_teams(tables, club_id="CC333333", club_name="Widzew Lodz")
+    assert [t["name"] for t in teams] == ["Widzew Lodz", "Verona U20"]  # current first, crest-deduped, no NT
+    assert teams[0]["current"] is True
+
+
 def test_parse_info_age_and_market_value():
     html = (
         '<div class="playerInfoItem"><span>Age</span><span>:</span>'

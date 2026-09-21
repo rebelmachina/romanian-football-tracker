@@ -147,7 +147,20 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .card .team { color: var(--muted); font-size: 12.5px; margin-top: 1px; }
 .card .bio { color: var(--muted); font-size: 11.5px; margin-top: 3px; }
 .card .bio .mv { color: var(--accent); font-weight: 700; }
-.crest { width: 15px; height: 15px; object-fit: contain; vertical-align: -2px; margin-right: 4px; }
+.card .team { display: flex; align-items: center; gap: 3px; flex-wrap: wrap; }
+.card .team .tn { min-width: 0; }
+.crests { display: inline-flex; align-items: center; margin-right: 4px; }
+.crests .crest {
+  border-radius: 50%; background: var(--panel); border: 1.5px solid var(--line);
+  object-fit: contain; flex: 0 0 auto;
+}
+.crest.cur {
+  width: 30px; height: 30px; padding: 2px;
+  border-color: var(--ro-yellow); box-shadow: 0 0 0 1px var(--ro-yellow);
+}
+.crest.past { width: 19px; height: 19px; padding: 1px; margin-left: -8px; opacity: .95; }
+.crests:hover .crest.past { margin-left: 1px; }  /* fan out on hover */
+.crests .crest { transition: margin .15s; }
 .nt {
   display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   font-size: 11.5px; color: var(--text);
@@ -267,8 +280,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .mk-panel { flex: 0 0 322px; position: sticky; top: 78px; align-self: flex-start; }
 .mk-panel .card { margin: 0; }
 @media (max-width: 720px) {
-  .mk { flex-direction: column; }
-  .mk-panel { position: static; width: 100%; order: -1; }
+  .mk { flex-direction: column; align-items: stretch; }
+  .mk-grid { width: 100%; grid-template-columns: repeat(auto-fill, minmax(68px, 1fr)); }
+  .mk-panel { position: static; width: 100%; order: -1; flex: 0 0 auto; }
 }
 
 /* Theme selector (sits on the blue topbar) */

@@ -10,6 +10,23 @@
       "market_value": "€2.5m",
       "team": "Corum",
       "team_logo": "https://static.flashscore.com/res/image/data/ShtFJk96-nsVkkOor.png",
+      "career_teams": [
+        {
+          "name": "Corum",
+          "logo": "https://static.flashscore.com/res/image/data/ShtFJk96-nsVkkOor.png",
+          "current": true
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -210,6 +227,23 @@
       "market_value": "€2.4m",
       "team": "Kasimpasa",
       "team_logo": "https://static.flashscore.com/res/image/data/QFcwe9oe-bXbFnt9g.png",
+      "career_teams": [
+        {
+          "name": "Kasimpasa",
+          "logo": "https://static.flashscore.com/res/image/data/QFcwe9oe-bXbFnt9g.png",
+          "current": true
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Padova",
+          "logo": "https://static.flashscore.com/res/image/data/C0Gf1Pne-0lwy4Ij1.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -408,6 +442,38 @@
       "market_value": "€1.5m",
       "team": "Gaziantep",
       "team_logo": "https://static.flashscore.com/res/image/data/UH4szVne-nwcq2Drl.png",
+      "career_teams": [
+        {
+          "name": "Gaziantep",
+          "logo": "https://static.flashscore.com/res/image/data/UH4szVne-nwcq2Drl.png",
+          "current": true
+        },
+        {
+          "name": "Rakow",
+          "logo": "https://static.flashscore.com/res/image/data/judml86k-KpIcOmKL.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "Politehnica Timisoara",
+          "logo": "https://static.flashscore.com/res/image/data/hn1ZWY7k-h2In0mP4.png",
+          "current": false
+        },
+        {
+          "name": "Poli Timisoara",
+          "logo": "https://static.flashscore.com/res/image/data/UqYpeYjC-8MpJD3R0.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -610,6 +676,33 @@
       "market_value": "€306k",
       "team": "Gaziantep",
       "team_logo": "https://static.flashscore.com/res/image/data/UH4szVne-nwcq2Drl.png",
+      "career_teams": [
+        {
+          "name": "Gaziantep",
+          "logo": "https://static.flashscore.com/res/image/data/UH4szVne-nwcq2Drl.png",
+          "current": true
+        },
+        {
+          "name": "Besiktas",
+          "logo": "https://static.flashscore.com/res/image/data/vPefzDlC-OnrtpsZ9.png",
+          "current": false
+        },
+        {
+          "name": "Mainz",
+          "logo": "https://static.flashscore.com/res/image/data/tbR3gUTH-EoYxhN5r.png",
+          "current": false
+        },
+        {
+          "name": "Stuttgart",
+          "logo": "https://static.flashscore.com/res/image/data/fgQWGn86-f1Z3XxZa.png",
+          "current": false
+        },
+        {
+          "name": "Pandurii",
+          "logo": "https://static.flashscore.com/res/image/data/Iwe3PwQq-GhJ0TRh5.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -813,6 +906,28 @@
       "market_value": "€3.3m",
       "team": "Rizespor",
       "team_logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png",
+      "career_teams": [
+        {
+          "name": "Rizespor",
+          "logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png",
+          "current": true
+        },
+        {
+          "name": "Parma",
+          "logo": "https://static.flashscore.com/res/image/data/WI9nVggT-fydXzLY6.png",
+          "current": false
+        },
+        {
+          "name": "Atalanta",
+          "logo": "https://static.flashscore.com/res/image/data/z3aHqFBN-4EqKGS21.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -1011,6 +1126,23 @@
       "market_value": "€94k",
       "team": "Rizespor",
       "team_logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png",
+      "career_teams": [
+        {
+          "name": "Rizespor",
+          "logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png",
+          "current": true
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        },
+        {
+          "name": "F. Constanta U19",
+          "logo": "https://static.flashscore.com/res/image/data/ANKab6oe-8r67AZON.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -1211,6 +1343,43 @@
       "market_value": "€1.7m",
       "team": "Eyupspor",
       "team_logo": "https://static.flashscore.com/res/image/data/tf3flE86-UgM2rvwC.png",
+      "career_teams": [
+        {
+          "name": "Eyupspor",
+          "logo": "https://static.flashscore.com/res/image/data/tf3flE86-UgM2rvwC.png",
+          "current": true
+        },
+        {
+          "name": "Oviedo",
+          "logo": "https://static.flashscore.com/res/image/data/8CuFFxlC-Y7pkY0PJ.png",
+          "current": false
+        },
+        {
+          "name": "Sassuolo",
+          "logo": "https://static.flashscore.com/res/image/data/QckzxM7k-6ZDR6zEL.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "Ripensia Timisoara",
+          "logo": "https://static.flashscore.com/res/image/data/pCQZLxQq-dShP4CLK.png",
+          "current": false
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -1409,6 +1578,43 @@
       "market_value": "€1.8m",
       "team": "Alanyaspor",
       "team_logo": "https://static.flashscore.com/res/image/data/nNYL4FQq-p2zyVPdn.png",
+      "career_teams": [
+        {
+          "name": "Alanyaspor",
+          "logo": "https://static.flashscore.com/res/image/data/nNYL4FQq-p2zyVPdn.png",
+          "current": true
+        },
+        {
+          "name": "Rangers",
+          "logo": "https://static.flashscore.com/res/image/data/fHwbE7oe-fFCBVa82.png",
+          "current": false
+        },
+        {
+          "name": "Alaves",
+          "logo": "https://static.flashscore.com/res/image/data/4rBxR4R0-EXAuP9cb.png",
+          "current": false
+        },
+        {
+          "name": "Genk",
+          "logo": "https://static.flashscore.com/res/image/data/pxtsZIR0-Ecb8ldAn.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "Fiorentina U19",
+          "logo": "https://static.flashscore.com/res/image/data/trRtVF86-6XKdgOM6.png",
+          "current": false
+        },
+        {
+          "name": "Fiorentina",
+          "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png",
+          "current": false
+        }
+      ],
       "league": "Super Lig",
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
@@ -1609,6 +1815,33 @@
       "market_value": "€1.1m",
       "team": "Ferencvaros",
       "team_logo": "https://static.flashscore.com/res/image/data/Ia49DPjC-0jIfCnDf.png",
+      "career_teams": [
+        {
+          "name": "Ferencvaros",
+          "logo": "https://static.flashscore.com/res/image/data/Ia49DPjC-0jIfCnDf.png",
+          "current": true
+        },
+        {
+          "name": "APOEL",
+          "logo": "https://static.flashscore.com/res/image/data/zXr9CdWH-dM5j1Xkq.png",
+          "current": false
+        },
+        {
+          "name": "Puskas Academy",
+          "logo": "https://static.flashscore.com/res/image/data/vmq4n6Pq-beeffRLF.png",
+          "current": false
+        },
+        {
+          "name": "Csakvari",
+          "logo": "https://static.flashscore.com/res/image/data/pWWQlVAN-bHxTHQRE.png",
+          "current": false
+        },
+        {
+          "name": "Csikszereda M. Ciuc",
+          "logo": "https://static.flashscore.com/res/image/data/xp1oVwU0-KrXGCgcp.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -1805,6 +2038,38 @@
       "market_value": "€665k",
       "team": "Gyor",
       "team_logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+      "career_teams": [
+        {
+          "name": "Gyor",
+          "logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+          "current": true
+        },
+        {
+          "name": "Kolos Kovalivka",
+          "logo": "https://static.flashscore.com/res/image/data/4S8rqvT0-reHWnXse.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "Calarasi",
+          "logo": "https://static.flashscore.com/res/image/data/jV4aT3A6-zknLEsii.png",
+          "current": false
+        },
+        {
+          "name": "Sportul Snagov",
+          "logo": "https://static.flashscore.com/res/image/data/MHm86r86-GnCsTS6g.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -1999,6 +2264,43 @@
       "market_value": "€210k",
       "team": "Gyor",
       "team_logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+      "career_teams": [
+        {
+          "name": "Gyor",
+          "logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+          "current": true
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "Ponferradina",
+          "logo": "https://static.flashscore.com/res/image/data/UFopwyne-WUAEs9Bo.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "Krylya Sovetov",
+          "logo": "https://static.flashscore.com/res/image/data/dI8PnOU0-YJnAWWSG.png",
+          "current": false
+        },
+        {
+          "name": "FK Anzi Makhackala",
+          "logo": "https://static.flashscore.com/res/image/data/rwV9uihT-6wC738Y1.png",
+          "current": false
+        },
+        {
+          "name": "Getafe",
+          "logo": "https://static.flashscore.com/res/image/data/hGMWMdT0-YmCZKGcR.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -2197,6 +2499,43 @@
       "market_value": "€397k",
       "team": "Gyor",
       "team_logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+      "career_teams": [
+        {
+          "name": "Gyor",
+          "logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+          "current": true
+        },
+        {
+          "name": "Videoton II",
+          "logo": "https://static.flashscore.com/res/image/data/naWvurAN-r9YXWu9h.png",
+          "current": false
+        },
+        {
+          "name": "Kisvarda",
+          "logo": "https://static.flashscore.com/res/image/data/YufzFniT-v55CsMXC.png",
+          "current": false
+        },
+        {
+          "name": "Adanaspor AS",
+          "logo": "https://static.flashscore.com/res/image/data/08kjeKiT-0vUmEzqC.png",
+          "current": false
+        },
+        {
+          "name": "Concordia",
+          "logo": "https://static.flashscore.com/res/image/data/AXZKtMR0-0ds9xUMF.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "Hapoel Tel Aviv",
+          "logo": "https://static.flashscore.com/res/image/data/QmX88KWH-UeZOJs03.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -2395,6 +2734,18 @@
       "market_value": "€370k",
       "team": "Gyor",
       "team_logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+      "career_teams": [
+        {
+          "name": "Gyor",
+          "logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+          "current": true
+        },
+        {
+          "name": "Csikszereda M. Ciuc",
+          "logo": "https://static.flashscore.com/res/image/data/xp1oVwU0-KrXGCgcp.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -2589,6 +2940,43 @@
       "market_value": "€190k",
       "team": "Honved",
       "team_logo": "https://static.flashscore.com/res/image/data/noe9Qyne-0bbECxUd.png",
+      "career_teams": [
+        {
+          "name": "Honved",
+          "logo": "https://static.flashscore.com/res/image/data/noe9Qyne-0bbECxUd.png",
+          "current": true
+        },
+        {
+          "name": "Gyor",
+          "logo": "https://static.flashscore.com/res/image/data/KGUSGeDN-E54OB8CP.png",
+          "current": false
+        },
+        {
+          "name": "Chindia Targoviste",
+          "logo": "https://static.flashscore.com/res/image/data/UFmW0gQq-bPziV2Ru.png",
+          "current": false
+        },
+        {
+          "name": "FC Arges",
+          "logo": "https://static.flashscore.com/res/image/data/nVdyrSA6-dKCykP08.png",
+          "current": false
+        },
+        {
+          "name": "Potenza",
+          "logo": "https://static.flashscore.com/res/image/data/EiTbkNCN-tfP9H5ON.png",
+          "current": false
+        },
+        {
+          "name": "Partizani",
+          "logo": "https://static.flashscore.com/res/image/data/KMUe5pUH-4praOw3K.png",
+          "current": false
+        },
+        {
+          "name": "Foggia",
+          "logo": "https://static.flashscore.com/res/image/data/fe8o9Pme-GWJzk6g2.png",
+          "current": false
+        }
+      ],
       "league": "NB I.",
       "country": "Hungary",
       "group": "NB I. (Hungary)",
@@ -2783,6 +3171,28 @@
       "market_value": "€1.9m",
       "team": "Legia",
       "team_logo": "https://static.flashscore.com/res/image/data/xvnFF9Pq-6mFghhX5.png",
+      "career_teams": [
+        {
+          "name": "Legia",
+          "logo": "https://static.flashscore.com/res/image/data/xvnFF9Pq-6mFghhX5.png",
+          "current": true
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Kisvarda",
+          "logo": "https://static.flashscore.com/res/image/data/YufzFniT-v55CsMXC.png",
+          "current": false
+        },
+        {
+          "name": "Politehnica Timisoara",
+          "logo": "https://static.flashscore.com/res/image/data/hn1ZWY7k-h2In0mP4.png",
+          "current": false
+        }
+      ],
       "league": "Ekstraklasa",
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
@@ -2981,6 +3391,33 @@
       "market_value": "€936k",
       "team": "Motor Lublin",
       "team_logo": "https://static.flashscore.com/res/image/data/tYLJDqiC-joADG9On.png",
+      "career_teams": [
+        {
+          "name": "Motor Lublin",
+          "logo": "https://static.flashscore.com/res/image/data/tYLJDqiC-joADG9On.png",
+          "current": true
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "FC Voluntari",
+          "logo": "https://static.flashscore.com/res/image/data/fq436niC-nJvEYWTe.png",
+          "current": false
+        },
+        {
+          "name": "Astra",
+          "logo": "https://static.flashscore.com/res/image/data/0EW8LtCN-EXYeWWvB.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        }
+      ],
       "league": "Ekstraklasa",
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
@@ -3175,6 +3612,43 @@
       "market_value": "€685k",
       "team": "Pogon Szczecin",
       "team_logo": "https://static.flashscore.com/res/image/data/4llzD25k-vLZ2ZgBC.png",
+      "career_teams": [
+        {
+          "name": "Pogon Szczecin",
+          "logo": "https://static.flashscore.com/res/image/data/4llzD25k-vLZ2ZgBC.png",
+          "current": true
+        },
+        {
+          "name": "Leuven",
+          "logo": "https://static.flashscore.com/res/image/data/Srik40jC-n1X34PhM.png",
+          "current": false
+        },
+        {
+          "name": "Dnipro-1",
+          "logo": "https://static.flashscore.com/res/image/data/OWqdYSVH-rkf2r599.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "FC Voluntari",
+          "logo": "https://static.flashscore.com/res/image/data/fq436niC-nJvEYWTe.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "FCSB U19",
+          "logo": "https://static.flashscore.com/res/image/data/vV7iT4hT-23jZJBvR.png",
+          "current": false
+        }
+      ],
       "league": "Ekstraklasa",
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
@@ -3369,6 +3843,18 @@
       "market_value": "€2.3m",
       "team": "Rakow",
       "team_logo": "https://static.flashscore.com/res/image/data/judml86k-KpIcOmKL.png",
+      "career_teams": [
+        {
+          "name": "Rakow",
+          "logo": "https://static.flashscore.com/res/image/data/judml86k-KpIcOmKL.png",
+          "current": true
+        },
+        {
+          "name": "FC Botosani",
+          "logo": "https://static.flashscore.com/res/image/data/fiH0mKRq-QHBIn1Bk.png",
+          "current": false
+        }
+      ],
       "league": "Ekstraklasa",
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
@@ -3567,6 +4053,28 @@
       "market_value": "€536k",
       "team": "Widzew Lodz",
       "team_logo": null,
+      "career_teams": [
+        {
+          "name": "Verona",
+          "logo": "https://static.flashscore.com/res/image/data/YDLnjflC-Kxh373f3.png",
+          "current": false
+        },
+        {
+          "name": "Verona U20",
+          "logo": "https://static.flashscore.com/res/image/data/EHUlRj96-6uyXbx77.png",
+          "current": false
+        },
+        {
+          "name": "Verona U19",
+          "logo": "https://static.flashscore.com/res/image/data/nk1MBdiT-Q7UuRfj0.png",
+          "current": false
+        },
+        {
+          "name": "Ripensia Timisoara",
+          "logo": "https://static.flashscore.com/res/image/data/pCQZLxQq-dShP4CLK.png",
+          "current": false
+        }
+      ],
       "league": null,
       "country": null,
       "group": "Polonia",
@@ -3761,6 +4269,43 @@
       "market_value": "€475k",
       "team": "Sakhnin",
       "team_logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+      "career_teams": [
+        {
+          "name": "Sakhnin",
+          "logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+          "current": true
+        },
+        {
+          "name": "Maccabi Bnei Raina",
+          "logo": "https://static.flashscore.com/res/image/data/vqIFkvB6-0hTXKNzr.png",
+          "current": false
+        },
+        {
+          "name": "Motor Lublin",
+          "logo": "https://static.flashscore.com/res/image/data/tYLJDqiC-joADG9On.png",
+          "current": false
+        },
+        {
+          "name": "H. Beer Sheva",
+          "logo": "https://static.flashscore.com/res/image/data/MH6GxSQq-A3ON3kaq.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "Groningen U21",
+          "logo": "https://static.flashscore.com/res/image/data/Yebu4i96-rqiDYTVo.png",
+          "current": false
+        },
+        {
+          "name": "Otelul",
+          "logo": "https://static.flashscore.com/res/image/data/21YVNIjC-2sTKI8jQ.png",
+          "current": false
+        }
+      ],
       "league": "Ligat ha'Al",
       "country": "Israel",
       "group": "Ligat ha'Al (Israel)",
@@ -3963,6 +4508,28 @@
       "market_value": "€482k",
       "team": "Sakhnin",
       "team_logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+      "career_teams": [
+        {
+          "name": "Sakhnin",
+          "logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+          "current": true
+        },
+        {
+          "name": "Petrolul",
+          "logo": "https://static.flashscore.com/res/image/data/lOM85M6k-pMdWmvh1.png",
+          "current": false
+        },
+        {
+          "name": "Noah",
+          "logo": "https://static.flashscore.com/res/image/data/pQ0fOuA6-2mU8GaB3.png",
+          "current": false
+        },
+        {
+          "name": "Steaua Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/Yufg87WH-6Z37NA4I.png",
+          "current": false
+        }
+      ],
       "league": "Ligat ha'Al",
       "country": "Israel",
       "group": "Ligat ha'Al (Israel)",
@@ -4157,6 +4724,43 @@
       "market_value": "€726k",
       "team": "Sakhnin",
       "team_logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+      "career_teams": [
+        {
+          "name": "Sakhnin",
+          "logo": "https://static.flashscore.com/res/image/data/GfraZQle-Au2PKzWK.png",
+          "current": true
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "Cultural Leonesa",
+          "logo": "https://static.flashscore.com/res/image/data/nqcf2egT-WAOkzK99.png",
+          "current": false
+        },
+        {
+          "name": "Oviedo",
+          "logo": "https://static.flashscore.com/res/image/data/8CuFFxlC-Y7pkY0PJ.png",
+          "current": false
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        },
+        {
+          "name": "FC Voluntari",
+          "logo": "https://static.flashscore.com/res/image/data/fq436niC-nJvEYWTe.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Tg. Jiu",
+          "logo": "https://static.flashscore.com/res/image/data/nDsTZtU0-Eaqp95Io.png",
+          "current": false
+        }
+      ],
       "league": "Ligat ha'Al",
       "country": "Israel",
       "group": "Ligat ha'Al (Israel)",
@@ -4355,6 +4959,38 @@
       "market_value": "€830k",
       "team": "Kiryat Shmona",
       "team_logo": "https://static.flashscore.com/res/image/data/8KI7gZne-AudDKFGO.png",
+      "career_teams": [
+        {
+          "name": "Kiryat Shmona",
+          "logo": "https://static.flashscore.com/res/image/data/8KI7gZne-AudDKFGO.png",
+          "current": true
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "Otelul",
+          "logo": "https://static.flashscore.com/res/image/data/21YVNIjC-2sTKI8jQ.png",
+          "current": false
+        },
+        {
+          "name": "Unirea Dej",
+          "logo": "https://static.flashscore.com/res/image/data/Slt5F77k-AcLq5jE3.png",
+          "current": false
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "FC Viitorul U19",
+          "logo": "https://static.flashscore.com/res/image/data/fmlqptVH-21qOdsCB.png",
+          "current": false
+        }
+      ],
       "league": "Ligat ha'Al",
       "country": "Israel",
       "group": "Ligat ha'Al (Israel)",
@@ -4551,6 +5187,43 @@
       "market_value": "€1.8m",
       "team": "Dalian Yingbo",
       "team_logo": "https://static.flashscore.com/res/image/data/0hPG8EU0-YPPxnY3b.png",
+      "career_teams": [
+        {
+          "name": "Dalian Yingbo",
+          "logo": "https://static.flashscore.com/res/image/data/0hPG8EU0-YPPxnY3b.png",
+          "current": true
+        },
+        {
+          "name": "Genoa",
+          "logo": "https://static.flashscore.com/res/image/data/S48z3Poe-hCD6m1R3.png",
+          "current": false
+        },
+        {
+          "name": "Damac",
+          "logo": "https://static.flashscore.com/res/image/data/M7LnES86-t0G26lU5.png",
+          "current": false
+        },
+        {
+          "name": "Wuhan Three Towns",
+          "logo": "https://static.flashscore.com/res/image/data/IDcvXdkC-zNoUk6A2.png",
+          "current": false
+        },
+        {
+          "name": "Slavia Prague",
+          "logo": "https://static.flashscore.com/res/image/data/nsu4mohT-8nl9JmVC.png",
+          "current": false
+        },
+        {
+          "name": "Al Ahli SC",
+          "logo": "https://static.flashscore.com/res/image/data/YFt73dQq-tjD2oGGi.png",
+          "current": false
+        },
+        {
+          "name": "Sparta Prague",
+          "logo": "https://static.flashscore.com/res/image/data/6eqSK8oe-lWOFh0RD.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "China",
       "group": "Super League (China)",
@@ -4762,6 +5435,38 @@
       "market_value": "€1.4m",
       "team": "Yunnan Yukun",
       "team_logo": "https://static.flashscore.com/res/image/data/06lqjv96-IoaRKGzN.png",
+      "career_teams": [
+        {
+          "name": "Yunnan Yukun",
+          "logo": "https://static.flashscore.com/res/image/data/06lqjv96-IoaRKGzN.png",
+          "current": true
+        },
+        {
+          "name": "Bani Yas",
+          "logo": "https://static.flashscore.com/res/image/data/x8DyZFne-nDaFzJhq.png",
+          "current": false
+        },
+        {
+          "name": "Al Okhdood",
+          "logo": "https://static.flashscore.com/res/image/data/Y5ea4JhT-nsNrUNVC.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "FC Botosani",
+          "logo": "https://static.flashscore.com/res/image/data/fiH0mKRq-QHBIn1Bk.png",
+          "current": false
+        },
+        {
+          "name": "Gauss Bacau",
+          "logo": "https://static.flashscore.com/res/image/data/x0AnjWoe-zLfKLWq1.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "China",
       "group": "Super League (China)",
@@ -4960,6 +5665,33 @@
       "market_value": "€787k",
       "team": "Yunnan Yukun",
       "team_logo": "https://static.flashscore.com/res/image/data/06lqjv96-IoaRKGzN.png",
+      "career_teams": [
+        {
+          "name": "Yunnan Yukun",
+          "logo": "https://static.flashscore.com/res/image/data/06lqjv96-IoaRKGzN.png",
+          "current": true
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "Astra",
+          "logo": "https://static.flashscore.com/res/image/data/0EW8LtCN-EXYeWWvB.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "China",
       "group": "Super League (China)",
@@ -5158,6 +5890,43 @@
       "market_value": "€3.6m",
       "team": "Zhejiang Professional",
       "team_logo": "https://static.flashscore.com/res/image/data/QefQPRPq-j1jME9Xt.png",
+      "career_teams": [
+        {
+          "name": "Zhejiang Professional",
+          "logo": "https://static.flashscore.com/res/image/data/QefQPRPq-j1jME9Xt.png",
+          "current": true
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "Al Raed",
+          "logo": "https://static.flashscore.com/res/image/data/Qg5GoEoe-GWm8K7vb.png",
+          "current": false
+        },
+        {
+          "name": "PAOK",
+          "logo": "https://static.flashscore.com/res/image/data/StctWES0-pvWT1yik.png",
+          "current": false
+        },
+        {
+          "name": "Al Ahli SC",
+          "logo": "https://static.flashscore.com/res/image/data/YFt73dQq-tjD2oGGi.png",
+          "current": false
+        },
+        {
+          "name": "New York City",
+          "logo": "https://static.flashscore.com/res/image/data/0GgDTRle-GxTXAzv3.png",
+          "current": false
+        },
+        {
+          "name": "Pescara",
+          "logo": "https://static.flashscore.com/res/image/data/YP7Usg8k-MuBSTKf8.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "China",
       "group": "Super League (China)",
@@ -5372,6 +6141,33 @@
       "market_value": "€979k",
       "team": "Chongqing Tonglianglong",
       "team_logo": "https://static.flashscore.com/res/image/data/lOCfDQkC-IBpsCZfj.png",
+      "career_teams": [
+        {
+          "name": "Chongqing Tonglianglong",
+          "logo": "https://static.flashscore.com/res/image/data/lOCfDQkC-IBpsCZfj.png",
+          "current": true
+        },
+        {
+          "name": "FC Botosani",
+          "logo": "https://static.flashscore.com/res/image/data/fiH0mKRq-QHBIn1Bk.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "China",
       "group": "Super League (China)",
@@ -5570,6 +6366,43 @@
       "market_value": "€1.1m",
       "team": "Mantova",
       "team_logo": "https://static.flashscore.com/res/image/data/GSnwGvWH-4vkZ9lY0.png",
+      "career_teams": [
+        {
+          "name": "Mantova",
+          "logo": "https://static.flashscore.com/res/image/data/GSnwGvWH-4vkZ9lY0.png",
+          "current": true
+        },
+        {
+          "name": "Empoli",
+          "logo": "https://static.flashscore.com/res/image/data/8ftWPVPq-KbH8aCLf.png",
+          "current": false
+        },
+        {
+          "name": "Catanzaro",
+          "logo": "https://static.flashscore.com/res/image/data/CITDXu8k-IFYgFznf.png",
+          "current": false
+        },
+        {
+          "name": "Nice",
+          "logo": "https://static.flashscore.com/res/image/data/bJCGymle-00sqJmg8.png",
+          "current": false
+        },
+        {
+          "name": "Lausanne",
+          "logo": "https://static.flashscore.com/res/image/data/Y7uS6BCN-Kboemigo.png",
+          "current": false
+        },
+        {
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://static.flashscore.com/res/image/data/vifKdrkC-ljHbdLWr.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        }
+      ],
       "league": "Serie B",
       "country": "Italy",
       "group": "Serie B (Italy)",
@@ -5768,6 +6601,28 @@
       "market_value": "€440k",
       "team": "Sudtirol",
       "team_logo": "https://static.flashscore.com/res/image/data/2Xf8oTjT-UJeBD3ZT.png",
+      "career_teams": [
+        {
+          "name": "Sudtirol",
+          "logo": "https://static.flashscore.com/res/image/data/2Xf8oTjT-UJeBD3ZT.png",
+          "current": true
+        },
+        {
+          "name": "Juve Stabia",
+          "logo": "https://static.flashscore.com/res/image/data/299kpoiT-xrK1g9MA.png",
+          "current": false
+        },
+        {
+          "name": "Lecce",
+          "logo": "https://static.flashscore.com/res/image/data/fPabg0DN-McvX4bye.png",
+          "current": false
+        },
+        {
+          "name": "Lecce U19",
+          "logo": "https://static.flashscore.com/res/image/data/2sCWQHhT-p2SJVAwr.png",
+          "current": false
+        }
+      ],
       "league": "Serie B",
       "country": "Italy",
       "group": "Serie B (Italy)",
@@ -5962,6 +6817,28 @@
       "market_value": "€238k",
       "team": "Cesena",
       "team_logo": "https://static.flashscore.com/res/image/data/4djRU87k-25XOeEt1.png",
+      "career_teams": [
+        {
+          "name": "Cesena",
+          "logo": "https://static.flashscore.com/res/image/data/4djRU87k-25XOeEt1.png",
+          "current": true
+        },
+        {
+          "name": "Cesena U19",
+          "logo": "https://static.flashscore.com/res/image/data/dpIlTOT0-vRtKiN1l.png",
+          "current": true
+        },
+        {
+          "name": "Inter U23",
+          "logo": "https://static.flashscore.com/res/image/data/fLNbBiQq-O8c8nWOb.png",
+          "current": false
+        },
+        {
+          "name": "Gubbio",
+          "logo": "https://static.flashscore.com/res/image/data/by51a8le-0lwy4Ij1.png",
+          "current": false
+        }
+      ],
       "league": "Serie B",
       "country": "Italy",
       "group": "Serie B (Italy)",
@@ -6156,6 +7033,13 @@
       "market_value": null,
       "team": "Arezzo",
       "team_logo": null,
+      "career_teams": [
+        {
+          "name": "Atl. Lodigiani",
+          "logo": "https://static.flashscore.com/res/image/data/4baZrRiT-M7FkAl9a.png",
+          "current": false
+        }
+      ],
       "league": null,
       "country": null,
       "group": "Serie B",
@@ -6350,6 +7234,43 @@
       "market_value": "€3.9m",
       "team": "AEK Athens",
       "team_logo": "https://static.flashscore.com/res/image/data/ph8YRKne-6iRkbdOB.png",
+      "career_teams": [
+        {
+          "name": "AEK Athens",
+          "logo": "https://static.flashscore.com/res/image/data/ph8YRKne-6iRkbdOB.png",
+          "current": true
+        },
+        {
+          "name": "Cagliari",
+          "logo": "https://static.flashscore.com/res/image/data/tSQII3hT-McvX4bye.png",
+          "current": false
+        },
+        {
+          "name": "Empoli",
+          "logo": "https://static.flashscore.com/res/image/data/8ftWPVPq-KbH8aCLf.png",
+          "current": false
+        },
+        {
+          "name": "Ajax",
+          "logo": "https://static.flashscore.com/res/image/data/hEQxyYA6-bZZPiwAI.png",
+          "current": false
+        },
+        {
+          "name": "St. Liege",
+          "logo": "https://static.flashscore.com/res/image/data/zBWoLXjT-tjZYJCwg.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta 2",
+          "logo": "https://static.flashscore.com/res/image/data/IF0cdSCN-YPXipgKd.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "Greece",
       "group": "Super League (Greece)",
@@ -6557,6 +7478,23 @@
       "market_value": "€665k",
       "team": "Levadiakos",
       "team_logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+      "career_teams": [
+        {
+          "name": "Levadiakos",
+          "logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "Greece",
       "group": "Super League (Greece)",
@@ -6755,6 +7693,38 @@
       "market_value": "€3.4m",
       "team": "Levadiakos",
       "team_logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+      "career_teams": [
+        {
+          "name": "Levadiakos",
+          "logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+          "current": true
+        },
+        {
+          "name": "Al Ain",
+          "logo": "https://static.flashscore.com/res/image/data/4xQjb4kC-OKa9P8WR.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "LPS HD Clinceni",
+          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "current": false
+        },
+        {
+          "name": "Pandurii",
+          "logo": "https://static.flashscore.com/res/image/data/Iwe3PwQq-GhJ0TRh5.png",
+          "current": false
+        },
+        {
+          "name": "Targu Mures",
+          "logo": "https://static.flashscore.com/res/image/data/tA8NnV96-OEzoXaKd.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "Greece",
       "group": "Super League (Greece)",
@@ -6953,6 +7923,18 @@
       "market_value": "€570k",
       "team": "Levadiakos",
       "team_logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+      "career_teams": [
+        {
+          "name": "Levadiakos",
+          "logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        }
+      ],
       "league": "Super League",
       "country": "Greece",
       "group": "Super League (Greece)",
@@ -7155,6 +8137,33 @@
       "market_value": "€2.0m",
       "team": "Pafos",
       "team_logo": "https://static.flashscore.com/res/image/data/vBOnVUBN-dKCdWmsU.png",
+      "career_teams": [
+        {
+          "name": "Pafos",
+          "logo": "https://static.flashscore.com/res/image/data/vBOnVUBN-dKCdWmsU.png",
+          "current": true
+        },
+        {
+          "name": "Entella",
+          "logo": "https://static.flashscore.com/res/image/data/hbM9tPVH-rwnYBqYT.png",
+          "current": false
+        },
+        {
+          "name": "Perugia",
+          "logo": "https://static.flashscore.com/res/image/data/U10EtvBN-UVJbQhzl.png",
+          "current": false
+        },
+        {
+          "name": "Arsenal U23",
+          "logo": "https://static.flashscore.com/res/image/data/QVmXGJ96-tQVzpvmc.png",
+          "current": false
+        },
+        {
+          "name": "Arsenal U19",
+          "logo": "https://static.flashscore.com/res/image/data/nTA3yg96-0KPo4rhR.png",
+          "current": false
+        }
+      ],
       "league": "Cyprus League",
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
@@ -7357,6 +8366,33 @@
       "market_value": "€1.7m",
       "team": "Omonia",
       "team_logo": "https://static.flashscore.com/res/image/data/63i3lcSq-8GeT5Kmk.png",
+      "career_teams": [
+        {
+          "name": "Omonia",
+          "logo": "https://static.flashscore.com/res/image/data/63i3lcSq-8GeT5Kmk.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "Al Okhdood",
+          "logo": "https://static.flashscore.com/res/image/data/Y5ea4JhT-nsNrUNVC.png",
+          "current": false
+        },
+        {
+          "name": "Al Jazira",
+          "logo": "https://static.flashscore.com/res/image/data/6sERlTkC-lWIXXvLm.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        }
+      ],
       "league": "Cyprus League",
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
@@ -7557,6 +8593,38 @@
       "market_value": "€408k",
       "team": "AEK Larnaca",
       "team_logo": "https://static.flashscore.com/res/image/data/WOZjnJ8k-QF8cQNGa.png",
+      "career_teams": [
+        {
+          "name": "AEK Larnaca",
+          "logo": "https://static.flashscore.com/res/image/data/WOZjnJ8k-QF8cQNGa.png",
+          "current": true
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "CSM Slatina",
+          "logo": "https://static.flashscore.com/res/image/data/QatUNZT0-Q1FBtHMl.png",
+          "current": false
+        },
+        {
+          "name": "Tunari",
+          "logo": "https://static.flashscore.com/res/image/data/pM0ZjVQq-nVQQkfaS.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "Steaua Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/Yufg87WH-6Z37NA4I.png",
+          "current": false
+        }
+      ],
       "league": "Cyprus League",
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
@@ -7751,6 +8819,38 @@
       "market_value": "€4.8m",
       "team": "DC United",
       "team_logo": "https://static.flashscore.com/res/image/data/h4rRBzU0-M1jIRGkS.png",
+      "career_teams": [
+        {
+          "name": "DC United",
+          "logo": "https://static.flashscore.com/res/image/data/h4rRBzU0-M1jIRGkS.png",
+          "current": true
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        },
+        {
+          "name": "Fiorentina U19",
+          "logo": "https://static.flashscore.com/res/image/data/trRtVF86-6XKdgOM6.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "FC Viitorul U19",
+          "logo": "https://static.flashscore.com/res/image/data/fmlqptVH-21qOdsCB.png",
+          "current": false
+        }
+      ],
       "league": "MLS",
       "country": "USA",
       "group": "MLS (USA)",
@@ -7953,6 +9053,43 @@
       "market_value": "€1.7m",
       "team": "St. Louis City",
       "team_logo": "https://static.flashscore.com/res/image/data/OAtXEIVH-UwKTVGeG.png",
+      "career_teams": [
+        {
+          "name": "St. Louis City",
+          "logo": "https://static.flashscore.com/res/image/data/OAtXEIVH-UwKTVGeG.png",
+          "current": true
+        },
+        {
+          "name": "Panetolikos",
+          "logo": "https://static.flashscore.com/res/image/data/tITXQckC-vcasP57L.png",
+          "current": false
+        },
+        {
+          "name": "Dibba Al Hisn",
+          "logo": "https://static.flashscore.com/res/image/data/UVgA8NhT-OSNa5roI.png",
+          "current": false
+        },
+        {
+          "name": "Columbus Crew",
+          "logo": "https://static.flashscore.com/res/image/data/UiThDkme-EgOLyoyn.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "Columbus Crew 2",
+          "logo": "https://static.flashscore.com/res/image/data/xxNkfvT0-WG3amigs.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        }
+      ],
       "league": "MLS",
       "country": "USA",
       "group": "MLS (USA)",
@@ -8154,6 +9291,18 @@
       "market_value": "€145k",
       "team": "FC Cincinnati",
       "team_logo": "https://static.flashscore.com/res/image/data/vwHVLET0-hfMSf4LN.png",
+      "career_teams": [
+        {
+          "name": "FC Cincinnati",
+          "logo": "https://static.flashscore.com/res/image/data/vwHVLET0-hfMSf4LN.png",
+          "current": true
+        },
+        {
+          "name": "Cincinnati 2",
+          "logo": "https://static.flashscore.com/res/image/data/tbyNSS96-63scElQr.png",
+          "current": false
+        }
+      ],
       "league": "MLS",
       "country": "USA",
       "group": "MLS (USA)",
@@ -8356,6 +9505,43 @@
       "market_value": "€8.2m",
       "team": "Celta Vigo",
       "team_logo": "https://static.flashscore.com/res/image/data/INW8oRBN-SOY3p1Si.png",
+      "career_teams": [
+        {
+          "name": "Celta Vigo",
+          "logo": "https://static.flashscore.com/res/image/data/INW8oRBN-SOY3p1Si.png",
+          "current": true
+        },
+        {
+          "name": "Venezia",
+          "logo": "https://static.flashscore.com/res/image/data/4lQfQQmC-fJvicxVf.png",
+          "current": false
+        },
+        {
+          "name": "Bournemouth",
+          "logo": "https://static.flashscore.com/res/image/data/C60HMWTH-2XyrBA7b.png",
+          "current": false
+        },
+        {
+          "name": "Auxerre",
+          "logo": "https://static.flashscore.com/res/image/data/4tdLdYlC-StfGPPS1.png",
+          "current": false
+        },
+        {
+          "name": "Cremonese",
+          "logo": "https://static.flashscore.com/res/image/data/bwCjhwB6-8b0QRXR3.png",
+          "current": false
+        },
+        {
+          "name": "Inter",
+          "logo": "https://static.flashscore.com/res/image/data/fLNbBiQq-O8c8nWOb.png",
+          "current": false
+        },
+        {
+          "name": "Genoa",
+          "logo": "https://static.flashscore.com/res/image/data/S48z3Poe-hCD6m1R3.png",
+          "current": false
+        }
+      ],
       "league": "LaLiga",
       "country": "Spain",
       "group": "LaLiga (Spain)",
@@ -8554,6 +9740,33 @@
       "market_value": "€17.1m",
       "team": "Rayo Vallecano",
       "team_logo": "https://static.flashscore.com/res/image/data/QyKcNfhT-EPWyZtpb.png",
+      "career_teams": [
+        {
+          "name": "Rayo Vallecano",
+          "logo": "https://static.flashscore.com/res/image/data/QyKcNfhT-EPWyZtpb.png",
+          "current": true
+        },
+        {
+          "name": "Huesca",
+          "logo": "https://static.flashscore.com/res/image/data/pMpCvJkC-EkA5g8Rs.png",
+          "current": false
+        },
+        {
+          "name": "Den Haag",
+          "logo": "https://static.flashscore.com/res/image/data/ANCAevXH-vuxu3x67.png",
+          "current": false
+        },
+        {
+          "name": "Villarreal B",
+          "logo": "https://static.flashscore.com/res/image/data/hMm8rJ86-rgCOJDPb.png",
+          "current": false
+        },
+        {
+          "name": "Villarreal",
+          "logo": "https://static.flashscore.com/res/image/data/EBxZSOjT-fJvsXNaF.png",
+          "current": false
+        }
+      ],
       "league": "LaLiga",
       "country": "Spain",
       "group": "LaLiga (Spain)",
@@ -8752,6 +9965,43 @@
       "market_value": "€15.0m",
       "team": "Fiorentina",
       "team_logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png",
+      "career_teams": [
+        {
+          "name": "Fiorentina",
+          "logo": "https://static.flashscore.com/res/image/data/fZhEFLjT-6XKdgOM6.png",
+          "current": true
+        },
+        {
+          "name": "Tottenham",
+          "logo": "https://static.flashscore.com/res/image/data/v3SzDxVH-Ig5FKJZ5.png",
+          "current": false
+        },
+        {
+          "name": "Genoa",
+          "logo": "https://static.flashscore.com/res/image/data/S48z3Poe-hCD6m1R3.png",
+          "current": false
+        },
+        {
+          "name": "Salernitana",
+          "logo": "https://static.flashscore.com/res/image/data/xIvN1djT-dvgFSUQH.png",
+          "current": false
+        },
+        {
+          "name": "Sampdoria",
+          "logo": "https://static.flashscore.com/res/image/data/WQp3CvUH-WdmUvPiG.png",
+          "current": false
+        },
+        {
+          "name": "Juventus U23",
+          "logo": "https://static.flashscore.com/res/image/data/IgZqxJ6k-EXzXDYgS.png",
+          "current": false
+        },
+        {
+          "name": "Juventus",
+          "logo": "https://static.flashscore.com/res/image/data/AufWJrhT-0nz5yHcE.png",
+          "current": false
+        }
+      ],
       "league": "Serie A",
       "country": "Italy",
       "group": "Serie A (Italy)",
@@ -8954,6 +10204,33 @@
       "market_value": "€4.3m",
       "team": "Frosinone",
       "team_logo": "https://static.flashscore.com/res/image/data/p0q5GtjC-t4GQxEM5.png",
+      "career_teams": [
+        {
+          "name": "Frosinone",
+          "logo": "https://static.flashscore.com/res/image/data/p0q5GtjC-t4GQxEM5.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Teramo",
+          "logo": "https://static.flashscore.com/res/image/data/OQURwajC-0G50HD7l.png",
+          "current": false
+        },
+        {
+          "name": "Palermo U19",
+          "logo": "https://static.flashscore.com/res/image/data/hYpV7WR0-EVBLMy6G.png",
+          "current": false
+        }
+      ],
       "league": "Serie A",
       "country": "Italy",
       "group": "Serie A (Italy)",
@@ -9152,6 +10429,28 @@
       "market_value": "€562k",
       "team": "Bristol City",
       "team_logo": "https://static.flashscore.com/res/image/data/CGC2jhT0-OdaWmcNh.png",
+      "career_teams": [
+        {
+          "name": "Bristol City",
+          "logo": "https://static.flashscore.com/res/image/data/CGC2jhT0-OdaWmcNh.png",
+          "current": true
+        },
+        {
+          "name": "Maccabi Haifa",
+          "logo": "https://static.flashscore.com/res/image/data/h4m4NhUH-Q5Dpg1h8.png",
+          "current": false
+        },
+        {
+          "name": "Hapoel Hadera",
+          "logo": "https://static.flashscore.com/res/image/data/dAoxWeRq-dn9CvKFq.png",
+          "current": false
+        },
+        {
+          "name": "Maccabi Haifa U19",
+          "logo": "https://static.flashscore.com/res/image/data/UcG1ueQq-MB7cTDoD.png",
+          "current": false
+        }
+      ],
       "league": "Championship",
       "country": "England",
       "group": "Championship (England)",
@@ -9350,6 +10649,28 @@
       "market_value": "€1.2m",
       "team": "Lincoln",
       "team_logo": "https://static.flashscore.com/res/image/data/vPJrFoQq-jRNmGWXs.png",
+      "career_teams": [
+        {
+          "name": "Lincoln",
+          "logo": "https://static.flashscore.com/res/image/data/vPJrFoQq-jRNmGWXs.png",
+          "current": true
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "AC Milan U23",
+          "logo": "https://static.flashscore.com/res/image/data/4bqxPiT0-OfdWAxxb.png",
+          "current": false
+        },
+        {
+          "name": "AC Milan U19",
+          "logo": "https://static.flashscore.com/res/image/data/WI6sxliT-I1iA6MIh.png",
+          "current": false
+        }
+      ],
       "league": "Championship",
       "country": "England",
       "group": "Championship (England)",
@@ -9550,6 +10871,43 @@
       "market_value": "€702k",
       "team": "Oviedo",
       "team_logo": "https://static.flashscore.com/res/image/data/8CuFFxlC-Y7pkY0PJ.png",
+      "career_teams": [
+        {
+          "name": "Oviedo",
+          "logo": "https://static.flashscore.com/res/image/data/8CuFFxlC-Y7pkY0PJ.png",
+          "current": true
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        },
+        {
+          "name": "Gloria Buzau",
+          "logo": "https://static.flashscore.com/res/image/data/dSSQsriT-4vwRarIs.png",
+          "current": false
+        },
+        {
+          "name": "Petrolul",
+          "logo": "https://static.flashscore.com/res/image/data/lOM85M6k-pMdWmvh1.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "FC Arges",
+          "logo": "https://static.flashscore.com/res/image/data/nVdyrSA6-dKCykP08.png",
+          "current": false
+        },
+        {
+          "name": "Mioveni",
+          "logo": "https://static.flashscore.com/res/image/data/roESOGVH-EPtl0Y0m.png",
+          "current": false
+        }
+      ],
       "league": "LaLiga2",
       "country": "Spain",
       "group": "LaLiga2 (Spain)",
@@ -9746,6 +11104,28 @@
       "market_value": "€817k",
       "team": "FC Andorra",
       "team_logo": null,
+      "career_teams": [
+        {
+          "name": "Al Riyadh",
+          "logo": "https://static.flashscore.com/res/image/data/zw6o9aAN-0tD8wfLu.png",
+          "current": false
+        },
+        {
+          "name": "FC Dallas",
+          "logo": "https://static.flashscore.com/res/image/data/GWHoAYCN-08eoEXKh.png",
+          "current": false
+        },
+        {
+          "name": "North Texas",
+          "logo": "https://static.flashscore.com/res/image/data/jDEGW3oe-ng3SY0Fo.png",
+          "current": false
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        }
+      ],
       "league": null,
       "country": null,
       "group": "Segunda Division",
@@ -9944,6 +11324,33 @@
       "market_value": "€363k",
       "team": "Safa Baku",
       "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+      "career_teams": [
+        {
+          "name": "Safa Baku",
+          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+          "current": true
+        },
+        {
+          "name": "Unirea Slobozia",
+          "logo": "https://static.flashscore.com/res/image/data/YNERz686-M7yHhYbL.png",
+          "current": false
+        },
+        {
+          "name": "U Craiova 1948",
+          "logo": "https://static.flashscore.com/res/image/data/lnIG6oCN-AB4EluEP.png",
+          "current": false
+        },
+        {
+          "name": "FC Botosani",
+          "logo": "https://static.flashscore.com/res/image/data/fiH0mKRq-QHBIn1Bk.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Tg. Jiu",
+          "logo": "https://static.flashscore.com/res/image/data/nDsTZtU0-Eaqp95Io.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Azerbaijan",
       "group": "Premier League (Azerbaijan)",
@@ -10138,6 +11545,28 @@
       "market_value": "€323k",
       "team": "Safa Baku",
       "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+      "career_teams": [
+        {
+          "name": "Safa Baku",
+          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+          "current": true
+        },
+        {
+          "name": "Unirea Slobozia",
+          "logo": "https://static.flashscore.com/res/image/data/YNERz686-M7yHhYbL.png",
+          "current": false
+        },
+        {
+          "name": "U Craiova 1948",
+          "logo": "https://static.flashscore.com/res/image/data/lnIG6oCN-AB4EluEP.png",
+          "current": false
+        },
+        {
+          "name": "Mioveni",
+          "logo": "https://static.flashscore.com/res/image/data/roESOGVH-EPtl0Y0m.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Azerbaijan",
       "group": "Premier League (Azerbaijan)",
@@ -10332,6 +11761,23 @@
       "market_value": "€1.9m",
       "team": "Vitoria Guimaraes",
       "team_logo": "https://static.flashscore.com/res/image/data/jsn3jm96-rDfht7Ta.png",
+      "career_teams": [
+        {
+          "name": "Vitoria Guimaraes",
+          "logo": "https://static.flashscore.com/res/image/data/jsn3jm96-rDfht7Ta.png",
+          "current": true
+        },
+        {
+          "name": "Vitoria Guimaraes B",
+          "logo": "https://static.flashscore.com/res/image/data/hQjXheme-ET6pmFtp.png",
+          "current": true
+        },
+        {
+          "name": "AC Ajaccio",
+          "logo": "https://static.flashscore.com/res/image/data/hvgnjRjC-0Mr6bQGB.png",
+          "current": false
+        }
+      ],
       "league": "Liga Portugal",
       "country": "Portugal",
       "group": "Liga Portugal (Portugal)",
@@ -10532,6 +11978,43 @@
       "market_value": "€1.4m",
       "team": "Estrela",
       "team_logo": "https://static.flashscore.com/res/image/data/MDdmzPjC-OtN6V8lD.png",
+      "career_teams": [
+        {
+          "name": "Estrela",
+          "logo": "https://static.flashscore.com/res/image/data/MDdmzPjC-OtN6V8lD.png",
+          "current": true
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        },
+        {
+          "name": "U. Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/vqp1ptT0-v1mKniN8.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "CSM Slatina",
+          "logo": "https://static.flashscore.com/res/image/data/QatUNZT0-Q1FBtHMl.png",
+          "current": false
+        },
+        {
+          "name": "Metaloglobus Bucharest",
+          "logo": "https://static.flashscore.com/res/image/data/6sIcICVH-vuUM1SsN.png",
+          "current": false
+        },
+        {
+          "name": "Petrolul",
+          "logo": "https://static.flashscore.com/res/image/data/lOM85M6k-pMdWmvh1.png",
+          "current": false
+        }
+      ],
       "league": "Liga Portugal",
       "country": "Portugal",
       "group": "Liga Portugal (Portugal)",
@@ -10732,6 +12215,38 @@
       "market_value": "€660k",
       "team": "CSKA Sofia",
       "team_logo": "https://static.flashscore.com/res/image/data/MZmpVA7k-hzxcfK0L.png",
+      "career_teams": [
+        {
+          "name": "CSKA Sofia",
+          "logo": "https://static.flashscore.com/res/image/data/MZmpVA7k-hzxcfK0L.png",
+          "current": true
+        },
+        {
+          "name": "Lok. Plovdiv",
+          "logo": "https://static.flashscore.com/res/image/data/zNR5wyBN-CrHFHNPj.png",
+          "current": false
+        },
+        {
+          "name": "Krumovgrad",
+          "logo": "https://static.flashscore.com/res/image/data/2FU0qRmC-zgfcNw06.png",
+          "current": false
+        },
+        {
+          "name": "Poli Iasi",
+          "logo": "https://static.flashscore.com/res/image/data/8hF3RslC-4d4S1EhD.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        }
+      ],
       "league": "efbet League",
       "country": "Bulgaria",
       "group": "efbet League (Bulgaria)",
@@ -10929,6 +12444,43 @@
       "market_value": "€277k",
       "team": "Lok. Plovdiv",
       "team_logo": "https://static.flashscore.com/res/image/data/zNR5wyBN-CrHFHNPj.png",
+      "career_teams": [
+        {
+          "name": "Lok. Plovdiv",
+          "logo": "https://static.flashscore.com/res/image/data/zNR5wyBN-CrHFHNPj.png",
+          "current": true
+        },
+        {
+          "name": "Lechia Gdansk",
+          "logo": "https://static.flashscore.com/res/image/data/n3lJdB8k-vTNkuQFR.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "FC Botosani",
+          "logo": "https://static.flashscore.com/res/image/data/fiH0mKRq-QHBIn1Bk.png",
+          "current": false
+        },
+        {
+          "name": "Stiinta Miroslava",
+          "logo": "https://static.flashscore.com/res/image/data/Eioy6YBN-4Mslm97G.png",
+          "current": false
+        },
+        {
+          "name": "LPS HD Clinceni",
+          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "current": false
+        },
+        {
+          "name": "Santa Clara",
+          "logo": "https://static.flashscore.com/res/image/data/nN0lc3gT-MFVHqOh7.png",
+          "current": false
+        }
+      ],
       "league": "efbet League",
       "country": "Bulgaria",
       "group": "efbet League (Bulgaria)",
@@ -11123,6 +12675,43 @@
       "market_value": "€50k",
       "team": "Zalgiris",
       "team_logo": "https://static.flashscore.com/res/image/data/IuaBxn86-CK4bnx4C.png",
+      "career_teams": [
+        {
+          "name": "Zalgiris",
+          "logo": "https://static.flashscore.com/res/image/data/IuaBxn86-CK4bnx4C.png",
+          "current": true
+        },
+        {
+          "name": "Mioveni",
+          "logo": "https://static.flashscore.com/res/image/data/roESOGVH-EPtl0Y0m.png",
+          "current": false
+        },
+        {
+          "name": "Zalaegerszegi II",
+          "logo": "https://static.flashscore.com/res/image/data/KI0L3oT0-M3XDl8RR.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Pandurii",
+          "logo": "https://static.flashscore.com/res/image/data/Iwe3PwQq-GhJ0TRh5.png",
+          "current": false
+        },
+        {
+          "name": "Hapoel Tel Aviv",
+          "logo": "https://static.flashscore.com/res/image/data/QmX88KWH-UeZOJs03.png",
+          "current": false
+        }
+      ],
       "league": "TOPLYGA",
       "country": "Lithuania",
       "group": "TOPLYGA (Lithuania)",
@@ -11321,6 +12910,38 @@
       "market_value": "€277k",
       "team": "Zalgiris",
       "team_logo": "https://static.flashscore.com/res/image/data/IuaBxn86-CK4bnx4C.png",
+      "career_teams": [
+        {
+          "name": "Zalgiris",
+          "logo": "https://static.flashscore.com/res/image/data/IuaBxn86-CK4bnx4C.png",
+          "current": true
+        },
+        {
+          "name": "FK Sarajevo",
+          "logo": "https://static.flashscore.com/res/image/data/QTqqDPVH-0E8MOvRd.png",
+          "current": false
+        },
+        {
+          "name": "Gloria Buzau",
+          "logo": "https://static.flashscore.com/res/image/data/dSSQsriT-4vwRarIs.png",
+          "current": false
+        },
+        {
+          "name": "FC Voluntari",
+          "logo": "https://static.flashscore.com/res/image/data/fq436niC-nJvEYWTe.png",
+          "current": false
+        },
+        {
+          "name": "FC Arges",
+          "logo": "https://static.flashscore.com/res/image/data/nVdyrSA6-dKCykP08.png",
+          "current": false
+        },
+        {
+          "name": "Foresta Suceava",
+          "logo": "https://static.flashscore.com/res/image/data/rwWCyZlC-rFq1vjh3.png",
+          "current": false
+        }
+      ],
       "league": "TOPLYGA",
       "country": "Lithuania",
       "group": "TOPLYGA (Lithuania)",
@@ -11515,6 +13136,43 @@
       "market_value": "€868k",
       "team": "Buriram",
       "team_logo": "https://static.flashscore.com/res/image/data/Q9V0grlC-AHLMjQO5.png",
+      "career_teams": [
+        {
+          "name": "Buriram",
+          "logo": "https://static.flashscore.com/res/image/data/Q9V0grlC-AHLMjQO5.png",
+          "current": true
+        },
+        {
+          "name": "Guangdong GZ-Power",
+          "logo": "https://static.flashscore.com/res/image/data/natl7WAN-tCOFEhbJ.png",
+          "current": false
+        },
+        {
+          "name": "Wuhan Three Towns",
+          "logo": "https://static.flashscore.com/res/image/data/IDcvXdkC-zNoUk6A2.png",
+          "current": false
+        },
+        {
+          "name": "Petrolul",
+          "logo": "https://static.flashscore.com/res/image/data/lOM85M6k-pMdWmvh1.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "Al Adalah",
+          "logo": "https://static.flashscore.com/res/image/data/MgWJ84Pq-CATmi5yJ.png",
+          "current": false
+        },
+        {
+          "name": "Sepsi Sf. Gheorghe",
+          "logo": "https://static.flashscore.com/res/image/data/v7csDwBN-CtjSV288.png",
+          "current": false
+        }
+      ],
       "league": "Thai League 1",
       "country": "Thailand",
       "group": "Thai League 1 (Thailand)",
@@ -11709,6 +13367,38 @@
       "market_value": "€49k",
       "team": "Rayong FC",
       "team_logo": "https://static.flashscore.com/res/image/data/vivYY26k-KdMz8rw5.png",
+      "career_teams": [
+        {
+          "name": "Rayong FC",
+          "logo": "https://static.flashscore.com/res/image/data/vivYY26k-KdMz8rw5.png",
+          "current": true
+        },
+        {
+          "name": "FC ASA Tg. Mures",
+          "logo": "https://static.flashscore.com/res/image/data/U9hlvuB6-plPx7x4g.png",
+          "current": false
+        },
+        {
+          "name": "Steaua Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/Yufg87WH-6Z37NA4I.png",
+          "current": false
+        },
+        {
+          "name": "Bray",
+          "logo": "https://static.flashscore.com/res/image/data/dImgH36k-xjjGj3mS.png",
+          "current": false
+        },
+        {
+          "name": "Longford",
+          "logo": "https://static.flashscore.com/res/image/data/dEg8Tyne-4zJqyaPk.png",
+          "current": false
+        },
+        {
+          "name": "Bohemians",
+          "logo": "https://static.flashscore.com/res/image/data/SnFMzBSq-Mmwr3KTs.png",
+          "current": false
+        }
+      ],
       "league": "Thai League 1",
       "country": "Thailand",
       "group": "Thai League 1 (Thailand)",
@@ -11913,6 +13603,28 @@
       "market_value": "€343k",
       "team": "Zilina",
       "team_logo": "https://static.flashscore.com/res/image/data/OhzUl6Pq-xGFNNID8.png",
+      "career_teams": [
+        {
+          "name": "Zilina",
+          "logo": "https://static.flashscore.com/res/image/data/OhzUl6Pq-xGFNNID8.png",
+          "current": true
+        },
+        {
+          "name": "Zilina B",
+          "logo": "https://static.flashscore.com/res/image/data/p8pCmuiT-COG61ACC.png",
+          "current": true
+        },
+        {
+          "name": "Juventus U20",
+          "logo": "https://static.flashscore.com/res/image/data/IPsLYHU0-GtNb9h2q.png",
+          "current": false
+        },
+        {
+          "name": "Juventus U19",
+          "logo": "https://static.flashscore.com/res/image/data/URJxprjT-GtNb9h2q.png",
+          "current": false
+        }
+      ],
       "league": "Nike liga",
       "country": "Slovakia",
       "group": "Nike liga (Slovakia)",
@@ -12109,6 +13821,28 @@
       "market_value": "€136k",
       "team": "Komarno",
       "team_logo": "https://static.flashscore.com/res/image/data/OAsCvOR0-Qoijdizi.png",
+      "career_teams": [
+        {
+          "name": "Komarno",
+          "logo": "https://static.flashscore.com/res/image/data/OAsCvOR0-Qoijdizi.png",
+          "current": true
+        },
+        {
+          "name": "Csakvari",
+          "logo": "https://static.flashscore.com/res/image/data/pWWQlVAN-bHxTHQRE.png",
+          "current": false
+        },
+        {
+          "name": "Sepsi Sf. Gheorghe",
+          "logo": "https://static.flashscore.com/res/image/data/v7csDwBN-CtjSV288.png",
+          "current": false
+        },
+        {
+          "name": "Puskas Academy",
+          "logo": "https://static.flashscore.com/res/image/data/vmq4n6Pq-beeffRLF.png",
+          "current": false
+        }
+      ],
       "league": "Nike liga",
       "country": "Slovakia",
       "group": "Nike liga (Slovakia)",
@@ -12303,6 +14037,28 @@
       "market_value": "€570k",
       "team": "Dundee Utd",
       "team_logo": "https://static.flashscore.com/res/image/data/GGwsSEA6-hEvkcVY1.png",
+      "career_teams": [
+        {
+          "name": "Dundee Utd",
+          "logo": "https://static.flashscore.com/res/image/data/GGwsSEA6-hEvkcVY1.png",
+          "current": true
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        },
+        {
+          "name": "Unirea Ungheni",
+          "logo": "https://static.flashscore.com/res/image/data/UPd75RPq-WI45bJeJ.png",
+          "current": false
+        },
+        {
+          "name": "Rangers U19",
+          "logo": "https://static.flashscore.com/res/image/data/EiZdAj8k-niKdeomn.png",
+          "current": false
+        }
+      ],
       "league": "Premiership",
       "country": "Scotland",
       "group": "Premiership (Scotland)",
@@ -12501,6 +14257,43 @@
       "market_value": "€285k",
       "team": "Vojvodina",
       "team_logo": "https://static.flashscore.com/res/image/data/Esx7NL5k-W6nj7k39.png",
+      "career_teams": [
+        {
+          "name": "Vojvodina",
+          "logo": "https://static.flashscore.com/res/image/data/Esx7NL5k-W6nj7k39.png",
+          "current": true
+        },
+        {
+          "name": "FC Hermannstadt",
+          "logo": "https://static.flashscore.com/res/image/data/Qo64eflC-zobyTLZj.png",
+          "current": false
+        },
+        {
+          "name": "Chindia Targoviste",
+          "logo": "https://static.flashscore.com/res/image/data/UFmW0gQq-bPziV2Ru.png",
+          "current": false
+        },
+        {
+          "name": "Gaz Metan Medias",
+          "logo": "https://static.flashscore.com/res/image/data/zua6wq8k-27dTQEV9.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Astra",
+          "logo": "https://static.flashscore.com/res/image/data/0EW8LtCN-EXYeWWvB.png",
+          "current": false
+        },
+        {
+          "name": "LPS HD Clinceni",
+          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "current": false
+        }
+      ],
       "league": "Mozzart Bet Super Liga",
       "country": "Serbia",
       "group": "Mozzart Bet Super Liga (Serbia)",
@@ -12695,6 +14488,23 @@
       "market_value": "€230k",
       "team": "Mura",
       "team_logo": "https://static.flashscore.com/res/image/data/4bV36MU0-UcUjoAI7.png",
+      "career_teams": [
+        {
+          "name": "Mura",
+          "logo": "https://static.flashscore.com/res/image/data/4bV36MU0-UcUjoAI7.png",
+          "current": true
+        },
+        {
+          "name": "Sepsi Sf. Gheorghe",
+          "logo": "https://static.flashscore.com/res/image/data/v7csDwBN-CtjSV288.png",
+          "current": false
+        },
+        {
+          "name": "Steaua Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/Yufg87WH-6Z37NA4I.png",
+          "current": false
+        }
+      ],
       "league": "Prva liga",
       "country": "Slovenia",
       "group": "Prva liga (Slovenia)",
@@ -12889,6 +14699,33 @@
       "market_value": "€1.9m",
       "team": "Hannover",
       "team_logo": "https://static.flashscore.com/res/image/data/b9LkrIA6-n7lWn9DL.png",
+      "career_teams": [
+        {
+          "name": "Hannover",
+          "logo": "https://static.flashscore.com/res/image/data/b9LkrIA6-n7lWn9DL.png",
+          "current": true
+        },
+        {
+          "name": "Cracovia",
+          "logo": "https://static.flashscore.com/res/image/data/84ohKAjC-bsOodOxd.png",
+          "current": false
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "FC Viitorul U19",
+          "logo": "https://static.flashscore.com/res/image/data/fmlqptVH-21qOdsCB.png",
+          "current": false
+        }
+      ],
       "league": "2. Bundesliga",
       "country": "Germany",
       "group": "2. Bundesliga (Germany)",
@@ -13087,6 +14924,38 @@
       "market_value": "€1.4m",
       "team": "Akron Togliatti",
       "team_logo": "https://static.flashscore.com/res/image/data/KMPtnkVH-pKNNHowf.png",
+      "career_teams": [
+        {
+          "name": "Akron Togliatti",
+          "logo": "https://static.flashscore.com/res/image/data/KMPtnkVH-pKNNHowf.png",
+          "current": true
+        },
+        {
+          "name": "Palermo",
+          "logo": "https://static.flashscore.com/res/image/data/nkpmxOBN-UeHePzRL.png",
+          "current": false
+        },
+        {
+          "name": "Crotone",
+          "logo": "https://static.flashscore.com/res/image/data/06kkEqQq-OfO7OVIe.png",
+          "current": false
+        },
+        {
+          "name": "AEK Athens",
+          "logo": "https://static.flashscore.com/res/image/data/ph8YRKne-6iRkbdOB.png",
+          "current": false
+        },
+        {
+          "name": "Ufa",
+          "logo": "https://static.flashscore.com/res/image/data/WC7l1QjT-fPPb0Yqb.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Russia",
       "group": "Premier League (Russia)",
@@ -13285,6 +15154,28 @@
       "market_value": "€272k",
       "team": "Phnom Penh Crown",
       "team_logo": "https://static.flashscore.com/res/image/data/zoYX1L76-CnwIgY1c.png",
+      "career_teams": [
+        {
+          "name": "Phnom Penh Crown",
+          "logo": "https://static.flashscore.com/res/image/data/zoYX1L76-CnwIgY1c.png",
+          "current": true
+        },
+        {
+          "name": "Inter Escaldes",
+          "logo": "https://static.flashscore.com/res/image/data/8MfXV6R0-8nCMN5pD.png",
+          "current": false
+        },
+        {
+          "name": "SD Ibiza",
+          "logo": "https://static.flashscore.com/res/image/data/fHmGoKne-bRPVXg0i.png",
+          "current": false
+        },
+        {
+          "name": "Andorra",
+          "logo": "https://static.flashscore.com/res/image/data/SMiBGH8k-p6WBruc4.png",
+          "current": false
+        }
+      ],
       "league": "CPL",
       "country": "Cambodia",
       "group": "CPL (Cambodia)",
@@ -13479,6 +15370,23 @@
       "market_value": "€2.7m",
       "team": "Al Nasr",
       "team_logo": "https://static.flashscore.com/res/image/data/Q3crtsVH-xbrb3RaU.png",
+      "career_teams": [
+        {
+          "name": "Al Nasr",
+          "logo": "https://static.flashscore.com/res/image/data/Q3crtsVH-xbrb3RaU.png",
+          "current": true
+        },
+        {
+          "name": "Pisa",
+          "logo": "https://static.flashscore.com/res/image/data/vPrevkT0-GMOw3SI3.png",
+          "current": false
+        },
+        {
+          "name": "Catanzaro",
+          "logo": "https://static.flashscore.com/res/image/data/CITDXu8k-IFYgFznf.png",
+          "current": false
+        }
+      ],
       "league": "UAE League",
       "country": "United Arab Emirates",
       "group": "UAE League (United Arab Emirates)",
@@ -13677,6 +15585,33 @@
       "market_value": "€868k",
       "team": "Al Fateh",
       "team_logo": "https://static.flashscore.com/res/image/data/t6XzCy7k-ll4pyUYI.png",
+      "career_teams": [
+        {
+          "name": "Al Fateh",
+          "logo": "https://static.flashscore.com/res/image/data/t6XzCy7k-ll4pyUYI.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "Mioveni",
+          "logo": "https://static.flashscore.com/res/image/data/roESOGVH-EPtl0Y0m.png",
+          "current": false
+        },
+        {
+          "name": "Gaz Metan Medias",
+          "logo": "https://static.flashscore.com/res/image/data/zua6wq8k-27dTQEV9.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Tg. Jiu",
+          "logo": "https://static.flashscore.com/res/image/data/nDsTZtU0-Eaqp95Io.png",
+          "current": false
+        }
+      ],
       "league": "Saudi Professional League",
       "country": "Saudi Arabia",
       "group": "Saudi Professional League (Saudi Arabia)",
@@ -13871,6 +15806,28 @@
       "market_value": "€570k",
       "team": "Ordabasy",
       "team_logo": "https://static.flashscore.com/res/image/data/S0qgVPA6-rB9GKJTe.png",
+      "career_teams": [
+        {
+          "name": "Ordabasy",
+          "logo": "https://static.flashscore.com/res/image/data/S0qgVPA6-rB9GKJTe.png",
+          "current": true
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "FC Voluntari",
+          "logo": "https://static.flashscore.com/res/image/data/fq436niC-nJvEYWTe.png",
+          "current": false
+        },
+        {
+          "name": "Olt Slatina",
+          "logo": "https://static.flashscore.com/res/image/data/fw8Xv0T0-tOn1VRWN.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Kazakhstan",
       "group": "Premier League (Kazakhstan)",
@@ -14065,6 +16022,23 @@
       "market_value": "€4.5m",
       "team": "Royale Union SG",
       "team_logo": "https://static.flashscore.com/res/image/data/fkZqVUUH-KrZtIamS.png",
+      "career_teams": [
+        {
+          "name": "Royale Union SG",
+          "logo": "https://static.flashscore.com/res/image/data/fkZqVUUH-KrZtIamS.png",
+          "current": true
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "Gaz Metan Medias",
+          "logo": "https://static.flashscore.com/res/image/data/zua6wq8k-27dTQEV9.png",
+          "current": false
+        }
+      ],
       "league": "Jupiler Pro League",
       "country": "Belgium",
       "group": "Jupiler Pro League (Belgium)",
@@ -14267,6 +16241,43 @@
       "market_value": "€868k",
       "team": "Noah",
       "team_logo": "https://static.flashscore.com/res/image/data/pQ0fOuA6-2mU8GaB3.png",
+      "career_teams": [
+        {
+          "name": "Noah",
+          "logo": "https://static.flashscore.com/res/image/data/pQ0fOuA6-2mU8GaB3.png",
+          "current": true
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        },
+        {
+          "name": "Apollon",
+          "logo": "https://static.flashscore.com/res/image/data/b9OA1NmC-x4Xh4Pu0.png",
+          "current": false
+        },
+        {
+          "name": "FC Rapid Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/n3QvMoUH-8vn2oaqs.png",
+          "current": false
+        },
+        {
+          "name": "CFR Cluj",
+          "logo": "https://static.flashscore.com/res/image/data/pQ7BiYTH-OUUX0e6e.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        },
+        {
+          "name": "Afumati",
+          "logo": "https://static.flashscore.com/res/image/data/hhhIKZoe-rs4UoLbs.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Armenia",
       "group": "Premier League (Armenia)",
@@ -14463,6 +16474,33 @@
       "market_value": "€3.0m",
       "team": "Al-Gharafa",
       "team_logo": "https://static.flashscore.com/res/image/data/CSqp5VPq-hA8wSyki.png",
+      "career_teams": [
+        {
+          "name": "Al-Gharafa",
+          "logo": "https://static.flashscore.com/res/image/data/CSqp5VPq-hA8wSyki.png",
+          "current": true
+        },
+        {
+          "name": "Cagliari",
+          "logo": "https://static.flashscore.com/res/image/data/tSQII3hT-McvX4bye.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "Viitorul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/naf1d8BN-b7eueAYE.png",
+          "current": false
+        },
+        {
+          "name": "FC Viitorul U19",
+          "logo": "https://static.flashscore.com/res/image/data/fmlqptVH-21qOdsCB.png",
+          "current": false
+        }
+      ],
       "league": "QSL",
       "country": "Qatar",
       "group": "QSL (Qatar)",
@@ -14665,6 +16703,23 @@
       "market_value": "€234k",
       "team": "Sliema",
       "team_logo": "https://static.flashscore.com/res/image/data/GGRaGXR0-YFbDUeTh.png",
+      "career_teams": [
+        {
+          "name": "Sliema",
+          "logo": "https://static.flashscore.com/res/image/data/GGRaGXR0-YFbDUeTh.png",
+          "current": true
+        },
+        {
+          "name": "Farul Constanta",
+          "logo": "https://static.flashscore.com/res/image/data/0znjlYhT-8r67AZON.png",
+          "current": false
+        },
+        {
+          "name": "F. Constanta 2",
+          "logo": "https://static.flashscore.com/res/image/data/0nKI3SA6-8r67AZON.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Malta",
       "group": "Premier League (Malta)",
@@ -14863,6 +16918,28 @@
       "market_value": "€14.7m",
       "team": "PSV",
       "team_logo": "https://static.flashscore.com/res/image/data/fefX7RQq-j5zA1baQ.png",
+      "career_teams": [
+        {
+          "name": "PSV",
+          "logo": "https://static.flashscore.com/res/image/data/fefX7RQq-j5zA1baQ.png",
+          "current": true
+        },
+        {
+          "name": "Parma",
+          "logo": "https://static.flashscore.com/res/image/data/WI9nVggT-fydXzLY6.png",
+          "current": false
+        },
+        {
+          "name": "FCSB",
+          "logo": "https://static.flashscore.com/res/image/data/tSilVMne-SCh1iPaa.png",
+          "current": false
+        },
+        {
+          "name": "UTA Arad",
+          "logo": "https://static.flashscore.com/res/image/data/23tyCTVH-Gz6u3B3U.png",
+          "current": false
+        }
+      ],
       "league": "Eredivisie",
       "country": "Netherlands",
       "group": "Eredivisie (Netherlands)",
@@ -15061,6 +17138,23 @@
       "market_value": "€343k",
       "team": "Al Hussein",
       "team_logo": "https://static.flashscore.com/res/image/data/KKhF64T0-WnrX0gmJ.png",
+      "career_teams": [
+        {
+          "name": "Al Hussein",
+          "logo": "https://static.flashscore.com/res/image/data/KKhF64T0-WnrX0gmJ.png",
+          "current": true
+        },
+        {
+          "name": "Otelul",
+          "logo": "https://static.flashscore.com/res/image/data/21YVNIjC-2sTKI8jQ.png",
+          "current": false
+        },
+        {
+          "name": "Dinamo Bucuresti",
+          "logo": "https://static.flashscore.com/res/image/data/C43qU5CN-MPxaoSzp.png",
+          "current": false
+        }
+      ],
       "league": "Premier League",
       "country": "Jordan",
       "group": "Premier League (Jordan)",
@@ -15257,6 +17351,43 @@
       "market_value": "€738k",
       "team": "Truong Tuoi Dong Nai",
       "team_logo": "https://static.flashscore.com/res/image/data/Gl3hGDT0-CKnsTHLc.png",
+      "career_teams": [
+        {
+          "name": "Truong Tuoi Dong Nai",
+          "logo": "https://static.flashscore.com/res/image/data/Gl3hGDT0-CKnsTHLc.png",
+          "current": true
+        },
+        {
+          "name": "Panserraikos",
+          "logo": "https://static.flashscore.com/res/image/data/0nlY9XRq-8OJEOksa.png",
+          "current": false
+        },
+        {
+          "name": "Univ. Craiova",
+          "logo": "https://static.flashscore.com/res/image/data/nyNLzxUH-CKjtpaMt.png",
+          "current": false
+        },
+        {
+          "name": "Adanaspor AS",
+          "logo": "https://static.flashscore.com/res/image/data/08kjeKiT-0vUmEzqC.png",
+          "current": false
+        },
+        {
+          "name": "Krasnodar 2",
+          "logo": "https://static.flashscore.com/res/image/data/rsx33PR0-U75xXoOm.png",
+          "current": false
+        },
+        {
+          "name": "SK Rapid",
+          "logo": "https://static.flashscore.com/res/image/data/dtQGIEPq-QNSj0PU1.png",
+          "current": false
+        },
+        {
+          "name": "Krasnodar U21",
+          "logo": "https://static.flashscore.com/res/image/data/A1feM47k-jLtZzIk3.png",
+          "current": false
+        }
+      ],
       "league": "V.League 1",
       "country": "Vietnam",
       "group": "V.League 1 (Vietnam)",
@@ -15448,5 +17579,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-21T21:10:58Z"
+  "updated_at": "2026-09-21T21:19:35Z"
 }

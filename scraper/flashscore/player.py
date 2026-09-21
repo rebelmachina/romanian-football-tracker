@@ -56,6 +56,7 @@ class PlayerData:
     market_value: str | None = None
     team_logo: str | None = None
     nt: dict | None = None
+    career_teams: list[dict] = field(default_factory=list)
 
 
 def _safe_int(value) -> int:
@@ -124,6 +125,30 @@ def _stat_by_type(stats: dict, wanted: str) -> int:
         if s.get("type") == wanted:
             return int(re.sub(r"[^0-9]", "", s.get("value", "")) or 0)
     return 0
+
+
+def _career_teams(career_tables: list[dict], club_id: str | None,
+                  club_name: str | None) -> list[dict]:
+    """Distinct clubs the player has played for, current club first.
+
+    Deduped by crest so a club's senior + youth rows collapse to one badge.
+    """
+    seen: set[str] = set()
+    out: list[dict] = []
+    for t in career_tables:
+        if t.get("table_id") == "national-team":
+            continue
+        for s in t.get("seasons", []):
+            logo, name = s.get("logo"), s.get("team_name")
+            if not logo or not name or logo in seen:
+                continue
+            seen.add(logo)
+            m = re.search(r"/([A-Za-z0-9]{8})/?$", s.get("url", ""))
+            tid = m.group(1) if m else None
+            current = bool((club_id and tid == club_id) or _club_match(name, club_name))
+            out.append({"name": name, "logo": logo, "current": current})
+    out.sort(key=lambda x: not x["current"])  # current first, order otherwise stable
+    return out[:7]
 
 
 def _nt_stats(career_tables: list[dict]) -> dict | None:
@@ -207,8 +232,10 @@ def parse_player_env(env: dict, player_id: str, club_id: str | None = None,
             rating=None,
         )
 
+    career = env.get("careerTables", [])
     return PlayerData(player_id, team_name, league, country, stats, results,
-                      team_logo=team_logo, nt=_nt_stats(env.get("careerTables", [])))
+                      team_logo=team_logo, nt=_nt_stats(career),
+                      career_teams=_career_teams(career, club_id, club_name))
 
 
 def fetch_player_data(player_id: str, slug: str,
