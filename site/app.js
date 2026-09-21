@@ -192,6 +192,25 @@ function initTheme() {
   applyTheme(mode);
 }
 
+/* ---- Intro / cheatsheet dialog ---- */
+function openIntro() {
+  const d = document.getElementById("intro");
+  if (typeof d.showModal === "function") d.showModal();
+  else d.setAttribute("open", "");
+}
+function initIntro() {
+  const dlg = document.getElementById("intro");
+  document.getElementById("help").addEventListener("click", openIntro);
+  document.getElementById("intro-close").addEventListener("click", () => dlg.close());
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); }); // backdrop
+  let seen = false;
+  try { seen = localStorage.getItem("seen_intro") === "1"; } catch {}
+  if (!seen) {
+    openIntro();
+    try { localStorage.setItem("seen_intro", "1"); } catch {}
+  }
+}
+
 function boot(data) {
   STATE.players = data.players || [];
   const totalGoals = STATE.players.reduce((s, p) => s + (p.season_stats?.goals || 0), 0);
@@ -206,6 +225,7 @@ function boot(data) {
 }
 
 initTheme();
+initIntro();
 document.addEventListener("click", onClick);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
 document.getElementById("filter").addEventListener("input", e => {

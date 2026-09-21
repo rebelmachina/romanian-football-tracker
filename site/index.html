@@ -19,6 +19,7 @@
       <input id="filter" type="search" placeholder="Caută jucător sau echipă…" autocomplete="off">
       <button id="refresh" title="Reîncarcă linkurile YouTube">↻ Highlights</button>
       <span class="updated" id="updated"></span>
+      <button id="help" class="help-btn" title="Ce este asta?" aria-label="Ajutor">?</button>
       <div class="themes" role="group" aria-label="Temă">
         <button class="theme-btn" data-theme="system" title="Sistem">💻</button>
         <button class="theme-btn" data-theme="light" title="Luminos">☀️</button>
@@ -34,6 +35,27 @@
   <footer class="foot">
     <span>Date de pe Flashscore · actualizat zilnic</span>
   </footer>
+
+  <dialog id="intro" class="intro">
+    <div class="intro-flag"></div>
+    <div class="intro-body">
+      <div class="intro-head"><span class="flag">🇷🇴</span><h2>Jucători Români în Lume</h2></div>
+      <p>Urmărește jucătorii români din campionatele străine: goluri, pase decisive,
+         minute și poziția din acest sezon, rezultatele recente ale echipei lor și,
+         când există, rezumatul video de pe YouTube. Grupați pe ligă.</p>
+      <h3>Legendă</h3>
+      <ul class="legend">
+        <li><span class="lg"><b class="g">G</b> / <b class="a">A</b></span> goluri / pase decisive în sezon · <b>meciuri</b>, <b>minute</b>, ★ rating</li>
+        <li><span class="lg"><span class="pos GK">GK</span><span class="pos DEF">DEF</span><span class="pos MID">MID</span><span class="pos FWD">FWD</span></span> portar · fundaș · mijlocaș · atacant</li>
+        <li><span class="lg"><span class="dot W">W</span><span class="dot D">D</span><span class="dot L">L</span></span> formă: victorie · egal · înfrângere</li>
+        <li><span class="lg">⚽ <span class="ga assists">👟</span></span> goluri / pase decisive în <b>acel meci</b></li>
+        <li><span class="lg"><span class="ytm">▶</span> ↗</span> rezumat YouTube · pagina meciului (Flashscore)</li>
+        <li>Echipa jucătorului e evidențiată cu <b class="hl">galben</b> în fiecare rezultat.</li>
+        <li><b>↻ Highlights</b> reîmprospătează video · <b>💻 ☀️ 🌙</b> schimbă tema</li>
+      </ul>
+      <button id="intro-close" class="intro-close">Am înțeles</button>
+    </div>
+  </dialog>
 
   <script src="app.js"></script>
 </body>

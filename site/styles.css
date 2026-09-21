@@ -186,6 +186,45 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 
 .foot { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
 
+/* Help button */
+.help-btn {
+  width: 27px; height: 27px; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.32); background: rgba(255,255,255,.12);
+  color: #fff; cursor: pointer; font-weight: 800; font-size: 14px; line-height: 1;
+}
+.help-btn:hover { background: rgba(255,255,255,.22); }
+
+/* Intro / cheatsheet dialog */
+.intro {
+  width: min(92vw, 460px); border: none; border-radius: 14px; padding: 0;
+  background: var(--panel); color: var(--text); overflow: hidden;
+  box-shadow: 0 24px 70px rgba(0,0,0,.45);
+}
+.intro::backdrop { background: rgba(6,10,24,.55); backdrop-filter: blur(2px); }
+.intro-flag {
+  height: 5px;
+  background: linear-gradient(90deg,
+    var(--ro-blue) 0 33.33%, var(--ro-yellow) 33.33% 66.66%, var(--ro-red) 66.66% 100%);
+}
+.intro-body { padding: 18px 22px 22px; }
+.intro-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.intro-head .flag { font-size: 26px; }
+.intro-head h2 { margin: 0; font-size: 17px; }
+.intro-body > p { margin: 0 0 14px; font-size: 13.5px; color: var(--muted); line-height: 1.5; }
+.intro-body h3 { margin: 0 0 8px; font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); }
+.legend { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-direction: column; gap: 9px; font-size: 12.5px; }
+.legend li { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lg { display: inline-flex; align-items: center; gap: 4px; flex: 0 0 auto; min-width: 74px; }
+.legend .g { color: var(--accent); }
+.legend .a { color: var(--accent-2); }
+.legend .hl { color: var(--accent); }
+.legend .ytm { color: #ff5a5f; font-size: 14px; }
+.intro-close {
+  width: 100%; background: var(--ro-yellow); color: #1a1300; border: none;
+  border-radius: 999px; padding: 10px; font-weight: 700; font-size: 14px; cursor: pointer;
+}
+.intro-close:hover { filter: brightness(1.05); }
+
 @media (max-width: 520px) {
   .controls { width: 100%; }
   #filter { flex: 1; width: auto; }
