@@ -60,11 +60,15 @@ Add the Flashscore match id (the 8-char code, e.g. `jiBADrkI`) and the URL to
 
 ## Deployment (GitHub Pages + Actions)
 
-1. Push this repo to GitHub (private is fine).
-2. **Settings → Pages → Source: Deploy from a branch → Branch `main`, folder `/site`.**
-3. The **Daily scrape** workflow runs at 06:00 UTC (and on manual dispatch) and
-   commits `site/data.json`; Pages redeploys automatically.
-4. Trigger a first run: **Actions → Daily scrape → Run workflow**.
+1. Push this repo to GitHub (public, so free Pages works).
+2. **Settings → Pages → Source: GitHub Actions.**
+3. The **Deploy Pages** workflow publishes `site/` — on any push that changes
+   `site/**`, and automatically after the scrape/highlights workflows finish.
+   (Pages can only serve a branch's `/` or `/docs` folder directly, so this
+   repo deploys via Actions instead, which can publish any folder.)
+4. The **Daily scrape** workflow runs at 06:00 UTC (and on manual dispatch),
+   commits `site/data.json`, and triggers a redeploy.
+5. Trigger a first run: **Actions → Daily scrape → Run workflow**.
 
 ### Refresh Highlights button
 
