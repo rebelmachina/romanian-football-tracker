@@ -67,7 +67,36 @@ function closeVideoModal() {
   if (dlg) { dlg.close(); document.getElementById("video-slot").innerHTML = ""; }
 }
 
-let STATE = { players: [], filter: "", pos: "", league: "", view: "classic", sel: 0, list: [] };
+let STATE = { players: [], filter: "", pos: "", league: "", range: "season",
+              view: "classic", sel: 0, list: [] };
+
+function rangeCutoff(key) {
+  const now = new Date();
+  if (key === "ytd") return `${now.getFullYear()}-01-01`;
+  const days = { "1y": 365, "2y": 730, "3y": 1095 }[key];
+  if (!days) return null;
+  return new Date(now.getTime() - days * 86400000).toISOString().slice(0, 10);
+}
+
+function resultsFor(p) {
+  const all = p.results || [];
+  const cut = rangeCutoff(STATE.range);
+  return cut ? all.filter(r => r.date >= cut) : all;
+}
+
+function gaSum(p) { const s = statsFor(p); return (s.goals || 0) + (s.assists || 0); }
+
+function statsFor(p) {
+  if (STATE.range === "season") return p.season_stats || { goals: 0, assists: 0, appearances: 0, minutes: 0 };
+  const rs = resultsFor(p);
+  return {
+    goals: rs.reduce((s, r) => s + (r.player_goals || 0), 0),
+    assists: rs.reduce((s, r) => s + (r.player_assists || 0), 0),
+    appearances: rs.filter(r => r.player_minutes).length,
+    minutes: rs.reduce((s, r) => s + (r.player_minutes || 0), 0),
+    rating: null,
+  };
+}
 
 function posAbbr(p) { return POS[p] || "UNK"; }
 
@@ -152,14 +181,15 @@ function statBlock(s) {
 }
 
 function card(p) {
-  const results = p.results || [];
+  const results = resultsFor(p);
+  const stats = statsFor(p);
   const shown = results.slice(0, 5).map(r => resultRow(r, p.team)).join("");
   const rest = results.slice(5).map(r => resultRow(r, p.team)).join("");
   const toggle = results.length > 5
     ? `<button class="showall" data-open="0">+ toate cele ${results.length} meciuri</button>
        <div class="more" hidden>${rest}</div>` : "";
-  const rating = p.season_stats.rating && p.season_stats.rating !== "-"
-    ? `<span class="rating">★ ${esc(p.season_stats.rating)}</span>` : "";
+  const rating = stats.rating && stats.rating !== "-"
+    ? `<span class="rating">★ ${esc(stats.rating)}</span>` : "";
   const bio = [];
   if (p.age) bio.push(`${p.age} ani`);
   if (p.market_value) bio.push(`<b class="mv">${esc(p.market_value)}</b>`);
@@ -180,10 +210,10 @@ function card(p) {
       </div>
       <span class="pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>
     </div>
-    <div class="stats">${statBlock(p.season_stats)}</div>
+    <div class="stats">${statBlock(stats)}</div>
     ${nt}
     <div class="form">${formDots(results)}</div>
-    <div class="results">${shown}${toggle}</div>
+    <div class="results">${shown || '<div class="res"><span class="muted">Niciun meci în această perioadă</span></div>'}${toggle}</div>
   </div>`;
 }
 
@@ -203,7 +233,18 @@ function filteredPlayers() {
   return STATE.players.filter(p => matchesFilter(p, f));
 }
 
+const RANGE_LABEL = {
+  season: "în acest sezon", ytd: "anul acesta", "1y": "în ultimul an",
+  "2y": "în ultimii 2 ani", "3y": "în ultimii 3 ani",
+};
+function updateSummary() {
+  const totalGoals = STATE.players.reduce((s, p) => s + (statsFor(p).goals || 0), 0);
+  document.getElementById("summary").textContent =
+    `${STATE.players.length} jucători · ${totalGoals} goluri ${RANGE_LABEL[STATE.range] || ""}`;
+}
+
 function render() {
+  updateSummary();
   if (STATE.view === "arcade") renderArcade();
   else renderClassic();
 }
@@ -218,8 +259,7 @@ function renderClassic() {
   if (!names.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
 
   app.innerHTML = names.map(g => {
-    const players = groups[g].sort((a, b) =>
-      (b.season_stats.goals + b.season_stats.assists) - (a.season_stats.goals + a.season_stats.assists));
+    const players = groups[g].sort((a, b) => gaSum(b) - gaSum(a));
     const closed = localStorage.getItem("lg:" + g) === "closed" && !anyFilterActive();
     return `<section class="league">
       <div class="league-head" data-group="${esc(g)}">
@@ -238,8 +278,7 @@ function renderArcade() {
   const app = document.getElementById("app");
   const list = filteredPlayers().slice().sort((a, b) =>
     groupRank(a.group || "") - groupRank(b.group || "") ||
-    (a.group || "").localeCompare(b.group || "") ||
-    (b.season_stats.goals + b.season_stats.assists) - (a.season_stats.goals + a.season_stats.assists));
+    (a.group || "").localeCompare(b.group || "") || gaSum(b) - gaSum(a));
   STATE.list = list;
   if (!list.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
   if (STATE.sel >= list.length) STATE.sel = 0;
@@ -434,9 +473,6 @@ function populateLeagues() {
 function boot(data) {
   STATE.players = data.players || [];
   populateLeagues();
-  const totalGoals = STATE.players.reduce((s, p) => s + (p.season_stats?.goals || 0), 0);
-  document.getElementById("summary").textContent =
-    `${STATE.players.length} jucători · ${totalGoals} goluri în acest sezon`;
   if (data.updated_at) {
     document.getElementById("updated").textContent =
       "Actualizat: " + new Date(data.updated_at).toLocaleString("ro-RO",
@@ -461,6 +497,9 @@ document.getElementById("filter-pos").addEventListener("change", e => {
 });
 document.getElementById("filter-league").addEventListener("change", e => {
   STATE.league = e.target.value; onFilterChange();
+});
+document.getElementById("range").addEventListener("change", e => {
+  STATE.range = e.target.value; onFilterChange();
 });
 
 fetch("./data.json")

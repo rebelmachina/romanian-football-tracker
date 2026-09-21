@@ -5,16 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       years:
-        description: "How many years of history to scrape"
-        type: choice
+        description: "Years of history to scrape (blank = players.yaml default; e.g. 3 or 0.5)"
         required: false
-        default: "default (players.yaml)"
-        options:
-          - "default (players.yaml)"
-          - "1"
-          - "2"
-          - "3"
-          - "5"
+        default: ""
 
 permissions:
   contents: write
