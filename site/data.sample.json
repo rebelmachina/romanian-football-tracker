@@ -9,11 +9,11 @@
       "results": [
         {"match_id": "jiBADrkI", "date": "2026-09-19", "home_team": "St. Mirren", "away_team": "Dundee Utd",
          "score": "0-3", "competition": "Premiership (Scotland)", "result": "W", "player_minutes": 90,
-         "player_goals": 1, "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
+         "player_goals": 1, "player_assists": 0, "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
          "youtube_url": "https://www.youtube.com/watch?v=ECitipBT3P8"},
         {"match_id": "abc00002", "date": "2026-09-05", "home_team": "Dundee Utd", "away_team": "Falkirk",
          "score": "1-1", "competition": "Premiership (Scotland)", "result": "D", "player_minutes": 90,
-         "player_goals": 0, "flashscore_url": "https://www.flashscore.com/match/abc00002/", "youtube_url": null}
+         "player_goals": 0, "player_assists": 1, "flashscore_url": "https://www.flashscore.com/match/abc00002/", "youtube_url": null}
       ]
     },
     {

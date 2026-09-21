@@ -1,7 +1,7 @@
 "use strict";
 
-// Optional: set to "owner/repo" to enable the Refresh Highlights button.
-const OWNER_REPO = window.__OWNER_REPO__ || "";
+// Repo used by the Refresh Highlights button (override via window.__OWNER_REPO__).
+const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
 let STATE = { players: [], filter: "" };
@@ -20,6 +20,16 @@ function teamMark(name, myTeam) {
   return `<span class="${mine ? "mine" : ""}">${esc(name)}</span>`;
 }
 
+function contribBadges(r) {
+  const g = r.player_goals || 0, a = r.player_assists || 0;
+  const out = [];
+  if (g > 0)
+    out.push(`<span class="ga goals" title="${g} gol${g > 1 ? "uri" : ""} în acest meci">⚽${g > 1 ? "×" + g : ""}</span>`);
+  if (a > 0)
+    out.push(`<span class="ga assists" title="${a} pas${a > 1 ? "e" : "ă"} decisiv${a > 1 ? "e" : "ă"}">👟${a > 1 ? "×" + a : ""}</span>`);
+  return out.join("");
+}
+
 function resultRow(r, myTeam) {
   const links = [];
   if (r.youtube_url)
@@ -30,7 +40,7 @@ function resultRow(r, myTeam) {
   return `<div class="res">
     <span class="date">${esc(r.date)}</span>
     <span class="fix">${fix}</span>
-    <span class="links">${links.join("")}</span>
+    <span class="res-right">${contribBadges(r)}${links.join("")}</span>
   </div>`;
 }
 
@@ -106,6 +116,8 @@ function render() {
 }
 
 function onClick(e) {
+  const themeBtn = e.target.closest(".theme-btn");
+  if (themeBtn) { applyTheme(themeBtn.dataset.theme); return; }
   const showall = e.target.closest(".showall");
   if (showall) {
     const more = showall.nextElementSibling;
@@ -125,28 +137,59 @@ function onClick(e) {
   }
 }
 
+function getToken() { try { return localStorage.getItem("gh_token"); } catch { return null; } }
+function setToken(t) { try { t ? localStorage.setItem("gh_token", t) : localStorage.removeItem("gh_token"); } catch {} }
+
 async function triggerHighlights() {
   const btn = document.getElementById("refresh");
-  if (!OWNER_REPO) {
-    alert("Setează window.__OWNER_REPO__ = \"owner/repo\" pentru butonul de refresh, " +
-          "sau declanșează manual workflow-ul 'Refresh highlights' pe GitHub.");
-    return;
-  }
-  const token = window.__GH_TOKEN__;
+  let token = window.__GH_TOKEN__ || getToken();
   if (!token) {
-    window.open(`https://github.com/${OWNER_REPO}/actions/workflows/highlights.yml`, "_blank");
-    return;
+    const entered = prompt(
+      "Pentru a porni actualizarea highlights direct din pagină, lipește un GitHub " +
+      "fine-grained token cu permisiunea Actions: Write pe acest repo.\n\n" +
+      "Se salvează DOAR în acest browser (localStorage) — niciodată în site. " +
+      "Anulează pentru a deschide în schimb pagina Actions.");
+    if (!entered) {
+      window.open(`https://github.com/${OWNER_REPO}/actions/workflows/highlights.yml`, "_blank");
+      return;
+    }
+    token = entered.trim();
+    setToken(token);
   }
   btn.disabled = true; btn.textContent = "Se declanșează…";
   try {
     const res = await fetch(
       `https://api.github.com/repos/${OWNER_REPO}/actions/workflows/highlights.yml/dispatches`,
       { method: "POST",
-        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
+                   "X-GitHub-Api-Version": "2022-11-28" },
         body: JSON.stringify({ ref: "main" }) });
-    btn.textContent = res.ok ? "✓ Pornit (~5 min)" : "Eșuat";
-  } catch { btn.textContent = "Eșuat"; }
-  finally { setTimeout(() => { btn.disabled = false; btn.textContent = "↻ Highlights"; }, 5000); }
+    if (res.status === 204) {
+      btn.textContent = "✓ Pornit (~2 min)";
+    } else if (res.status === 401 || res.status === 403) {
+      setToken(null);
+      btn.textContent = "Token invalid";
+      alert("Tokenul a fost respins și șters. Încearcă din nou cu unul valid (Actions: Write).");
+    } else {
+      btn.textContent = "Eșuat (" + res.status + ")";
+    }
+  } catch { btn.textContent = "Eroare rețea"; }
+  finally { setTimeout(() => { btn.disabled = false; btn.textContent = "↻ Highlights"; }, 4000); }
+}
+
+/* ---- Theme (system / light / dark) ---- */
+function applyTheme(mode) {
+  const root = document.documentElement;
+  if (mode === "light" || mode === "dark") root.setAttribute("data-theme", mode);
+  else root.removeAttribute("data-theme");
+  document.querySelectorAll(".theme-btn").forEach(b =>
+    b.classList.toggle("active", b.dataset.theme === mode));
+  try { localStorage.setItem("theme", mode); } catch {}
+}
+function initTheme() {
+  let mode = "system";
+  try { mode = localStorage.getItem("theme") || "system"; } catch {}
+  applyTheme(mode);
 }
 
 function boot(data) {
@@ -162,6 +205,7 @@ function boot(data) {
   render();
 }
 
+initTheme();
 document.addEventListener("click", onClick);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
 document.getElementById("filter").addEventListener("input", e => {

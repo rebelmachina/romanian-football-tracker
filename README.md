@@ -70,16 +70,27 @@ Add the Flashscore match id (the 8-char code, e.g. `jiBADrkI`) and the URL to
    commits `site/data.json`, and triggers a redeploy.
 5. Trigger a first run: **Actions → Daily scrape → Run workflow**.
 
-### Refresh Highlights button
+### Refresh Highlights button (one-click)
 
-The button re-runs the highlights-only workflow. Two ways to wire it:
+The repo is preset in `site/app.js` (`OWNER_REPO`). Click **↻ Highlights**:
 
-- **Link-out (default):** set `window.__OWNER_REPO__ = "owner/repo"` (e.g. in a
-  small `site/config.js` you add to `index.html`). The button opens the Actions
-  page where you click *Run workflow*.
-- **One-click:** additionally set `window.__GH_TOKEN__` to a fine-grained PAT with
-  only `actions: write` on this repo. Keep that in a git-ignored `site/token.js`
-  loaded from `index.html`. Only do this for a private repo.
+- The first time, you're prompted for a **GitHub fine-grained PAT** with
+  **Actions: Write** on this repo. It's saved in your browser's `localStorage`
+  only — never committed or deployed — so it's safe even on a public repo, and
+  it works only for whoever owns the token (a random visitor's token has no
+  access to your repo).
+- After that, one click dispatches the `Refresh highlights` workflow. An invalid
+  token is cleared automatically so you can re-enter it. Cancel the prompt to
+  just open the Actions page instead.
+
+To pre-fill it for a private deployment, set `window.__GH_TOKEN__` from a
+git-ignored `site/token.js` loaded in `index.html`.
+
+### Theme
+
+Top-right selector: 💻 system (follows your OS), ☀️ light, 🌙 dark. The choice
+is remembered per browser. Colors come from the Romanian flag (blue #002B7F,
+yellow #FCD116, red #CE1126).
 
 ## Notes / limitations
 

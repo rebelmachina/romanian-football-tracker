@@ -60,9 +60,28 @@ def test_parse_player_env_results():
     assert top.result == "W"
     assert top.player_minutes == 90
     assert top.player_goals == 1
+    assert top.player_assists == 0
     # results newest-first
     dates = [r.date for r in data.results]
     assert dates == sorted(dates, reverse=True)
+
+
+def test_parse_matches_reads_per_game_goals_and_assists():
+    env = {"careerTables": [{"table_id": "league", "seasons": [
+        {"team_name": "Z", "tournament_name": "L", "flag_name": "C"}]}],
+        "lastMatchesData": {"lastMatches": [{
+            "eventEncodedId": "x1", "eventStartTime": "18.09.26",
+            "homeParticipantName": "Z", "awayParticipantName": "W",
+            "homeScore": 4, "awayScore": 1, "tournamentTitle": "L",
+            "winLoseShort": "W",
+            "stats": {"595": {"type": "minutes-played", "value": "90'"},
+                      "596": {"type": "goal", "value": "1"},
+                      "599": {"type": "grey", "value": "0"},
+                      "541": {"type": "assist", "value": "2"}}}]}}
+    data = parse_player_env(env, "pid")
+    r = data.results[0]
+    assert r.player_goals == 1
+    assert r.player_assists == 2
 
 
 def test_season_minutes_summed_from_league_matches():

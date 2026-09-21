@@ -1,20 +1,51 @@
+/* Romanian flag colors — fixed brand tokens */
 :root {
-  --bg: #0f1115;
-  --panel: #181b22;
-  --panel-2: #1f232c;
-  --line: #2a2f3a;
-  --text: #e7e9ee;
-  --muted: #9aa2b1;
-  --accent: #ffd23f;      /* gold */
-  --accent-2: #4a9eff;    /* blue */
-  --win: #2ecc71;
+  --ro-blue: #002B7F;
+  --ro-yellow: #FCD116;
+  --ro-red: #CE1126;
+}
+
+/* ---- Light theme (default) ---- */
+:root {
+  --bg: #f2f4f8;
+  --panel: #ffffff;
+  --panel-2: #eaeef5;
+  --line: #dde3ee;
+  --text: #14213d;
+  --muted: #5c6785;
+  --accent: #a87a00;       /* readable amber for goal text on light */
+  --accent-2: #002B7F;     /* flag blue, readable on light */
+  --win: #1e9e56;
   --draw: #8a93a6;
-  --loss: #e74c3c;
-  --gk: #f0932b;
-  --def: #4a9eff;
-  --mid: #2ecc71;
-  --fwd: #e056a0;
+  --loss: #CE1126;
+  --gk: #FCD116;
+  --def: #002B7F;
+  --mid: #1e9e56;
+  --fwd: #CE1126;
+  --topbar: #002B7F;
+  --topbar-text: #ffffff;
+  --topbar-input: rgba(255,255,255,.14);
   --radius: 12px;
+}
+
+/* ---- Dark palette (system-dark + explicit dark), navy-tinted for flag feel ---- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b1020; --panel: #141a2c; --panel-2: #1b2338; --line: #29314c;
+    --text: #e9ecf6; --muted: #99a3c0;
+    --accent: #FCD116; --accent-2: #6f9bff;
+    --win: #2ecc71; --loss: #ef4a5a;
+    --gk: #FCD116; --def: #4a7dff; --mid: #2ecc71; --fwd: #ff5470;
+    --topbar: #001a4d; --topbar-text: #ffffff; --topbar-input: rgba(255,255,255,.10);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b1020; --panel: #141a2c; --panel-2: #1b2338; --line: #29314c;
+  --text: #e9ecf6; --muted: #99a3c0;
+  --accent: #FCD116; --accent-2: #6f9bff;
+  --win: #2ecc71; --loss: #ef4a5a;
+  --gk: #FCD116; --def: #4a7dff; --mid: #2ecc71; --fwd: #ff5470;
+  --topbar: #001a4d; --topbar-text: #ffffff; --topbar-input: rgba(255,255,255,.10);
 }
 
 * { box-sizing: border-box; }
@@ -33,28 +64,35 @@ body {
   display: flex; flex-wrap: wrap; gap: 14px;
   align-items: center; justify-content: space-between;
   padding: 14px 20px;
-  background: rgba(15,17,21,.92);
+  background: var(--topbar);
+  color: var(--topbar-text);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--line);
+}
+/* Romanian flag stripe under the topbar */
+.topbar::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 4px;
+  background: linear-gradient(90deg,
+    var(--ro-blue) 0 33.33%, var(--ro-yellow) 33.33% 66.66%, var(--ro-red) 66.66% 100%);
 }
 .brand { display: flex; align-items: center; gap: 12px; }
 .flag { font-size: 30px; line-height: 1; }
-.topbar h1 { margin: 0; font-size: 18px; letter-spacing: .2px; }
-.tagline { margin: 2px 0 0; color: var(--muted); font-size: 12.5px; }
+.topbar h1 { margin: 0; font-size: 18px; letter-spacing: .2px; color: var(--topbar-text); }
+.tagline { margin: 2px 0 0; color: rgba(255,255,255,.72); font-size: 12.5px; }
 .controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 #filter {
-  background: var(--panel-2); border: 1px solid var(--line);
-  color: var(--text); border-radius: 999px;
+  background: var(--topbar-input); border: 1px solid rgba(255,255,255,.22);
+  color: #fff; border-radius: 999px;
   padding: 8px 14px; width: 220px; outline: none; font-size: 13.5px;
 }
-#filter:focus { border-color: var(--accent-2); }
+#filter::placeholder { color: rgba(255,255,255,.6); }
+#filter:focus { border-color: var(--ro-yellow); }
 #refresh {
-  background: var(--accent); color: #1a1300; border: none;
+  background: var(--ro-yellow); color: #1a1300; border: none;
   border-radius: 999px; padding: 8px 14px; font-weight: 700;
   font-size: 13px; cursor: pointer; white-space: nowrap;
 }
 #refresh:disabled { opacity: .6; cursor: default; }
-.updated { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.updated { color: rgba(255,255,255,.72); font-size: 12px; white-space: nowrap; }
 
 /* Layout */
 main { max-width: 1240px; margin: 0 auto; padding: 20px; }
@@ -89,9 +127,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .card .team { color: var(--muted); font-size: 12.5px; margin-top: 1px; }
 .pos {
   font-size: 10.5px; font-weight: 800; letter-spacing: .5px;
-  padding: 3px 7px; border-radius: 6px; color: #0c0f14; white-space: nowrap;
+  padding: 3px 7px; border-radius: 6px; color: #fff; white-space: nowrap;
 }
-.pos.GK { background: var(--gk); }
+.pos.GK { background: var(--gk); color: #1a1300; }
 .pos.DEF { background: var(--def); }
 .pos.MID { background: var(--mid); }
 .pos.FWD { background: var(--fwd); }
@@ -115,17 +153,30 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 }
 .dot.W { background: var(--win); }
 .dot.D { background: var(--draw); }
-.dot.L { background: var(--loss); }
+.dot.L { background: var(--loss); color: #fff; }
 
 .results { border-top: 1px solid var(--line); padding-top: 8px; display: flex; flex-direction: column; gap: 5px; }
 .res { display: grid; grid-template-columns: 52px 1fr auto; gap: 8px; align-items: center; font-size: 12.5px; }
 .res .date { color: var(--muted); font-size: 11px; }
 .res .fix { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .res .sc { font-weight: 700; }
-.res .links { display: flex; gap: 6px; }
+.res-right { display: flex; gap: 6px; align-items: center; justify-content: flex-end; }
 .res a { text-decoration: none; font-size: 13px; opacity: .8; }
 .res a:hover { opacity: 1; }
 .res a.yt { color: #ff5a5f; }
+.ga { font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
+.ga.goals { color: var(--accent); }
+.ga.assists { color: var(--accent-2); }
+
+/* Theme selector (sits on the blue topbar) */
+.themes { display: inline-flex; gap: 2px; background: rgba(255,255,255,.14); border-radius: 999px; padding: 3px; }
+.theme-btn {
+  border: none; background: none; cursor: pointer; font-size: 14px;
+  width: 28px; height: 26px; border-radius: 999px; line-height: 1;
+  opacity: .6; filter: grayscale(.35);
+}
+.theme-btn:hover { opacity: .9; }
+.theme-btn.active { opacity: 1; filter: none; background: rgba(255,255,255,.92); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
 .mine { color: var(--accent); font-weight: 700; } /* highlight the tracked player's team */
 .showall {
   background: none; border: none; color: var(--accent-2);

@@ -38,6 +38,7 @@ class MatchResult:
     result: str          # W / D / L
     player_minutes: int | None
     player_goals: int
+    player_assists: int = 0
 
 
 @dataclass
@@ -78,9 +79,9 @@ def _stat_minutes(stats: dict) -> int | None:
     return None
 
 
-def _stat_goals(stats: dict) -> int:
+def _stat_by_type(stats: dict, wanted: str) -> int:
     for s in stats.values():
-        if s.get("type") == "goal":
+        if s.get("type") == wanted:
             return int(re.sub(r"[^0-9]", "", s.get("value", "")) or 0)
     return 0
 
@@ -98,7 +99,8 @@ def _parse_matches(last_matches: list[dict]) -> list[MatchResult]:
             competition=m.get("tournamentTitle", ""),
             result=m.get("winLoseShort", ""),
             player_minutes=_stat_minutes(stats),
-            player_goals=_stat_goals(stats),
+            player_goals=_stat_by_type(stats, "goal"),
+            player_assists=_stat_by_type(stats, "assist"),
         ))
     out.sort(key=lambda r: r.date, reverse=True)
     return out
