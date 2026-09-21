@@ -5,9 +5,16 @@ on:
   workflow_dispatch:
     inputs:
       years:
-        description: "Years of history to scrape (blank = players.yaml default). Use e.g. 3 to backfill."
+        description: "How many years of history to scrape"
+        type: choice
         required: false
-        default: ""
+        default: "default (players.yaml)"
+        options:
+          - "default (players.yaml)"
+          - "1"
+          - "2"
+          - "3"
+          - "5"
 
 permissions:
   contents: write
@@ -28,9 +35,11 @@ jobs:
       - run: pip install -r scraper/requirements.txt
       - name: Scrape
         working-directory: scraper
+        env:
+          YEARS: ${{ inputs.years }}
         run: |
-          if [ -n "${{ inputs.years }}" ]; then
-            python scrape.py --years "${{ inputs.years }}"
+          if [[ "$YEARS" =~ ^[0-9.]+$ ]]; then
+            python scrape.py --years "$YEARS"
           else
             python scrape.py
           fi
