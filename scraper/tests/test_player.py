@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import pytest
 from flashscore.player import (
-    parse_player_env, fetch_player_data, _parse_date, _safe_int,
+    parse_player_env, fetch_player_data, parse_info, _parse_date, _safe_int,
     SeasonStats, MatchResult, PlayerData,
 )
 
@@ -64,6 +64,20 @@ def test_parse_player_env_results():
     # results newest-first
     dates = [r.date for r in data.results]
     assert dates == sorted(dates, reverse=True)
+
+
+def test_parse_info_age_and_market_value():
+    html = (
+        '<div class="playerInfoItem"><span>Age</span><span>:</span>'
+        '<span>22</span><span>(02.02.2004)</span></div></div>'
+        '<div class="playerInfoItem"><span>Market value</span><span>:</span>'
+        '<span>€570k</span></div></div>'
+    )
+    assert parse_info(html) == {"age": 22, "market_value": "€570k"}
+
+
+def test_parse_info_missing_returns_none():
+    assert parse_info("<div>nothing</div>") == {"age": None, "market_value": None}
 
 
 def test_parse_matches_reads_per_game_goals_and_assists():

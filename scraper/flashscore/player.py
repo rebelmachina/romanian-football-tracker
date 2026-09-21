@@ -49,6 +49,8 @@ class PlayerData:
     country: str | None
     season_stats: SeasonStats
     results: list[MatchResult] = field(default_factory=list)
+    age: int | None = None
+    market_value: str | None = None
 
 
 def _safe_int(value) -> int:
@@ -57,6 +59,20 @@ def _safe_int(value) -> int:
         return int(str(value).strip())
     except (ValueError, TypeError):
         return 0
+
+
+def parse_info(html: str) -> dict:
+    """Age and market value from the player page's info items."""
+    info: dict = {"age": None, "market_value": None}
+    for block in re.findall(r"playerInfoItem.*?</div>\s*</div>", html, re.S):
+        text = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", block)).strip()
+        mv = re.search(r"Market value\s*:?\s*(€[\d.,]+\s*[A-Za-z]{0,3})", text)
+        if mv:
+            info["market_value"] = mv.group(1).replace(" ", "")
+        ag = re.search(r"Age\s*:?\s*(\d{1,2}).*?\(\d{2}\.\d{2}\.\d{4}\)", text)
+        if ag:
+            info["age"] = int(ag.group(1))
+    return info
 
 
 def _parse_date(ddmmyy: str) -> str:
@@ -146,4 +162,8 @@ def fetch_player_data(player_id: str, slug: str,
     if not match:
         raise ValueError(f"player env blob not found for {player_id}")
     env = json.loads(match.group(1))
-    return parse_player_env(env, player_id)
+    data = parse_player_env(env, player_id)
+    info = parse_info(resp.text)
+    data.age = info["age"]
+    data.market_value = info["market_value"]
+    return data

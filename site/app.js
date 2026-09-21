@@ -4,6 +4,9 @@
 const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
+const YT_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="1" y="4.6" width="22" height="14.8" rx="4.2" fill="#FF0000"/><path d="M9.9 8.4v7.2l6-3.6z" fill="#fff"/></svg>`;
+const FS_ICON = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="2" y="2.5" width="20" height="19" rx="4.6" fill="#f5471e"/><path d="M13.2 4.7l-6 8.2h3.7l-1.1 5.9 5.9-8.1h-3.6z" fill="#fff"/></svg>`;
+
 let STATE = { players: [], filter: "", pos: "", league: "", view: "classic", sel: 0, list: [] };
 
 function posAbbr(p) { return POS[p] || "UNK"; }
@@ -43,9 +46,9 @@ function contribBadges(r) {
 function resultRow(r, myTeam) {
   const links = [];
   if (r.youtube_url)
-    links.push(`<a class="yt" href="${esc(r.youtube_url)}" target="_blank" rel="noopener" title="Highlights YouTube">▶</a>`);
+    links.push(`<a class="icl" href="${esc(r.youtube_url)}" target="_blank" rel="noopener" title="Highlights YouTube">${YT_ICON}</a>`);
   if (r.flashscore_url)
-    links.push(`<a href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">↗</a>`);
+    links.push(`<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">${FS_ICON}</a>`);
   const fix = `${teamMark(r.home_team, myTeam)} <span class="sc">${esc(r.score)}</span> ${teamMark(r.away_team, myTeam)}`;
   return `<div class="res">
     <span class="date">${esc(r.date)}</span>
@@ -79,12 +82,17 @@ function card(p) {
        <div class="more" hidden>${rest}</div>` : "";
   const rating = p.season_stats.rating && p.season_stats.rating !== "-"
     ? `<span class="rating">★ ${esc(p.season_stats.rating)}</span>` : "";
+  const bio = [];
+  if (p.age) bio.push(`${p.age} ani`);
+  if (p.market_value) bio.push(`<b class="mv">${esc(p.market_value)}</b>`);
+  const bioLine = bio.length ? `<div class="bio">${bio.join(" · ")}</div>` : "";
   return `<div class="card">
     <div class="card-top">
       ${avatar(p, "sm")}
       <div class="who">
         <div class="name">${esc(p.name)}</div>
         <div class="team">${esc(p.team || "—")} ${rating}</div>
+        ${bioLine}
       </div>
       <span class="pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>
     </div>

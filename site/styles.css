@@ -145,6 +145,8 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .avatar.ini.pos-UNK { background: var(--muted); border-color: var(--muted); }
 .card .name { font-weight: 680; font-size: 15px; }
 .card .team { color: var(--muted); font-size: 12.5px; margin-top: 1px; }
+.card .bio { color: var(--muted); font-size: 11.5px; margin-top: 3px; }
+.card .bio .mv { color: var(--accent); font-weight: 700; }
 .pos {
   font-size: 10.5px; font-weight: 800; letter-spacing: .5px;
   padding: 3px 7px; border-radius: 6px; color: #fff; white-space: nowrap;
@@ -180,10 +182,12 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .res .date { color: var(--muted); font-size: 11px; }
 .res .fix { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .res .sc { font-weight: 700; }
-.res-right { display: flex; gap: 6px; align-items: center; justify-content: flex-end; }
-.res a { text-decoration: none; font-size: 13px; opacity: .8; }
+.res-right { display: flex; gap: 5px; align-items: center; justify-content: flex-end; }
+.res a { text-decoration: none; font-size: 13px; opacity: .82; }
 .res a:hover { opacity: 1; }
-.res a.yt { color: #ff5a5f; }
+.res .icl { display: inline-flex; align-items: center; border-radius: 5px; }
+.res .icl svg { display: block; transition: transform .1s; }
+.res .icl:hover svg { transform: scale(1.12); }
 .ga { font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
 .ga.goals { color: var(--accent); }
 .ga.assists { color: var(--accent-2); }
