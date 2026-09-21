@@ -1,0 +1,7 @@
+players:
+  - name: Kevin Ciubotaru
+    flashscore_id: O2o2L2iA
+    country: Scotland
+  - name: Dennis Man
+    flashscore_id: ""      # to be filled by bootstrap
+    country: Netherlands
