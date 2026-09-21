@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import pytest
 from flashscore.player import (
-    parse_player_env, fetch_player_data, _parse_date,
+    parse_player_env, fetch_player_data, _parse_date, _safe_int,
     SeasonStats, MatchResult, PlayerData,
 )
 
@@ -16,6 +16,24 @@ def _env():
 def test_parse_date_ddmmyy_to_iso():
     assert _parse_date("19.09.26") == "2026-09-19"
     assert _parse_date("01.01.25") == "2025-01-01"
+
+
+def test_safe_int_handles_missing_dash():
+    assert _safe_int("-") == 0
+    assert _safe_int("") == 0
+    assert _safe_int(None) == 0
+    assert _safe_int("7") == 7
+    assert _safe_int(3) == 3
+
+
+def test_parse_player_env_tolerates_dash_stats():
+    env = {"careerTables": [{"table_id": "league", "seasons": [
+        {"team_name": "X", "tournament_name": "L", "flag_name": "C",
+         "goals": "-", "assists": "-", "matches_played": "-",
+         "avg_fs_rating": "-"}]}],
+        "lastMatchesData": {"lastMatches": []}}
+    data = parse_player_env(env, "pid")
+    assert data.season_stats == SeasonStats(0, 0, 0, 0, "-")
 
 
 def test_parse_player_env_current_season_and_team():

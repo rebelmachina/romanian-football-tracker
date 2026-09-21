@@ -50,6 +50,14 @@ class PlayerData:
     results: list[MatchResult] = field(default_factory=list)
 
 
+def _safe_int(value) -> int:
+    """Flashscore uses '-' or '' for missing numeric stats."""
+    try:
+        return int(str(value).strip())
+    except (ValueError, TypeError):
+        return 0
+
+
 def _parse_date(ddmmyy: str) -> str:
     """'19.09.26' -> '2026-09-19'."""
     d, m, y = ddmmyy.split(".")
@@ -116,9 +124,9 @@ def parse_player_env(env: dict, player_id: str) -> PlayerData:
                 minutes += r.player_minutes
 
     stats = SeasonStats(
-        goals=int(current.get("goals", 0) or 0),
-        assists=int(current.get("assists", 0) or 0),
-        appearances=int(current.get("matches_played", 0) or 0),
+        goals=_safe_int(current.get("goals")),
+        assists=_safe_int(current.get("assists")),
+        appearances=_safe_int(current.get("matches_played")),
         minutes=minutes,
         rating=current.get("avg_fs_rating"),
     )
