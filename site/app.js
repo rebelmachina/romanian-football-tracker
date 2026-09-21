@@ -110,12 +110,12 @@ function contribBadges(r) {
   const gm = r.goal_minutes || [], am = r.assist_minutes || [];
   const out = [];
   if (g > 0) {
-    const lbl = gm.length ? " " + gm.join(", ") : (g > 1 ? "×" + g : "");
-    out.push(`<span class="ga goals" title="${g} gol${g > 1 ? "uri" : ""} în acest meci">⚽${lbl}</span>`);
+    const label = gm.length ? "⚽ " + gm.join(", ") : "⚽".repeat(Math.min(g, 4));
+    out.push(`<span class="ga goals" title="${g} gol${g > 1 ? "uri" : ""} în acest meci">${label}</span>`);
   }
   if (a > 0) {
-    const lbl = am.length ? " " + am.join(", ") : (a > 1 ? "×" + a : "");
-    out.push(`<span class="ga assists" title="${a} pas${a > 1 ? "e" : "ă"} decisiv${a > 1 ? "e" : "ă"}">👟${lbl}</span>`);
+    const label = am.length ? "👟 " + am.join(", ") : "👟".repeat(Math.min(a, 4));
+    out.push(`<span class="ga assists" title="${a} pas${a > 1 ? "e" : "ă"} decisiv${a > 1 ? "e" : "ă"}">${label}</span>`);
   }
   return out.join("");
 }

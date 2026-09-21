@@ -88,7 +88,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "27'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6spIgYSO/",
@@ -588,7 +590,9 @@
           "player_minutes": 86,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "61'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/vL7aefoo/",
@@ -1166,7 +1170,9 @@
           "player_minutes": 32,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "81'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tbTXXHM9/",
@@ -1289,7 +1295,9 @@
           "player_minutes": 89,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "21'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EFyGdRSg/",
@@ -1325,7 +1333,9 @@
           "player_minutes": 82,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "54'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/nPL4tfLb/",
@@ -1986,7 +1996,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "38'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xntTbsGD/",
@@ -4420,7 +4432,9 @@
           "player_minutes": 84,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "45+1'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6croBmt0/",
@@ -4490,7 +4504,9 @@
           "player_minutes": 74,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "39'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OMI8O3FN/",
@@ -5167,7 +5183,9 @@
           "player_minutes": 64,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "59'"
+          ],
           "assist_minutes": [
             "8'"
           ],
@@ -5361,7 +5379,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "15'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OnbqYy2S/",
@@ -5720,7 +5740,9 @@
           "player_goals": 0,
           "player_assists": 1,
           "goal_minutes": [],
-          "assist_minutes": [],
+          "assist_minutes": [
+            "40'"
+          ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EZcCBx7l/",
           "youtube_url": null
@@ -5736,7 +5758,9 @@
           "player_minutes": 87,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "73'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/8hTkcd7c/",
@@ -5770,7 +5794,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "90+1'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/429WgDun/",
@@ -5805,7 +5831,9 @@
           "player_goals": 0,
           "player_assists": 1,
           "goal_minutes": [],
-          "assist_minutes": [],
+          "assist_minutes": [
+            "48'"
+          ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SrmNQgf2/",
           "youtube_url": null
@@ -5822,7 +5850,9 @@
           "player_goals": 0,
           "player_assists": 1,
           "goal_minutes": [],
-          "assist_minutes": [],
+          "assist_minutes": [
+            "61'"
+          ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/A5LW6a3T/",
           "youtube_url": null
@@ -5855,8 +5885,12 @@
           "player_minutes": 80,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [],
+          "goal_minutes": [
+            "62'"
+          ],
+          "assist_minutes": [
+            "24'"
+          ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SjceWHmd/",
           "youtube_url": null
@@ -5873,7 +5907,9 @@
           "player_goals": 0,
           "player_assists": 1,
           "goal_minutes": [],
-          "assist_minutes": [],
+          "assist_minutes": [
+            "53'"
+          ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QwRUshU0/",
           "youtube_url": null
@@ -5954,7 +5990,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "14'"
+          ],
           "assist_minutes": [
             "80'"
           ],
@@ -5973,7 +6011,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "45+1'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/fRER7f6D/",
@@ -5991,6 +6031,8 @@
           "player_goals": 3,
           "player_assists": 1,
           "goal_minutes": [
+            "4'",
+            "29'",
             "39'"
           ],
           "assist_minutes": [
@@ -6102,7 +6144,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "24'"
+          ],
           "assist_minutes": [
             "50'"
           ],
@@ -6515,7 +6559,9 @@
           "player_minutes": 67,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "61'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SIu2x9Gq/",
@@ -6697,7 +6743,9 @@
           "player_minutes": 30,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "86'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Kn11Wzkn/",
@@ -7368,7 +7416,9 @@
           "player_minutes": 80,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "66'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/A74F2SON/",
@@ -8948,7 +8998,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "55'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bgmSY65c/",
@@ -9133,7 +9185,9 @@
           "player_minutes": 84,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "59'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OW5Olct2/",
@@ -9845,7 +9899,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "17'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ULUMPRnJ/",
@@ -10360,7 +10416,10 @@
           "player_minutes": 90,
           "player_goals": 2,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "63'",
+            "90+6'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ITi8zsBb/",
@@ -10546,7 +10605,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "79'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OzhlIVxe/",
@@ -12055,7 +12116,9 @@
           "player_minutes": 84,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "21'"
+          ],
           "assist_minutes": [
             "62'"
           ],
@@ -12074,7 +12137,10 @@
           "player_minutes": 75,
           "player_goals": 2,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "45'",
+            "56'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0Ah40AqH/",
@@ -14086,7 +14152,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "45'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/jiBADrkI/",
@@ -15216,7 +15284,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "84'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/lGC5a3cf/",
@@ -16634,7 +16704,9 @@
           "player_minutes": 45,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "52'"
+          ],
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/tQud9j7K/",
@@ -17297,7 +17369,9 @@
           "player_minutes": 66,
           "player_goals": 1,
           "player_assists": 1,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "16'"
+          ],
           "assist_minutes": [
             "38'"
           ],
@@ -17517,7 +17591,9 @@
           "player_minutes": 90,
           "player_goals": 1,
           "player_assists": 0,
-          "goal_minutes": [],
+          "goal_minutes": [
+            "28'"
+          ],
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OC7c4ClC/",
@@ -17579,5 +17655,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-21T21:19:35Z"
+  "updated_at": "2026-09-21T21:38:07Z"
 }

@@ -114,7 +114,7 @@ def _resolve_highlights(match_ids: list[str], cache: dict[str, str],
 
 
 def _fill_minutes(results: list[dict], player_name: str, player_id: str,
-                  inc_cache: dict, session: requests.Session) -> None:
+                  slug: str, inc_cache: dict, session: requests.Session) -> None:
     """Attach per-goal/assist minutes for matches where the player scored/assisted."""
     for r in results:
         if not (r["player_goals"] or r["player_assists"]):
@@ -124,7 +124,7 @@ def _fill_minutes(results: list[dict], player_name: str, player_id: str,
             entry = inc_cache[key]
         else:
             events = fetch_incidents(r["match_id"], session)
-            gm, am = player_minutes(events, player_name)
+            gm, am = player_minutes(events, player_name, slug=slug)
             entry = inc_cache[key] = {"g": gm, "a": am}
             time.sleep(REQUEST_DELAY)
         r["goal_minutes"] = entry["g"]
@@ -151,7 +151,7 @@ def run_full(session: requests.Session, players: list[PlayerConfig],
                   if needs_highlight_check(r["date"], today, HIGHLIGHT_WINDOW_DAYS)]
         scraped = _resolve_highlights(recent, cache, session)
         merge_youtube(rec["results"], overrides, scraped)
-        _fill_minutes(rec["results"], hit.name, cfg.flashscore_id, inc_cache, session)
+        _fill_minutes(rec["results"], hit.name, cfg.flashscore_id, hit.slug, inc_cache, session)
         records.append(rec)
         print(f"  ok {cfg.name}: {rec['team']} · {rec['league']} · "
               f"{rec['season_stats']['goals']}G/{rec['season_stats']['assists']}A")
