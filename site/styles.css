@@ -335,6 +335,45 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 
 .foot { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
 
+/* Latest-events button + badge (on the blue topbar) */
+.events-btn {
+  position: relative; width: 30px; height: 27px; border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.32); background: rgba(255,255,255,.12);
+  color: #fff; cursor: pointer; font-size: 14px; line-height: 1;
+}
+.events-btn:hover { background: rgba(255,255,255,.22); }
+.ev-badge {
+  position: absolute; top: -6px; right: -6px; min-width: 16px; height: 16px;
+  padding: 0 4px; border-radius: 999px; background: var(--ro-red); color: #fff;
+  font-size: 10px; font-weight: 800; display: inline-flex; align-items: center;
+  justify-content: center; border: 1.5px solid var(--topbar);
+}
+
+/* Events drawer */
+.drawer-backdrop { position: fixed; inset: 0; background: rgba(6,10,24,.5); z-index: 40; }
+.drawer {
+  position: fixed; top: 0; right: 0; height: 100%; width: min(92vw, 400px);
+  background: var(--panel); z-index: 41; box-shadow: -8px 0 30px rgba(0,0,0,.35);
+  display: flex; flex-direction: column;
+}
+.drawer-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 16px; border-bottom: 1px solid var(--line); flex: 0 0 auto;
+}
+.drawer-head h2 { margin: 0; font-size: 15px; }
+.drawer-x {
+  width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line);
+  background: var(--panel-2); color: var(--text); font-size: 18px; cursor: pointer;
+}
+.events-list { overflow-y: auto; padding: 8px; display: flex; flex-direction: column; gap: 6px; }
+.event { display: flex; gap: 10px; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel-2); }
+.avatar.ev { width: 34px; height: 34px; flex: 0 0 auto; border-width: 1.5px; }
+.event-body { flex: 1; min-width: 0; }
+.event-top { font-size: 13px; }
+.event-act { margin: 4px 0; display: flex; gap: 8px; }
+.event-match { font-size: 12.5px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.event-links { display: inline-flex; gap: 5px; margin-left: auto; align-items: center; }
+
 /* Help button */
 .help-btn {
   width: 27px; height: 27px; border-radius: 999px;

@@ -40,6 +40,9 @@
         <button class="view-btn" data-view="arcade" title="Vizualizare arcade">🎮 Arcade</button>
       </div>
       <span class="updated" id="updated"></span>
+      <button id="events-btn" class="events-btn" title="Ultimele evenimente" aria-label="Ultimele evenimente">
+        🔔<span class="ev-badge" id="events-badge" hidden></span>
+      </button>
       <button id="help" class="help-btn" title="Ce este asta?" aria-label="Ajutor">?</button>
       <div class="themes" role="group" aria-label="Temă">
         <button class="theme-btn" data-theme="system" title="Sistem">💻</button>
@@ -80,6 +83,15 @@
       <button id="intro-close" class="intro-close">Am înțeles</button>
     </div>
   </dialog>
+
+  <div id="events-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="events-drawer" class="drawer" hidden aria-label="Ultimele evenimente">
+    <header class="drawer-head">
+      <h2>🔔 Ultimele evenimente</h2>
+      <button class="drawer-x" data-close-events aria-label="Închide">×</button>
+    </header>
+    <div id="events-list" class="events-list"></div>
+  </aside>
 
   <dialog id="video-modal" class="vmodal">
     <button class="vmodal-x" data-close-modal aria-label="Închide">×</button>

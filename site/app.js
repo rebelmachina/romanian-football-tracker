@@ -429,6 +429,7 @@ function onClick(e) {
   if (ytbtn) { playVideo(ytbtn.dataset.yt); return; }
   if (e.target.closest("[data-close-video]")) { clearArcadeVideo(); return; }
   if (e.target.closest("[data-close-modal]")) { closeVideoModal(); return; }
+  if (e.target.closest("[data-close-events]")) { closeEvents(); return; }
   const tile = e.target.closest(".mk-tile");
   if (tile) { updateSel(+tile.dataset.idx); return; }
   const showall = e.target.closest(".showall");
@@ -508,6 +509,71 @@ function initTheme() {
   applyTheme(mode);
 }
 
+/* ---- Latest events feed ---- */
+const EVENTS_DAYS = 30, EVENTS_MAX = 100;
+
+function buildEvents() {
+  const since = new Date(Date.now() - EVENTS_DAYS * 86400000).toISOString().slice(0, 10);
+  const evs = [];
+  for (const p of STATE.players) {
+    for (const r of (p.results || [])) {
+      if (r.date < since) continue;
+      if ((r.player_goals || 0) > 0 || (r.player_assists || 0) > 0)
+        evs.push({ id: `${r.match_id}:${p.flashscore_id}`, date: r.date, player: p, r });
+    }
+  }
+  evs.sort((a, b) => b.date.localeCompare(a.date) ||
+    ((b.r.player_goals || 0) - (a.r.player_goals || 0)));
+  return evs.slice(0, EVENTS_MAX);
+}
+
+function eventItemHTML(ev) {
+  const p = ev.player, r = ev.r;
+  const yt = r.youtube_url
+    ? `<button class="icl ytbtn" data-yt="${esc(r.youtube_url)}" title="Vezi rezumatul">${YT_ICON}</button>` : "";
+  const fs = r.flashscore_url
+    ? `<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">${FS_ICON}</a>` : "";
+  return `<div class="event">
+    ${avatar(p, "ev")}
+    <div class="event-body">
+      <div class="event-top"><b>${esc(p.name)}</b> <span class="muted">· ${esc(p.team || "")} · ${esc(r.date)}</span></div>
+      <div class="event-act">${contribBadges(r)}</div>
+      <div class="event-match">${teamMark(r.home_team, p.team)} <b>${esc(r.score)}</b> ${teamMark(r.away_team, p.team)}
+        <span class="event-links">${yt}${fs}</span></div>
+    </div>
+  </div>`;
+}
+
+function updateEventsBadge() {
+  const evs = buildEvents();
+  let seen = null;
+  try { seen = localStorage.getItem("events_seen_top"); } catch {}
+  let count = 0;
+  for (const e of evs) { if (e.id === seen) break; count++; }
+  const badge = document.getElementById("events-badge");
+  badge.textContent = count > 99 ? "99+" : count;
+  badge.hidden = count === 0;
+}
+
+function openEvents() {
+  const evs = buildEvents();
+  document.getElementById("events-list").innerHTML = evs.length
+    ? evs.map(eventItemHTML).join("")
+    : `<p class="loading">Niciun gol sau assist în ultimele ${EVENTS_DAYS} de zile.</p>`;
+  document.getElementById("events-drawer").hidden = false;
+  document.getElementById("events-backdrop").hidden = false;
+  if (evs.length) { try { localStorage.setItem("events_seen_top", evs[0].id); } catch {} }
+  updateEventsBadge();
+}
+function closeEvents() {
+  document.getElementById("events-drawer").hidden = true;
+  document.getElementById("events-backdrop").hidden = true;
+}
+function initEvents() {
+  document.getElementById("events-btn").addEventListener("click", openEvents);
+  document.getElementById("events-backdrop").addEventListener("click", closeEvents);
+}
+
 /* ---- Intro / cheatsheet dialog ---- */
 function openIntro() {
   const d = document.getElementById("intro");
@@ -538,6 +604,7 @@ function populateLeagues() {
 function boot(data) {
   STATE.players = data.players || [];
   populateLeagues();
+  updateEventsBadge();
   if (data.updated_at) {
     document.getElementById("updated").textContent =
       "Actualizat: " + new Date(data.updated_at).toLocaleString("ro-RO",
@@ -550,6 +617,7 @@ initTheme();
 initIntro();
 initView();
 initVideoModal();
+initEvents();
 document.addEventListener("click", onClick);
 document.addEventListener("keydown", onKey);
 document.getElementById("refresh").addEventListener("click", triggerHighlights);
