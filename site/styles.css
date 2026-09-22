@@ -265,7 +265,25 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .view-btn.active { opacity: 1; background: rgba(255,255,255,.94); color: var(--ro-blue); }
 
 /* Arcade (Mortal-Kombat-style) select screen */
-.mk-hint { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+.mk-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.mk-hint { color: var(--muted); font-size: 13px; margin: 0; }
+.mk-sort { display: flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--muted); }
+.mk-sort select {
+  background: var(--panel); border: 1px solid var(--line); color: var(--text);
+  border-radius: 8px; padding: 5px 10px; font-size: 12.5px; cursor: pointer; outline: none;
+}
+.mk-sort select:focus { border-color: var(--accent-2); }
+.mk-dir {
+  background: var(--panel-2); border: 1px solid var(--line); color: var(--text);
+  border-radius: 8px; padding: 5px 10px; font-size: 12.5px; cursor: pointer; white-space: nowrap;
+}
+.mk-dir:hover:not(:disabled) { border-color: var(--accent-2); }
+.mk-dir:disabled { opacity: .45; cursor: default; }
+.mk-metric {
+  position: absolute; top: 4px; right: 4px; z-index: 2;
+  background: var(--ro-yellow); color: #1a1300; font-weight: 800;
+  font-size: 9px; padding: 2px 5px; border-radius: 6px; box-shadow: 0 1px 2px rgba(0,0,0,.45);
+}
 .mk { display: flex; gap: 16px; align-items: flex-start; }
 .mk-grid {
   flex: 1 1 auto; display: grid; gap: 7px;

@@ -71,7 +71,35 @@ function closeVideoModal() {
 }
 
 let STATE = { players: [], filter: "", pos: "", league: "", range: "season",
-              view: "classic", sel: 0, list: [] };
+              view: "classic", sel: 0, list: [], sortBy: "league", sortDir: "desc" };
+
+function parseMarketValue(v) {
+  const m = String(v || "").match(/([\d.]+)\s*([kmb])?/i);
+  if (!m) return 0;
+  return (parseFloat(m[1]) || 0) * ({ k: 1e3, m: 1e6, b: 1e9 }[(m[2] || "").toLowerCase()] || 1);
+}
+function sortKey(p) {
+  const s = statsFor(p);
+  switch (STATE.sortBy) {
+    case "goals": return s.goals || 0;
+    case "assists": return s.assists || 0;
+    case "minutes": return s.minutes || 0;
+    case "age": return p.age || 0;
+    case "value": return parseMarketValue(p.market_value);
+    default: return 0;
+  }
+}
+function sortValueLabel(p) {
+  const s = statsFor(p);
+  switch (STATE.sortBy) {
+    case "goals": return `${s.goals || 0} G`;
+    case "assists": return `${s.assists || 0} A`;
+    case "minutes": return `${s.minutes || 0}'`;
+    case "age": return p.age ? `${p.age} ani` : "—";
+    case "value": return p.market_value || "—";
+    default: return "";
+  }
+}
 
 function rangeCutoff(key) {
   const now = new Date();
@@ -279,24 +307,50 @@ function renderClassic() {
 
 function lastName(name) { const t = String(name || "").split(/\s+/); return t[t.length - 1]; }
 
+const SORT_OPTIONS = [
+  ["league", "Ligă"], ["goals", "Goluri"], ["assists", "Assist-uri"],
+  ["minutes", "Minute jucate"], ["age", "Vârstă"], ["value", "Valoare de piață"],
+];
+function sortBarHTML() {
+  const opts = SORT_OPTIONS.map(([v, l]) =>
+    `<option value="${v}" ${STATE.sortBy === v ? "selected" : ""}>${l}</option>`).join("");
+  const isLeague = STATE.sortBy === "league";
+  const dir = STATE.sortDir === "asc" ? "↑ crescător" : "↓ descrescător";
+  return `<div class="mk-sort">
+    <span>Sortează:</span>
+    <select id="mk-sortby">${opts}</select>
+    <button id="mk-sortdir" class="mk-dir" ${isLeague ? "disabled" : ""}>${dir}</button>
+  </div>`;
+}
+
 function renderArcade() {
   const app = document.getElementById("app");
-  const list = filteredPlayers().slice().sort((a, b) =>
-    groupRank(a.group || "") - groupRank(b.group || "") ||
-    (a.group || "").localeCompare(b.group || "") || gaSum(b) - gaSum(a));
+  const list = filteredPlayers().slice();
+  if (STATE.sortBy === "league") {
+    list.sort((a, b) => groupRank(a.group || "") - groupRank(b.group || "") ||
+      (a.group || "").localeCompare(b.group || "") || gaSum(b) - gaSum(a));
+  } else {
+    const dir = STATE.sortDir === "asc" ? 1 : -1;
+    list.sort((a, b) => (sortKey(a) - sortKey(b)) * dir || a.name.localeCompare(b.name));
+  }
   STATE.list = list;
   if (!list.length) { app.innerHTML = `<p class="loading">Niciun rezultat.</p>`; return; }
   if (STATE.sel >= list.length) STATE.sel = 0;
 
+  const showMetric = STATE.sortBy !== "league";
   const tiles = list.map((p, i) => `
     <button class="mk-tile${i === STATE.sel ? " sel" : ""}" data-idx="${i}" title="${esc(p.name)}">
       ${avatar(p, "face")}
       <span class="mk-name">${esc(lastName(p.name))}</span>
       <span class="pos mk-pos ${posAbbr(p.position)}">${posAbbr(p.position)}</span>
+      ${showMetric ? `<span class="mk-metric">${esc(sortValueLabel(p))}</span>` : ""}
     </button>`).join("");
 
   app.innerHTML = `
-    <p class="mk-hint">🎮 Folosește săgețile <b>← ↑ ↓ →</b> sau click pentru a alege un jucător.</p>
+    <div class="mk-bar">
+      <p class="mk-hint">🎮 Săgețile <b>← ↑ ↓ →</b> sau click pentru a alege un jucător.</p>
+      ${sortBarHTML()}
+    </div>
     <div class="mk">
       <div class="mk-grid" id="mkgrid">${tiles}</div>
       <aside class="mk-panel">
@@ -368,6 +422,9 @@ function onClick(e) {
   if (themeBtn) { applyTheme(themeBtn.dataset.theme); return; }
   const viewBtn = e.target.closest(".view-btn");
   if (viewBtn) { setView(viewBtn.dataset.view); return; }
+  if (e.target.closest("#mk-sortdir")) {
+    STATE.sortDir = STATE.sortDir === "asc" ? "desc" : "asc"; STATE.sel = 0; render(); return;
+  }
   const ytbtn = e.target.closest(".ytbtn");
   if (ytbtn) { playVideo(ytbtn.dataset.yt); return; }
   if (e.target.closest("[data-close-video]")) { clearArcadeVideo(); return; }
@@ -508,6 +565,9 @@ document.getElementById("filter-league").addEventListener("change", e => {
 });
 document.getElementById("range").addEventListener("change", e => {
   STATE.range = e.target.value; onFilterChange();
+});
+document.addEventListener("change", e => {   // arcade sort (dynamic element → delegated)
+  if (e.target.id === "mk-sortby") { STATE.sortBy = e.target.value; STATE.sel = 0; render(); }
 });
 
 fetch("./data.json")
