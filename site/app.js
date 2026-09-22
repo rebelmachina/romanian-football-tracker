@@ -36,9 +36,12 @@ function ytId(url) {
   return m ? m[1] : null;
 }
 function ytEmbed(id) {
+  const watch = `https://www.youtube.com/watch?v=${id}`;
   return `<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1"` +
     ` title="Rezumat video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen"` +
-    ` allowfullscreen loading="lazy"></iframe></div>`;
+    ` allowfullscreen loading="lazy"></iframe></div>` +
+    `<a class="video-yt" href="${watch}" target="_blank" rel="noopener">` +
+    `${YT_ICON} Nu se încarcă aici? Deschide pe YouTube ↗</a>`;
 }
 
 function playVideo(url) {
