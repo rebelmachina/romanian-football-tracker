@@ -186,11 +186,13 @@ function statBlock(s) {
 function card(p) {
   const results = resultsFor(p);
   const stats = statsFor(p);
-  const shown = results.slice(0, 5).map(r => resultRow(r, p.team)).join("");
-  const rest = results.slice(5).map(r => resultRow(r, p.team)).join("");
-  const toggle = results.length > 5
-    ? `<button class="showall" data-open="0">+ toate cele ${results.length} meciuri</button>
-       <div class="more" hidden>${rest}</div>` : "";
+  const rows = results.map(r => resultRow(r, p.team));
+  const first = rows.slice(0, 5).join("") ||
+    '<div class="res"><span class="muted">Niciun meci în această perioadă</span></div>';
+  const expandable = results.length > 5
+    ? `<div class="more" hidden>${rows.join("")}</div>
+       <button class="showall" data-open="0" data-count="${results.length}">+ toate cele ${results.length} meciuri</button>`
+    : "";
   const rating = stats.rating && stats.rating !== "-"
     ? `<span class="rating">★ ${esc(stats.rating)}</span>` : "";
   const bio = [];
@@ -216,7 +218,7 @@ function card(p) {
     <div class="stats">${statBlock(stats)}</div>
     ${nt}
     <div class="form">${formDots(results)}</div>
-    <div class="results">${shown || '<div class="res"><span class="muted">Niciun meci în această perioadă</span></div>'}${toggle}</div>
+    <div class="results"><div class="res-first">${first}</div>${expandable}</div>
   </div>`;
 }
 
@@ -374,12 +376,15 @@ function onClick(e) {
   if (tile) { updateSel(+tile.dataset.idx); return; }
   const showall = e.target.closest(".showall");
   if (showall) {
-    const more = showall.nextElementSibling;
-    const open = showall.dataset.open === "1";
-    more.hidden = open;
-    showall.dataset.open = open ? "0" : "1";
-    showall.textContent = open
-      ? `+ toate cele ${more.children.length + 5} meciuri` : "− mai puține";
+    const container = showall.closest(".results");
+    const first = container.querySelector(".res-first");
+    const more = container.querySelector(".more");
+    const expand = showall.dataset.open !== "1";
+    more.hidden = !expand;
+    if (first) first.hidden = expand;
+    if (expand) more.scrollTop = 0;
+    showall.dataset.open = expand ? "1" : "0";
+    showall.textContent = expand ? "− mai puține" : `+ toate cele ${showall.dataset.count} meciuri`;
     return;
   }
   const head = e.target.closest(".league-head");
