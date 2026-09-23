@@ -8614,7 +8614,7 @@
       "name": "Alexandru Maxim",
       "flashscore_id": "EFNpqcTT",
       "slug": "maxim-alexandru",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/noxF0bhl-WOgfsHbm.png",
       "age": 36,
       "market_value": "€306k",
@@ -10809,23 +10809,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/CnYRnJOp/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "t0Z2FB2J",
-          "date": "2023-09-22",
-          "home_team": "Gaziantep",
-          "away_team": "Istanbulspor AS",
-          "score": "2-0",
-          "competition": "Super Lig (Turkey)",
-          "result": "W",
-          "player_minutes": 72,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/t0Z2FB2J/",
           "youtube_url": null
         }
       ]
@@ -16333,23 +16316,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/KteTA8aN/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "vVZj5iEe",
-          "date": "2023-09-22",
-          "home_team": "Dinamo Bucuresti",
-          "away_team": "Farul Constanta",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/vVZj5iEe/",
           "youtube_url": null
         }
       ]
@@ -22316,23 +22282,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/fHGiQimT/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "p4l2FzZA",
-          "date": "2023-09-22",
-          "home_team": "Alaves",
-          "away_team": "Ath Bilbao",
-          "score": "0-2",
-          "competition": "LaLiga (Spain)",
-          "result": "L",
-          "player_minutes": 67,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/p4l2FzZA/",
           "youtube_url": null
         }
       ]
@@ -51154,23 +51103,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Amgle78k/",
           "youtube_url": null
-        },
-        {
-          "match_id": "4nlzlj1M",
-          "date": "2023-09-22",
-          "home_team": "Verona U19",
-          "away_team": "Bologna U19",
-          "score": "1-1",
-          "competition": "Primavera 1 (Italy)",
-          "result": "D",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/4nlzlj1M/",
-          "youtube_url": null
         }
       ]
     },
@@ -60620,23 +60552,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/G8A7ORTM/",
           "youtube_url": null
-        },
-        {
-          "match_id": "W4Wr7Dqq",
-          "date": "2023-09-22",
-          "home_team": "U Craiova 1948",
-          "away_team": "Otelul",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/W4Wr7Dqq/",
-          "youtube_url": null
         }
       ]
     },
@@ -60644,7 +60559,7 @@
       "name": "Nicolae Stanciu",
       "flashscore_id": "tY8uva0F",
       "slug": "stanciu-nicolae",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/GKVdajHG-YRQidatn.png",
       "age": 33,
       "market_value": "€1.8m",
@@ -65520,23 +65435,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pMX2lVfc/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "48m9YLqU",
-          "date": "2023-09-22",
-          "home_team": "Al Okhdood",
-          "away_team": "Al Khaleej",
-          "score": "0-1",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "L",
-          "player_minutes": 39,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/48m9YLqU/",
           "youtube_url": null
         }
       ]
@@ -78751,23 +78649,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/UTXEt8gd/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "v5047smh",
-          "date": "2023-09-22",
-          "home_team": "Lecce",
-          "away_team": "Genoa",
-          "score": "1-0",
-          "competition": "Serie A (Italy)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/v5047smh/",
           "youtube_url": null
         }
       ]
@@ -100717,23 +100598,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pMX2lVfc/",
           "youtube_url": null
-        },
-        {
-          "match_id": "48m9YLqU",
-          "date": "2023-09-22",
-          "home_team": "Al Okhdood",
-          "away_team": "Al Khaleej",
-          "score": "0-1",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/48m9YLqU/",
-          "youtube_url": null
         }
       ]
     },
@@ -106334,23 +106198,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/KteTA8aN/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "vVZj5iEe",
-          "date": "2023-09-22",
-          "home_team": "Dinamo Bucuresti",
-          "away_team": "Farul Constanta",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 72,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/vVZj5iEe/",
           "youtube_url": null
         }
       ]
@@ -114719,7 +114566,7 @@
       "name": "Andrei Ratiu",
       "flashscore_id": "Eo8SAMoI",
       "slug": "ratiu-andrei",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/zuVCnfWg-48zblToC.png",
       "age": 28,
       "market_value": "€17.1m",
@@ -117964,7 +117811,7 @@
       "name": "Radu Dragusin",
       "flashscore_id": "ELzKkDJF",
       "slug": "dragusin-radu",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/fi6cexdM-WbGnoYXO.png",
       "age": 24,
       "market_value": "€15.0m",
@@ -121314,23 +121161,6 @@
           ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ITxy8Ew3/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "v5047smh",
-          "date": "2023-09-22",
-          "home_team": "Lecce",
-          "away_team": "Genoa",
-          "score": "1-0",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/v5047smh/",
           "youtube_url": null
         }
       ]
@@ -137085,23 +136915,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/KteTA8aN/",
           "youtube_url": null
-        },
-        {
-          "match_id": "vVZj5iEe",
-          "date": "2023-09-22",
-          "home_team": "Dinamo Bucuresti",
-          "away_team": "Farul Constanta",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/vVZj5iEe/",
-          "youtube_url": null
         }
       ]
     },
@@ -140652,23 +140465,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/IkSpKUMU/",
           "youtube_url": null
-        },
-        {
-          "match_id": "W4Wr7Dqq",
-          "date": "2023-09-22",
-          "home_team": "U Craiova 1948",
-          "away_team": "Otelul",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/W4Wr7Dqq/",
-          "youtube_url": null
         }
       ]
     },
@@ -140712,7 +140508,7 @@
         "assists": 1,
         "appearances": 7,
         "minutes": 495,
-        "rating": "7.0"
+        "rating": "6.9"
       },
       "results": [
         {
@@ -150558,23 +150354,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tKDqNT9K/",
           "youtube_url": null
-        },
-        {
-          "match_id": "MaSISiDo",
-          "date": "2023-09-22",
-          "home_team": "Lechia Gdansk",
-          "away_team": "GKS Katowice",
-          "score": "5-1",
-          "competition": "Division 1 (Poland)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/MaSISiDo/",
-          "youtube_url": null
         }
       ]
     },
@@ -158327,23 +158106,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/M5aIE5Wg/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WtQHZ68J",
-          "date": "2023-09-22",
-          "home_team": "Longford",
-          "away_team": "Waterford",
-          "score": "0-3",
-          "competition": "Division 1 (Ireland)",
-          "result": "L",
-          "player_minutes": 70,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WtQHZ68J/",
           "youtube_url": null
         }
       ]
@@ -177029,23 +176791,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ET3DbEfQ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "jRjNmct8",
-          "date": "2023-09-22",
-          "home_team": "Palermo",
-          "away_team": "Cosenza",
-          "score": "0-1",
-          "competition": "Serie B (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/jRjNmct8/",
-          "youtube_url": null
         }
       ]
     },
@@ -189983,7 +189728,7 @@
       "name": "Valentin Costache",
       "flashscore_id": "YoooEtDn",
       "slug": "costache-ionut",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/h6b9LYf5-zX0nh89A.png",
       "age": 28,
       "market_value": "€868k",
@@ -197621,23 +197366,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/KteTA8aN/",
           "youtube_url": null
-        },
-        {
-          "match_id": "vVZj5iEe",
-          "date": "2023-09-22",
-          "home_team": "Dinamo Bucuresti",
-          "away_team": "Farul Constanta",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/vVZj5iEe/",
-          "youtube_url": null
         }
       ]
     },
@@ -202263,23 +201991,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/IkSpKUMU/",
           "youtube_url": null
-        },
-        {
-          "match_id": "vVZj5iEe",
-          "date": "2023-09-22",
-          "home_team": "Dinamo Bucuresti",
-          "away_team": "Farul Constanta",
-          "score": "0-2",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": 18,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/vVZj5iEe/",
-          "youtube_url": null
         }
       ]
     },
@@ -204555,5 +204266,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-22T10:32:20Z"
+  "updated_at": "2026-09-23T10:27:45Z"
 }
