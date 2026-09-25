@@ -8590,23 +8590,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OYTBrK4g/",
           "youtube_url": null
-        },
-        {
-          "match_id": "bkXG6ogS",
-          "date": "2023-09-24",
-          "home_team": "Ruch Chorzow",
-          "away_team": "Rakow",
-          "score": "3-5",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "W",
-          "player_minutes": 11,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/bkXG6ogS/",
-          "youtube_url": null
         }
       ]
     },
@@ -13496,23 +13479,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4bMMyimD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "UHkRnHeE",
-          "date": "2023-09-24",
-          "home_team": "Parma",
-          "away_team": "Sampdoria",
-          "score": "1-1",
-          "competition": "Serie B (Italy)",
-          "result": "D",
-          "player_minutes": 25,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/UHkRnHeE/",
-          "youtube_url": null
         }
       ]
     },
@@ -16324,7 +16290,7 @@
       "name": "Horatiu Moldovan",
       "flashscore_id": "SxjadbLU",
       "slug": "moldovan-horatiu",
-      "position": null,
+      "position": "Goalkeeper",
       "photo": "https://static.flashscore.com/res/image/data/ncT8fZzB-CxtO1flo.png",
       "age": 28,
       "market_value": "€1.7m",
@@ -25096,7 +25062,7 @@
       "name": "Stefan Vladoiu",
       "flashscore_id": "EDMFR6EF",
       "slug": "vladoiu-stefan",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/2aMtgiYg-rJJcu7t4.png",
       "age": 27,
       "market_value": "€665k",
@@ -30000,23 +29966,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/rsBbrClG/",
           "youtube_url": null
-        },
-        {
-          "match_id": "l6WLUhKG",
-          "date": "2023-09-24",
-          "home_team": "Gyor",
-          "away_team": "Haladas",
-          "score": "1-1",
-          "competition": "NB II. (Hungary)",
-          "result": "D",
-          "player_minutes": 88,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/l6WLUhKG/",
-          "youtube_url": null
         }
       ]
     },
@@ -32507,25 +32456,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/rsBbrClG/",
           "youtube_url": null
-        },
-        {
-          "match_id": "l6WLUhKG",
-          "date": "2023-09-24",
-          "home_team": "Gyor",
-          "away_team": "Haladas",
-          "score": "1-1",
-          "competition": "NB II. (Hungary)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "7'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/l6WLUhKG/",
-          "youtube_url": null
         }
       ]
     },
@@ -34615,7 +34545,7 @@
       "name": "Deian Boldor",
       "flashscore_id": "jNc8T5b3",
       "slug": "boldor-dejan",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/UmmsRNBr-j3DZeqbm.png",
       "age": 31,
       "market_value": "€190k",
@@ -36939,23 +36869,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/rsBbrClG/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "l6WLUhKG",
-          "date": "2023-09-24",
-          "home_team": "Gyor",
-          "away_team": "Haladas",
-          "score": "1-1",
-          "competition": "NB II. (Hungary)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/l6WLUhKG/",
           "youtube_url": null
         }
       ]
@@ -42515,23 +42428,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/8IVm5CNL/",
           "youtube_url": null
-        },
-        {
-          "match_id": "8phL3anH",
-          "date": "2023-09-24",
-          "home_team": "Torino",
-          "away_team": "AS Roma",
-          "score": "1-1",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/8phL3anH/",
-          "youtube_url": null
         }
       ]
     },
@@ -44912,7 +44808,7 @@
       "name": "Bogdan Racovitan",
       "flashscore_id": "Kpq2SX0B",
       "slug": "racovitan-bogdan",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/YyArExg5-Kl6fapVl.png",
       "age": 26,
       "market_value": "€2.3m",
@@ -47931,23 +47827,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OYTBrK4g/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "bkXG6ogS",
-          "date": "2023-09-24",
-          "home_team": "Ruch Chorzow",
-          "away_team": "Rakow",
-          "score": "3-5",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/bkXG6ogS/",
           "youtube_url": null
         }
       ]
@@ -57901,23 +57780,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xhUDV3PE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Ova5SNFi",
-          "date": "2023-09-24",
-          "home_team": "Petrolul",
-          "away_team": "FC Hermannstadt",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Ova5SNFi/",
           "youtube_url": null
         }
       ]
@@ -84772,23 +84634,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/jNpkpBod/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Wvcd93Iu",
-          "date": "2023-09-24",
-          "home_team": "Empoli",
-          "away_team": "Inter",
-          "score": "0-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": 69,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Wvcd93Iu/",
-          "youtube_url": null
         }
       ]
     },
@@ -87815,23 +87660,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
           "youtube_url": null
         }
       ]
@@ -91002,25 +90830,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "6'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
           "youtube_url": null
         }
       ]
@@ -94245,27 +94054,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "69'"
-          ],
-          "assist_minutes": [
-            "11'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
           "youtube_url": null
         }
       ]
@@ -108199,23 +107987,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/U5gv5nm4/",
           "youtube_url": null
-        },
-        {
-          "match_id": "APS8k7mH",
-          "date": "2023-09-24",
-          "home_team": "FC Dallas",
-          "away_team": "Columbus Crew",
-          "score": "1-1",
-          "competition": "MLS (USA)",
-          "result": "D",
-          "player_minutes": 88,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/APS8k7mH/",
-          "youtube_url": null
         }
       ]
     },
@@ -111332,23 +111103,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/IDO0d3La/",
           "youtube_url": null
-        },
-        {
-          "match_id": "YJFgC9cg",
-          "date": "2023-09-24",
-          "home_team": "Orlando City B",
-          "away_team": "Cincinnati 2",
-          "score": "2-1",
-          "competition": "MLS Next Pro (USA)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/YJFgC9cg/",
-          "youtube_url": null
         }
       ]
     },
@@ -114337,23 +114091,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4xmZwA2D/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "fuLL4KHp",
-          "date": "2023-09-24",
-          "home_team": "Brighton",
-          "away_team": "Bournemouth",
-          "score": "3-1",
-          "competition": "Premier League (England)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/fuLL4KHp/",
           "youtube_url": null
         }
       ]
@@ -117582,23 +117319,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/CEYt8hRp/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "6DkbGGJ4",
-          "date": "2023-09-24",
-          "home_team": "Rayo Vallecano",
-          "away_team": "Villarreal",
-          "score": "1-1",
-          "competition": "LaLiga (Spain)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6DkbGGJ4/",
           "youtube_url": null
         }
       ]
@@ -120965,7 +120685,7 @@
       "name": "Daniel Birligea",
       "flashscore_id": "rioZTll9",
       "slug": "birligea-daniel",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/0b4dSLFG-thxpIwca.png",
       "age": 26,
       "market_value": "€4.3m",
@@ -152092,23 +151812,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OpGPYyqr/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Iolhipa9",
-          "date": "2023-09-24",
-          "home_team": "Zalgiris",
-          "away_team": "Kauno Zalgiris",
-          "score": "0-2",
-          "competition": "TOPLYGA (Lithuania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Iolhipa9/",
-          "youtube_url": null
         }
       ]
     },
@@ -164311,23 +164014,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/neReOjcp/",
           "youtube_url": null
-        },
-        {
-          "match_id": "6Nz1ZG5o",
-          "date": "2023-09-24",
-          "home_team": "Pecsi MFC",
-          "away_team": "Csakvari",
-          "score": "0-1",
-          "competition": "NB II. (Hungary)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6Nz1ZG5o/",
-          "youtube_url": null
         }
       ]
     },
@@ -166574,23 +166260,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xhUDV3PE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Ova5SNFi",
-          "date": "2023-09-24",
-          "home_team": "Petrolul",
-          "away_team": "FC Hermannstadt",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Ova5SNFi/",
           "youtube_url": null
         }
       ]
@@ -169111,23 +168780,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xhUDV3PE/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Ova5SNFi",
-          "date": "2023-09-24",
-          "home_team": "Petrolul",
-          "away_team": "FC Hermannstadt",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Ova5SNFi/",
-          "youtube_url": null
         }
       ]
     },
@@ -171282,23 +170934,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xhUDV3PE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
           "youtube_url": null
         }
       ]
@@ -183409,23 +183044,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
           "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
-          "youtube_url": null
         }
       ]
     },
@@ -189290,27 +188908,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
           "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 76,
-          "player_goals": 1,
-          "player_assists": 1,
-          "goal_minutes": [
-            "11'"
-          ],
-          "assist_minutes": [
-            "57'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
-          "youtube_url": null
         }
       ]
     },
@@ -191932,23 +191529,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Mmhogdjq/",
           "youtube_url": null
-        },
-        {
-          "match_id": "fw860vb9",
-          "date": "2023-09-24",
-          "home_team": "Apollon",
-          "away_team": "AEL Limassol",
-          "score": "2-0",
-          "competition": "Cyprus League (Cyprus)",
-          "result": "W",
-          "player_minutes": 78,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/fw860vb9/",
-          "youtube_url": null
         }
       ]
     },
@@ -191956,7 +191536,7 @@
       "name": "Florinel Coman",
       "flashscore_id": "vsoaSbd6",
       "slug": "coman-florinel",
-      "position": null,
+      "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/rg2KPMxS-vFbfpq4q.png",
       "age": 28,
       "market_value": "€3.0m",
@@ -194415,27 +193995,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4nOtLA7O/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "AeVn6Xbk",
-          "date": "2023-09-24",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FCSB",
-          "score": "2-5",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 1,
-          "goal_minutes": [
-            "57'"
-          ],
-          "assist_minutes": [
-            "69'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/AeVn6Xbk/",
           "youtube_url": null
         }
       ]
@@ -199918,23 +199477,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4bMMyimD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "UHkRnHeE",
-          "date": "2023-09-24",
-          "home_team": "Parma",
-          "away_team": "Sampdoria",
-          "score": "1-1",
-          "competition": "Serie B (Italy)",
-          "result": "D",
-          "player_minutes": 58,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/UHkRnHeE/",
-          "youtube_url": null
         }
       ]
     },
@@ -203839,5 +203381,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-24T10:41:44Z"
+  "updated_at": "2026-09-25T10:43:51Z"
 }
