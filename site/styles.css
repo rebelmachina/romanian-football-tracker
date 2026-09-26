@@ -338,12 +338,31 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 .nat-block { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
 .nat-h { margin: 0 0 12px; font-size: 17px; display: flex; align-items: center; gap: 8px; }
 .nat-sub { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin: 16px 0 6px; }
-.nat-res { display: grid; grid-template-columns: 62px 1fr auto; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; }
+.nat-controls { color: var(--muted); font-size: 12.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 6px; }
+.nat-controls select { background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 8px; padding: 4px 8px; font-size: 12.5px; cursor: pointer; outline: none; }
+.nat-res { display: grid; grid-template-columns: 22px 54px 1fr auto; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; }
 .nat-res:last-child { border-bottom: none; }
 .nat-res .date { color: var(--muted); font-size: 11px; }
+.wdl.dot { width: 18px; height: 18px; }
 .nat-fix { min-width: 0; }
 .nat-line { overflow: hidden; text-overflow: ellipsis; }
 .nat-comp { font-size: 10.5px; color: var(--muted); margin-top: 1px; }
+
+.wdl-sum { background: var(--panel-2); border-radius: 10px; padding: 10px 12px; margin: 12px 0 4px; }
+.wdl-counts { font-size: 13px; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.wdl-counts b { font-size: 17px; }
+.wdl-counts b.w { color: var(--win); }
+.wdl-counts b.d { color: var(--draw); }
+.wdl-counts b.l { color: var(--loss); }
+.wdl-rate { margin-left: auto; font-weight: 800; color: var(--accent); }
+.wdl-n { color: var(--muted); font-size: 11px; }
+.wdl-form { display: flex; gap: 3px; margin-top: 8px; flex-wrap: wrap; }
+.wdl-form .dot { width: 16px; height: 16px; font-size: 9px; }
+
+.fifa { font-size: 12px; font-weight: 700; background: var(--panel-2); border: 1px solid var(--line);
+  border-radius: 999px; padding: 3px 10px; margin-left: auto; white-space: nowrap; }
+.fifa .up { color: var(--win); }
+.fifa .down { color: var(--loss); }
 
 .standings { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
 .standings-title { background: var(--panel-2); padding: 8px 12px; font-weight: 700; font-size: 12.5px; }

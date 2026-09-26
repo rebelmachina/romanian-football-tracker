@@ -25,6 +25,7 @@ from flashscore.player import fetch_player_data, fetch_match_history, PlayerData
 from flashscore.highlights import fetch_highlight
 from flashscore.incidents import fetch_incidents, player_minutes
 from flashscore.standings import fetch_standings
+from fifa import fetch_fifa_ranking
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "site" / "data.json"
@@ -226,6 +227,10 @@ def main(argv=None) -> int:
                 standings.append({"key": c["key"], "name": c["name"], "table": table})
                 print(f"  standings: {c['name']} ({len(table)} teams)")
         data["standings"] = standings
+        fifa = fetch_fifa_ranking(session=session)
+        if fifa:
+            data["fifa"] = fifa
+            print(f"  FIFA ranking: #{fifa['rank']} ({fifa['points']} pts)")
 
     data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)

@@ -71,7 +71,18 @@ function closeVideoModal() {
 }
 
 let STATE = { players: [], filter: "", pos: "", league: "", range: "season",
-              view: "classic", sel: 0, list: [], sortBy: "league", sortDir: "desc" };
+              view: "classic", sel: 0, list: [], sortBy: "league", sortDir: "desc",
+              standings: [], fifa: null, natN: 10 };
+
+function romaniaWDL(r) {
+  const parts = String(r.score || "").split("-");
+  const hs = parseInt(parts[0], 10), as = parseInt(parts[1], 10);
+  if (isNaN(hs) || isNaN(as)) return "";
+  const home = /Romania/.test(r.home_team || ""), away = /Romania/.test(r.away_team || "");
+  const gf = home ? hs : (away ? as : NaN), ga = home ? as : (away ? hs : NaN);
+  if (isNaN(gf)) return "";
+  return gf > ga ? "W" : gf < ga ? "L" : "D";
+}
 
 function parseMarketValue(v) {
   const m = String(v || "").match(/([\d.]+)\s*([kmb])?/i);
@@ -298,7 +309,7 @@ function nationalResults() {
     }
   }
   const sortDesc = o => Object.values(o).sort((a, b) => b.date.localeCompare(a.date));
-  return { senior: sortDesc(senior).slice(0, 20), u21: sortDesc(u21).slice(0, 20) };
+  return { senior: sortDesc(senior), u21: sortDesc(u21) };
 }
 
 function natRow(r) {
@@ -307,7 +318,9 @@ function natRow(r) {
   const fs = r.flashscore_url
     ? `<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">${FS_ICON}</a>` : "";
   const comp = esc((r.competition || "").replace(/\s*\([^)]*\)\s*$/, ""));
+  const res = romaniaWDL(r);
   return `<div class="nat-res">
+    <span class="wdl dot ${res}">${res || "·"}</span>
     <span class="date">${esc(r.date)}</span>
     <div class="nat-fix">
       <div class="nat-line">${teamMark(r.home_team, "Romania")} <b>${esc(r.score)}</b> ${teamMark(r.away_team, "Romania")}</div>
@@ -315,6 +328,33 @@ function natRow(r) {
     </div>
     <span class="res-right">${yt}${fs}</span>
   </div>`;
+}
+
+function wdlSummary(games) {
+  const n = STATE.natN === "all" ? games.length : STATE.natN;
+  const slice = games.slice(0, n);
+  let w = 0, dr = 0, l = 0;
+  for (const r of slice) { const x = romaniaWDL(r); if (x === "W") w++; else if (x === "D") dr++; else if (x === "L") l++; }
+  const total = w + dr + l;
+  const rate = total ? Math.round((w / total) * 100) : 0;
+  const dots = slice.map(r => `<span class="dot ${romaniaWDL(r)}">${romaniaWDL(r) || "·"}</span>`).join("");
+  return `<div class="wdl-sum">
+    <div class="wdl-counts">
+      <b class="w">${w}</b> V &nbsp; <b class="d">${dr}</b> E &nbsp; <b class="l">${l}</b> Î
+      <span class="wdl-rate">${rate}% victorii</span>
+      <span class="wdl-n">(din ${total})</span>
+    </div>
+    <div class="wdl-form">${dots}</div>
+  </div>`;
+}
+
+function fifaBadge() {
+  const f = STATE.fifa;
+  if (!f || !f.rank) return "";
+  const delta = f.previous_rank ? f.previous_rank - f.rank : 0;   // >0 = climbed
+  const trend = delta > 0 ? `<span class="up">▲${delta}</span>`
+    : delta < 0 ? `<span class="down">▼${-delta}</span>` : "";
+  return `<span class="fifa" title="Clasament FIFA (${f.points ?? ""} pct)">FIFA #${f.rank} ${trend}</span>`;
 }
 
 function standingsTable(st) {
@@ -337,18 +377,25 @@ function renderNational() {
   const app = document.getElementById("app");
   const { senior, u21 } = nationalResults();
   const st = STATE.standings || [];
-  const emptyRow = '<div class="res"><span class="muted">Niciun rezultat.</span></div>';
-  const block = (title, games, standing) => `
+  const emptyRow = '<div class="nat-res"><span class="muted">Niciun rezultat.</span></div>';
+  const nOpts = [10, 20, 30, 50].map(x => `<option value="${x}" ${STATE.natN == x ? "selected" : ""}>${x}</option>`).join("")
+    + `<option value="all" ${STATE.natN === "all" ? "selected" : ""}>toate</option>`;
+  const nBar = `<div class="nat-controls">Statistici pe ultimele
+    <select id="nat-n">${nOpts}</select> meciuri</div>`;
+  const shown = games => STATE.natN === "all" ? games : games.slice(0, STATE.natN);
+  const block = (title, games, standing, extra) => `
     <section class="nat-block">
-      <h2 class="nat-h"><span class="flag">🇷🇴</span> ${title}</h2>
+      <h2 class="nat-h"><span class="flag">🇷🇴</span> ${title} ${extra || ""}</h2>
       ${standingsTable(standing)}
-      <div class="nat-sub">Ultimele rezultate</div>
-      <div class="results nat-results">${games.map(natRow).join("") || emptyRow}</div>
+      ${wdlSummary(games)}
+      <div class="nat-sub">Rezultate</div>
+      <div class="results nat-results">${shown(games).map(natRow).join("") || emptyRow}</div>
     </section>`;
-  app.innerHTML = `<div class="nat-view">
-    ${block("Naționala României", senior, st.find(s => s.key === "senior"))}
-    ${block("România U21", u21, st.find(s => s.key === "u21"))}
-  </div>`;
+  app.innerHTML = `${nBar}
+    <div class="nat-view">
+      ${block("Naționala României", senior, st.find(s => s.key === "senior"), fifaBadge())}
+      ${block("România U21", u21, st.find(s => s.key === "u21"), "")}
+    </div>`;
 }
 
 function renderClassic() {
@@ -673,6 +720,7 @@ function populateLeagues() {
 function boot(data) {
   STATE.players = data.players || [];
   STATE.standings = data.standings || [];
+  STATE.fifa = data.fifa || null;
   populateLeagues();
   updateEventsBadge();
   if (data.updated_at) {
@@ -704,8 +752,9 @@ document.getElementById("filter-league").addEventListener("change", e => {
 document.getElementById("range").addEventListener("change", e => {
   STATE.range = e.target.value; onFilterChange();
 });
-document.addEventListener("change", e => {   // arcade sort (dynamic element → delegated)
+document.addEventListener("change", e => {   // dynamic controls → delegated
   if (e.target.id === "mk-sortby") { STATE.sortBy = e.target.value; STATE.sel = 0; render(); }
+  else if (e.target.id === "nat-n") { STATE.natN = e.target.value === "all" ? "all" : +e.target.value; render(); }
 });
 
 fetch("./data.json")
