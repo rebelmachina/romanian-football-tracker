@@ -7,7 +7,7 @@
       "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/Wpwr27yB-bNuj1vCp.png",
       "age": 20,
-      "market_value": "€2.5m",
+      "market_value": "€2.4m",
       "team": "Corum",
       "team_logo": "https://static.flashscore.com/res/image/data/ShtFJk96-nsVkkOor.png",
       "career_teams": [
@@ -43,6 +43,23 @@
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "nce5F96r",
           "date": "2026-09-19",
@@ -2798,23 +2815,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
           "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
-          "youtube_url": null
         }
       ]
     },
@@ -2825,7 +2825,7 @@
       "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/Qwcrzkhl-ncocrmpN.png",
       "age": 23,
-      "market_value": "€2.4m",
+      "market_value": "€2.3m",
       "team": "Kasimpasa",
       "team_logo": "https://static.flashscore.com/res/image/data/QFcwe9oe-bXbFnt9g.png",
       "career_teams": [
@@ -2861,6 +2861,23 @@
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "Ae0AXmBT",
           "date": "2026-09-18",
@@ -5772,23 +5789,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
           "youtube_url": null
         }
       ]
@@ -10832,7 +10832,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 36,
+        "caps": 37,
         "goals": 5,
         "assists": 3
       },
@@ -10844,6 +10844,23 @@
         "rating": "6.0"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "tbTXXHM9",
           "date": "2026-09-20",
@@ -13489,7 +13506,7 @@
       "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/pdRfhOGG-d2RYcwgl.png",
       "age": 19,
-      "market_value": "€94k",
+      "market_value": "€96k",
       "team": "Rizespor",
       "team_logo": "https://static.flashscore.com/res/image/data/W4mOfm86-rZkRF8yE.png",
       "career_teams": [
@@ -19017,23 +19034,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
           "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
-          "youtube_url": null
         }
       ]
     },
@@ -19088,7 +19088,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 54,
+        "caps": 55,
         "goals": 8,
         "assists": 5
       },
@@ -19096,10 +19096,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 4,
-        "minutes": 153,
+        "minutes": 140,
         "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 67,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "nce5F96r",
           "date": "2026-09-19",
@@ -36917,10 +36934,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 9,
-        "minutes": 810,
+        "minutes": 720,
         "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "MuqwdSTO",
           "date": "2026-09-20",
@@ -39844,23 +39878,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
-          "youtube_url": null
         }
       ]
     },
@@ -42438,7 +42455,7 @@
       "position": "Goalkeeper",
       "photo": "https://static.flashscore.com/res/image/data/xIIEyxYg-KrmZizPc.png",
       "age": 30,
-      "market_value": "€685k",
+      "market_value": "€705k",
       "team": "Pogon Szczecin",
       "team_logo": "https://static.flashscore.com/res/image/data/4llzD25k-vLZ2ZgBC.png",
       "career_teams": [
@@ -47875,6 +47892,26 @@
         "rating": null
       },
       "results": [
+        {
+          "match_id": "EybX7Q0D",
+          "date": "2026-09-25",
+          "home_team": "Cyprus U21",
+          "away_team": "Romania U21",
+          "score": "0-3",
+          "competition": "Euro U21 (Europe)",
+          "result": "W",
+          "player_minutes": 67,
+          "player_goals": 2,
+          "player_assists": 0,
+          "goal_minutes": [
+            "34'",
+            "44'"
+          ],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/EybX7Q0D/",
+          "youtube_url": null
+        },
         {
           "match_id": "t2sNaAUa",
           "date": "2026-09-18",
@@ -60383,7 +60420,7 @@
       "country": "China",
       "group": "Super League (China)",
       "nt": {
-        "caps": 89,
+        "caps": 90,
         "goals": 15,
         "assists": 6
       },
@@ -60395,6 +60432,23 @@
         "rating": "7.7"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 9,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "rXGneHM7",
           "date": "2026-09-05",
@@ -63003,6 +63057,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "EZcCBx7l",
           "date": "2026-09-06",
@@ -67288,25 +67359,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
           "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 81,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "51'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
-          "youtube_url": null
         }
       ]
     },
@@ -69944,7 +69996,7 @@
       "name": "Alexandru Cimpanu",
       "flashscore_id": "GYzkDZSr",
       "slug": "campanu-george",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/CYD2GMBr-SOhAMYF6.png",
       "age": 25,
       "market_value": "€979k",
@@ -75143,7 +75195,7 @@
       "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/0xwhvUCr-ttC8EQM7.png",
       "age": 22,
-      "market_value": "€440k",
+      "market_value": "€433k",
       "team": "Sudtirol",
       "team_logo": "https://static.flashscore.com/res/image/data/2Xf8oTjT-UJeBD3ZT.png",
       "career_teams": [
@@ -75180,6 +75232,23 @@
         "rating": "6.2"
       },
       "results": [
+        {
+          "match_id": "EybX7Q0D",
+          "date": "2026-09-25",
+          "home_team": "Cyprus U21",
+          "away_team": "Romania U21",
+          "score": "0-3",
+          "competition": "Euro U21 (Europe)",
+          "result": "W",
+          "player_minutes": 80,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/EybX7Q0D/",
+          "youtube_url": null
+        },
         {
           "match_id": "dnyH4n1S",
           "date": "2026-09-20",
@@ -78366,7 +78435,7 @@
       "name": "Antonio David",
       "flashscore_id": "ju6yFXN1",
       "slug": "david-antonio",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/MsI7Mxg5-KjwGYsO8.png",
       "age": 22,
       "market_value": "€238k",
@@ -81533,7 +81602,7 @@
       "country": "Greece",
       "group": "Super League (Greece)",
       "nt": {
-        "caps": 77,
+        "caps": 78,
         "goals": 12,
         "assists": 10
       },
@@ -81545,6 +81614,23 @@
         "rating": "7.5"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 81,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "lfso6MnD",
           "date": "2026-09-20",
@@ -84641,7 +84727,7 @@
       "name": "Alexandru Pantea",
       "flashscore_id": "67qSFgVp",
       "slug": "pantea-grigoras",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/ERPWwohl-AgDvSxCJ.png",
       "age": 23,
       "market_value": "€665k",
@@ -94099,7 +94185,7 @@
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
       "nt": {
-        "caps": 8,
+        "caps": 9,
         "goals": 0,
         "assists": 0
       },
@@ -94111,6 +94197,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 1,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "fyrnYoRh",
           "date": "2026-09-18",
@@ -97124,7 +97227,7 @@
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
       "nt": {
-        "caps": 30,
+        "caps": 31,
         "goals": 5,
         "assists": 3
       },
@@ -97136,6 +97239,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "drTSSjkD",
           "date": "2026-09-20",
@@ -100257,6 +100377,23 @@
       },
       "results": [
         {
+          "match_id": "EybX7Q0D",
+          "date": "2026-09-25",
+          "home_team": "Cyprus U21",
+          "away_team": "Romania U21",
+          "score": "0-3",
+          "competition": "Euro U21 (Europe)",
+          "result": "W",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/EybX7Q0D/",
+          "youtube_url": null
+        },
+        {
           "match_id": "0YpfWPe5",
           "date": "2026-09-18",
           "home_team": "Omonia 29th May",
@@ -102663,7 +102800,7 @@
       "country": "USA",
       "group": "MLS (USA)",
       "nt": {
-        "caps": 6,
+        "caps": 7,
         "goals": 3,
         "assists": 0
       },
@@ -102671,10 +102808,27 @@
         "goals": 6,
         "assists": 2,
         "appearances": 22,
-        "minutes": 827,
+        "minutes": 759,
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 67,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "QJikq6bM",
           "date": "2026-09-20",
@@ -111157,7 +111311,7 @@
       "country": "Spain",
       "group": "LaLiga (Spain)",
       "nt": {
-        "caps": 9,
+        "caps": 10,
         "goals": 0,
         "assists": 0
       },
@@ -111169,6 +111323,23 @@
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "QTZ4fb97",
           "date": "2026-09-19",
@@ -114136,9 +114307,9 @@
       "country": "Spain",
       "group": "LaLiga (Spain)",
       "nt": {
-        "caps": 38,
+        "caps": 39,
         "goals": 2,
-        "assists": 2
+        "assists": 3
       },
       "season_stats": {
         "goals": 1,
@@ -114148,6 +114319,25 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 1,
+          "goal_minutes": [],
+          "assist_minutes": [
+            "29'"
+          ],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "UcUy9cO0",
           "date": "2026-09-19",
@@ -117374,7 +117564,7 @@
       "country": "Italy",
       "group": "Serie A (Italy)",
       "nt": {
-        "caps": 30,
+        "caps": 31,
         "goals": 1,
         "assists": 0
       },
@@ -117386,6 +117576,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "2erPoYRa",
           "date": "2026-09-20",
@@ -120685,7 +120892,7 @@
       "name": "Daniel Birligea",
       "flashscore_id": "rioZTll9",
       "slug": "birligea-daniel",
-      "position": null,
+      "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/0b4dSLFG-thxpIwca.png",
       "age": 26,
       "market_value": "€4.3m",
@@ -124151,23 +124358,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "x4EAPLaA",
-          "date": "2023-09-25",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "CFR Cluj",
-          "score": "3-1",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": 62,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/x4EAPLaA/",
-          "youtube_url": null
         }
       ]
     },
@@ -124178,7 +124368,7 @@
       "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/pQUojeWg-KjknPk8B.png",
       "age": 21,
-      "market_value": "€562k",
+      "market_value": "€570k",
       "team": "Bristol City",
       "team_logo": "https://static.flashscore.com/res/image/data/CGC2jhT0-OdaWmcNh.png",
       "career_teams": [
@@ -124219,6 +124409,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "vNjgS91e",
           "date": "2026-09-18",
@@ -126991,7 +127198,7 @@
       "country": "England",
       "group": "Championship (England)",
       "nt": {
-        "caps": 3,
+        "caps": 4,
         "goals": 0,
         "assists": 0
       },
@@ -126999,10 +127206,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 6,
-        "minutes": 309,
+        "minutes": 308,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "dfmonh7s",
           "date": "2026-09-19",
@@ -138115,7 +138339,7 @@
       "name": "Vlad Pop",
       "flashscore_id": "WMKNEADT",
       "slug": "pop-vlad",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/0USQiowS-pUCSMCHp.png",
       "age": 26,
       "market_value": "€323k",
@@ -157468,23 +157692,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xr90RrGa/",
           "youtube_url": null
-        },
-        {
-          "match_id": "M5aIE5Wg",
-          "date": "2023-09-25",
-          "home_team": "Wexford",
-          "away_team": "Longford",
-          "score": "2-0",
-          "competition": "Division 1 (Ireland)",
-          "result": "L",
-          "player_minutes": 28,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/M5aIE5Wg/",
-          "youtube_url": null
         }
       ]
     },
@@ -164065,6 +164272,25 @@
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "EybX7Q0D",
+          "date": "2026-09-25",
+          "home_team": "Cyprus U21",
+          "away_team": "Romania U21",
+          "score": "0-3",
+          "competition": "Euro U21 (Europe)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "89'"
+          ],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/EybX7Q0D/",
+          "youtube_url": null
+        },
         {
           "match_id": "jiBADrkI",
           "date": "2026-09-19",
@@ -170979,7 +171205,7 @@
       "country": "Germany",
       "group": "2. Bundesliga (Germany)",
       "nt": {
-        "caps": 10,
+        "caps": 11,
         "goals": 1,
         "assists": 0
       },
@@ -170987,10 +171213,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 4,
-        "minutes": 323,
+        "minutes": 322,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "EukNf5T7",
           "date": "2026-09-20",
@@ -185394,7 +185637,7 @@
       "position": "Midfielder",
       "photo": "https://static.flashscore.com/res/image/data/rBsWGcEG-SvDxGa5l.png",
       "age": 28,
-      "market_value": "€4.5m",
+      "market_value": "€4.4m",
       "team": "Royale Union SG",
       "team_logo": "https://static.flashscore.com/res/image/data/fkZqVUUH-KrZtIamS.png",
       "career_teams": [
@@ -185430,6 +185673,23 @@
         "rating": "7.1"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "jFLZQsko",
           "date": "2026-09-20",
@@ -196554,8 +196814,8 @@
       "country": "Netherlands",
       "group": "Eredivisie (Netherlands)",
       "nt": {
-        "caps": 45,
-        "goals": 11,
+        "caps": 46,
+        "goals": 12,
         "assists": 6
       },
       "season_stats": {
@@ -196566,6 +196826,25 @@
         "rating": "6.3"
       },
       "results": [
+        {
+          "match_id": "f5mQYTn9",
+          "date": "2026-09-25",
+          "home_team": "Sweden",
+          "away_team": "Romania",
+          "score": "2-1",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 89,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "29'"
+          ],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/f5mQYTn9/",
+          "youtube_url": "https://www.youtube.com/watch?v=f5w5NdAp7ro&t=411s"
+        },
         {
           "match_id": "2oyPOHbm",
           "date": "2026-09-20",
@@ -203381,5 +203660,5 @@
       ]
     }
   ],
-  "updated_at": "2026-09-26T07:10:01Z"
+  "updated_at": "2026-09-26T07:25:24Z"
 }
