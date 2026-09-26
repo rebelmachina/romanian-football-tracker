@@ -123,6 +123,9 @@ git-ignored `site/token.js` loaded in `index.html`.
 - **▦ Clasic** (default) — player cards grouped by league, each with a profile photo.
 - **🎮 Arcade** — a fighter-select-style grid of player faces; navigate with the
   arrow keys (← ↑ ↓ →) or click, and the selected player's card shows on the right.
+  Sort the grid by goals / assists / minutes / age / market value.
+- **🇷🇴 Naționala** — latest results for the senior national team and U21, plus
+  the U21 qualifying group standings (see `standings` in `players.yaml`).
 
 The choice is remembered per browser.
 

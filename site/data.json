@@ -203660,5 +203660,91 @@
       ]
     }
   ],
-  "updated_at": "2026-09-26T07:25:24Z"
+  "updated_at": "2026-09-26T07:25:24Z",
+  "standings": [
+    {
+      "key": "u21",
+      "name": "EURO U21 · Preliminarii",
+      "table": [
+        {
+          "rank": 1,
+          "team": "Spain U21",
+          "team_id": "8htN2to0",
+          "played": 8,
+          "win": 7,
+          "draw": 0,
+          "loss": 1,
+          "gf": 27,
+          "ga": 4,
+          "points": 21,
+          "is_romania": false
+        },
+        {
+          "rank": 2,
+          "team": "Finland U21",
+          "team_id": "ziUu4r1s",
+          "played": 8,
+          "win": 6,
+          "draw": 1,
+          "loss": 1,
+          "gf": 28,
+          "ga": 3,
+          "points": 19,
+          "is_romania": false
+        },
+        {
+          "rank": 3,
+          "team": "Romania U21",
+          "team_id": "dhDp7QEq",
+          "played": 8,
+          "win": 5,
+          "draw": 1,
+          "loss": 2,
+          "gf": 11,
+          "ga": 4,
+          "points": 16,
+          "is_romania": true
+        },
+        {
+          "rank": 4,
+          "team": "Kosovo U21",
+          "team_id": "GSciy3HM",
+          "played": 8,
+          "win": 3,
+          "draw": 2,
+          "loss": 3,
+          "gf": 15,
+          "ga": 6,
+          "points": 11,
+          "is_romania": false
+        },
+        {
+          "rank": 5,
+          "team": "Cyprus U21",
+          "team_id": "0U1KQdKm",
+          "played": 8,
+          "win": 1,
+          "draw": 0,
+          "loss": 7,
+          "gf": 5,
+          "ga": 27,
+          "points": 3,
+          "is_romania": false
+        },
+        {
+          "rank": 6,
+          "team": "San Marino U21",
+          "team_id": "2ywYZKat",
+          "played": 8,
+          "win": 0,
+          "draw": 0,
+          "loss": 8,
+          "gf": 0,
+          "ga": 42,
+          "points": 0,
+          "is_romania": false
+        }
+      ]
+    }
+  ]
 }

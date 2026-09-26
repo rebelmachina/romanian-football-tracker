@@ -22,6 +22,12 @@ def load_players(path: str | Path) -> list[PlayerConfig]:
     return result
 
 
+def load_standings(path: str | Path) -> list[dict]:
+    """Top-level `standings` list in players.yaml (key, name, team_id, feed)."""
+    data = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
+    return data.get("standings", []) or []
+
+
 def load_history_years(path: str | Path, default: float = 1.0) -> float:
     """Top-level `history_years` in players.yaml — how far back to scrape."""
     data = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}

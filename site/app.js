@@ -279,7 +279,76 @@ function updateSummary() {
 function render() {
   updateSummary();
   if (STATE.view === "arcade") renderArcade();
+  else if (STATE.view === "national") renderNational();
   else renderClassic();
+}
+
+/* ---- National teams view ---- */
+function nationalResults() {
+  const senior = {}, u21 = {};
+  for (const p of STATE.players) {
+    for (const r of (p.results || [])) {
+      if (!r.is_national) continue;
+      const names = `${r.home_team || ""}|${r.away_team || ""}`;
+      let bucket = null;
+      if (/Romania U21/.test(names)) bucket = u21;
+      else if (/(^|\|)Romania(\||$)/.test(names)) bucket = senior;  // exact senior, not U19/U20
+      else continue;
+      bucket[r.match_id] = r;   // dedupe across players
+    }
+  }
+  const sortDesc = o => Object.values(o).sort((a, b) => b.date.localeCompare(a.date));
+  return { senior: sortDesc(senior).slice(0, 20), u21: sortDesc(u21).slice(0, 20) };
+}
+
+function natRow(r) {
+  const yt = r.youtube_url
+    ? `<button class="icl ytbtn" data-yt="${esc(r.youtube_url)}" title="Rezumat video">${YT_ICON}</button>` : "";
+  const fs = r.flashscore_url
+    ? `<a class="icl" href="${esc(r.flashscore_url)}" target="_blank" rel="noopener" title="Flashscore">${FS_ICON}</a>` : "";
+  const comp = esc((r.competition || "").replace(/\s*\([^)]*\)\s*$/, ""));
+  return `<div class="nat-res">
+    <span class="date">${esc(r.date)}</span>
+    <div class="nat-fix">
+      <div class="nat-line">${teamMark(r.home_team, "Romania")} <b>${esc(r.score)}</b> ${teamMark(r.away_team, "Romania")}</div>
+      <div class="nat-comp">${comp}</div>
+    </div>
+    <span class="res-right">${yt}${fs}</span>
+  </div>`;
+}
+
+function standingsTable(st) {
+  if (!st || !st.table || !st.table.length) return "";
+  const rows = st.table.map(t => `
+    <tr class="${t.is_romania ? "me" : ""}">
+      <td>${t.rank}</td><td class="tn">${esc(t.team)}</td>
+      <td>${t.played}</td><td>${t.win}</td><td>${t.draw}</td><td>${t.loss}</td>
+      <td class="gd">${t.gf}:${t.ga}</td><td class="pts">${t.points}</td>
+    </tr>`).join("");
+  return `<div class="standings">
+    <div class="standings-title">${esc(st.name)}</div>
+    <table class="stand-table">
+      <thead><tr><th>#</th><th>Echipă</th><th>M</th><th>V</th><th>E</th><th>Î</th><th>Gol</th><th>P</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+}
+
+function renderNational() {
+  const app = document.getElementById("app");
+  const { senior, u21 } = nationalResults();
+  const st = STATE.standings || [];
+  const emptyRow = '<div class="res"><span class="muted">Niciun rezultat.</span></div>';
+  const block = (title, games, standing) => `
+    <section class="nat-block">
+      <h2 class="nat-h"><span class="flag">🇷🇴</span> ${title}</h2>
+      ${standingsTable(standing)}
+      <div class="nat-sub">Ultimele rezultate</div>
+      <div class="results nat-results">${games.map(natRow).join("") || emptyRow}</div>
+    </section>`;
+  app.innerHTML = `<div class="nat-view">
+    ${block("Naționala României", senior, st.find(s => s.key === "senior"))}
+    ${block("România U21", u21, st.find(s => s.key === "u21"))}
+  </div>`;
 }
 
 function renderClassic() {
@@ -603,6 +672,7 @@ function populateLeagues() {
 
 function boot(data) {
   STATE.players = data.players || [];
+  STATE.standings = data.standings || [];
   populateLeagues();
   updateEventsBadge();
   if (data.updated_at) {

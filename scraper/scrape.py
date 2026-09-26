@@ -19,11 +19,12 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import requests
 
-from config import load_players, load_history_years, PlayerConfig
+from config import load_players, load_history_years, load_standings, PlayerConfig
 from flashscore.search import search_players, PlayerHit
 from flashscore.player import fetch_player_data, fetch_match_history, PlayerData
 from flashscore.highlights import fetch_highlight
 from flashscore.incidents import fetch_incidents, player_minutes
+from flashscore.standings import fetch_standings
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "site" / "data.json"
@@ -218,6 +219,13 @@ def main(argv=None) -> int:
         since = args.since or (today - timedelta(days=round(365.25 * years))).strftime("%Y-%m-%d")
         print(f"Scraping {len(players)} players since {since} (~{years:g} yr)…")
         data = run_full(session, players, overrides, cache, inc_cache, today, since)
+        standings = []
+        for c in load_standings(ROOT / "players.yaml"):
+            table = fetch_standings(c["feed"], c["team_id"], session=session)
+            if table:
+                standings.append({"key": c["key"], "name": c["name"], "table": table})
+                print(f"  standings: {c['name']} ({len(table)} teams)")
+        data["standings"] = standings
 
     data["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)

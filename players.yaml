@@ -2,6 +2,16 @@
 # Change this and re-run the scrape to backfill further, e.g. 3 for last 3 years.
 history_years: 3
 
+# National-team group standings shown in the "Naționala" tab.
+# `feed` is Flashscore's `to_{tournamentTemplate}_{season}_1` standings feed;
+# update it when a new qualifying campaign starts. `team_id` is the Flashscore
+# team id whose group is shown (Romania U21 = dhDp7QEq, Romania = IaD8jZpU).
+standings:
+  - key: u21
+    name: "EURO U21 · Preliminarii"
+    team_id: dhDp7QEq
+    feed: to_xKT16Wx3_pdPbrav2_1
+
 players:
 - name: Andrei Borza
   flashscore_id: nVBUi3w2

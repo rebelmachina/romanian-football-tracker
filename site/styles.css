@@ -333,6 +333,31 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px; }
 }
 .rating { color: var(--muted); font-size: 11px; }
 
+/* National teams view */
+.nat-view { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; }
+.nat-block { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.nat-h { margin: 0 0 12px; font-size: 17px; display: flex; align-items: center; gap: 8px; }
+.nat-sub { font-size: 11px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted); margin: 16px 0 6px; }
+.nat-res { display: grid; grid-template-columns: 62px 1fr auto; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 12.5px; }
+.nat-res:last-child { border-bottom: none; }
+.nat-res .date { color: var(--muted); font-size: 11px; }
+.nat-fix { min-width: 0; }
+.nat-line { overflow: hidden; text-overflow: ellipsis; }
+.nat-comp { font-size: 10.5px; color: var(--muted); margin-top: 1px; }
+
+.standings { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.standings-title { background: var(--panel-2); padding: 8px 12px; font-weight: 700; font-size: 12.5px; }
+.stand-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.stand-table th, .stand-table td { padding: 6px 6px; text-align: center; }
+.stand-table th { color: var(--muted); font-weight: 600; font-size: 11px; border-bottom: 1px solid var(--line); }
+.stand-table td.tn { text-align: left; white-space: nowrap; }
+.stand-table td.gd { color: var(--muted); }
+.stand-table td.pts { font-weight: 800; }
+.stand-table tbody tr { border-bottom: 1px solid var(--line); }
+.stand-table tbody tr:last-child { border-bottom: none; }
+.stand-table tr.me { background: linear-gradient(90deg, rgba(252,209,22,.18), transparent); }
+.stand-table tr.me td.tn { font-weight: 800; color: var(--accent); }
+
 .foot { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; }
 
 /* Latest-events button + badge (on the blue topbar) */
