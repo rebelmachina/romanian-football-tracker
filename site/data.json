@@ -4,7 +4,7 @@
       "name": "Andrei Borza",
       "flashscore_id": "nVBUi3w2",
       "slug": "borza-andrei",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/Wpwr27yB-bNuj1vCp.png",
       "age": 20,
       "market_value": "€2.4m",
@@ -69996,7 +69996,7 @@
       "name": "Alexandru Cimpanu",
       "flashscore_id": "GYzkDZSr",
       "slug": "campanu-george",
-      "position": null,
+      "position": "Midfielder",
       "photo": "https://static.flashscore.com/res/image/data/CYD2GMBr-SOhAMYF6.png",
       "age": 25,
       "market_value": "€979k",
@@ -78435,7 +78435,7 @@
       "name": "Antonio David",
       "flashscore_id": "ju6yFXN1",
       "slug": "david-antonio",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/MsI7Mxg5-KjwGYsO8.png",
       "age": 22,
       "market_value": "€238k",
@@ -84727,7 +84727,7 @@
       "name": "Alexandru Pantea",
       "flashscore_id": "67qSFgVp",
       "slug": "pantea-grigoras",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/ERPWwohl-AgDvSxCJ.png",
       "age": 23,
       "market_value": "€665k",
@@ -94148,7 +94148,7 @@
       "name": "Vlad Dragomir",
       "flashscore_id": "G41aVCK1",
       "slug": "dragomir-vlad",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/QoJhVjzB-OEUmrXfo.png",
       "age": 27,
       "market_value": "€2.0m",
@@ -133381,7 +133381,7 @@
       "name": "Enes Sali",
       "flashscore_id": "61JVneEl",
       "slug": "sali-enes",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/xtuzfqZg-j90d9Epd.png",
       "age": 20,
       "market_value": "€817k",
@@ -136633,11 +136633,11 @@
       "age": 26,
       "market_value": "€363k",
       "team": "Safa Baku",
-      "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+      "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-f7Gs3sJH.png",
       "career_teams": [
         {
           "name": "Safa Baku",
-          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-f7Gs3sJH.png",
           "current": true
         },
         {
@@ -138339,16 +138339,16 @@
       "name": "Vlad Pop",
       "flashscore_id": "WMKNEADT",
       "slug": "pop-vlad",
-      "position": null,
+      "position": "Midfielder",
       "photo": "https://static.flashscore.com/res/image/data/0USQiowS-pUCSMCHp.png",
       "age": 26,
       "market_value": "€323k",
       "team": "Safa Baku",
-      "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+      "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-f7Gs3sJH.png",
       "career_teams": [
         {
           "name": "Safa Baku",
-          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-YP74qAWu.png",
+          "logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-f7Gs3sJH.png",
           "current": true
         },
         {
@@ -162194,7 +162194,7 @@
       "name": "Nandor Tamas",
       "flashscore_id": "ITcS2aZF",
       "slug": "tamas-nandor",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/xpyfzkBr-2uf3KPph.png",
       "age": 25,
       "market_value": "€136k",
@@ -177608,7 +177608,7 @@
       "name": "Marius Marin",
       "flashscore_id": "IeO9PQjK",
       "slug": "marin-marius",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/6oW6Wqil-IqzT50Pj.png",
       "age": 28,
       "market_value": "€2.7m",
@@ -199763,7 +199763,7 @@
       "name": "Ahmed Bani",
       "flashscore_id": "zamA4CY8",
       "slug": "bani-ahmed",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/d6ixYvFG-tz1gZZ5R.png",
       "age": 24,
       "market_value": "€343k",
@@ -203660,7 +203660,6 @@
       ]
     }
   ],
-  "updated_at": "2026-09-26T07:25:24Z",
   "standings": [
     {
       "key": "u21",
@@ -203751,5 +203750,6 @@
     "rank": 52,
     "points": 1455.89,
     "previous_rank": 54
-  }
+  },
+  "updated_at": "2026-09-26T10:27:47Z"
 }
