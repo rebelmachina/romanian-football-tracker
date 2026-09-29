@@ -44,6 +44,23 @@
       },
       "results": [
         {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
+        {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
           "home_team": "Sweden",
@@ -2798,23 +2815,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ILYf4BT1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ALGqqNgE",
-          "date": "2023-09-28",
-          "home_team": "FC Botosani",
-          "away_team": "FC Rapid Bucuresti",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
-          "youtube_url": null
         }
       ]
     },
@@ -2822,7 +2822,7 @@
       "name": "Matei Ilie",
       "flashscore_id": "MJHUOQk1",
       "slug": "ilie-matei",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/Qwcrzkhl-ncocrmpN.png",
       "age": 23,
       "market_value": "€2.3m",
@@ -2849,7 +2849,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "assists": 0
       },
@@ -2861,6 +2861,23 @@
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -5773,23 +5790,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4EEkQhjL/",
           "youtube_url": null
-        },
-        {
-          "match_id": "M5N1KwHD",
-          "date": "2023-09-28",
-          "home_team": "Alexandria",
-          "away_team": "CFR Cluj",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
-          "youtube_url": null
         }
       ]
     },
@@ -8571,25 +8571,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/O6ZsLp8L/",
           "youtube_url": null
-        },
-        {
-          "match_id": "OYTBrK4g",
-          "date": "2023-09-28",
-          "home_team": "Lech Poznan",
-          "away_team": "Rakow",
-          "score": "4-1",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "2'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OYTBrK4g/",
-          "youtube_url": null
         }
       ]
     },
@@ -10800,7 +10781,7 @@
       "name": "Valentin Mihaila",
       "flashscore_id": "OOFN5OX4",
       "slug": "mihaila-valentin",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/h8FyxDxS-MLhXcyV5.png",
       "age": 26,
       "market_value": "€3.3m",
@@ -10832,7 +10813,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 37,
+        "caps": 38,
         "goals": 5,
         "assists": 3
       },
@@ -10844,6 +10825,23 @@
         "rating": "6.0"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -19000,23 +18998,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ILYf4BT1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ALGqqNgE",
-          "date": "2023-09-28",
-          "home_team": "FC Botosani",
-          "away_team": "FC Rapid Bucuresti",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
-          "youtube_url": null
         }
       ]
     },
@@ -19024,7 +19005,7 @@
       "name": "Ianis Hagi",
       "flashscore_id": "CM16Bvc5",
       "slug": "hagi-ianis",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/YeGoVRZA-KG4I8Y4i.png",
       "age": 27,
       "market_value": "€1.8m",
@@ -22231,23 +22212,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/UTsNuXnG/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "fHGiQimT",
-          "date": "2023-09-28",
-          "home_team": "Celta Vigo",
-          "away_team": "Alaves",
-          "score": "1-1",
-          "competition": "LaLiga (Spain)",
-          "result": "D",
-          "player_minutes": 69,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/fHGiQimT/",
           "youtube_url": null
         }
       ]
@@ -36807,7 +36771,7 @@
       "name": "Otto Hindrich",
       "flashscore_id": "lCZ2EtN8",
       "slug": "hindrich-otto",
-      "position": "Goalkeeper",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/Sruqx2Ar-WrnzCAYJ.png",
       "age": 24,
       "market_value": "€1.9m",
@@ -36847,10 +36811,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 9,
-        "minutes": 630,
+        "minutes": 540,
         "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "KGdMK1Rh",
           "date": "2026-09-26",
@@ -39791,23 +39772,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4EEkQhjL/",
           "youtube_url": null
-        },
-        {
-          "match_id": "M5N1KwHD",
-          "date": "2023-09-28",
-          "home_team": "Alexandria",
-          "away_team": "CFR Cluj",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
-          "youtube_url": null
         }
       ]
     },
@@ -39815,7 +39779,7 @@
       "name": "Mihai Popa",
       "flashscore_id": "ETwnLl9f",
       "slug": "popa-mihai",
-      "position": null,
+      "position": "Goalkeeper",
       "photo": "https://static.flashscore.com/res/image/data/bsCvgEBr-bHzRtEC4.png",
       "age": 25,
       "market_value": "€936k",
@@ -42416,10 +42380,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 8,
-        "minutes": 630,
+        "minutes": 540,
         "rating": "7.6"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "YBj5TaWa",
           "date": "2026-09-26",
@@ -44755,7 +44736,7 @@
       "name": "Bogdan Racovitan",
       "flashscore_id": "Kpq2SX0B",
       "slug": "racovitan-bogdan",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/YyArExg5-Kl6fapVl.png",
       "age": 26,
       "market_value": "€2.3m",
@@ -47757,23 +47738,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/O6ZsLp8L/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "OYTBrK4g",
-          "date": "2023-09-28",
-          "home_team": "Lech Poznan",
-          "away_team": "Rakow",
-          "score": "4-1",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "L",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OYTBrK4g/",
           "youtube_url": null
         }
       ]
@@ -60333,7 +60297,7 @@
       "country": "China",
       "group": "Super League (China)",
       "nt": {
-        "caps": 90,
+        "caps": 91,
         "goals": 15,
         "assists": 6
       },
@@ -60341,10 +60305,27 @@
         "goals": 9,
         "assists": 4,
         "appearances": 23,
-        "minutes": 719,
+        "minutes": 629,
         "rating": "7.7"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 65,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -62958,7 +62939,7 @@
       "country": "China",
       "group": "Super League (China)",
       "nt": {
-        "caps": 46,
+        "caps": 47,
         "goals": 1,
         "assists": 0
       },
@@ -62970,6 +62951,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 81,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -65204,7 +65202,7 @@
       "name": "Alexandru Ionita",
       "flashscore_id": "d8R9tJwK",
       "slug": "ionita-alexandru",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/0AdVmwCa-b7FmwbwG.png",
       "age": 31,
       "market_value": "€787k",
@@ -67254,23 +67252,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ILYf4BT1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "ALGqqNgE",
-          "date": "2023-09-28",
-          "home_team": "FC Botosani",
-          "away_team": "FC Rapid Bucuresti",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
           "youtube_url": null
         }
       ]
@@ -72463,23 +72444,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
           "youtube_url": null
-        },
-        {
-          "match_id": "novDRfOt",
-          "date": "2023-09-28",
-          "home_team": "Steaua Bucuresti",
-          "away_team": "U. Cluj",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/novDRfOt/",
-          "youtube_url": null
         }
       ]
     },
@@ -72487,7 +72451,7 @@
       "name": "Rares Ilie",
       "flashscore_id": "jNjnLyHF",
       "slug": "ilie-rares",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/lUaoAjDa-8Om9tK3b.png",
       "age": 23,
       "market_value": "€1.1m",
@@ -75071,7 +75035,7 @@
       "name": "Rares Burnete",
       "flashscore_id": "vVyq9D0S",
       "slug": "burnete-catalin",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/0xwhvUCr-ttC8EQM7.png",
       "age": 22,
       "market_value": "€433k",
@@ -81208,6 +81172,23 @@
       },
       "results": [
         {
+          "match_id": "h6OJIomo",
+          "date": "2026-09-27",
+          "home_team": "Lazio",
+          "away_team": "Arezzo",
+          "score": "2-0",
+          "competition": "Club Friendly (World)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/h6OJIomo/",
+          "youtube_url": null
+        },
+        {
           "match_id": "dnyH4n1S",
           "date": "2026-09-20",
           "home_team": "Arezzo",
@@ -84555,7 +84536,7 @@
       "name": "Alexandru Pantea",
       "flashscore_id": "67qSFgVp",
       "slug": "pantea-grigoras",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/ERPWwohl-AgDvSxCJ.png",
       "age": 23,
       "market_value": "€665k",
@@ -90718,7 +90699,7 @@
       "name": "Octavian Popescu",
       "flashscore_id": "zXcBtGXG",
       "slug": "popescu-octavian",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/EXvq7eCa-0QdBtiq3.png",
       "age": 23,
       "market_value": "€570k",
@@ -93962,7 +93943,7 @@
       "country": "Cyprus",
       "group": "Cyprus League (Cyprus)",
       "nt": {
-        "caps": 9,
+        "caps": 10,
         "goals": 0,
         "assists": 0
       },
@@ -93974,6 +93955,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -96999,6 +96997,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -102543,7 +102558,7 @@
       "country": "USA",
       "group": "MLS (USA)",
       "nt": {
-        "caps": 7,
+        "caps": 8,
         "goals": 3,
         "assists": 0
       },
@@ -102551,10 +102566,27 @@
         "goals": 6,
         "assists": 2,
         "appearances": 22,
-        "minutes": 674,
+        "minutes": 585,
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "QRL5VA5d",
           "date": "2026-09-27",
@@ -107891,7 +107923,7 @@
       "name": "Stefan Chirila",
       "flashscore_id": "4hwk5EB6",
       "slug": "chirila-stefan",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/AwRHV9eM-ADadxCah.png",
       "age": 19,
       "market_value": "€145k",
@@ -111007,7 +111039,7 @@
       "name": "Ionut Radu",
       "flashscore_id": "4xYjfkEG",
       "slug": "radu-andrei",
-      "position": "Goalkeeper",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/E3o3CYjl-WQ26wEAp.png",
       "age": 29,
       "market_value": "€8.2m",
@@ -111054,7 +111086,7 @@
       "country": "Spain",
       "group": "LaLiga (Spain)",
       "nt": {
-        "caps": 10,
+        "caps": 11,
         "goals": 0,
         "assists": 0
       },
@@ -111066,6 +111098,23 @@
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -113996,7 +114045,7 @@
       "name": "Andrei Ratiu",
       "flashscore_id": "Eo8SAMoI",
       "slug": "ratiu-andrei",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/zuVCnfWg-48zblToC.png",
       "age": 28,
       "market_value": "€17.1m",
@@ -120575,25 +120624,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/W0U5Bmpe/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ITxy8Ew3",
-          "date": "2023-09-28",
-          "home_team": "Genoa",
-          "away_team": "AS Roma",
-          "score": "4-1",
-          "competition": "Serie A (Italy)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "74'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ITxy8Ew3/",
-          "youtube_url": null
         }
       ]
     },
@@ -120638,8 +120668,8 @@
       "country": "Italy",
       "group": "Serie A (Italy)",
       "nt": {
-        "caps": 9,
-        "goals": 2,
+        "caps": 10,
+        "goals": 3,
         "assists": 1
       },
       "season_stats": {
@@ -120650,6 +120680,25 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "28'"
+          ],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "z9tXqCdC",
           "date": "2026-09-20",
@@ -124050,23 +124099,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4EEkQhjL/",
           "youtube_url": null
-        },
-        {
-          "match_id": "M5N1KwHD",
-          "date": "2023-09-28",
-          "home_team": "Alexandria",
-          "away_team": "CFR Cluj",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/M5N1KwHD/",
-          "youtube_url": null
         }
       ]
     },
@@ -124074,7 +124106,7 @@
       "name": "Lisav Eissat",
       "flashscore_id": "O02miEUm",
       "slug": "eissat-lisav",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/pQUojeWg-KjknPk8B.png",
       "age": 21,
       "market_value": "€570k",
@@ -124106,9 +124138,9 @@
       "country": "England",
       "group": "Championship (England)",
       "nt": {
-        "caps": 4,
+        "caps": 5,
         "goals": 0,
-        "assists": 0
+        "assists": 1
       },
       "season_stats": {
         "goals": 1,
@@ -124118,6 +124150,25 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 1,
+          "goal_minutes": [],
+          "assist_minutes": [
+            "28'"
+          ],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -126858,10 +126909,10 @@
       "name": "Andrei Coubis",
       "flashscore_id": "Ywf0GF3H",
       "slug": "coubis-andrei",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/42inUyyB-vNlkT1kk.png",
-      "age": 22,
-      "market_value": "€1.2m",
+      "age": 23,
+      "market_value": "€1.1m",
       "team": "Lincoln",
       "team_logo": "https://static.flashscore.com/res/image/data/vPJrFoQq-jRNmGWXs.png",
       "career_teams": [
@@ -126890,7 +126941,7 @@
       "country": "England",
       "group": "Championship (England)",
       "nt": {
-        "caps": 4,
+        "caps": 5,
         "goals": 0,
         "assists": 0
       },
@@ -126898,10 +126949,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 6,
-        "minutes": 308,
+        "minutes": 273,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -136303,7 +136371,7 @@
       "name": "Andrei Dragu",
       "flashscore_id": "xQUj8SuF",
       "slug": "dragu-andrei",
-      "position": null,
+      "position": "Defender",
       "photo": "https://static.flashscore.com/res/image/data/2yxp8LYg-dYX8ab30.png",
       "age": 26,
       "market_value": "€363k",
@@ -137989,23 +138057,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QNFoRYzF/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "ALGqqNgE",
-          "date": "2023-09-28",
-          "home_team": "FC Botosani",
-          "away_team": "FC Rapid Bucuresti",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ALGqqNgE/",
           "youtube_url": null
         }
       ]
@@ -139819,7 +139870,7 @@
       "name": "Tony Strata",
       "flashscore_id": "4xeKQf0n",
       "slug": "strata-tony",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/CzwR8VDa-dQeR5Xja.png",
       "age": 22,
       "market_value": "€1.9m",
@@ -139846,7 +139897,7 @@
       "country": "Portugal",
       "group": "Liga Portugal (Portugal)",
       "nt": {
-        "caps": 1,
+        "caps": 2,
         "goals": 0,
         "assists": 0
       },
@@ -139854,10 +139905,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 7,
-        "minutes": 495,
+        "minutes": 450,
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 9,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "6NiL8mfR",
           "date": "2026-09-20",
@@ -142698,7 +142766,7 @@
       "name": "Ianis Stoica",
       "flashscore_id": "CGYK9J8D",
       "slug": "stoica-ianis",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/6aFIScFG-Is37VjaJ.png",
       "age": 23,
       "market_value": "€1.4m",
@@ -145214,23 +145282,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
           "youtube_url": null
-        },
-        {
-          "match_id": "novDRfOt",
-          "date": "2023-09-28",
-          "home_team": "Steaua Bucuresti",
-          "away_team": "U. Cluj",
-          "score": "1-3",
-          "competition": "Romanian Cup (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/novDRfOt/",
-          "youtube_url": null
         }
       ]
     },
@@ -145238,7 +145289,7 @@
       "name": "Catalin Itu",
       "flashscore_id": "xdqFaent",
       "slug": "itu-catalin",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/AsLWJlHG-QXs5bwJL.png",
       "age": 26,
       "market_value": "€660k",
@@ -149615,23 +149666,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SdVQQVsb/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "tKDqNT9K",
-          "date": "2023-09-28",
-          "home_team": "Wisla",
-          "away_team": "Lechia Gdansk",
-          "score": "2-1",
-          "competition": "Polish Cup (Poland)",
-          "result": "L",
-          "player_minutes": 120,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/tKDqNT9K/",
           "youtube_url": null
         }
       ]
@@ -157340,7 +157374,7 @@
       "name": "Andrei Florea",
       "flashscore_id": "IFLpmkad",
       "slug": "florea-andrei",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/MZydnxCa-UwxwksPu.png",
       "age": 21,
       "market_value": "€343k",
@@ -157380,6 +157414,23 @@
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "nabtQzsS",
+          "date": "2026-09-28",
+          "home_team": "Zilina B",
+          "away_team": "FK Humenne",
+          "score": "0-0",
+          "competition": "2. liga (Slovakia)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/nabtQzsS/",
+          "youtube_url": null
+        },
         {
           "match_id": "zofoHubc",
           "date": "2026-09-20",
@@ -163835,7 +163886,7 @@
       "name": "Kevin Ciubotaru",
       "flashscore_id": "O2o2L2iA",
       "slug": "ciubotaru-kevin",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/IaCBIHcM-hfjX2SLC.png",
       "age": 22,
       "market_value": "€570k",
@@ -166084,7 +166135,7 @@
       "name": "Mihai Butean",
       "flashscore_id": "lQuBB9Kj",
       "slug": "butean-mihai",
-      "position": "Defender",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/lpMbaogl-tI5MjSwm.png",
       "age": 30,
       "market_value": "€285k",
@@ -170769,10 +170820,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 4,
-        "minutes": 322,
+        "minutes": 308,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -177111,7 +177179,7 @@
       "name": "Marius Marin",
       "flashscore_id": "IeO9PQjK",
       "slug": "marin-marius",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/6oW6Wqil-IqzT50Pj.png",
       "age": 28,
       "market_value": "€2.7m",
@@ -182763,7 +182831,7 @@
       "name": "Mihai Capatina",
       "flashscore_id": "21RPSdX8",
       "slug": "capatana-mihai",
-      "position": "Midfielder",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/QFjK4QeM-rZTWxLVm.png",
       "age": 30,
       "market_value": "€570k",
@@ -185113,7 +185181,7 @@
       "country": "Belgium",
       "group": "Jupiler Pro League (Belgium)",
       "nt": {
-        "caps": 28,
+        "caps": 29,
         "goals": 0,
         "assists": 1
       },
@@ -185121,10 +185189,27 @@
         "goals": 1,
         "assists": 0,
         "appearances": 3,
-        "minutes": 65,
+        "minutes": 43,
         "rating": "7.1"
       },
       "results": [
+        {
+          "match_id": "jFVbVftH",
+          "date": "2026-09-28",
+          "home_team": "Romania",
+          "away_team": "Bosnia & Herzegovina",
+          "score": "2-4",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/jFVbVftH/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -196183,7 +196268,7 @@
       "name": "Dennis Man",
       "flashscore_id": "zwvX5g6l",
       "slug": "man-dennis",
-      "position": "Forward",
+      "position": null,
       "photo": "https://static.flashscore.com/res/image/data/hQlWAijl-rJVFzMNB.png",
       "age": 28,
       "market_value": "€14.7m",
@@ -199147,7 +199232,7 @@
       "name": "Ahmed Bani",
       "flashscore_id": "zamA4CY8",
       "slug": "bani-ahmed",
-      "position": null,
+      "position": "Midfielder",
       "photo": "https://static.flashscore.com/res/image/data/d6ixYvFG-tz1gZZ5R.png",
       "age": 24,
       "market_value": "€343k",
@@ -203101,5 +203186,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-09-28T12:11:07Z"
+  "updated_at": "2026-09-29T11:44:51Z"
 }
