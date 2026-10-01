@@ -13501,6 +13501,23 @@
       },
       "results": [
         {
+          "match_id": "nmRs1ImT",
+          "date": "2026-09-30",
+          "home_team": "Romania U21",
+          "away_team": "Finland U21",
+          "score": "0-2",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 78,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/nmRs1ImT/",
+          "youtube_url": null
+        },
+        {
           "match_id": "EybX7Q0D",
           "date": "2026-09-25",
           "home_team": "Cyprus U21",
@@ -16247,23 +16264,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bgVbYkrr/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ILfQJjTl",
-          "date": "2023-09-30",
-          "home_team": "Farul Constanta",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "2-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ILfQJjTl/",
-          "youtube_url": null
         }
       ]
     },
@@ -16290,7 +16290,7 @@
         },
         {
           "name": "Sassuolo",
-          "logo": "https://static.flashscore.com/res/image/data/QckzxM7k-6ZDR6zEL.png",
+          "logo": "https://static.flashscore.com/res/image/data/QckzxM7k-6wQxUsZL.png",
           "current": false
         },
         {
@@ -34398,23 +34398,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/faZCoArk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "EuEwXATe",
-          "date": "2023-09-30",
-          "home_team": "Csikszereda M. Ciuc",
-          "away_team": "Chindia Targoviste",
-          "score": "1-0",
-          "competition": "Liga 2 (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EuEwXATe/",
-          "youtube_url": null
         }
       ]
     },
@@ -42297,7 +42280,7 @@
       "slug": "cojocaru-valentin",
       "position": null,
       "photo": "https://static.flashscore.com/res/image/data/xIIEyxYg-KrmZizPc.png",
-      "age": 30,
+      "age": 31,
       "market_value": "€705k",
       "team": "Pogon Szczecin",
       "team_logo": "https://static.flashscore.com/res/image/data/4llzD25k-vLZ2ZgBC.png",
@@ -47753,6 +47736,23 @@
       },
       "results": [
         {
+          "match_id": "nmRs1ImT",
+          "date": "2026-09-30",
+          "home_team": "Romania U21",
+          "away_team": "Finland U21",
+          "score": "0-2",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 56,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/nmRs1ImT/",
+          "youtube_url": null
+        },
+        {
           "match_id": "thIAEJD6",
           "date": "2026-09-26",
           "home_team": "Widzew Lodz",
@@ -48423,6 +48423,23 @@
           "youtube_url": null
         },
         {
+          "match_id": "OdGmeUfC",
+          "date": "2026-02-15",
+          "home_team": "Parma",
+          "away_team": "Verona",
+          "score": "2-1",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
+          "youtube_url": null
+        },
+        {
           "match_id": "6JGgjGJ6",
           "date": "2026-02-15",
           "home_team": "Verona U20",
@@ -48440,23 +48457,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6JGgjGJ6/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "OdGmeUfC",
-          "date": "2026-02-15",
-          "home_team": "Parma",
-          "away_team": "Verona",
-          "score": "2-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
           "youtube_url": null
         },
         {
@@ -48847,23 +48847,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "67fpbQJD",
-          "date": "2025-11-29",
-          "home_team": "Genoa",
-          "away_team": "Verona",
-          "score": "2-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/67fpbQJD/",
-          "youtube_url": null
-        },
-        {
           "match_id": "ld3JqsRH",
           "date": "2025-11-29",
           "home_team": "Verona U20",
@@ -48878,6 +48861,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/ld3JqsRH/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "67fpbQJD",
+          "date": "2025-11-29",
+          "home_team": "Genoa",
+          "away_team": "Verona",
+          "score": "2-1",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/67fpbQJD/",
           "youtube_url": null
         },
         {
@@ -49002,23 +49002,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "IHdPOQW1",
-          "date": "2025-10-26",
-          "home_team": "Cagliari U20",
-          "away_team": "Verona U20",
-          "score": "2-1",
-          "competition": "Primavera 1 (Italy)",
-          "result": "L",
-          "player_minutes": 88,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/IHdPOQW1/",
-          "youtube_url": null
-        },
-        {
           "match_id": "GlATZzJ5",
           "date": "2025-10-26",
           "home_team": "Verona",
@@ -49033,6 +49016,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/GlATZzJ5/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "IHdPOQW1",
+          "date": "2025-10-26",
+          "home_team": "Cagliari U20",
+          "away_team": "Verona U20",
+          "score": "2-1",
+          "competition": "Primavera 1 (Italy)",
+          "result": "L",
+          "player_minutes": 88,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/IHdPOQW1/",
           "youtube_url": null
         },
         {
@@ -53023,27 +53023,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/2Xp1C3Ql/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "2B9QaQtq",
-          "date": "2023-09-30",
-          "home_team": "H. Beer Sheva",
-          "away_team": "Hapoel Jerusalem",
-          "score": "3-0",
-          "competition": "Ligat ha'Al (Israel)",
-          "result": "W",
-          "player_minutes": 79,
-          "player_goals": 1,
-          "player_assists": 1,
-          "goal_minutes": [
-            "5'"
-          ],
-          "assist_minutes": [
-            "36'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/2B9QaQtq/",
           "youtube_url": null
         }
       ]
@@ -62819,26 +62798,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/GrPvTKOl/",
           "youtube_url": null
-        },
-        {
-          "match_id": "MLPzU09r",
-          "date": "2023-09-30",
-          "home_team": "Al Khaleej",
-          "away_team": "Damac",
-          "score": "0-2",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "W",
-          "player_minutes": 89,
-          "player_goals": 0,
-          "player_assists": 2,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "43'",
-            "56'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/MLPzU09r/",
-          "youtube_url": null
         }
       ]
     },
@@ -65124,25 +65083,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/UoTrSvve/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "pMX2lVfc",
-          "date": "2023-09-30",
-          "home_team": "Al Raed",
-          "away_team": "Al Okhdood",
-          "score": "1-2",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "83'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pMX2lVfc/",
           "youtube_url": null
         }
       ]
@@ -74958,25 +74898,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QsIqcwZi/",
           "youtube_url": null
-        },
-        {
-          "match_id": "lrl2p0kn",
-          "date": "2023-09-30",
-          "home_team": "Servette",
-          "away_team": "Lausanne",
-          "score": "2-1",
-          "competition": "Super League (Switzerland)",
-          "result": "L",
-          "player_minutes": 65,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "39'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/lrl2p0kn/",
-          "youtube_url": null
         }
       ]
     },
@@ -75024,6 +74945,23 @@
         "rating": "6.2"
       },
       "results": [
+        {
+          "match_id": "nmRs1ImT",
+          "date": "2026-09-30",
+          "home_team": "Romania U21",
+          "away_team": "Finland U21",
+          "score": "0-2",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/nmRs1ImT/",
+          "youtube_url": null
+        },
         {
           "match_id": "EybX7Q0D",
           "date": "2026-09-25",
@@ -78168,40 +78106,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0tGX3jTM/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "hniJKiN8",
-          "date": "2023-09-30",
-          "home_team": "Lecce",
-          "away_team": "Napoli",
-          "score": "0-4",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/hniJKiN8/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "4O7ifRNe",
-          "date": "2023-09-30",
-          "home_team": "Lecce U19",
-          "away_team": "Monza U19",
-          "score": "1-1",
-          "competition": "Primavera 1 (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/4O7ifRNe/",
           "youtube_url": null
         }
       ]
@@ -100026,23 +99930,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/UoTrSvve/",
           "youtube_url": null
-        },
-        {
-          "match_id": "pMX2lVfc",
-          "date": "2023-09-30",
-          "home_team": "Al Raed",
-          "away_team": "Al Okhdood",
-          "score": "1-2",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pMX2lVfc/",
-          "youtube_url": null
         }
       ]
     },
@@ -100100,6 +99987,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "nmRs1ImT",
+          "date": "2026-09-30",
+          "home_team": "Romania U21",
+          "away_team": "Finland U21",
+          "score": "0-2",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 34,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/nmRs1ImT/",
+          "youtube_url": null
+        },
         {
           "match_id": "EybX7Q0D",
           "date": "2026-09-25",
@@ -102515,10 +102419,27 @@
         "goals": 6,
         "assists": 2,
         "appearances": 22,
-        "minutes": 585,
+        "minutes": 497,
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "IDV2PG2N",
+          "date": "2026-10-01",
+          "home_team": "DC United",
+          "away_team": "Paderborn",
+          "score": "0-1",
+          "competition": "Club Friendly (World)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/IDV2PG2N/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -105644,23 +105565,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bgVbYkrr/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ILfQJjTl",
-          "date": "2023-09-30",
-          "home_team": "Farul Constanta",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "2-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 77,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ILfQJjTl/",
-          "youtube_url": null
         }
       ]
     },
@@ -105718,11 +105622,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 4,
-        "appearances": 9,
-        "minutes": 484,
-        "rating": "7.3"
+        "appearances": 10,
+        "minutes": 530,
+        "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "6VEYBeYP",
+          "date": "2026-10-01",
+          "home_team": "New York Red Bulls",
+          "away_team": "St. Louis City",
+          "score": "0-3",
+          "competition": "MLS (USA)",
+          "result": "W",
+          "player_minutes": 71,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6VEYBeYP/",
+          "youtube_url": "https://www.youtube.com/watch?v=nBKglkmQ0Kw"
+        },
         {
           "match_id": "4zzBtyEc",
           "date": "2026-09-20",
@@ -113970,23 +113891,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/CInUym42/",
           "youtube_url": null
-        },
-        {
-          "match_id": "xr3WMJwT",
-          "date": "2023-09-30",
-          "home_team": "Bournemouth",
-          "away_team": "Arsenal",
-          "score": "0-4",
-          "competition": "Premier League (England)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xr3WMJwT/",
-          "youtube_url": null
         }
       ]
     },
@@ -117199,23 +117103,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0Y9Tnlfq/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "S4NcZUPq",
-          "date": "2023-09-30",
-          "home_team": "Rayo Vallecano",
-          "away_team": "Mallorca",
-          "score": "2-2",
-          "competition": "LaLiga (Spain)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/S4NcZUPq/",
           "youtube_url": null
         }
       ]
@@ -130668,23 +130555,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/GzDcdBPn/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n9jNJBxF",
-          "date": "2023-09-30",
-          "home_team": "AC Milan",
-          "away_team": "Lazio",
-          "score": "2-0",
-          "competition": "Serie A (Italy)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/n9jNJBxF/",
-          "youtube_url": null
         }
       ]
     },
@@ -136295,23 +136165,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bgVbYkrr/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "ILfQJjTl",
-          "date": "2023-09-30",
-          "home_team": "Farul Constanta",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "2-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ILfQJjTl/",
           "youtube_url": null
         }
       ]
@@ -151643,23 +151496,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QqVSjy5Q/",
           "youtube_url": null
-        },
-        {
-          "match_id": "OpGPYyqr",
-          "date": "2023-09-30",
-          "home_team": "Suduva",
-          "away_team": "Zalgiris",
-          "score": "0-2",
-          "competition": "TOPLYGA (Lithuania)",
-          "result": "W",
-          "player_minutes": 17,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OpGPYyqr/",
-          "youtube_url": null
         }
       ]
     },
@@ -153912,23 +153748,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/2FZ67i58/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "8vZbvgyM",
-          "date": "2023-09-30",
-          "home_team": "FC Arges",
-          "away_team": "Selimbar",
-          "score": "0-0",
-          "competition": "Liga 2 (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/8vZbvgyM/",
           "youtube_url": null
         }
       ]
@@ -157298,23 +157117,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/UkR7PMpC/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "xr90RrGa",
-          "date": "2023-09-30",
-          "home_team": "Longford",
-          "away_team": "Treaty United",
-          "score": "2-3",
-          "competition": "Division 1 (Ireland)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xr90RrGa/",
           "youtube_url": null
         }
       ]
@@ -163879,6 +163681,23 @@
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "nmRs1ImT",
+          "date": "2026-09-30",
+          "home_team": "Romania U21",
+          "away_team": "Finland U21",
+          "score": "0-2",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/nmRs1ImT/",
+          "youtube_url": null
+        },
         {
           "match_id": "EybX7Q0D",
           "date": "2026-09-25",
@@ -170700,23 +170519,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/AcW69lhF/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ILfQJjTl",
-          "date": "2023-09-30",
-          "home_team": "Farul Constanta",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "2-1",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ILfQJjTl/",
-          "youtube_url": null
         }
       ]
     },
@@ -173296,25 +173098,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/G4EMD20e/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "xEFIErok",
-          "date": "2023-09-30",
-          "home_team": "LKS Lodz",
-          "away_team": "Cracovia",
-          "score": "0-2",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "14'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xEFIErok/",
           "youtube_url": null
         }
       ]
@@ -179712,23 +179495,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bexz2m1I/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "xQa3lUWI",
-          "date": "2023-09-30",
-          "home_team": "Pisa",
-          "away_team": "Cosenza",
-          "score": "1-2",
-          "competition": "Serie B (Italy)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xQa3lUWI/",
           "youtube_url": null
         }
       ]
@@ -191239,25 +191005,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0hWN6FKr/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mmhogdjq",
-          "date": "2023-09-30",
-          "home_team": "Aris",
-          "away_team": "Apollon",
-          "score": "0-1",
-          "competition": "Cyprus League (Cyprus)",
-          "result": "W",
-          "player_minutes": 74,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "10'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mmhogdjq/",
-          "youtube_url": null
         }
       ]
     },
@@ -196192,23 +195939,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bgVbYkrr/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "ILfQJjTl",
-          "date": "2023-09-30",
-          "home_team": "Farul Constanta",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "2-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ILfQJjTl/",
           "youtube_url": null
         }
       ]
@@ -203034,6 +202764,19 @@
       "table": [
         {
           "rank": 1,
+          "team": "Finland U21",
+          "team_id": "ziUu4r1s",
+          "played": 9,
+          "win": 7,
+          "draw": 1,
+          "loss": 1,
+          "gf": 30,
+          "ga": 3,
+          "points": 22,
+          "is_romania": false
+        },
+        {
+          "rank": 2,
           "team": "Spain U21",
           "team_id": "8htN2to0",
           "played": 8,
@@ -203046,28 +202789,15 @@
           "is_romania": false
         },
         {
-          "rank": 2,
-          "team": "Finland U21",
-          "team_id": "ziUu4r1s",
-          "played": 8,
-          "win": 6,
-          "draw": 1,
-          "loss": 1,
-          "gf": 28,
-          "ga": 3,
-          "points": 19,
-          "is_romania": false
-        },
-        {
           "rank": 3,
           "team": "Romania U21",
           "team_id": "dhDp7QEq",
-          "played": 8,
+          "played": 9,
           "win": 5,
           "draw": 1,
-          "loss": 2,
+          "loss": 3,
           "gf": 11,
-          "ga": 4,
+          "ga": 6,
           "points": 16,
           "is_romania": true
         },
@@ -203075,25 +202805,25 @@
           "rank": 4,
           "team": "Kosovo U21",
           "team_id": "GSciy3HM",
-          "played": 8,
-          "win": 3,
+          "played": 9,
+          "win": 4,
           "draw": 2,
           "loss": 3,
-          "gf": 15,
-          "ga": 6,
-          "points": 11,
+          "gf": 17,
+          "ga": 7,
+          "points": 14,
           "is_romania": false
         },
         {
           "rank": 5,
           "team": "Cyprus U21",
           "team_id": "0U1KQdKm",
-          "played": 8,
+          "played": 9,
           "win": 1,
           "draw": 0,
-          "loss": 7,
-          "gf": 5,
-          "ga": 27,
+          "loss": 8,
+          "gf": 6,
+          "ga": 29,
           "points": 3,
           "is_romania": false
         },
@@ -203118,5 +202848,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-09-30T11:32:22Z"
+  "updated_at": "2026-10-01T11:59:28Z"
 }
