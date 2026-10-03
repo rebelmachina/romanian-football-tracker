@@ -31,7 +31,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "assists": 0
       },
@@ -43,6 +43,23 @@
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -10745,7 +10762,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 38,
+        "caps": 39,
         "goals": 5,
         "assists": 3
       },
@@ -10757,6 +10774,23 @@
         "rating": "6.0"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 27,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -18950,7 +18984,7 @@
       "country": "Turkey",
       "group": "Super Lig (Turkey)",
       "nt": {
-        "caps": 55,
+        "caps": 56,
         "goals": 8,
         "assists": 5
       },
@@ -18958,10 +18992,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 4,
-        "minutes": 140,
+        "minutes": 121,
         "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 67,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -36580,7 +36631,7 @@
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
       "nt": {
-        "caps": 2,
+        "caps": 3,
         "goals": 0,
         "assists": 0
       },
@@ -36588,10 +36639,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 9,
-        "minutes": 540,
+        "minutes": 450,
         "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -42065,23 +42133,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EwaqP6Ef/",
           "youtube_url": null
-        },
-        {
-          "match_id": "hAV1CTUl",
-          "date": "2023-10-02",
-          "home_team": "Torino",
-          "away_team": "Verona",
-          "score": "0-0",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/hAV1CTUl/",
-          "youtube_url": null
         }
       ]
     },
@@ -42140,10 +42191,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 8,
-        "minutes": 540,
+        "minutes": 450,
         "rating": "7.6"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -44501,7 +44569,7 @@
       "country": "Poland",
       "group": "Ekstraklasa (Poland)",
       "nt": {
-        "caps": 5,
+        "caps": 6,
         "goals": 0,
         "assists": 0
       },
@@ -44509,10 +44577,44 @@
         "goals": 0,
         "assists": 0,
         "appearances": 9,
-        "minutes": 630,
+        "minutes": 540,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "Uox6IZGb",
+          "date": "2026-10-02",
+          "home_team": "Rakow",
+          "away_team": "Polonia Bytom",
+          "score": "4-1",
+          "competition": "Club Friendly (World)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Uox6IZGb/",
+          "youtube_url": null
+        },
         {
           "match_id": "pbjbqkpJ",
           "date": "2026-09-19",
@@ -50584,23 +50686,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/hplnG8pF/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Amgle78k",
-          "date": "2023-10-02",
-          "home_team": "Juventus U19",
-          "away_team": "Verona U19",
-          "score": "2-3",
-          "competition": "Primavera 1 (Italy)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Amgle78k/",
           "youtube_url": null
         }
       ]
@@ -59990,10 +60075,27 @@
         "goals": 9,
         "assists": 4,
         "appearances": 23,
-        "minutes": 629,
+        "minutes": 539,
         "rating": "7.7"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -72032,23 +72134,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tErXxWZQ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -80997,7 +81082,7 @@
       "country": "Greece",
       "group": "Super League (Greece)",
       "nt": {
-        "caps": 78,
+        "caps": 79,
         "goals": 12,
         "assists": 10
       },
@@ -81005,10 +81090,27 @@
         "goals": 1,
         "assists": 3,
         "appearances": 5,
-        "minutes": 422,
+        "minutes": 350,
         "rating": "7.5"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -87074,23 +87176,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -90224,25 +90309,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "39'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
           "youtube_url": null
         }
       ]
@@ -93434,23 +93500,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -96476,23 +96525,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/t8kiCycL/",
           "youtube_url": null
-        },
-        {
-          "match_id": "f1jgizLe",
-          "date": "2023-10-02",
-          "home_team": "Zakakiou",
-          "away_team": "Pafos",
-          "score": "1-4",
-          "competition": "Cyprus League (Cyprus)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/f1jgizLe/",
-          "youtube_url": null
         }
       ]
     },
@@ -96549,6 +96581,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -110629,10 +110678,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 7,
-        "minutes": 630,
+        "minutes": 540,
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -113600,7 +113666,7 @@
       "country": "Spain",
       "group": "LaLiga (Spain)",
       "nt": {
-        "caps": 39,
+        "caps": 40,
         "goals": 2,
         "assists": 3
       },
@@ -113612,6 +113678,23 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -116823,7 +116906,7 @@
       "country": "Italy",
       "group": "Serie A (Italy)",
       "nt": {
-        "caps": 31,
+        "caps": 32,
         "goals": 1,
         "assists": 0
       },
@@ -116835,6 +116918,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 22,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -120118,7 +120218,7 @@
       "position": null,
       "photo": "https://static.flashscore.com/res/image/data/0b4dSLFG-thxpIwca.png",
       "age": 26,
-      "market_value": "€4.3m",
+      "market_value": "€4.4m",
       "team": "Frosinone",
       "team_logo": "https://static.flashscore.com/res/image/data/p0q5GtjC-t4GQxEM5.png",
       "career_teams": [
@@ -120152,7 +120252,7 @@
       "country": "Italy",
       "group": "Serie A (Italy)",
       "nt": {
-        "caps": 10,
+        "caps": 11,
         "goals": 3,
         "assists": 1
       },
@@ -120164,6 +120264,40 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "CY3S8IF6",
+          "date": "2026-10-02",
+          "home_team": "Frosinone",
+          "away_team": "Benevento",
+          "score": "2-1",
+          "competition": "Club Friendly (World)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/CY3S8IF6/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -126388,7 +126522,7 @@
       "country": "England",
       "group": "Championship (England)",
       "nt": {
-        "caps": 5,
+        "caps": 6,
         "goals": 0,
         "assists": 0
       },
@@ -126400,6 +126534,23 @@
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 63,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -130228,6 +130379,23 @@
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "Uo8Llz4C",
+          "date": "2026-10-02",
+          "home_team": "Eldense",
+          "away_team": "Oviedo",
+          "score": "4-1",
+          "competition": "LaLiga2 (Spain)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Uo8Llz4C/",
+          "youtube_url": "https://www.youtube.com/watch?v=RcHqz8k82mY"
+        },
         {
           "match_id": "8bIfo1cK",
           "date": "2026-09-27",
@@ -139272,6 +139440,23 @@
       },
       "results": [
         {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
+        {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
           "home_team": "Romania",
@@ -142104,23 +142289,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tEvWdlA0/",
           "youtube_url": null
-        },
-        {
-          "match_id": "6LqD3aRF",
-          "date": "2023-10-02",
-          "home_team": "AC Ajaccio",
-          "away_team": "Bastia",
-          "score": "2-0",
-          "competition": "Ligue 2 (France)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6LqD3aRF/",
-          "youtube_url": null
         }
       ]
     },
@@ -144627,23 +144795,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tErXxWZQ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -146961,23 +147112,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EmlZHUc1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "KQCwTf62",
-          "date": "2023-10-02",
-          "home_team": "Poli Iasi",
-          "away_team": "Petrolul",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/KQCwTf62/",
           "youtube_url": null
         }
       ]
@@ -156704,10 +156838,27 @@
         "goals": 1,
         "assists": 2,
         "appearances": 9,
-        "minutes": 114,
+        "minutes": 100,
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "IZGUFSn2",
+          "date": "2026-10-02",
+          "home_team": "Sigma Olomouc",
+          "away_team": "Zilina",
+          "score": "4-0",
+          "competition": "Club Friendly (World)",
+          "result": "L",
+          "player_minutes": 71,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/IZGUFSn2/",
+          "youtube_url": null
+        },
         {
           "match_id": "nabtQzsS",
           "date": "2026-09-28",
@@ -161121,23 +161272,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/U9BFbtFs/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Amgle78k",
-          "date": "2023-10-02",
-          "home_team": "Juventus U19",
-          "away_team": "Verona U19",
-          "score": "2-3",
-          "competition": "Primavera 1 (Italy)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Amgle78k/",
           "youtube_url": null
         }
       ]
@@ -170038,7 +170172,7 @@
       "country": "Germany",
       "group": "2. Bundesliga (Germany)",
       "nt": {
-        "caps": 11,
+        "caps": 12,
         "goals": 1,
         "assists": 0
       },
@@ -170050,6 +170184,23 @@
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -176396,7 +176547,7 @@
       "country": "United Arab Emirates",
       "group": "UAE League (United Arab Emirates)",
       "nt": {
-        "caps": 34,
+        "caps": 35,
         "goals": 0,
         "assists": 0
       },
@@ -176408,6 +176559,40 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 11,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "dpxKsE3N",
+          "date": "2026-10-02",
+          "home_team": "Shabab Al-Ahli Dubai",
+          "away_team": "Al Nasr",
+          "score": "1-1",
+          "competition": "League Cup (United Arab Emirates)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dpxKsE3N/",
+          "youtube_url": null
+        },
         {
           "match_id": "YRvHzujt",
           "date": "2026-09-20",
@@ -181979,23 +182164,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
           "youtube_url": null
         }
       ]
@@ -187827,23 +187995,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -187902,10 +188053,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 7,
-        "minutes": 339,
+        "minutes": 249,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "tdOhdw1U",
+          "date": "2026-10-02",
+          "home_team": "Noah",
+          "away_team": "Dinamo Batumi",
+          "score": "2-2",
+          "competition": "Club Friendly (World)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/tdOhdw1U/",
+          "youtube_url": null
+        },
         {
           "match_id": "pfK3CjaD",
           "date": "2026-09-18",
@@ -192879,23 +193047,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Mk9fPC5R",
-          "date": "2023-10-02",
-          "home_team": "FCSB",
-          "away_team": "U. Cluj",
-          "score": "2-2",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Mk9fPC5R/",
-          "youtube_url": null
         }
       ]
     },
@@ -195420,7 +195571,7 @@
       "country": "Netherlands",
       "group": "Eredivisie (Netherlands)",
       "nt": {
-        "caps": 46,
+        "caps": 47,
         "goals": 12,
         "assists": 6
       },
@@ -195432,6 +195583,23 @@
         "rating": "6.3"
       },
       "results": [
+        {
+          "match_id": "pho3Macn",
+          "date": "2026-10-02",
+          "home_team": "Poland",
+          "away_team": "Romania",
+          "score": "6-0",
+          "competition": "UEFA Nations League (Europe)",
+          "result": "L",
+          "player_minutes": 67,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/pho3Macn/",
+          "youtube_url": null
+        },
         {
           "match_id": "f5mQYTn9",
           "date": "2026-09-25",
@@ -202253,5 +202421,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-02T11:31:39Z"
+  "updated_at": "2026-10-03T10:48:59Z"
 }
