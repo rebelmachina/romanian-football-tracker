@@ -2798,23 +2798,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "EmlZHUc1",
-          "date": "2023-10-06",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "Poli Iasi",
-          "score": "3-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EmlZHUc1/",
-          "youtube_url": null
         }
       ]
     },
@@ -13467,6 +13450,23 @@
       },
       "results": [
         {
+          "match_id": "KC70lu4N",
+          "date": "2026-10-06",
+          "home_team": "Spain U21",
+          "away_team": "Romania U21",
+          "score": "7-1",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/KC70lu4N/",
+          "youtube_url": null
+        },
+        {
           "match_id": "nmRs1ImT",
           "date": "2026-09-30",
           "home_team": "Romania U21",
@@ -18912,23 +18912,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "EmlZHUc1",
-          "date": "2023-10-06",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "Poli Iasi",
-          "score": "3-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EmlZHUc1/",
           "youtube_url": null
         }
       ]
@@ -24933,23 +24916,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "nD0YHCmt",
-          "date": "2023-10-06",
-          "home_team": "Puskas Academy",
-          "away_team": "Kisvarda",
-          "score": "1-0",
-          "competition": "NB I. (Hungary)",
-          "result": "W",
-          "player_minutes": 69,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/nD0YHCmt/",
           "youtube_url": null
         }
       ]
@@ -47629,6 +47595,23 @@
       },
       "results": [
         {
+          "match_id": "KC70lu4N",
+          "date": "2026-10-06",
+          "home_team": "Spain U21",
+          "away_team": "Romania U21",
+          "score": "7-1",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 1,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/KC70lu4N/",
+          "youtube_url": null
+        },
+        {
           "match_id": "nmRs1ImT",
           "date": "2026-09-30",
           "home_team": "Romania U21",
@@ -48316,23 +48299,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "OdGmeUfC",
-          "date": "2026-02-15",
-          "home_team": "Parma",
-          "away_team": "Verona",
-          "score": "2-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
-          "youtube_url": null
-        },
-        {
           "match_id": "6JGgjGJ6",
           "date": "2026-02-15",
           "home_team": "Verona U20",
@@ -48350,6 +48316,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6JGgjGJ6/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "OdGmeUfC",
+          "date": "2026-02-15",
+          "home_team": "Parma",
+          "away_team": "Verona",
+          "score": "2-1",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
           "youtube_url": null
         },
         {
@@ -48740,23 +48723,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "ld3JqsRH",
-          "date": "2025-11-29",
-          "home_team": "Verona U20",
-          "away_team": "Genoa U20",
-          "score": "1-0",
-          "competition": "Primavera 1 (Italy)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ld3JqsRH/",
-          "youtube_url": null
-        },
-        {
           "match_id": "67fpbQJD",
           "date": "2025-11-29",
           "home_team": "Genoa",
@@ -48771,6 +48737,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/67fpbQJD/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "ld3JqsRH",
+          "date": "2025-11-29",
+          "home_team": "Verona U20",
+          "away_team": "Genoa U20",
+          "score": "1-0",
+          "competition": "Primavera 1 (Italy)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ld3JqsRH/",
           "youtube_url": null
         },
         {
@@ -48895,23 +48878,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "GlATZzJ5",
-          "date": "2025-10-26",
-          "home_team": "Verona",
-          "away_team": "Cagliari",
-          "score": "2-2",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/GlATZzJ5/",
-          "youtube_url": null
-        },
-        {
           "match_id": "IHdPOQW1",
           "date": "2025-10-26",
           "home_team": "Cagliari U20",
@@ -48926,6 +48892,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/IHdPOQW1/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "GlATZzJ5",
+          "date": "2025-10-26",
+          "home_team": "Verona",
+          "away_team": "Cagliari",
+          "score": "2-2",
+          "competition": "Serie A (Italy)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/GlATZzJ5/",
           "youtube_url": null
         },
         {
@@ -57498,23 +57481,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xpU2X9cl/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WObUIAre",
-          "date": "2023-10-06",
-          "home_team": "U Craiova 1948",
-          "away_team": "FC Hermannstadt",
-          "score": "1-1",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 82,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WObUIAre/",
           "youtube_url": null
         }
       ]
@@ -66979,26 +66945,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/YBNBVmS0/",
           "youtube_url": null
-        },
-        {
-          "match_id": "EmlZHUc1",
-          "date": "2023-10-06",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "Poli Iasi",
-          "score": "3-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 76,
-          "player_goals": 2,
-          "player_assists": 0,
-          "goal_minutes": [
-            "22'",
-            "60'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EmlZHUc1/",
-          "youtube_url": null
         }
       ]
     },
@@ -74764,6 +74710,25 @@
       },
       "results": [
         {
+          "match_id": "KC70lu4N",
+          "date": "2026-10-06",
+          "home_team": "Spain U21",
+          "away_team": "Romania U21",
+          "score": "7-1",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 72,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "27'"
+          ],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/KC70lu4N/",
+          "youtube_url": null
+        },
+        {
           "match_id": "zqubPsUr",
           "date": "2026-10-02",
           "home_team": "Sudtirol",
@@ -77907,23 +77872,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EccyfITC/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "EPJAA7a1",
-          "date": "2023-10-06",
-          "home_team": "Lecce",
-          "away_team": "Sassuolo",
-          "score": "1-1",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EPJAA7a1/",
           "youtube_url": null
         }
       ]
@@ -84182,23 +84130,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "xb55WlMK",
-          "date": "2023-10-06",
-          "home_team": "Empoli",
-          "away_team": "Udinese",
-          "score": "0-0",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": 81,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xb55WlMK/",
           "youtube_url": null
         }
       ]
@@ -99786,6 +99717,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "KC70lu4N",
+          "date": "2026-10-06",
+          "home_team": "Spain U21",
+          "away_team": "Romania U21",
+          "score": "7-1",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 89,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/KC70lu4N/",
+          "youtube_url": null
+        },
         {
           "match_id": "OM4zMGUs",
           "date": "2026-10-03",
@@ -136018,7 +135966,7 @@
       "slug": "dragu-andrei",
       "position": null,
       "photo": "https://static.flashscore.com/res/image/data/2yxp8LYg-dYX8ab30.png",
-      "age": 26,
+      "age": 27,
       "market_value": "€363k",
       "team": "Safa Baku",
       "team_logo": "https://static.flashscore.com/res/image/data/Ms0r41CN-f7Gs3sJH.png",
@@ -139456,23 +139404,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/fLO7WTCf/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WObUIAre",
-          "date": "2023-10-06",
-          "home_team": "U Craiova 1948",
-          "away_team": "FC Hermannstadt",
-          "score": "1-1",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WObUIAre/",
           "youtube_url": null
         }
       ]
@@ -147194,23 +147125,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/dnYGNvDP/",
           "youtube_url": null
-        },
-        {
-          "match_id": "EmlZHUc1",
-          "date": "2023-10-06",
-          "home_team": "FC Rapid Bucuresti",
-          "away_team": "Poli Iasi",
-          "score": "3-2",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EmlZHUc1/",
-          "youtube_url": null
         }
       ]
     },
@@ -149226,23 +149140,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/dYQcpHvl/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WAFlJvtk",
-          "date": "2023-10-06",
-          "home_team": "Lechia Gdansk",
-          "away_team": "Leczna",
-          "score": "1-1",
-          "competition": "Division 1 (Poland)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WAFlJvtk/",
           "youtube_url": null
         }
       ]
@@ -156893,23 +156790,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/GpWRUHMi/",
           "youtube_url": null
-        },
-        {
-          "match_id": "UkR7PMpC",
-          "date": "2023-10-06",
-          "home_team": "Cobh Ramblers",
-          "away_team": "Longford",
-          "score": "2-0",
-          "competition": "Division 1 (Ireland)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/UkR7PMpC/",
-          "youtube_url": null
         }
       ]
     },
@@ -163457,6 +163337,23 @@
       },
       "results": [
         {
+          "match_id": "KC70lu4N",
+          "date": "2026-10-06",
+          "home_team": "Spain U21",
+          "away_team": "Romania U21",
+          "score": "7-1",
+          "competition": "Euro U21 (Europe)",
+          "result": "L",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": true,
+          "flashscore_url": "https://www.flashscore.com/match/KC70lu4N/",
+          "youtube_url": null
+        },
+        {
           "match_id": "nmRs1ImT",
           "date": "2026-09-30",
           "home_team": "Romania U21",
@@ -165636,23 +165533,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xpU2X9cl/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WObUIAre",
-          "date": "2023-10-06",
-          "home_team": "U Craiova 1948",
-          "away_team": "FC Hermannstadt",
-          "score": "1-1",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WObUIAre/",
           "youtube_url": null
         }
       ]
@@ -168121,23 +168001,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/xpU2X9cl/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "WObUIAre",
-          "date": "2023-10-06",
-          "home_team": "U Craiova 1948",
-          "away_team": "FC Hermannstadt",
-          "score": "1-1",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/WObUIAre/",
           "youtube_url": null
         }
       ]
@@ -202505,38 +202368,38 @@
           "rank": 1,
           "team": "Spain U21",
           "team_id": "8htN2to0",
-          "played": 9,
-          "win": 8,
+          "played": 10,
+          "win": 9,
           "draw": 0,
           "loss": 1,
-          "gf": 40,
-          "ga": 4,
-          "points": 24,
+          "gf": 47,
+          "ga": 5,
+          "points": 27,
           "is_romania": false
         },
         {
           "rank": 2,
           "team": "Finland U21",
           "team_id": "ziUu4r1s",
-          "played": 9,
+          "played": 10,
           "win": 7,
-          "draw": 1,
+          "draw": 2,
           "loss": 1,
-          "gf": 30,
-          "ga": 3,
-          "points": 22,
+          "gf": 34,
+          "ga": 7,
+          "points": 23,
           "is_romania": false
         },
         {
           "rank": 3,
           "team": "Romania U21",
           "team_id": "dhDp7QEq",
-          "played": 9,
+          "played": 10,
           "win": 5,
           "draw": 1,
-          "loss": 3,
-          "gf": 11,
-          "ga": 6,
+          "loss": 4,
+          "gf": 12,
+          "ga": 13,
           "points": 16,
           "is_romania": true
         },
@@ -202544,38 +202407,38 @@
           "rank": 4,
           "team": "Kosovo U21",
           "team_id": "GSciy3HM",
-          "played": 9,
+          "played": 10,
           "win": 4,
-          "draw": 2,
+          "draw": 3,
           "loss": 3,
-          "gf": 17,
-          "ga": 7,
-          "points": 14,
+          "gf": 21,
+          "ga": 11,
+          "points": 15,
           "is_romania": false
         },
         {
           "rank": 5,
           "team": "Cyprus U21",
           "team_id": "0U1KQdKm",
-          "played": 9,
-          "win": 1,
+          "played": 10,
+          "win": 2,
           "draw": 0,
           "loss": 8,
-          "gf": 6,
+          "gf": 8,
           "ga": 29,
-          "points": 3,
+          "points": 6,
           "is_romania": false
         },
         {
           "rank": 6,
           "team": "San Marino U21",
           "team_id": "2ywYZKat",
-          "played": 9,
+          "played": 10,
           "win": 0,
           "draw": 0,
-          "loss": 9,
+          "loss": 10,
           "gf": 0,
-          "ga": 55,
+          "ga": 57,
           "points": 0,
           "is_romania": false
         }
@@ -202587,5 +202450,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-06T12:22:56Z"
+  "updated_at": "2026-10-07T12:15:30Z"
 }
