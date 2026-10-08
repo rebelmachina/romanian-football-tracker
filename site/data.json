@@ -10672,23 +10672,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/CtyRzJUd/",
           "youtube_url": null
-        },
-        {
-          "match_id": "OdGmNa0c",
-          "date": "2023-10-07",
-          "home_team": "Basaksehir",
-          "away_team": "Gaziantep",
-          "score": "2-0",
-          "competition": "Super Lig (Turkey)",
-          "result": "L",
-          "player_minutes": 81,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OdGmNa0c/",
-          "youtube_url": null
         }
       ]
     },
@@ -13389,23 +13372,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Q1ULPjgP",
-          "date": "2023-10-07",
-          "home_team": "Venezia",
-          "away_team": "Parma",
-          "score": "3-2",
-          "competition": "Serie B (Italy)",
-          "result": "L",
-          "player_minutes": 31,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Q1ULPjgP/",
           "youtube_url": null
         }
       ]
@@ -27338,23 +27304,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
           "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
-          "youtube_url": null
         }
       ]
     },
@@ -34259,23 +34208,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/h6Tjc7s1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "faZCoArk",
-          "date": "2023-10-07",
-          "home_team": "Metaloglobus Bucharest",
-          "away_team": "Csikszereda M. Ciuc",
-          "score": "0-0",
-          "competition": "Liga 2 (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/faZCoArk/",
           "youtube_url": null
         }
       ]
@@ -42099,23 +42031,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/WzoFxQrf/",
           "youtube_url": null
-        },
-        {
-          "match_id": "EwaqP6Ef",
-          "date": "2023-10-07",
-          "home_team": "Juventus",
-          "away_team": "Torino",
-          "score": "2-0",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/EwaqP6Ef/",
-          "youtube_url": null
         }
       ]
     },
@@ -44522,23 +44437,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bmWCOJED/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "ANcPXNiR",
-          "date": "2023-10-07",
-          "home_team": "Ruch Chorzow",
-          "away_team": "Pogon Szczecin",
-          "score": "0-3",
-          "competition": "Ekstraklasa (Poland)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ANcPXNiR/",
           "youtube_url": null
         }
       ]
@@ -50669,23 +50567,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/t4kNHLLJ/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "hplnG8pF",
-          "date": "2023-10-07",
-          "home_team": "Verona U19",
-          "away_team": "Empoli U19",
-          "score": "0-0",
-          "competition": "Primavera 1 (Italy)",
-          "result": "D",
-          "player_minutes": 2,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/hplnG8pF/",
           "youtube_url": null
         }
       ]
@@ -64909,23 +64790,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
-        },
-        {
-          "match_id": "UoTrSvve",
-          "date": "2023-10-07",
-          "home_team": "Al Okhdood",
-          "away_team": "Al Hilal",
-          "score": "0-3",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/UoTrSvve/",
-          "youtube_url": null
         }
       ]
     },
@@ -69519,23 +69383,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
           "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
-          "youtube_url": null
         }
       ]
     },
@@ -69545,7 +69392,7 @@
       "slug": "campanu-george",
       "position": null,
       "photo": "https://static.flashscore.com/res/image/data/CYD2GMBr-SOhAMYF6.png",
-      "age": 25,
+      "age": 26,
       "market_value": "€979k",
       "team": "Chongqing Tonglianglong",
       "team_logo": "https://static.flashscore.com/res/image/data/lOCfDQkC-IBpsCZfj.png",
@@ -87107,23 +86954,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
           "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
         }
       ]
     },
@@ -90240,23 +90070,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/v9QJTRdD/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
         }
       ]
@@ -93431,23 +93244,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
           "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 29,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
         }
       ]
     },
@@ -96472,23 +96268,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tUQROEtR/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "t8kiCycL",
-          "date": "2023-10-07",
-          "home_team": "Pafos",
-          "away_team": "AEK Larnaca",
-          "score": "0-0",
-          "competition": "Cyprus League (Cyprus)",
-          "result": "D",
-          "player_minutes": 83,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/t8kiCycL/",
           "youtube_url": null
         }
       ]
@@ -99643,23 +99422,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EZOH1uVD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "UoTrSvve",
-          "date": "2023-10-07",
-          "home_team": "Al Okhdood",
-          "away_team": "Al Hilal",
-          "score": "0-3",
-          "competition": "Saudi Professional League (Saudi Arabia)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/UoTrSvve/",
-          "youtube_url": null
         }
       ]
     },
@@ -102091,23 +101853,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/lSDBCok7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
           "youtube_url": null
         }
       ]
@@ -113619,23 +113364,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/bZIBFdm0/",
           "youtube_url": null
-        },
-        {
-          "match_id": "CInUym42",
-          "date": "2023-10-07",
-          "home_team": "Everton",
-          "away_team": "Bournemouth",
-          "score": "3-0",
-          "competition": "Premier League (England)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/CInUym42/",
-          "youtube_url": null
         }
       ]
     },
@@ -116865,23 +116593,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "0Y9Tnlfq",
-          "date": "2023-10-07",
-          "home_team": "Sevilla",
-          "away_team": "Rayo Vallecano",
-          "score": "2-2",
-          "competition": "LaLiga (Spain)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/0Y9Tnlfq/",
           "youtube_url": null
         }
       ]
@@ -120221,23 +119932,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "YTjyRSqr",
-          "date": "2023-10-07",
-          "home_team": "Genoa",
-          "away_team": "AC Milan",
-          "score": "0-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/YTjyRSqr/",
           "youtube_url": null
         }
       ]
@@ -130312,23 +130006,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/G2qrp8jK/",
           "youtube_url": null
-        },
-        {
-          "match_id": "YTjyRSqr",
-          "date": "2023-10-07",
-          "home_team": "Genoa",
-          "away_team": "AC Milan",
-          "score": "0-1",
-          "competition": "Serie A (Italy)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/YTjyRSqr/",
-          "youtube_url": null
         }
       ]
     },
@@ -132692,23 +132369,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
           "youtube_url": null
         }
       ]
@@ -137617,23 +137277,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tE42hBZD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
         }
       ]
     },
@@ -142300,23 +141943,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/lSDBCok7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "tEvWdlA0",
-          "date": "2023-10-07",
-          "home_team": "St Etienne",
-          "away_team": "AC Ajaccio",
-          "score": "0-0",
-          "competition": "Ligue 2 (France)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/tEvWdlA0/",
           "youtube_url": null
         }
       ]
@@ -153500,6 +153126,23 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "IB2bW7pI",
+          "date": "2026-10-07",
+          "home_team": "Buriram",
+          "away_team": "Borneo",
+          "score": "0-0",
+          "competition": "ASEAN Club Championship (Asia)",
+          "result": "D",
+          "player_minutes": 13,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/IB2bW7pI/",
+          "youtube_url": "https://www.youtube.com/watch?v=ZMb5CX-yVOU"
+        },
         {
           "match_id": "dxfvovhm",
           "date": "2026-09-20",
@@ -175202,23 +174845,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/fN74HS05/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2TrR39W5",
-          "date": "2023-10-07",
-          "home_team": "Modena",
-          "away_team": "Palermo",
-          "score": "0-2",
-          "competition": "Serie B (Italy)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/2TrR39W5/",
-          "youtube_url": null
         }
       ]
     },
@@ -182141,25 +181767,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/v9QJTRdD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "16'"
-          ],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
-          "youtube_url": null
         }
       ]
     },
@@ -184448,23 +184055,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 78,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
           "youtube_url": null
         }
       ]
@@ -187989,23 +187579,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
         }
       ]
@@ -193039,25 +192612,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "pnkOvh5E",
-          "date": "2023-10-07",
-          "home_team": "FC Botosani",
-          "away_team": "FCSB",
-          "score": "0-1",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 86,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "16'"
-          ],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/pnkOvh5E/",
           "youtube_url": null
         }
       ]
@@ -198506,23 +198060,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Q1ULPjgP",
-          "date": "2023-10-07",
-          "home_team": "Venezia",
-          "away_team": "Parma",
-          "score": "3-2",
-          "competition": "Serie B (Italy)",
-          "result": "L",
-          "player_minutes": 59,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/Q1ULPjgP/",
-          "youtube_url": null
         }
       ]
     },
@@ -202338,23 +201875,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
           "youtube_url": null
-        },
-        {
-          "match_id": "6ejKuYk8",
-          "date": "2023-10-07",
-          "home_team": "FC Voluntari",
-          "away_team": "Univ. Craiova",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/6ejKuYk8/",
-          "youtube_url": null
         }
       ]
     }
@@ -202450,5 +201970,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-07T12:15:30Z"
+  "updated_at": "2026-10-08T12:24:46Z"
 }
