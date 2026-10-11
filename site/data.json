@@ -10707,6 +10707,23 @@
       },
       "results": [
         {
+          "match_id": "2kk0O4kD",
+          "date": "2026-10-10",
+          "home_team": "Rizespor",
+          "away_team": "Fenerbahce",
+          "score": "0-3",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/2kk0O4kD/",
+          "youtube_url": "https://www.youtube.com/watch?v=ZOimvbJmjDI"
+        },
+        {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
           "home_team": "Romania",
@@ -13393,11 +13410,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 1,
-        "appearances": 4,
-        "minutes": 107,
-        "rating": "7.5"
+        "appearances": 5,
+        "minutes": 131,
+        "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "2kk0O4kD",
+          "date": "2026-10-10",
+          "home_team": "Rizespor",
+          "away_team": "Fenerbahce",
+          "score": "0-3",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": 24,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/2kk0O4kD/",
+          "youtube_url": "https://www.youtube.com/watch?v=ZOimvbJmjDI"
+        },
         {
           "match_id": "KC70lu4N",
           "date": "2026-10-06",
@@ -18906,11 +18940,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 4,
-        "minutes": 103,
+        "appearances": 5,
+        "minutes": 130,
         "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "UyihQQK0",
+          "date": "2026-10-10",
+          "home_team": "Alanyaspor",
+          "away_team": "Erzurumspor",
+          "score": "0-0",
+          "competition": "Super Lig (Turkey)",
+          "result": "D",
+          "player_minutes": 27,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/UyihQQK0/",
+          "youtube_url": "https://www.youtube.com/watch?v=svSJwVwG_Yk"
+        },
         {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
@@ -22105,13 +22156,32 @@
       "group": "NB I. (Hungary)",
       "nt": null,
       "season_stats": {
-        "goals": 1,
+        "goals": 2,
         "assists": 0,
-        "appearances": 7,
-        "minutes": 423,
-        "rating": "6.5"
+        "appearances": 8,
+        "minutes": 513,
+        "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "nw7pVQD6",
+          "date": "2026-10-10",
+          "home_team": "Ferencvaros",
+          "away_team": "Debrecen",
+          "score": "1-1",
+          "competition": "NB I. (Hungary)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "65'"
+          ],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/nw7pVQD6/",
+          "youtube_url": "https://www.youtube.com/watch?v=sMda2z5FsgI"
+        },
         {
           "match_id": "baqQxIFF",
           "date": "2026-09-20",
@@ -50509,10 +50579,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 3,
-        "minutes": 726,
+        "minutes": 652,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "dGhI2s5N",
+          "date": "2026-10-10",
+          "home_team": "Maccabi Tel Aviv",
+          "away_team": "Sakhnin",
+          "score": "0-0",
+          "competition": "Ligat ha'Al (Israel)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dGhI2s5N/",
+          "youtube_url": null
+        },
         {
           "match_id": "8hVagIAC",
           "date": "2026-09-19",
@@ -52685,11 +52772,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 5,
-        "minutes": 450,
-        "rating": "7.2"
+        "appearances": 6,
+        "minutes": 540,
+        "rating": "7.3"
       },
       "results": [
+        {
+          "match_id": "dGhI2s5N",
+          "date": "2026-10-10",
+          "home_team": "Maccabi Tel Aviv",
+          "away_team": "Sakhnin",
+          "score": "0-0",
+          "competition": "Ligat ha'Al (Israel)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dGhI2s5N/",
+          "youtube_url": null
+        },
         {
           "match_id": "8hVagIAC",
           "date": "2026-09-19",
@@ -54739,11 +54843,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 2,
-        "minutes": 71,
-        "rating": "6.1"
+        "appearances": 3,
+        "minutes": 106,
+        "rating": "6.2"
       },
       "results": [
+        {
+          "match_id": "dGhI2s5N",
+          "date": "2026-10-10",
+          "home_team": "Maccabi Tel Aviv",
+          "away_team": "Sakhnin",
+          "score": "0-0",
+          "competition": "Ligat ha'Al (Israel)",
+          "result": "D",
+          "player_minutes": 35,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dGhI2s5N/",
+          "youtube_url": null
+        },
         {
           "match_id": "8hVagIAC",
           "date": "2026-09-19",
@@ -57294,11 +57415,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 2,
-        "minutes": 67,
-        "rating": "6.2"
+        "appearances": 3,
+        "minutes": 121,
+        "rating": "6.1"
       },
       "results": [
+        {
+          "match_id": "SbqlcLSp",
+          "date": "2026-10-10",
+          "home_team": "Kiryat Shmona",
+          "away_team": "Hapoel Tel Aviv",
+          "score": "1-3",
+          "competition": "Ligat ha'Al (Israel)",
+          "result": "L",
+          "player_minutes": 54,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SbqlcLSp/",
+          "youtube_url": null
+        },
         {
           "match_id": "t6T7iduP",
           "date": "2026-09-19",
@@ -62439,11 +62577,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 23,
-        "minutes": 540,
-        "rating": "6.9"
+        "appearances": 24,
+        "minutes": 630,
+        "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "dEgaMgL6",
+          "date": "2026-10-10",
+          "home_team": "Shanghai Shenhua",
+          "away_team": "Yunnan Yukun",
+          "score": "7-1",
+          "competition": "Super League (China)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dEgaMgL6/",
+          "youtube_url": null
+        },
         {
           "match_id": "jFVbVftH",
           "date": "2026-09-28",
@@ -64703,11 +64858,28 @@
       "season_stats": {
         "goals": 5,
         "assists": 13,
-        "appearances": 26,
-        "minutes": 587,
+        "appearances": 27,
+        "minutes": 575,
         "rating": "7.6"
       },
       "results": [
+        {
+          "match_id": "dEgaMgL6",
+          "date": "2026-10-10",
+          "home_team": "Shanghai Shenhua",
+          "away_team": "Yunnan Yukun",
+          "score": "7-1",
+          "competition": "Super League (China)",
+          "result": "L",
+          "player_minutes": 77,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dEgaMgL6/",
+          "youtube_url": null
+        },
         {
           "match_id": "EZcCBx7l",
           "date": "2026-09-06",
@@ -74398,11 +74570,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 5,
-        "minutes": 143,
-        "rating": "6.2"
+        "appearances": 6,
+        "minutes": 134,
+        "rating": "6.3"
       },
       "results": [
+        {
+          "match_id": "zF7WBOPh",
+          "date": "2026-10-10",
+          "home_team": "Sudtirol",
+          "away_team": "Ascoli",
+          "score": "0-0",
+          "competition": "Serie B (Italy)",
+          "result": "D",
+          "player_minutes": 24,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/zF7WBOPh/",
+          "youtube_url": "https://www.youtube.com/watch?v=0AwDXETi0oY"
+        },
         {
           "match_id": "KC70lu4N",
           "date": "2026-10-06",
@@ -77598,6 +77787,23 @@
       },
       "results": [
         {
+          "match_id": "vBG7e3uC",
+          "date": "2026-10-10",
+          "home_team": "Benevento",
+          "away_team": "Cesena",
+          "score": "2-0",
+          "competition": "Serie B (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/vBG7e3uC/",
+          "youtube_url": "https://www.youtube.com/watch?v=pZCvqXZMpyY"
+        },
+        {
           "match_id": "CvuE2aVs",
           "date": "2026-09-18",
           "home_team": "Juve Stabia",
@@ -80434,6 +80640,23 @@
       },
       "results": [
         {
+          "match_id": "Sl4ODpet",
+          "date": "2026-10-10",
+          "home_team": "Arezzo",
+          "away_team": "Cremonese",
+          "score": "0-0",
+          "competition": "Serie B (Italy)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Sl4ODpet/",
+          "youtube_url": "https://www.youtube.com/watch?v=-QNFhTghEgk"
+        },
+        {
           "match_id": "h6OJIomo",
           "date": "2026-09-27",
           "home_team": "Lazio",
@@ -80696,12 +80919,31 @@
       },
       "season_stats": {
         "goals": 1,
-        "assists": 3,
-        "appearances": 5,
+        "assists": 4,
+        "appearances": 6,
         "minutes": 350,
-        "rating": "7.5"
+        "rating": "7.6"
       },
       "results": [
+        {
+          "match_id": "vRKQIaWI",
+          "date": "2026-10-10",
+          "home_team": "AEK Athens",
+          "away_team": "OFI Crete",
+          "score": "3-0",
+          "competition": "Super League (Greece)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 1,
+          "goal_minutes": [],
+          "assist_minutes": [
+            "83'"
+          ],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/vRKQIaWI/",
+          "youtube_url": null
+        },
         {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
@@ -89894,7 +90136,7 @@
       "position": null,
       "photo": "https://static.flashscore.com/res/image/data/EXvq7eCa-0QdBtiq3.png",
       "age": 23,
-      "market_value": "€570k",
+      "market_value": "€562k",
       "team": "Levadiakos",
       "team_logo": "https://static.flashscore.com/res/image/data/lAour7kC-p49RQDgb.png",
       "career_teams": [
@@ -101741,10 +101983,27 @@
         "goals": 6,
         "assists": 2,
         "appearances": 22,
-        "minutes": 497,
+        "minutes": 429,
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "0S6wS7ON",
+          "date": "2026-10-11",
+          "home_team": "Inter Miami",
+          "away_team": "DC United",
+          "score": "4-0",
+          "competition": "MLS (USA)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/0S6wS7ON/",
+          "youtube_url": "https://www.youtube.com/watch?v=t5IUuaKqs3s"
+        },
         {
           "match_id": "IDV2PG2N",
           "date": "2026-10-01",
@@ -107071,10 +107330,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 2,
-        "minutes": 359,
+        "minutes": 270,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "CheNVkPb",
+          "date": "2026-10-11",
+          "home_team": "Atlanta Utd",
+          "away_team": "FC Cincinnati",
+          "score": "1-3",
+          "competition": "MLS (USA)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/CheNVkPb/",
+          "youtube_url": "https://www.youtube.com/watch?v=FI-52kTFWkI"
+        },
         {
           "match_id": "YFRRxgDM",
           "date": "2026-09-27",
@@ -107233,6 +107509,23 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Sj2MazAD/",
           "youtube_url": "https://www.youtube.com/watch?v=KA-d-v6ZpU0"
+        },
+        {
+          "match_id": "K8yyXpzA",
+          "date": "2026-08-23",
+          "home_team": "FC Cincinnati",
+          "away_team": "Seattle Sounders",
+          "score": "1-1",
+          "competition": "MLS (USA)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/K8yyXpzA/",
+          "youtube_url": "https://www.youtube.com/watch?v=_Gm17Sy5urA"
         },
         {
           "match_id": "G2qNF4bf",
@@ -113212,10 +113505,27 @@
         "goals": 1,
         "assists": 0,
         "appearances": 6,
-        "minutes": 540,
+        "minutes": 450,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "zsIUF5yo",
+          "date": "2026-10-10",
+          "home_team": "Rayo Vallecano",
+          "away_team": "Ath Bilbao",
+          "score": "0-0",
+          "competition": "LaLiga (Spain)",
+          "result": "",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/zsIUF5yo/",
+          "youtube_url": null
+        },
         {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
@@ -116451,11 +116761,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 5,
-        "minutes": 450,
-        "rating": "6.9"
+        "appearances": 6,
+        "minutes": 540,
+        "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "6k8N36mo",
+          "date": "2026-10-10",
+          "home_team": "Genoa",
+          "away_team": "Fiorentina",
+          "score": "2-1",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6k8N36mo/",
+          "youtube_url": "https://www.youtube.com/watch?v=nISw5oWDk6o"
+        },
         {
           "match_id": "pho3Macn",
           "date": "2026-10-02",
@@ -119785,6 +120112,23 @@
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "pKaXL59T",
+          "date": "2026-10-10",
+          "home_team": "Napoli",
+          "away_team": "Frosinone",
+          "score": "3-0",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/pKaXL59T/",
+          "youtube_url": "https://www.youtube.com/watch?v=5SKpbkJCRww"
+        },
         {
           "match_id": "pho3Macn",
           "date": "2026-10-02",
@@ -123227,10 +123571,27 @@
         "goals": 1,
         "assists": 0,
         "appearances": 8,
-        "minutes": 452,
+        "minutes": 362,
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "tAk8t0M5",
+          "date": "2026-10-10",
+          "home_team": "Charlton",
+          "away_team": "Bristol City",
+          "score": "1-1",
+          "competition": "Championship (England)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/tAk8t0M5/",
+          "youtube_url": "https://www.youtube.com/watch?v=WgFqJzjnvpE"
+        },
         {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
@@ -126013,10 +126374,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 6,
-        "minutes": 273,
+        "minutes": 270,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "vsTUtUXo",
+          "date": "2026-10-10",
+          "home_team": "Sheffield Utd",
+          "away_team": "Lincoln",
+          "score": "3-0",
+          "competition": "Championship (England)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/vsTUtUXo/",
+          "youtube_url": "https://www.youtube.com/watch?v=IFXpmuByA6Q"
+        },
         {
           "match_id": "SbevBQf2",
           "date": "2026-10-05",
@@ -146551,11 +146929,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 9,
+        "appearances": 10,
         "minutes": 696,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "6mmw9nZ1",
+          "date": "2026-10-10",
+          "home_team": "Lok. Sofia",
+          "away_team": "Lok. Plovdiv",
+          "score": "1-1",
+          "competition": "efbet League (Bulgaria)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6mmw9nZ1/",
+          "youtube_url": "https://www.youtube.com/watch?v=txhxehAHJkw"
+        },
         {
           "match_id": "jc0K3icM",
           "date": "2026-09-20",
@@ -148571,11 +148966,28 @@
       "season_stats": {
         "goals": 6,
         "assists": 0,
-        "appearances": 24,
-        "minutes": 33,
+        "appearances": 25,
+        "minutes": 45,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "ppFZhH74",
+          "date": "2026-10-10",
+          "home_team": "Zalgiris",
+          "away_team": "Suduva",
+          "score": "4-0",
+          "competition": "TOPLYGA (Lithuania)",
+          "result": "W",
+          "player_minutes": 12,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ppFZhH74/",
+          "youtube_url": "https://www.youtube.com/watch?v=mLppYqRaHDg"
+        },
         {
           "match_id": "tAL0nHkd",
           "date": "2026-10-03",
@@ -150594,6 +151006,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "ppFZhH74",
+          "date": "2026-10-10",
+          "home_team": "Zalgiris",
+          "away_team": "Suduva",
+          "score": "4-0",
+          "competition": "TOPLYGA (Lithuania)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ppFZhH74/",
+          "youtube_url": "https://www.youtube.com/watch?v=mLppYqRaHDg"
+        },
         {
           "match_id": "tAL0nHkd",
           "date": "2026-10-03",
@@ -152853,6 +153282,23 @@
       },
       "results": [
         {
+          "match_id": "6kxKcHyg",
+          "date": "2026-10-10",
+          "home_team": "Buriram",
+          "away_team": "Rayong FC",
+          "score": "3-2",
+          "competition": "Thai League 1 (Thailand)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6kxKcHyg/",
+          "youtube_url": null
+        },
+        {
           "match_id": "IB2bW7pI",
           "date": "2026-10-07",
           "home_team": "Buriram",
@@ -154642,12 +155088,31 @@
       "nt": null,
       "season_stats": {
         "goals": 0,
-        "assists": 1,
-        "appearances": 2,
-        "minutes": 93,
-        "rating": "6.9"
+        "assists": 2,
+        "appearances": 3,
+        "minutes": 167,
+        "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "6kxKcHyg",
+          "date": "2026-10-10",
+          "home_team": "Buriram",
+          "away_team": "Rayong FC",
+          "score": "3-2",
+          "competition": "Thai League 1 (Thailand)",
+          "result": "L",
+          "player_minutes": 74,
+          "player_goals": 0,
+          "player_assists": 1,
+          "goal_minutes": [],
+          "assist_minutes": [
+            "56'"
+          ],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6kxKcHyg/",
+          "youtube_url": null
+        },
         {
           "match_id": "42cnqIMa",
           "date": "2026-09-20",
@@ -156202,10 +156667,27 @@
         "goals": 1,
         "assists": 2,
         "appearances": 9,
-        "minutes": 100,
+        "minutes": 80,
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "QoNV13gn",
+          "date": "2026-10-11",
+          "home_team": "Zilina B",
+          "away_team": "Galanta",
+          "score": "2-3",
+          "competition": "2. liga (Slovakia)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/QoNV13gn/",
+          "youtube_url": null
+        },
         {
           "match_id": "U5YDvzdL",
           "date": "2026-10-03",
@@ -160662,11 +161144,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 4,
-        "minutes": 174,
-        "rating": "6.1"
+        "appearances": 5,
+        "minutes": 197,
+        "rating": "6.2"
       },
       "results": [
+        {
+          "match_id": "xd7seOkU",
+          "date": "2026-10-10",
+          "home_team": "Kosice",
+          "away_team": "Komarno",
+          "score": "1-1",
+          "competition": "Nike liga (Slovakia)",
+          "result": "D",
+          "player_minutes": 23,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/xd7seOkU/",
+          "youtube_url": "https://www.youtube.com/watch?v=0d_OgpIFBks"
+        },
         {
           "match_id": "OUj3BOID",
           "date": "2026-09-19",
@@ -162649,11 +163148,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 3,
-        "minutes": 206,
-        "rating": "6.8"
+        "appearances": 4,
+        "minutes": 296,
+        "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "MgvYDC0b",
+          "date": "2026-10-10",
+          "home_team": "Dundee Utd",
+          "away_team": "Hibernian",
+          "score": "1-0",
+          "competition": "Premiership (Scotland)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/MgvYDC0b/",
+          "youtube_url": "https://www.youtube.com/watch?v=q9bIVGgMbVg"
+        },
         {
           "match_id": "KC70lu4N",
           "date": "2026-10-06",
@@ -167355,13 +167871,32 @@
       "group": "Prva liga (Slovenia)",
       "nt": null,
       "season_stats": {
-        "goals": 0,
+        "goals": 1,
         "assists": 0,
-        "appearances": 2,
-        "minutes": 116,
+        "appearances": 3,
+        "minutes": 206,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "SlpdETtn",
+          "date": "2026-10-10",
+          "home_team": "O. Ljubljana",
+          "away_team": "Mura",
+          "score": "3-3",
+          "competition": "Prva liga (Slovenia)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "69'"
+          ],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SlpdETtn/",
+          "youtube_url": "https://www.youtube.com/watch?v=jUMxZXFxCjg"
+        },
         {
           "match_id": "4CncdeL0",
           "date": "2026-09-20",
@@ -169458,11 +169993,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 4,
-        "minutes": 308,
+        "appearances": 5,
+        "minutes": 327,
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "CjoHLYXN",
+          "date": "2026-10-10",
+          "home_team": "Magdeburg",
+          "away_team": "Hannover",
+          "score": "3-0",
+          "competition": "2. Bundesliga (Germany)",
+          "result": "L",
+          "player_minutes": 19,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/CjoHLYXN/",
+          "youtube_url": null
+        },
         {
           "match_id": "Ozn0CfAT",
           "date": "2026-10-03",
@@ -201626,5 +202178,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-11T03:02:00Z"
+  "updated_at": "2026-10-11T11:48:02Z"
 }
