@@ -1,5 +1,5 @@
 from datetime import date, timedelta
-from scrape import merge_youtube, build_player_record, group_label, needs_highlight_check, _merge_results
+from scrape import merge_youtube, build_player_record, _previous_positions, group_label, needs_highlight_check, _merge_results
 from config import PlayerConfig
 from flashscore.search import PlayerHit
 from flashscore.player import PlayerData, SeasonStats, MatchResult
@@ -75,3 +75,27 @@ def test_build_player_record_shape():
     assert r0["match_id"] == "jiBADrkI"
     assert r0["youtube_url"] is None
     assert r0["flashscore_url"].endswith("jiBADrkI/")
+
+
+def _pos_record(hit_pos, page_pos, previous=None):
+    cfg = PlayerConfig("X", "pid", "C")
+    hit = PlayerHit("pid", "X", "x", hit_pos, "Romania", "T", "tid")
+    pdata = PlayerData("pid", "T", "L", "C", SeasonStats(0, 0, 0, 0, None),
+                       position=page_pos)
+    return build_player_record(cfg, hit, pdata, previous_position=previous)
+
+
+def test_position_prefers_player_page():
+    assert _pos_record("Defender", "Forward")["position"] == "Forward"
+
+
+def test_position_falls_back_to_search_then_previous():
+    assert _pos_record("Defender", None, "Forward")["position"] == "Defender"
+    assert _pos_record(None, None, "Forward")["position"] == "Forward"
+    assert _pos_record(None, None)["position"] is None
+
+
+def test_previous_positions_skips_missing():
+    data = {"players": [{"flashscore_id": "a", "position": "Defender"},
+                        {"flashscore_id": "b", "position": None}]}
+    assert _previous_positions(data) == {"a": "Defender"}

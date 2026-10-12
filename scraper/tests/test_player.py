@@ -159,3 +159,16 @@ def test_fetch_player_data_live():
     assert data.team_name == "Dundee Utd"
     assert data.results
     assert all(r.match_id for r in data.results)
+
+
+def test_parse_player_env_position_from_participant_type():
+    env = {"careerTables": [], "lastMatchesData": {"lastMatches": []},
+           "participantTypeId": 12}
+    assert parse_player_env(env, "pid").position == "Goalkeeper"
+
+
+def test_parse_player_env_position_missing_or_unknown_is_none():
+    env = {"careerTables": [], "lastMatchesData": {"lastMatches": []}}
+    assert parse_player_env(env, "pid").position is None
+    env["participantTypeId"] = 2   # generic "Player"
+    assert parse_player_env(env, "pid").position is None

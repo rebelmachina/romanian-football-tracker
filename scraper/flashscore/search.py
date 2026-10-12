@@ -7,6 +7,8 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
 # participantType id -> position name. Verified 2026-09-21.
+# Since ~2026-09-28 the search API only returns the generic type (2, "Player"),
+# so the player page's `participantTypeId` is the primary source now.
 POSITION_TYPES: dict[int, str] = {
     12: "Goalkeeper",
     13: "Defender",

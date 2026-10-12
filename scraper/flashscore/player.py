@@ -12,6 +12,8 @@ import time
 from dataclasses import dataclass, field
 import requests
 
+from flashscore.search import POSITION_TYPES
+
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 FEED_HOST = "https://global.flashscore.ninja/2/x/feed/"
@@ -60,6 +62,7 @@ class PlayerData:
     team_logo: str | None = None
     nt: dict | None = None
     career_teams: list[dict] = field(default_factory=list)
+    position: str | None = None
 
 
 def _safe_int(value) -> int:
@@ -238,7 +241,8 @@ def parse_player_env(env: dict, player_id: str, club_id: str | None = None,
     career = env.get("careerTables", [])
     return PlayerData(player_id, team_name, league, country, stats, results,
                       team_logo=team_logo, nt=_nt_stats(career),
-                      career_teams=_career_teams(career, club_id, club_name))
+                      career_teams=_career_teams(career, club_id, club_name),
+                      position=POSITION_TYPES.get(env.get("participantTypeId")))
 
 
 def fetch_match_history(player_id: str, session: requests.Session,

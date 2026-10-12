@@ -64,8 +64,8 @@ def merge_youtube(results: list[dict], overrides: dict[str, str],
             r["youtube_url"] = scraped[mid]
 
 
-def build_player_record(cfg: PlayerConfig, hit: PlayerHit,
-                        pdata: PlayerData) -> dict:
+def build_player_record(cfg: PlayerConfig, hit: PlayerHit, pdata: PlayerData,
+                        previous_position: str | None = None) -> dict:
     team = pdata.team_name or hit.club_name
     league = pdata.league
     country = pdata.country
@@ -73,7 +73,9 @@ def build_player_record(cfg: PlayerConfig, hit: PlayerHit,
         "name": cfg.name,
         "flashscore_id": cfg.flashscore_id,
         "slug": hit.slug,
-        "position": hit.position,
+        # player page first; search API stopped sending positions (~2026-09-28);
+        # last resort is the previous run's value so a flaky source can't wipe it
+        "position": pdata.position or hit.position or previous_position,
         "photo": hit.photo,
         "age": pdata.age,
         "market_value": pdata.market_value,
@@ -92,6 +94,12 @@ def build_player_record(cfg: PlayerConfig, hit: PlayerHit,
             for r in pdata.results
         ],
     }
+
+
+def _previous_positions(data: dict) -> dict[str, str]:
+    """flashscore_id -> position from a previous data.json, skipping blanks."""
+    return {p["flashscore_id"]: p["position"] for p in data.get("players", [])
+            if p.get("flashscore_id") and p.get("position")}
 
 
 def _load_json(path: Path, default):
@@ -157,7 +165,8 @@ def _merge_results(recent: list, history: list, since: str) -> list:
 
 def run_full(session: requests.Session, players: list[PlayerConfig],
              overrides: dict, cache: dict, inc_cache: dict, today: date,
-             since: str) -> dict:
+             since: str, prev_positions: dict[str, str] | None = None) -> dict:
+    prev_positions = prev_positions or {}
     records = []
     for cfg in players:
         try:
@@ -174,7 +183,8 @@ def run_full(session: requests.Session, players: list[PlayerConfig],
         except Exception as exc:  # keep going; one bad player shouldn't kill the run
             print(f"  ! error for {cfg.name}: {exc}")
             continue
-        rec = build_player_record(cfg, hit, pdata)
+        rec = build_player_record(cfg, hit, pdata,
+                                  previous_position=prev_positions.get(cfg.flashscore_id))
         matches = [(r["match_id"], r["date"]) for r in rec["results"]]
         scraped = _resolve_highlights(matches, cache, session, today)
         merge_youtube(rec["results"], overrides, scraped)
@@ -219,7 +229,9 @@ def main(argv=None) -> int:
         years = args.years if args.years is not None else load_history_years(ROOT / "players.yaml")
         since = args.since or (today - timedelta(days=round(365.25 * years))).strftime("%Y-%m-%d")
         print(f"Scraping {len(players)} players since {since} (~{years:g} yr)…")
-        data = run_full(session, players, overrides, cache, inc_cache, today, since)
+        prev_positions = _previous_positions(_load_json(DATA_PATH, {}))
+        data = run_full(session, players, overrides, cache, inc_cache, today, since,
+                        prev_positions)
         standings = []
         for c in load_standings(ROOT / "players.yaml"):
             table = fetch_standings(c["feed"], c["team_id"], session=session)
