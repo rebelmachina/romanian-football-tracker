@@ -8503,23 +8503,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -13407,23 +13390,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 6,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -16308,11 +16274,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 6,
-        "minutes": 495,
+        "appearances": 7,
+        "minutes": 585,
         "rating": "6.1"
       },
       "results": [
+        {
+          "match_id": "xUYpSnjl",
+          "date": "2026-10-12",
+          "home_team": "Eyupspor",
+          "away_team": "Goztepe",
+          "score": "0-4",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/xUYpSnjl/",
+          "youtube_url": "https://www.youtube.com/watch?v=7-kcchY7fFg"
+        },
         {
           "match_id": "KAgDDmye",
           "date": "2026-09-20",
@@ -18912,23 +18895,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -22144,23 +22110,6 @@
           ],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 29,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -39665,10 +39614,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 5,
-        "minutes": 450,
+        "minutes": 360,
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "WhRI85DU",
+          "date": "2026-10-12",
+          "home_team": "Radomiak Radom",
+          "away_team": "Motor Lublin",
+          "score": "2-3",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/WhRI85DU/",
+          "youtube_url": "https://www.youtube.com/watch?v=pcC04fc97us"
+        },
         {
           "match_id": "xYnjoBF6",
           "date": "2026-09-19",
@@ -47546,23 +47512,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OUw0RLUf/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -62708,23 +62657,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 84,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -64993,23 +64925,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -84258,23 +84173,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -99862,6 +99760,23 @@
       },
       "results": [
         {
+          "match_id": "ptssssAN",
+          "date": "2026-10-12",
+          "home_team": "AEK Larnaca",
+          "away_team": "Omonia Aradippou",
+          "score": "1-0",
+          "competition": "Cyprus League (Cyprus)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ptssssAN/",
+          "youtube_url": "https://www.youtube.com/watch?v=RAMCGb4W0pA"
+        },
+        {
           "match_id": "KC70lu4N",
           "date": "2026-10-06",
           "home_team": "Spain U21",
@@ -102216,25 +102131,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/27ebzksE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "lSDBCok7",
-          "date": "2023-10-12",
-          "home_team": "Romania U20",
-          "away_team": "England U20",
-          "score": "2-0",
-          "competition": "Elite League U20 (Europe)",
-          "result": "W",
-          "player_minutes": 55,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "16'"
-          ],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/lSDBCok7/",
           "youtube_url": null
         }
       ]
@@ -105421,23 +105317,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 13,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -117029,23 +116908,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -120384,23 +120246,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -130569,6 +130414,23 @@
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "lnkc3fz3",
+          "date": "2026-10-12",
+          "home_team": "Oviedo",
+          "away_team": "Eibar",
+          "score": "3-1",
+          "competition": "LaLiga2 (Spain)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/lnkc3fz3/",
+          "youtube_url": "https://www.youtube.com/watch?v=Wb00VGHWWbg"
+        },
         {
           "match_id": "Uo8Llz4C",
           "date": "2026-10-02",
@@ -142478,23 +142340,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/27ebzksE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "lSDBCok7",
-          "date": "2023-10-12",
-          "home_team": "Romania U20",
-          "away_team": "England U20",
-          "score": "2-0",
-          "competition": "Elite League U20 (Europe)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/lSDBCok7/",
           "youtube_url": null
         }
       ]
@@ -179416,23 +179261,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -188287,23 +188115,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/v9QJTRdD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 13,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -190982,6 +190793,23 @@
       },
       "results": [
         {
+          "match_id": "42Ztj6QN",
+          "date": "2026-10-12",
+          "home_team": "Al Gharafa",
+          "away_team": "Esteghlal F.C.",
+          "score": "1-2",
+          "competition": "AFC Champions League (Asia)",
+          "result": "L",
+          "player_minutes": 15,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/42Ztj6QN/",
+          "youtube_url": null
+        },
+        {
           "match_id": "vB0m588l",
           "date": "2026-10-08",
           "home_team": "Al Wakrah",
@@ -193338,23 +193166,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
           "youtube_url": null
         }
       ]
@@ -198803,23 +198614,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
-        },
-        {
-          "match_id": "Uih3Wh4f",
-          "date": "2023-10-12",
-          "home_team": "Belarus",
-          "away_team": "Romania",
-          "score": "0-0",
-          "competition": "Euro (Europe)",
-          "result": "D",
-          "player_minutes": 61,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/Uih3Wh4f/",
-          "youtube_url": null
         }
       ]
     },
@@ -202713,5 +202507,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-12T13:44:29Z"
+  "updated_at": "2026-10-13T13:07:00Z"
 }
