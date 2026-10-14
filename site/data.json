@@ -5756,23 +5756,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
         }
       ]
     },
@@ -24885,23 +24868,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
         }
       ]
     },
@@ -39548,23 +39514,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
           "youtube_url": null
         }
       ]
@@ -74668,23 +74617,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": 57,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
         }
       ]
     },
@@ -77878,23 +77810,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
           "youtube_url": null
         }
       ]
@@ -87149,23 +87064,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
         }
       ]
     },
@@ -90338,7 +90236,7 @@
         "assists": 0,
         "appearances": 2,
         "minutes": 51,
-        "rating": "6.5"
+        "rating": "6.6"
       },
       "results": [
         {
@@ -93469,26 +93367,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": 82,
-          "player_goals": 0,
-          "player_assists": 2,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "37'",
-            "80'"
-          ],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
           "youtube_url": null
         }
       ]
@@ -123761,11 +123639,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 8,
+        "appearances": 9,
         "minutes": 362,
-        "rating": "6.9"
+        "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "dKEIion4",
+          "date": "2026-10-13",
+          "home_team": "Bristol City",
+          "away_team": "Blackburn",
+          "score": "0-1",
+          "competition": "Championship (England)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dKEIion4/",
+          "youtube_url": "https://www.youtube.com/watch?v=eTtg9O6J8eM"
+        },
         {
           "match_id": "tAk8t0M5",
           "date": "2026-10-10",
@@ -153575,6 +153470,23 @@
       },
       "results": [
         {
+          "match_id": "fypUTokn",
+          "date": "2026-10-13",
+          "home_team": "Buriram",
+          "away_team": "Beijing Guoan",
+          "score": "0-1",
+          "competition": "AFC Champions League (Asia)",
+          "result": "L",
+          "player_minutes": 5,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/fypUTokn/",
+          "youtube_url": "https://www.youtube.com/watch?v=pNW0_rs0xDw"
+        },
+        {
           "match_id": "6kxKcHyg",
           "date": "2026-10-10",
           "home_team": "Buriram",
@@ -170235,23 +170147,6 @@
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/bsT9uzOk/",
           "youtube_url": null
-        },
-        {
-          "match_id": "2Bsvod0S",
-          "date": "2023-10-13",
-          "home_team": "Romania U21",
-          "away_team": "Armenia U21",
-          "score": "2-0",
-          "competition": "Euro U21 (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/2Bsvod0S/",
-          "youtube_url": null
         }
       ]
     },
@@ -172847,23 +172742,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QgKfm3iE/",
           "youtube_url": null
-        },
-        {
-          "match_id": "YobRoSF0",
-          "date": "2023-10-13",
-          "home_team": "Cracovia",
-          "away_team": "S. Rzeszow",
-          "score": "2-1",
-          "competition": "Club Friendly (World)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/YobRoSF0/",
-          "youtube_url": null
         }
       ]
     },
@@ -172921,10 +172799,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 2,
-        "minutes": 2,
+        "minutes": 0,
         "rating": "5.7"
       },
       "results": [
+        {
+          "match_id": "hUQZvjzi",
+          "date": "2026-10-13",
+          "home_team": "Lokomotiv Moscow",
+          "away_team": "Akron Togliatti",
+          "score": "1-2",
+          "competition": "Russian Cup (Russia)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/hUQZvjzi/",
+          "youtube_url": null
+        },
         {
           "match_id": "EotNuCVi",
           "date": "2026-10-09",
@@ -176698,6 +176593,23 @@
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "lhdbmIaS",
+          "date": "2026-10-13",
+          "home_team": "Al Nasr",
+          "away_team": "Al Riffa",
+          "score": "3-0",
+          "competition": "Gulf Club Champions League (Asia)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/lhdbmIaS/",
+          "youtube_url": null
+        },
         {
           "match_id": "IiK2BBSk",
           "date": "2026-10-08",
@@ -195699,10 +195611,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 3,
-        "minutes": 14,
+        "minutes": 0,
         "rating": "6.3"
       },
       "results": [
+        {
+          "match_id": "SK2I6Y53",
+          "date": "2026-10-13",
+          "home_team": "RB Leipzig",
+          "away_team": "PSV",
+          "score": "1-0",
+          "competition": "Champions League (Europe)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SK2I6Y53/",
+          "youtube_url": null
+        },
         {
           "match_id": "ABvXMeTa",
           "date": "2026-10-09",
@@ -198656,6 +198585,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "QTaJX5GD",
+          "date": "2026-10-13",
+          "home_team": "Al Seeb",
+          "away_team": "Al Hussein",
+          "score": "0-3",
+          "competition": "AFC Champions League 2 (Asia)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/QTaJX5GD/",
+          "youtube_url": null
+        },
         {
           "match_id": "hzYNeI23",
           "date": "2026-09-16",
@@ -202507,5 +202453,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-13T13:07:00Z"
+  "updated_at": "2026-10-14T10:48:59Z"
 }
