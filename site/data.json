@@ -80998,6 +80998,23 @@
       },
       "results": [
         {
+          "match_id": "Y1LED1zo",
+          "date": "2026-10-14",
+          "home_team": "Shakhtar Donetsk",
+          "away_team": "AEK Athens",
+          "score": "3-1",
+          "competition": "Champions League (Europe)",
+          "result": "L",
+          "player_minutes": 83,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Y1LED1zo/",
+          "youtube_url": null
+        },
+        {
           "match_id": "vRKQIaWI",
           "date": "2026-10-10",
           "home_team": "AEK Athens",
@@ -102067,10 +102084,27 @@
         "goals": 6,
         "assists": 2,
         "appearances": 22,
-        "minutes": 429,
+        "minutes": 339,
         "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "QeyLtSfE",
+          "date": "2026-10-15",
+          "home_team": "DC United",
+          "away_team": "New York Red Bulls",
+          "score": "2-1",
+          "competition": "MLS (USA)",
+          "result": "W",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/QeyLtSfE/",
+          "youtube_url": "https://www.youtube.com/watch?v=W8d18-0yc2M"
+        },
         {
           "match_id": "0S6wS7ON",
           "date": "2026-10-11",
@@ -105253,11 +105287,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 5,
-        "appearances": 11,
-        "minutes": 598,
-        "rating": "7.4"
+        "appearances": 12,
+        "minutes": 660,
+        "rating": "7.3"
       },
       "results": [
+        {
+          "match_id": "Crpmrlk2",
+          "date": "2026-10-15",
+          "home_team": "St. Louis City",
+          "away_team": "Vancouver Whitecaps",
+          "score": "0-0",
+          "competition": "MLS (USA)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Crpmrlk2/",
+          "youtube_url": "https://www.youtube.com/watch?v=DNR9eEQ661k"
+        },
         {
           "match_id": "vuFJxbxq",
           "date": "2026-10-12",
@@ -107421,6 +107472,23 @@
       },
       "results": [
         {
+          "match_id": "0f3Szx7e",
+          "date": "2026-10-15",
+          "home_team": "FC Cincinnati",
+          "away_team": "New England Revolution",
+          "score": "2-3",
+          "competition": "MLS (USA)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/0f3Szx7e/",
+          "youtube_url": "https://www.youtube.com/watch?v=gfhm_dlLr3g"
+        },
+        {
           "match_id": "CheNVkPb",
           "date": "2026-10-11",
           "home_team": "Atlanta Utd",
@@ -107597,23 +107665,6 @@
           "youtube_url": "https://www.youtube.com/watch?v=KA-d-v6ZpU0"
         },
         {
-          "match_id": "K8yyXpzA",
-          "date": "2026-08-23",
-          "home_team": "FC Cincinnati",
-          "away_team": "Seattle Sounders",
-          "score": "1-1",
-          "competition": "MLS (USA)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/K8yyXpzA/",
-          "youtube_url": "https://www.youtube.com/watch?v=_Gm17Sy5urA"
-        },
-        {
           "match_id": "G2qNF4bf",
           "date": "2026-08-23",
           "home_team": "Carolina Core",
@@ -107631,6 +107682,23 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/G2qNF4bf/",
           "youtube_url": null
+        },
+        {
+          "match_id": "K8yyXpzA",
+          "date": "2026-08-23",
+          "home_team": "FC Cincinnati",
+          "away_team": "Seattle Sounders",
+          "score": "1-1",
+          "competition": "MLS (USA)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/K8yyXpzA/",
+          "youtube_url": "https://www.youtube.com/watch?v=_Gm17Sy5urA"
         },
         {
           "match_id": "j9wj4e06",
@@ -126459,11 +126527,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 6,
-        "minutes": 270,
-        "rating": "6.7"
+        "appearances": 7,
+        "minutes": 207,
+        "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "Ewfj6p1c",
+          "date": "2026-10-14",
+          "home_team": "Lincoln",
+          "away_team": "West Ham",
+          "score": "0-6",
+          "competition": "Championship (England)",
+          "result": "L",
+          "player_minutes": 27,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Ewfj6p1c/",
+          "youtube_url": "https://www.youtube.com/watch?v=DTjVriFtZNM"
+        },
         {
           "match_id": "vsTUtUXo",
           "date": "2026-10-10",
@@ -135838,25 +135923,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/2qF8akai/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "0vyQz6Mj",
-          "date": "2023-10-14",
-          "home_team": "Romania U19",
-          "away_team": "San Marino U19",
-          "score": "7-0",
-          "competition": "Euro U19 (Europe)",
-          "result": "W",
-          "player_minutes": 53,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "35'"
-          ],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/0vyQz6Mj/",
           "youtube_url": null
         }
       ]
@@ -156812,23 +156878,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QyutQgyN/",
           "youtube_url": null
-        },
-        {
-          "match_id": "GpWRUHMi",
-          "date": "2023-10-14",
-          "home_team": "Longford",
-          "away_team": "Bray",
-          "score": "2-2",
-          "competition": "Division 1 (Ireland)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/GpWRUHMi/",
-          "youtube_url": null
         }
       ]
     },
@@ -156876,6 +156925,23 @@
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "Wj4ZObMO",
+          "date": "2026-10-14",
+          "home_team": "Kostolne Kracany",
+          "away_team": "Zilina",
+          "score": "0-5",
+          "competition": "Slovak Cup (Slovakia)",
+          "result": "W",
+          "player_minutes": 62,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Wj4ZObMO/",
+          "youtube_url": null
+        },
         {
           "match_id": "4UgzcpLH",
           "date": "2026-10-11",
@@ -161287,25 +161353,6 @@
           "assist_minutes": [],
           "is_national": true,
           "flashscore_url": "https://www.flashscore.com/match/2qF8akai/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "0vyQz6Mj",
-          "date": "2023-10-14",
-          "home_team": "Romania U19",
-          "away_team": "San Marino U19",
-          "score": "7-0",
-          "competition": "Euro U19 (Europe)",
-          "result": "W",
-          "player_minutes": 53,
-          "player_goals": 0,
-          "player_assists": 1,
-          "goal_minutes": [],
-          "assist_minutes": [
-            "38'"
-          ],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/0vyQz6Mj/",
           "youtube_url": null
         }
       ]
@@ -195630,7 +195677,7 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SK2I6Y53/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=35lpkFOYQ_w"
         },
         {
           "match_id": "ABvXMeTa",
@@ -202453,5 +202500,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-14T10:48:59Z"
+  "updated_at": "2026-10-15T10:32:31Z"
 }
