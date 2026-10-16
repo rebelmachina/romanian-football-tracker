@@ -2798,23 +2798,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/YBNBVmS0/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -8469,23 +8452,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/OUw0RLUf/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -13355,23 +13321,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Cb29GnGB/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 31,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
         }
       ]
@@ -18862,23 +18811,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/YBNBVmS0/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -22073,27 +22005,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/z9DGoaF6/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 65,
-          "player_goals": 1,
-          "player_assists": 1,
-          "goal_minutes": [
-            "28'"
-          ],
-          "assist_minutes": [
-            "50'"
-          ],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -22146,6 +22057,23 @@
         "rating": "6.7"
       },
       "results": [
+        {
+          "match_id": "ldpHSKxq",
+          "date": "2026-10-15",
+          "home_team": "Ferencvaros",
+          "away_team": "Plzen",
+          "score": "2-1",
+          "competition": "Europa League (Europe)",
+          "result": "W",
+          "player_minutes": 89,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ldpHSKxq/",
+          "youtube_url": null
+        },
         {
           "match_id": "nw7pVQD6",
           "date": "2026-10-10",
@@ -62587,25 +62515,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/QDrNub8f/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 65,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "23'"
-          ],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -64857,23 +64766,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EZOH1uVD/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
         }
       ]
@@ -80662,23 +80554,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/pCIsjZWJ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "ALb6HEQf",
-          "date": "2023-10-15",
-          "home_team": "Cesena",
-          "away_team": "Sestri Levante",
-          "score": "2-2",
-          "competition": "Serie C - Group B (Italy)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/ALb6HEQf/",
-          "youtube_url": null
         }
       ]
     },
@@ -81012,7 +80887,7 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Y1LED1zo/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=KctIrxDuDJc"
         },
         {
           "match_id": "vRKQIaWI",
@@ -84085,25 +83960,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/2auvolyE/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 59,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "44'"
-          ],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
         }
       ]
@@ -93442,6 +93298,23 @@
       },
       "results": [
         {
+          "match_id": "pQxFkMD6",
+          "date": "2026-10-15",
+          "home_team": "Atalanta",
+          "away_team": "Pafos",
+          "score": "3-1",
+          "competition": "Conference League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/pQxFkMD6/",
+          "youtube_url": null
+        },
+        {
           "match_id": "8IKbaOPi",
           "date": "2026-10-11",
           "home_team": "Anorthosis",
@@ -96483,6 +96356,23 @@
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "Y1JUqgWN",
+          "date": "2026-10-15",
+          "home_team": "Celje",
+          "away_team": "Omonia",
+          "score": "0-3",
+          "competition": "Europa League (Europe)",
+          "result": "W",
+          "player_minutes": 21,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Y1JUqgWN/",
+          "youtube_url": null
+        },
         {
           "match_id": "4lQRpPAb",
           "date": "2026-10-09",
@@ -110663,10 +110553,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 8,
-        "minutes": 450,
+        "minutes": 360,
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "hhghCah2",
+          "date": "2026-10-15",
+          "home_team": "Celta Vigo",
+          "away_team": "Juventus",
+          "score": "1-2",
+          "competition": "Europa League (Europe)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/hhghCah2/",
+          "youtube_url": "https://www.youtube.com/watch?v=xraLm-iQisE"
+        },
         {
           "match_id": "nyGPJExJ",
           "date": "2026-10-11",
@@ -116837,23 +116744,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/MmbxoSOe/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -120175,23 +120065,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/M32iNpq7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
         }
       ]
@@ -123643,23 +123516,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/K436iVlK/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 59,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
           "youtube_url": null
         }
       ]
@@ -144861,10 +144717,27 @@
         "goals": 0,
         "assists": 2,
         "appearances": 4,
-        "minutes": 143,
+        "minutes": 98,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "6icix6vq",
+          "date": "2026-10-15",
+          "home_team": "CSKA Sofia",
+          "away_team": "Monaco",
+          "score": "1-2",
+          "competition": "Conference League (Europe)",
+          "result": "L",
+          "player_minutes": 17,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6icix6vq/",
+          "youtube_url": null
+        },
         {
           "match_id": "2ibaGUtS",
           "date": "2026-10-11",
@@ -175348,10 +175221,27 @@
         "goals": 1,
         "assists": 0,
         "appearances": 2,
-        "minutes": 720,
+        "minutes": 630,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "rLShbQth",
+          "date": "2026-10-15",
+          "home_team": "Gangwon",
+          "away_team": "Phnom Penh Crown",
+          "score": "1-2",
+          "competition": "AFC Champions League 2 (Asia)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/rLShbQth/",
+          "youtube_url": null
+        },
         {
           "match_id": "n9Tu9seA",
           "date": "2026-09-17",
@@ -179203,23 +179093,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/jk1DF6VH/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 25,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -179267,11 +179140,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 8,
-        "minutes": 691,
+        "appearances": 9,
+        "minutes": 724,
         "rating": "6.3"
       },
       "results": [
+        {
+          "match_id": "Wj44FesS",
+          "date": "2026-10-15",
+          "home_team": "Al Hazem",
+          "away_team": "Al Fateh",
+          "score": "2-3",
+          "competition": "Saudi Professional League (Saudi Arabia)",
+          "result": "W",
+          "player_minutes": 33,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/Wj44FesS/",
+          "youtube_url": "https://www.youtube.com/watch?v=_mnLpt8a7SU"
+        },
         {
           "match_id": "vJ4960bc",
           "date": "2026-10-09",
@@ -184596,6 +184486,23 @@
         "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "dGW4LX5d",
+          "date": "2026-10-15",
+          "home_team": "Royale Union SG",
+          "away_team": "Real Sociedad",
+          "score": "1-1",
+          "competition": "Europa League (Europe)",
+          "result": "D",
+          "player_minutes": 71,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/dGW4LX5d/",
+          "youtube_url": "https://www.youtube.com/watch?v=S4AlGCjNDq0"
+        },
         {
           "match_id": "zquHQYf2",
           "date": "2026-10-11",
@@ -193107,25 +193014,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/v9QJTRdD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 1,
-          "player_assists": 0,
-          "goal_minutes": [
-            "50'"
-          ],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -198573,23 +198461,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Cb29GnGB/",
           "youtube_url": null
-        },
-        {
-          "match_id": "n5pWXpO1",
-          "date": "2023-10-15",
-          "home_team": "Romania",
-          "away_team": "Andorra",
-          "score": "4-0",
-          "competition": "Euro (Europe)",
-          "result": "W",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/n5pWXpO1/",
-          "youtube_url": null
         }
       ]
     },
@@ -202500,5 +202371,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-15T10:32:31Z"
+  "updated_at": "2026-10-16T10:19:48Z"
 }
