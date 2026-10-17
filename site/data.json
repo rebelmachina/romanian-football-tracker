@@ -38,11 +38,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 1,
-        "appearances": 7,
-        "minutes": 623,
-        "rating": "6.7"
+        "appearances": 8,
+        "minutes": 558,
+        "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "SAeV7O3t",
+          "date": "2026-10-16",
+          "home_team": "Corum",
+          "away_team": "Rizespor",
+          "score": "2-1",
+          "competition": "Super Lig (Turkey)",
+          "result": "W",
+          "player_minutes": 25,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SAeV7O3t/",
+          "youtube_url": "https://www.youtube.com/watch?v=NhBI6JBE2ss"
+        },
         {
           "match_id": "6orFX8SQ",
           "date": "2026-10-11",
@@ -10684,11 +10701,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 3,
-        "minutes": 95,
+        "appearances": 4,
+        "minutes": 156,
         "rating": "6.0"
       },
       "results": [
+        {
+          "match_id": "SAeV7O3t",
+          "date": "2026-10-16",
+          "home_team": "Corum",
+          "away_team": "Rizespor",
+          "score": "2-1",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": 61,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SAeV7O3t/",
+          "youtube_url": "https://www.youtube.com/watch?v=NhBI6JBE2ss"
+        },
         {
           "match_id": "2kk0O4kD",
           "date": "2026-10-10",
@@ -13359,11 +13393,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 1,
-        "appearances": 5,
-        "minutes": 131,
-        "rating": "7.2"
+        "appearances": 6,
+        "minutes": 145,
+        "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "SAeV7O3t",
+          "date": "2026-10-16",
+          "home_team": "Corum",
+          "away_team": "Rizespor",
+          "score": "2-1",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": 14,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SAeV7O3t/",
+          "youtube_url": "https://www.youtube.com/watch?v=NhBI6JBE2ss"
+        },
         {
           "match_id": "2kk0O4kD",
           "date": "2026-10-10",
@@ -44436,11 +44487,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 9,
-        "minutes": 540,
+        "appearances": 10,
+        "minutes": 630,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "CM5Ny4sH",
+          "date": "2026-10-16",
+          "home_team": "Wieczysta Krakow",
+          "away_team": "Rakow",
+          "score": "1-2",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/CM5Ny4sH/",
+          "youtube_url": "https://www.youtube.com/watch?v=V-UvUvo6_kQ"
+        },
         {
           "match_id": "tn3rPQcB",
           "date": "2026-10-09",
@@ -47402,8 +47470,13 @@
       "age": 19,
       "market_value": "€536k",
       "team": "Widzew Lodz",
-      "team_logo": null,
+      "team_logo": "https://static.flashscore.com/res/image/data/vunh5b6k-UTb1DTGS.png",
       "career_teams": [
+        {
+          "name": "Widzew Lodz",
+          "logo": "https://static.flashscore.com/res/image/data/vunh5b6k-UTb1DTGS.png",
+          "current": true
+        },
         {
           "name": "Verona",
           "logo": "https://static.flashscore.com/res/image/data/YDLnjflC-Kxh373f3.png",
@@ -47425,18 +47498,35 @@
           "current": false
         }
       ],
-      "league": null,
-      "country": null,
-      "group": "Polonia",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "group": "Ekstraklasa (Poland)",
       "nt": null,
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 0,
-        "minutes": 0,
-        "rating": null
+        "appearances": 1,
+        "minutes": 14,
+        "rating": "6.0"
       },
       "results": [
+        {
+          "match_id": "ba5nPoF8",
+          "date": "2026-10-16",
+          "home_team": "Widzew Lodz",
+          "away_team": "Wisla",
+          "score": "0-0",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "D",
+          "player_minutes": 14,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/ba5nPoF8/",
+          "youtube_url": "https://www.youtube.com/watch?v=Cz-1Sku2XEE"
+        },
         {
           "match_id": "4xCLHrjo",
           "date": "2026-10-11",
@@ -86967,8 +87057,8 @@
           "current": false
         },
         {
-          "name": "LPS HD Clinceni",
-          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "name": "Inter Ilfov",
+          "logo": "https://static.flashscore.com/res/image/data/dSn0U3Sq-MVmofM5p.png",
           "current": false
         },
         {
@@ -96371,7 +96461,7 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/Y1JUqgWN/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=yCb_bNREYww"
         },
         {
           "match_id": "4lQRpPAb",
@@ -101899,23 +101989,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SYMFU7s7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "27ebzksE",
-          "date": "2023-10-16",
-          "home_team": "Norway U20",
-          "away_team": "Romania U20",
-          "score": "5-0",
-          "competition": "Elite League U20 (Europe)",
-          "result": "L",
-          "player_minutes": 54,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/27ebzksE/",
           "youtube_url": null
         }
       ]
@@ -120117,11 +120190,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 2,
-        "minutes": 12,
+        "appearances": 3,
+        "minutes": 13,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "fmMyId8e",
+          "date": "2026-10-16",
+          "home_team": "Frosinone",
+          "away_team": "Sassuolo",
+          "score": "4-2",
+          "competition": "Serie A (Italy)",
+          "result": "W",
+          "player_minutes": 1,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/fmMyId8e/",
+          "youtube_url": "https://www.youtube.com/watch?v=TsJhp3kZolA"
+        },
         {
           "match_id": "pKaXL59T",
           "date": "2026-10-10",
@@ -135827,11 +135917,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 7,
-        "minutes": 630,
+        "appearances": 8,
+        "minutes": 720,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "SULvxPut",
+          "date": "2026-10-16",
+          "home_team": "Shamakhi",
+          "away_team": "Safa Baku",
+          "score": "3-2",
+          "competition": "Premier League (Azerbaijan)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SULvxPut/",
+          "youtube_url": "https://www.youtube.com/watch?v=pQVuTbvdGO0"
+        },
         {
           "match_id": "trqj5rBI",
           "date": "2026-10-11",
@@ -137499,11 +137606,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 6,
-        "minutes": 199,
+        "appearances": 7,
+        "minutes": 212,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "SULvxPut",
+          "date": "2026-10-16",
+          "home_team": "Shamakhi",
+          "away_team": "Safa Baku",
+          "score": "3-2",
+          "competition": "Premier League (Azerbaijan)",
+          "result": "L",
+          "player_minutes": 13,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/SULvxPut/",
+          "youtube_url": "https://www.youtube.com/watch?v=pQVuTbvdGO0"
+        },
         {
           "match_id": "trqj5rBI",
           "date": "2026-10-11",
@@ -142140,23 +142264,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/SA01CT9m/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "27ebzksE",
-          "date": "2023-10-16",
-          "home_team": "Norway U20",
-          "away_team": "Romania U20",
-          "score": "5-0",
-          "competition": "Elite League U20 (Europe)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": true,
-          "flashscore_url": "https://www.flashscore.com/match/27ebzksE/",
           "youtube_url": null
         }
       ]
@@ -147039,8 +147146,8 @@
           "current": false
         },
         {
-          "name": "LPS HD Clinceni",
-          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "name": "Inter Ilfov",
+          "logo": "https://static.flashscore.com/res/image/data/dSn0U3Sq-MVmofM5p.png",
           "current": false
         },
         {
@@ -165538,8 +165645,8 @@
           "current": false
         },
         {
-          "name": "LPS HD Clinceni",
-          "logo": "https://static.flashscore.com/res/image/data/hx1MsNjT-hScu6zvn.png",
+          "name": "Inter Ilfov",
+          "logo": "https://static.flashscore.com/res/image/data/dSn0U3Sq-MVmofM5p.png",
           "current": false
         }
       ],
@@ -202371,5 +202478,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-16T10:19:48Z"
+  "updated_at": "2026-10-17T09:53:50Z"
 }
