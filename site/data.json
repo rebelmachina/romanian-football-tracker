@@ -93775,11 +93775,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 5,
-        "minutes": 336,
+        "appearances": 6,
+        "minutes": 291,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "IV2vC19c",
+          "date": "2026-10-19",
+          "home_team": "Pafos",
+          "away_team": "APOEL",
+          "score": "0-0",
+          "competition": "Cyprus League (Cyprus)",
+          "result": "D",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/IV2vC19c/",
+          "youtube_url": "https://www.youtube.com/watch?v=VFv0mhLIR_8"
+        },
         {
           "match_id": "pQxFkMD6",
           "date": "2026-10-15",
@@ -96834,11 +96851,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 4,
-        "minutes": 116,
+        "appearances": 5,
+        "minutes": 157,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "fgPMgKgT",
+          "date": "2026-10-19",
+          "home_team": "Omonia",
+          "away_team": "Ol. Nicosia",
+          "score": "2-2",
+          "competition": "Cyprus League (Cyprus)",
+          "result": "D",
+          "player_minutes": 68,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/fgPMgKgT/",
+          "youtube_url": "https://www.youtube.com/watch?v=oVEW7rXvj2w"
+        },
         {
           "match_id": "Y1JUqgWN",
           "date": "2026-10-15",
@@ -114117,10 +114151,27 @@
         "goals": 1,
         "assists": 0,
         "appearances": 6,
-        "minutes": 450,
+        "minutes": 360,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "pS53lQsA",
+          "date": "2026-10-19",
+          "home_team": "Getafe",
+          "away_team": "Rayo Vallecano",
+          "score": "1-1",
+          "competition": "LaLiga (Spain)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/pS53lQsA/",
+          "youtube_url": "https://www.youtube.com/watch?v=YLf6yUhju1o"
+        },
         {
           "match_id": "zsIUF5yo",
           "date": "2026-10-10",
@@ -147654,23 +147705,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/fLO7WTCf/",
           "youtube_url": null
-        },
-        {
-          "match_id": "dnYGNvDP",
-          "date": "2023-10-19",
-          "home_team": "Poli Iasi",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "1-0",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 16,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/dnYGNvDP/",
-          "youtube_url": null
         }
       ]
     },
@@ -157534,10 +157568,27 @@
         "goals": 1,
         "assists": 2,
         "appearances": 11,
-        "minutes": 119,
+        "minutes": 56,
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "tvHQAbxH",
+          "date": "2026-10-19",
+          "home_team": "Presov",
+          "away_team": "Zilina B",
+          "score": "1-1",
+          "competition": "2. liga (Slovakia)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/tvHQAbxH/",
+          "youtube_url": null
+        },
         {
           "match_id": "IBWnOMJG",
           "date": "2026-10-18",
@@ -170841,23 +170892,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/tE42hBZD/",
           "youtube_url": null
-        },
-        {
-          "match_id": "dnYGNvDP",
-          "date": "2023-10-19",
-          "home_team": "Poli Iasi",
-          "away_team": "Sepsi Sf. Gheorghe",
-          "score": "1-0",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/dnYGNvDP/",
-          "youtube_url": null
         }
       ]
     },
@@ -176045,11 +176079,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 2,
+        "appearances": 3,
         "minutes": 630,
         "rating": "-"
       },
       "results": [
+        {
+          "match_id": "YNEXgKrT",
+          "date": "2026-10-19",
+          "home_team": "Phnom Penh Crown",
+          "away_team": "Life FC",
+          "score": "1-1",
+          "competition": "CPL (Cambodia)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/YNEXgKrT/",
+          "youtube_url": null
+        },
         {
           "match_id": "rLShbQth",
           "date": "2026-10-15",
@@ -203347,5 +203398,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-19T11:27:13Z"
+  "updated_at": "2026-10-20T10:37:03Z"
 }
