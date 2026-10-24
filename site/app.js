@@ -1,6 +1,6 @@
 "use strict";
 
-// Repo used by the Refresh Highlights button (override via window.__OWNER_REPO__).
+// Repo used by the Highlights / Scrape trigger buttons (override via window.__OWNER_REPO__).
 const OWNER_REPO = window.__OWNER_REPO__ || "rebelmachina/romanian-football-tracker";
 const POS = { Goalkeeper: "GK", Defender: "DEF", Midfielder: "MID", Forward: "FWD" };
 
@@ -573,32 +573,59 @@ function onClick(e) {
 function getToken() { try { return localStorage.getItem("gh_token"); } catch { return null; } }
 function setToken(t) { try { t ? localStorage.setItem("gh_token", t) : localStorage.removeItem("gh_token"); } catch {} }
 
-async function triggerHighlights() {
-  const btn = document.getElementById("refresh");
+// Manual workflow triggers. Cooldowns mirror the guard step in each workflow,
+// which is the real enforcement; this check just avoids pointless dispatches.
+const TRIGGERS = {
+  refresh:  { workflow: "highlights.yml", label: "↻ Highlights", eta: "~2 min", cooldownMin: 10 },
+  rescrape: { workflow: "scrape.yml",     label: "⟳ Scrape",     eta: "~10 min", cooldownMin: 30 },
+};
+
+function ghHeaders(token) {
+  return { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
+           "X-GitHub-Api-Version": "2022-11-28" };
+}
+
+// null if OK to dispatch, else a short reason shown on the button
+async function triggerBlocked(cfg, token) {
+  const res = await fetch(
+    `https://api.github.com/repos/${OWNER_REPO}/actions/workflows/${cfg.workflow}/runs?per_page=1`,
+    { headers: ghHeaders(token) });
+  if (!res.ok) return null;          // can't tell — let the workflow guard decide
+  const run = (await res.json()).workflow_runs?.[0];
+  if (!run) return null;
+  if (run.status !== "completed") return "Rulează deja";
+  const mins = (Date.now() - Date.parse(run.created_at)) / 60000;
+  if (mins < cfg.cooldownMin) return `Reîncearcă în ${Math.ceil(cfg.cooldownMin - mins)} min`;
+  return null;
+}
+
+async function triggerWorkflow(btnId) {
+  const cfg = TRIGGERS[btnId];
+  const btn = document.getElementById(btnId);
   let token = window.__GH_TOKEN__ || getToken();
   if (!token) {
     const entered = prompt(
-      "Pentru a porni actualizarea highlights direct din pagină, lipește un GitHub " +
+      "Pentru a porni actualizarea direct din pagină, lipește un GitHub " +
       "fine-grained token cu permisiunea Actions: Write pe acest repo.\n\n" +
       "Se salvează DOAR în acest browser (localStorage) — niciodată în site. " +
       "Anulează pentru a deschide în schimb pagina Actions.");
     if (!entered) {
-      window.open(`https://github.com/${OWNER_REPO}/actions/workflows/highlights.yml`, "_blank");
+      window.open(`https://github.com/${OWNER_REPO}/actions/workflows/${cfg.workflow}`, "_blank");
       return;
     }
     token = entered.trim();
     setToken(token);
   }
-  btn.disabled = true; btn.textContent = "Se declanșează…";
+  btn.disabled = true; btn.textContent = "Se verifică…";
   try {
+    const blocked = await triggerBlocked(cfg, token);
+    if (blocked) { btn.textContent = blocked; return; }
+    btn.textContent = "Se declanșează…";
     const res = await fetch(
-      `https://api.github.com/repos/${OWNER_REPO}/actions/workflows/highlights.yml/dispatches`,
-      { method: "POST",
-        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json",
-                   "X-GitHub-Api-Version": "2022-11-28" },
-        body: JSON.stringify({ ref: "main" }) });
+      `https://api.github.com/repos/${OWNER_REPO}/actions/workflows/${cfg.workflow}/dispatches`,
+      { method: "POST", headers: ghHeaders(token), body: JSON.stringify({ ref: "main" }) });
     if (res.status === 204) {
-      btn.textContent = "✓ Pornit (~2 min)";
+      btn.textContent = `✓ Pornit (${cfg.eta})`;
     } else if (res.status === 401 || res.status === 403) {
       setToken(null);
       btn.textContent = "Token invalid";
@@ -607,7 +634,7 @@ async function triggerHighlights() {
       btn.textContent = "Eșuat (" + res.status + ")";
     }
   } catch { btn.textContent = "Eroare rețea"; }
-  finally { setTimeout(() => { btn.disabled = false; btn.textContent = "↻ Highlights"; }, 4000); }
+  finally { setTimeout(() => { btn.disabled = false; btn.textContent = cfg.label; }, 4000); }
 }
 
 /* ---- Theme (system / light / dark) ---- */
@@ -738,7 +765,8 @@ initVideoModal();
 initEvents();
 document.addEventListener("click", onClick);
 document.addEventListener("keydown", onKey);
-document.getElementById("refresh").addEventListener("click", triggerHighlights);
+for (const id of Object.keys(TRIGGERS))
+  document.getElementById(id).addEventListener("click", () => triggerWorkflow(id));
 function onFilterChange() { if (STATE.view === "arcade") STATE.sel = 0; render(); }
 document.getElementById("filter").addEventListener("input", e => {
   STATE.filter = e.target.value; onFilterChange();

@@ -2,6 +2,7 @@ name: Daily scrape
 on:
   schedule:
     - cron: "0 6 * * *"     # 06:00 UTC daily
+    - cron: "0 23 * * *"    # 23:00 UTC — picks up same-day evening matches
   workflow_dispatch:
     inputs:
       years:
@@ -22,11 +23,28 @@ jobs:
     timeout-minutes: 330       # allow long one-off backfills
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # latest main, not the sha at dispatch time
+          fetch-depth: 100   # history for the cooldown guard
+      - name: Cooldown guard
+        id: guard
+        if: github.event_name == 'workflow_dispatch' && inputs.years == ''
+        run: |
+          # manual runs only: skip if data was refreshed within the cooldown
+          last=$(git log -1 --format=%ct -E --grep='^data: daily update')
+          age=$(( $(date +%s) - ${last:-0} ))
+          if (( age < 1800 )); then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipped: data refreshed $((age / 60)) min ago (cooldown 30 min)"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.11"
       - run: pip install -r scraper/requirements.txt
+        if: steps.guard.outputs.skip != 'true'
       - name: Scrape
+        if: steps.guard.outputs.skip != 'true'
         working-directory: scraper
         env:
           YEARS: ${{ inputs.years }}
@@ -37,6 +55,7 @@ jobs:
             python scrape.py
           fi
       - name: Commit data
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

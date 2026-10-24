@@ -94,12 +94,12 @@ body {
 }
 .fsel:focus { border-color: var(--ro-yellow); }
 .fsel option { color: #14213d; background: #fff; }
-#refresh {
+#refresh, #rescrape {
   background: var(--ro-yellow); color: #1a1300; border: none;
   border-radius: 999px; padding: 8px 14px; font-weight: 700;
   font-size: 13px; cursor: pointer; white-space: nowrap;
 }
-#refresh:disabled { opacity: .6; cursor: default; }
+#refresh:disabled, #rescrape:disabled { opacity: .6; cursor: default; }
 .updated { color: rgba(255,255,255,.72); font-size: 12px; white-space: nowrap; }
 
 /* Layout */

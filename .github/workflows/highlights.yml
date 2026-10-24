@@ -14,14 +14,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # latest main, not the sha at dispatch time
+          fetch-depth: 100   # history for the cooldown guard
+      - name: Cooldown guard
+        id: guard
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          # manual runs only: skip if data was refreshed within the cooldown
+          last=$(git log -1 --format=%ct -E --grep='^data: (highlights refresh|daily update)')
+          age=$(( $(date +%s) - ${last:-0} ))
+          if (( age < 600 )); then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Skipped: data refreshed $((age / 60)) min ago (cooldown 10 min)"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.11"
       - run: pip install -r scraper/requirements.txt
+        if: steps.guard.outputs.skip != 'true'
       - name: Refresh highlights only
+        if: steps.guard.outputs.skip != 'true'
         working-directory: scraper
         run: python scrape.py --highlights-only
       - name: Commit data
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
