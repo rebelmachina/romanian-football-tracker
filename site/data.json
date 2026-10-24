@@ -5720,23 +5720,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/hYkx5lJJ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "K436iVlK",
-          "date": "2023-10-23",
-          "home_team": "CFR Cluj",
-          "away_team": "Otelul",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/K436iVlK/",
-          "youtube_url": null
         }
       ]
     },
@@ -18870,11 +18853,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 6,
-        "minutes": 160,
+        "appearances": 7,
+        "minutes": 205,
         "rating": "6.6"
       },
       "results": [
+        {
+          "match_id": "p6SJ5gvA",
+          "date": "2026-10-23",
+          "home_team": "Alanyaspor",
+          "away_team": "Kocaelispor",
+          "score": "1-2",
+          "competition": "Super Lig (Turkey)",
+          "result": "L",
+          "player_minutes": 45,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/p6SJ5gvA/",
+          "youtube_url": "https://www.youtube.com/watch?v=BF-IZMxrL3c"
+        },
         {
           "match_id": "0Ogw62Yh",
           "date": "2026-10-17",
@@ -39422,23 +39422,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/hYkx5lJJ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "K436iVlK",
-          "date": "2023-10-23",
-          "home_team": "CFR Cluj",
-          "away_team": "Otelul",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/K436iVlK/",
-          "youtube_url": null
         }
       ]
     },
@@ -39487,10 +39470,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 5,
-        "minutes": 270,
+        "minutes": 180,
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "8CmSyPbE",
+          "date": "2026-10-23",
+          "home_team": "Motor Lublin",
+          "away_team": "Zaglebie",
+          "score": "2-2",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/8CmSyPbE/",
+          "youtube_url": "https://www.youtube.com/watch?v=kWpPYE1ZhO4"
+        },
         {
           "match_id": "4d2FwQC4",
           "date": "2026-10-17",
@@ -47439,6 +47439,23 @@
       },
       "results": [
         {
+          "match_id": "GxXxqt6s",
+          "date": "2026-10-23",
+          "home_team": "Widzew Lodz",
+          "away_team": "Gornik Zabrze",
+          "score": "1-1",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/GxXxqt6s/",
+          "youtube_url": "https://www.youtube.com/watch?v=jH5W5Lx2iDo"
+        },
+        {
           "match_id": "ba5nPoF8",
           "date": "2026-10-16",
           "home_team": "Widzew Lodz",
@@ -48177,23 +48194,6 @@
           "youtube_url": null
         },
         {
-          "match_id": "OdGmeUfC",
-          "date": "2026-02-15",
-          "home_team": "Parma",
-          "away_team": "Verona",
-          "score": "2-1",
-          "competition": "Serie A (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
-          "youtube_url": null
-        },
-        {
           "match_id": "6JGgjGJ6",
           "date": "2026-02-15",
           "home_team": "Verona U20",
@@ -48211,6 +48211,23 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6JGgjGJ6/",
+          "youtube_url": null
+        },
+        {
+          "match_id": "OdGmeUfC",
+          "date": "2026-02-15",
+          "home_team": "Parma",
+          "away_team": "Verona",
+          "score": "2-1",
+          "competition": "Serie A (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/OdGmeUfC/",
           "youtube_url": null
         },
         {
@@ -59927,23 +59944,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/jmfxn9Cs/",
           "youtube_url": null
-        },
-        {
-          "match_id": "K436iVlK",
-          "date": "2023-10-23",
-          "home_team": "CFR Cluj",
-          "away_team": "Otelul",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 59,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/K436iVlK/",
-          "youtube_url": null
         }
       ]
     },
@@ -60004,12 +60004,31 @@
       },
       "season_stats": {
         "goals": 10,
-        "assists": 4,
-        "appearances": 25,
+        "assists": 5,
+        "appearances": 26,
         "minutes": 444,
         "rating": "7.7"
       },
       "results": [
+        {
+          "match_id": "MyLWq9zS",
+          "date": "2026-10-24",
+          "home_team": "Chengdu Rongcheng",
+          "away_team": "Dalian Yingbo",
+          "score": "0-1",
+          "competition": "Super League (China)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 1,
+          "goal_minutes": [],
+          "assist_minutes": [
+            "66'"
+          ],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/MyLWq9zS/",
+          "youtube_url": null
+        },
         {
           "match_id": "fBzmXAZO",
           "date": "2026-10-17",
@@ -62625,11 +62644,28 @@
       "season_stats": {
         "goals": 1,
         "assists": 0,
-        "appearances": 25,
+        "appearances": 26,
         "minutes": 630,
-        "rating": "6.9"
+        "rating": "6.8"
       },
       "results": [
+        {
+          "match_id": "AejgmNPM",
+          "date": "2026-10-24",
+          "home_team": "Qingdao West Coast",
+          "away_team": "Yunnan Yukun",
+          "score": "1-1",
+          "competition": "Super League (China)",
+          "result": "D",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/AejgmNPM/",
+          "youtube_url": null
+        },
         {
           "match_id": "pzGdiEKt",
           "date": "2026-10-17",
@@ -64872,11 +64908,28 @@
       "season_stats": {
         "goals": 5,
         "assists": 13,
-        "appearances": 28,
-        "minutes": 665,
+        "appearances": 29,
+        "minutes": 708,
         "rating": "7.5"
       },
       "results": [
+        {
+          "match_id": "AejgmNPM",
+          "date": "2026-10-24",
+          "home_team": "Qingdao West Coast",
+          "away_team": "Yunnan Yukun",
+          "score": "1-1",
+          "competition": "Super League (China)",
+          "result": "D",
+          "player_minutes": 69,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/AejgmNPM/",
+          "youtube_url": null
+        },
         {
           "match_id": "pzGdiEKt",
           "date": "2026-10-17",
@@ -66916,13 +66969,34 @@
         "assists": 1
       },
       "season_stats": {
-        "goals": 11,
-        "assists": 12,
-        "appearances": 23,
-        "minutes": 876,
+        "goals": 12,
+        "assists": 13,
+        "appearances": 24,
+        "minutes": 886,
         "rating": "7.7"
       },
       "results": [
+        {
+          "match_id": "hKB2vmbk",
+          "date": "2026-10-24",
+          "home_team": "Liaoning Tieren",
+          "away_team": "Zhejiang Professional",
+          "score": "2-4",
+          "competition": "Super League (China)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 1,
+          "player_assists": 1,
+          "goal_minutes": [
+            "45+6'"
+          ],
+          "assist_minutes": [
+            "61'"
+          ],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/hKB2vmbk/",
+          "youtube_url": null
+        },
         {
           "match_id": "AeWBmWJ5",
           "date": "2026-10-17",
@@ -69495,13 +69569,32 @@
       "group": "Super League (China)",
       "nt": null,
       "season_stats": {
-        "goals": 6,
+        "goals": 7,
         "assists": 7,
-        "appearances": 26,
-        "minutes": 628,
-        "rating": "7.1"
+        "appearances": 27,
+        "minutes": 621,
+        "rating": "7.2"
       },
       "results": [
+        {
+          "match_id": "EBHOoV5F",
+          "date": "2026-10-24",
+          "home_team": "Chongqing Tonglianglong",
+          "away_team": "Qingdao Hainiu",
+          "score": "2-0",
+          "competition": "Super League (China)",
+          "result": "W",
+          "player_minutes": 78,
+          "player_goals": 1,
+          "player_assists": 0,
+          "goal_minutes": [
+            "19'"
+          ],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/EBHOoV5F/",
+          "youtube_url": null
+        },
         {
           "match_id": "pzGdiEKt",
           "date": "2026-10-17",
@@ -77702,23 +77795,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EqKy3ArT/",
           "youtube_url": null
-        },
-        {
-          "match_id": "QcpJypb0",
-          "date": "2023-10-23",
-          "home_team": "Udinese",
-          "away_team": "Lecce",
-          "score": "1-1",
-          "competition": "Serie A (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/QcpJypb0/",
-          "youtube_url": null
         }
       ]
     },
@@ -83993,23 +84069,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0GxWYsrJ/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "2auvolyE",
-          "date": "2023-10-23",
-          "home_team": "Fiorentina",
-          "away_team": "Empoli",
-          "score": "0-2",
-          "competition": "Serie A (Italy)",
-          "result": "W",
-          "player_minutes": 66,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/2auvolyE/",
           "youtube_url": null
         }
       ]
@@ -96332,23 +96391,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0Y9AGjl7/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "tUQROEtR",
-          "date": "2023-10-23",
-          "home_team": "Pafos",
-          "away_team": "Omonia",
-          "score": "0-2",
-          "competition": "Cyprus League (Cyprus)",
-          "result": "L",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/tUQROEtR/",
           "youtube_url": null
         }
       ]
@@ -110673,7 +110715,7 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/4CbZfmF5/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=zJ7eS4YdX88"
         },
         {
           "match_id": "zZTwY4cT",
@@ -123634,23 +123676,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/hYkx5lJJ/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "K436iVlK",
-          "date": "2023-10-23",
-          "home_team": "CFR Cluj",
-          "away_team": "Otelul",
-          "score": "0-0",
-          "competition": "Superliga (Romania)",
-          "result": "D",
-          "player_minutes": 45,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/K436iVlK/",
           "youtube_url": null
         }
       ]
@@ -137594,23 +137619,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/vV1ft5tJ/",
           "youtube_url": null
-        },
-        {
-          "match_id": "tE42hBZD",
-          "date": "2023-10-23",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FC Botosani",
-          "score": "5-2",
-          "competition": "Superliga (Romania)",
-          "result": "L",
-          "player_minutes": 20,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/tE42hBZD/",
-          "youtube_url": null
         }
       ]
     },
@@ -139440,11 +139448,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 8,
+        "appearances": 9,
         "minutes": 351,
-        "rating": "6.9"
+        "rating": "7.0"
       },
       "results": [
+        {
+          "match_id": "MaPtcV6j",
+          "date": "2026-10-23",
+          "home_team": "Vitoria Guimaraes",
+          "away_team": "Maritimo",
+          "score": "5-0",
+          "competition": "Liga Portugal (Portugal)",
+          "result": "W",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/MaPtcV6j/",
+          "youtube_url": "https://www.youtube.com/watch?v=B4XsP3PwWuE"
+        },
         {
           "match_id": "fRYmb7KM",
           "date": "2026-10-17",
@@ -161390,7 +161415,7 @@
       "slug": "tamas-nandor",
       "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/xpyfzkBr-2uf3KPph.png",
-      "age": 25,
+      "age": 26,
       "market_value": "€136k",
       "team": "Komarno",
       "team_logo": "https://static.flashscore.com/res/image/data/OAsCvOR0-Qoijdizi.png",
@@ -170204,23 +170229,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0v3jsoRC/",
           "youtube_url": null
-        },
-        {
-          "match_id": "tE42hBZD",
-          "date": "2023-10-23",
-          "home_team": "Sepsi Sf. Gheorghe",
-          "away_team": "FC Botosani",
-          "score": "5-2",
-          "competition": "Superliga (Romania)",
-          "result": "W",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/tE42hBZD/",
-          "youtube_url": null
         }
       ]
     },
@@ -175332,23 +175340,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/6wDmHJ6M/",
           "youtube_url": null
-        },
-        {
-          "match_id": "fN74HS05",
-          "date": "2023-10-23",
-          "home_team": "Palermo",
-          "away_team": "Spezia",
-          "score": "2-2",
-          "competition": "Serie B (Italy)",
-          "result": "D",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/fN74HS05/",
-          "youtube_url": null
         }
       ]
     },
@@ -176714,10 +176705,27 @@
         "goals": 0,
         "assists": 0,
         "appearances": 5,
-        "minutes": 306,
+        "minutes": 235,
         "rating": "6.9"
       },
       "results": [
+        {
+          "match_id": "hlsGeQNq",
+          "date": "2026-10-23",
+          "home_team": "Al Nasr",
+          "away_team": "Bani Yas",
+          "score": "0-1",
+          "competition": "Presidents Cup (United Arab Emirates)",
+          "result": "L",
+          "player_minutes": 120,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/hlsGeQNq/",
+          "youtube_url": null
+        },
         {
           "match_id": "YkshMFT1",
           "date": "2026-10-17",
@@ -184706,7 +184714,7 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/r5IEVWof/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=2OvIEK7zqLM"
         },
         {
           "match_id": "th4SGhhR",
@@ -202626,5 +202634,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-23T10:42:07Z"
+  "updated_at": "2026-10-24T10:00:28Z"
 }
