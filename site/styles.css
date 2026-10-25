@@ -99,6 +99,11 @@ body {
   border-radius: 999px; padding: 8px 14px; font-weight: 700;
   font-size: 13px; cursor: pointer; white-space: nowrap;
 }
+#stories-link {
+  color: var(--topbar-text); text-decoration: none; font-weight: 700; font-size: 13px;
+  border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 7px 12px; white-space: nowrap;
+}
+#stories-link:hover { border-color: var(--ro-yellow); }
 #refresh:disabled, #rescrape:disabled { opacity: .6; cursor: default; }
 .updated { color: rgba(255,255,255,.72); font-size: 12px; white-space: nowrap; }
 

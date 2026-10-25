@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stories Instagram</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { const t = localStorage.getItem("theme");
+          if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch {}
+  </script>
+  <style>
+    .st-wrap { max-width: 1100px; margin: 0 auto; padding: 20px 16px 48px; }
+    .st-back { color: var(--topbar-text); text-decoration: none; font-weight: 700; opacity: .85; }
+    .st-back:hover { opacity: 1; }
+    .st-intro { color: var(--muted); margin: 0 0 22px; }
+    .st-weekend { margin: 0 0 30px; }
+    .st-weekend h2 { font-size: 15px; letter-spacing: .08em; text-transform: uppercase;
+                     color: var(--muted); margin: 0 0 12px; }
+    .st-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+    .st-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+               overflow: hidden; display: flex; flex-direction: column; }
+    .st-card a.st-img { display: block; aspect-ratio: 9 / 16; background: var(--panel-2); }
+    .st-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .st-meta { padding: 10px 12px 12px; display: flex; align-items: center; gap: 8px; }
+    .st-day { font-weight: 800; }
+    .st-n { color: var(--muted); font-size: 12px; }
+    .st-dl { margin-left: auto; white-space: nowrap; flex: none; background: var(--ro-yellow); color: #1a1300; font-weight: 800;
+             font-size: 13px; text-decoration: none; padding: 7px 12px; border-radius: 999px; }
+    .st-empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="flag" aria-hidden="true">🇷🇴</span>
+      <div>
+        <h1>Stories Instagram</h1>
+        <p class="tagline"><a class="st-back" href="./">← Înapoi la jucători</a></p>
+      </div>
+    </div>
+  </header>
+  <main class="st-wrap">
+    <p class="st-intro">O imagine pe zi de weekend cu românii care au marcat sau au dat pase de gol.
+      Se generează automat după fiecare actualizare; zilele fără goluri sau pase de gol nu au story.</p>
+    <div id="stories"><p class="st-empty">Se încarcă…</p></div>
+  </main>
+  <script>
+    const DAYS = ["Duminică", "Luni", "Marți", "Miercuri", "Joi", "Vineri", "Sâmbătă"];
+    const MONTHS = ["ian", "feb", "mar", "apr", "mai", "iun", "iul", "aug", "sep", "oct", "nov", "dec"];
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const parse = iso => { const [y, m, d] = iso.split("-").map(Number); return new Date(y, m - 1, d); };
+    const fmt = d => `${d.getDate()} ${MONTHS[d.getMonth()]}`;
+    // Friday that starts the weekend a story belongs to
+    const weekendOf = d => { const f = new Date(d); f.setDate(d.getDate() - ((d.getDay() + 2) % 7)); return f; };
+
+    fetch("stories/index.json", { cache: "no-store" })
+      .then(r => r.ok ? r.json() : [])
+      .catch(() => [])
+      .then(items => {
+        const root = document.getElementById("stories");
+        if (!items.length) { root.innerHTML = '<p class="st-empty">Încă nu există stories.</p>'; return; }
+        const groups = new Map();
+        for (const it of items) {
+          const fri = weekendOf(parse(it.date));
+          const key = fri.getTime();
+          if (!groups.has(key)) groups.set(key, { fri, items: [] });
+          groups.get(key).items.push(it);
+        }
+        root.innerHTML = [...groups.values()].map(g => {
+          const sun = new Date(g.fri); sun.setDate(g.fri.getDate() + 2);
+          const cards = g.items.sort((a, b) => a.date.localeCompare(b.date)).map(it => {
+            const d = parse(it.date);
+            const n = it.players ? `${it.players} ${it.players === 1 ? "jucător" : "jucători"}` : "";
+            return `<div class="st-card">
+              <a class="st-img" href="${esc(it.file)}" target="_blank" rel="noopener">
+                <img src="${esc(it.file)}" alt="Story ${esc(DAYS[d.getDay()])} ${esc(it.date)}" loading="lazy"></a>
+              <div class="st-meta">
+                <div><div class="st-day">${DAYS[d.getDay()]} · ${fmt(d)}</div><div class="st-n">${n}</div></div>
+                <a class="st-dl" href="${esc(it.file)}" download="story-${esc(it.date)}.png">↓ PNG</a>
+              </div></div>`;
+          }).join("");
+          return `<section class="st-weekend"><h2>Weekend ${fmt(g.fri)} – ${fmt(sun)} ${g.fri.getFullYear()}</h2>
+            <div class="st-grid">${cards}</div></section>`;
+        }).join("");
+      });
+  </script>
+</body>
+</html>

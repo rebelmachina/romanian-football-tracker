@@ -12,7 +12,7 @@ import time
 from dataclasses import dataclass, field
 import requests
 
-from flashscore.search import POSITION_TYPES
+from flashscore.search import POSITION_TYPES, IMAGE_BASE
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
@@ -47,6 +47,9 @@ class MatchResult:
     goal_minutes: list[str] = field(default_factory=list)
     assist_minutes: list[str] = field(default_factory=list)
     is_national: bool = False
+    home_logo: str | None = None
+    away_logo: str | None = None
+    rating: str | None = None
 
 
 @dataclass
@@ -171,6 +174,10 @@ def _nt_stats(career_tables: list[dict]) -> dict | None:
     return {"caps": caps, "goals": goals, "assists": assists} if caps else None
 
 
+def _logo(path: str | None) -> str | None:
+    return IMAGE_BASE + path if path else None
+
+
 def _parse_matches(last_matches: list[dict]) -> list[MatchResult]:
     out: list[MatchResult] = []
     for m in last_matches:
@@ -188,6 +195,9 @@ def _parse_matches(last_matches: list[dict]) -> list[MatchResult]:
             player_goals=_stat_by_type(stats, "goal"),
             player_assists=_stat_by_type(stats, "assist"),
             is_national="Romania" in names,
+            home_logo=_logo(m.get("homeParticipantLogoUrl")),
+            away_logo=_logo(m.get("awayParticipantLogoUrl")),
+            rating=m.get("rating") or None,
         ))
     out.sort(key=lambda r: r.date, reverse=True)
     return out

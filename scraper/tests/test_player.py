@@ -172,3 +172,16 @@ def test_parse_player_env_position_missing_or_unknown_is_none():
     assert parse_player_env(env, "pid").position is None
     env["participantTypeId"] = 2   # generic "Player"
     assert parse_player_env(env, "pid").position is None
+
+
+def test_parse_matches_reads_crests_and_rating():
+    env = {"careerTables": [], "lastMatchesData": {"lastMatches": [{
+        "eventEncodedId": "x1", "eventStartTime": "24.10.26",
+        "homeParticipantName": "Lincoln", "awayParticipantName": "Burnley",
+        "homeParticipantLogoUrl": "6JLzdiZA-jRNmGWXs.png",
+        "awayParticipantLogoUrl": "", "homeScore": 4, "awayScore": 1,
+        "tournamentTitle": "L", "winLoseShort": "W", "rating": "7.5", "stats": {}}]}}
+    r = parse_player_env(env, "pid").results[0]
+    assert r.home_logo == "https://static.flashscore.com/res/image/data/6JLzdiZA-jRNmGWXs.png"
+    assert r.away_logo is None
+    assert r.rating == "7.5"

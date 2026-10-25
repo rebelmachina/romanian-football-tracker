@@ -54,11 +54,19 @@ jobs:
           else
             python scrape.py
           fi
+      - name: Instagram stories
+        if: steps.guard.outputs.skip != 'true'
+        working-directory: scraper
+        continue-on-error: true    # a render problem must not block the data commit
+        run: |
+          python -m playwright install --with-deps chromium
+          python stories.py
       - name: Commit data
         if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add site/data.json scraper/cache.json scraper/incidents_cache.json
+          git add -A site/stories 2>/dev/null || true   # absent if the stories step failed
           git diff --staged --quiet || git commit -m "data: daily update $(date -u +%FT%TZ)"
           git push
