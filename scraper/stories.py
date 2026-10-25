@@ -1,7 +1,8 @@
-"""Instagram story PNGs: one per weekend day with Romanians who scored/assisted.
+"""Instagram story + feed post PNGs per weekend day with Romanians who scored/assisted.
 
 Reads site/data.json, renders a 1080x1920 HTML card per day with headless
-Chromium (Playwright) and writes site/stories/YYYY-MM-DD.png plus an
+Chromium (Playwright) and writes site/stories/YYYY-MM-DD.png plus a
+1080x1350 feed post YYYY-MM-DD-post.png, and an
 index.json the site uses to list them. Days with no goals/assists get no
 story (and a stale PNG for that day is removed).
 
@@ -24,6 +25,9 @@ HANDLE = "@renasterea.nationalei"
 KEEP_DAYS = 70          # prune story PNGs older than this
 
 DAYS = ["LUNI", "MARȚI", "MIERCURI", "JOI", "VINERI", "SÂMBĂTĂ", "DUMINICĂ"]
+# Instagram formats: story 9:16, feed post 4:5 (largest portrait the feed shows)
+FORMATS = {"story": {"height": 1920, "suffix": ""},
+           "post": {"height": 1350, "suffix": "-post"}}
 RESULT_LABEL = {"W": "VICTORIE", "D": "EGAL", "L": "ÎNFRÂNGERE"}
 MONTHS = ["IANUARIE", "FEBRUARIE", "MARTIE", "APRILIE", "MAI", "IUNIE", "IULIE",
           "AUGUST", "SEPTEMBRIE", "OCTOMBRIE", "NOIEMBRIE", "DECEMBRIE"]
@@ -99,7 +103,7 @@ def _card(e: dict) -> str:
     </div>"""
 
 
-def render_html(day: str, entries: list[dict]) -> str:
+def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
     d = date.fromisoformat(day)
     cards = "".join(_card(e) for e in entries)
     compact = "compact" if len(entries) >= 6 else ""   # smaller header, more card room
@@ -107,7 +111,7 @@ def render_html(day: str, entries: list[dict]) -> str:
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-  html, body {{ width: 1080px; height: 1920px; }}
+  html, body {{ width: 1080px; height: {FORMATS[fmt]["height"]}px; }}
   body {{
     --s: 1;   /* shrunk in render_png until the cards fit */
     font-family: Inter, sans-serif; color: #fff; overflow: hidden; position: relative;
@@ -169,10 +173,17 @@ def render_html(day: str, entries: list[dict]) -> str:
   .compact .date {{ font-size: 44px; }}
   .compact .sub {{ display: none; }}
   .compact .cards {{ margin-top: 24px; }}
+  /* feed post: nothing overlays it, so no safe zones; always compact header */
+  .post .wrap {{ top: 64px; bottom: 56px; }}
+  .post .day {{ font-size: 120px; margin-top: 22px; }}
+  .post .date {{ font-size: 44px; }}
+  .post .sub {{ display: none; }}
+  .post .cards {{ margin-top: 24px; }}
+  .post .handle {{ margin-top: 22px; font-size: 30px; }}
   .handle {{ text-align: center; font-weight: 800; font-size: 34px; letter-spacing: .04em;
              margin-top: 30px; }}
   .handle b {{ color: #FCD116; }}
-</style></head><body class="{compact}">
+</style></head><body class="{fmt} {compact}">
   <div class="flag"><i></i><i></i><i></i></div>
   <div class="wrap">
     <div class="kicker">ROMÂNII DIN STRĂINĂTATE</div>
@@ -196,11 +207,11 @@ FIT_JS = """() => {
 }"""
 
 
-def render_png(html: str, out: Path) -> None:
+def render_png(html: str, out: Path, height: int = 1920) -> None:
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
-        page = browser.new_page(viewport={"width": 1080, "height": 1920})
+        page = browser.new_page(viewport={"width": 1080, "height": height})
         page.set_content(html, wait_until="networkidle")
         page.evaluate("document.fonts.ready")
         page.evaluate(FIT_JS)
@@ -211,11 +222,13 @@ def render_png(html: str, out: Path) -> None:
 def _write_index(data: dict, today: date) -> None:
     cutoff = str(today - timedelta(days=KEEP_DAYS))
     items = []
-    for png in sorted(OUT_DIR.glob("????-??-??.png"), reverse=True):
-        if png.stem < cutoff:
+    for png in OUT_DIR.glob("????-??-??*.png"):
+        if png.name[:10] < cutoff:
             png.unlink()
-            continue
+    for png in sorted(OUT_DIR.glob("????-??-??.png"), reverse=True):
+        post = OUT_DIR / f"{png.stem}{FORMATS['post']['suffix']}.png"
         items.append({"date": png.stem, "file": f"stories/{png.name}",
+                      "post": f"stories/{post.name}" if post.exists() else None,
                       "players": len(collect(data, png.stem))})
     (OUT_DIR / "index.json").write_text(json.dumps(items, indent=1), encoding="utf-8")
 
@@ -231,16 +244,18 @@ def main(argv=None) -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for day in args.dates or weekend_dates(today):
         entries = collect(data, day)
-        out = OUT_DIR / f"{day}.png"
+        for fmt, spec in FORMATS.items():
+            out = OUT_DIR / f"{day}{spec['suffix']}.png"
+            if not entries:
+                out.unlink(missing_ok=True)
+                continue
+            html = render_html(day, entries, fmt)
+            if args.html:
+                out.with_suffix(".html").write_text(html, encoding="utf-8")
+            render_png(html, out, spec["height"])
+            print(f"  {day}: {len(entries)} players -> {out.relative_to(ROOT)}")
         if not entries:
-            out.unlink(missing_ok=True)
             print(f"  {day}: no goals/assists — no story")
-            continue
-        html = render_html(day, entries)
-        if args.html:
-            out.with_suffix(".html").write_text(html, encoding="utf-8")
-        render_png(html, out)
-        print(f"  {day}: {len(entries)} players -> {out.relative_to(ROOT)}")
     _write_index(data, today)
     return 0
 

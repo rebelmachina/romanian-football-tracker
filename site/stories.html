@@ -27,6 +27,9 @@
     .st-n { color: var(--muted); font-size: 12px; }
     .st-dl { margin-left: auto; white-space: nowrap; flex: none; background: var(--ro-yellow); color: #1a1300; font-weight: 800;
              font-size: 13px; text-decoration: none; padding: 7px 12px; border-radius: 999px; }
+    .st-dls { margin-left: auto; display: flex; flex-direction: column; gap: 6px; }
+    .st-dls .st-dl { margin-left: 0; text-align: center; }
+    .st-dl.alt { background: transparent; color: var(--text); border: 1px solid var(--line); }
     .st-empty { color: var(--muted); padding: 40px 0; text-align: center; }
   </style>
 </head>
@@ -41,7 +44,8 @@
     </div>
   </header>
   <main class="st-wrap">
-    <p class="st-intro">O imagine pe zi de weekend cu românii care au marcat sau au dat pase de gol.
+    <p class="st-intro">O imagine pe zi de weekend cu românii care au marcat sau au dat pase de gol,
+      în format Story (9:16) și Post (4:5).
       Se generează automat după fiecare actualizare; zilele fără goluri sau pase de gol nu au story.</p>
     <div id="stories"><p class="st-empty">Se încarcă…</p></div>
   </main>
@@ -77,7 +81,10 @@
                 <img src="${esc(it.file)}" alt="Story ${esc(DAYS[d.getDay()])} ${esc(it.date)}" loading="lazy"></a>
               <div class="st-meta">
                 <div><div class="st-day">${DAYS[d.getDay()]} · ${fmt(d)}</div><div class="st-n">${n}</div></div>
-                <a class="st-dl" href="${esc(it.file)}" download="story-${esc(it.date)}.png">↓ PNG</a>
+                <span class="st-dls">
+                  <a class="st-dl" href="${esc(it.file)}" download="story-${esc(it.date)}.png" title="1080×1920">↓ Story</a>
+                  ${it.post ? `<a class="st-dl alt" href="${esc(it.post)}" download="post-${esc(it.date)}.png" title="1080×1350">↓ Post</a>` : ""}
+                </span>
               </div></div>`;
           }).join("");
           return `<section class="st-weekend"><h2>Weekend ${fmt(g.fri)} – ${fmt(sun)} ${g.fri.getFullYear()}</h2>

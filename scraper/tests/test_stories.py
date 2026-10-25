@@ -47,3 +47,8 @@ def test_card_shows_result():
     entries[0]["result"] = "L"
     html = render_html("2026-10-24", entries)
     assert 'class="card res-L"' in html and "ÎNFRÂNGERE" in html
+
+
+def test_post_format_is_4_by_5():
+    html = render_html("2026-10-24", collect(_data(), "2026-10-24"), "post")
+    assert "height: 1350px" in html and '<body class="post' in html
