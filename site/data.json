@@ -5795,7 +5795,7 @@
         "assists": 0,
         "appearances": 9,
         "minutes": 764,
-        "rating": "7.1"
+        "rating": "7.2"
       },
       "results": [
         {
@@ -8520,7 +8520,7 @@
         "assists": 2,
         "appearances": 9,
         "minutes": 682,
-        "rating": "7.0"
+        "rating": "7.1"
       },
       "results": [
         {
@@ -42182,9 +42182,9 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 10,
+        "appearances": 11,
         "minutes": 450,
-        "rating": "7.6"
+        "rating": "7.5"
       },
       "results": [
         {
@@ -44602,11 +44602,28 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 10,
+        "appearances": 11,
         "minutes": 630,
         "rating": "6.4"
       },
       "results": [
+        {
+          "match_id": "C8x6Util",
+          "date": "2026-10-24",
+          "home_team": "Wisla",
+          "away_team": "Rakow",
+          "score": "2-1",
+          "competition": "Ekstraklasa (Poland)",
+          "result": "L",
+          "player_minutes": 90,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/C8x6Util/",
+          "youtube_url": "https://www.youtube.com/watch?v=ZUQmgTJZD1A"
+        },
         {
           "match_id": "CM5Ny4sH",
           "date": "2026-10-16",
@@ -50779,7 +50796,7 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 3,
+        "appearances": 4,
         "minutes": 478,
         "rating": "6.4"
       },
@@ -53007,9 +53024,9 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 7,
+        "appearances": 8,
         "minutes": 720,
-        "rating": "7.5"
+        "rating": "7.6"
       },
       "results": [
         {
@@ -55112,9 +55129,9 @@
       "season_stats": {
         "goals": 0,
         "assists": 1,
-        "appearances": 4,
+        "appearances": 5,
         "minutes": 266,
-        "rating": "6.4"
+        "rating": "6.5"
       },
       "results": [
         {
@@ -80968,6 +80985,23 @@
       },
       "results": [
         {
+          "match_id": "6JBvFlx2",
+          "date": "2026-10-24",
+          "home_team": "Arezzo",
+          "away_team": "Benevento",
+          "score": "0-3",
+          "competition": "Serie B (Italy)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/6JBvFlx2/",
+          "youtube_url": "https://www.youtube.com/watch?v=OPISdEY3qNM"
+        },
+        {
           "match_id": "zaTiyug4",
           "date": "2026-10-18",
           "home_team": "Sampdoria",
@@ -81265,9 +81299,9 @@
       "season_stats": {
         "goals": 1,
         "assists": 4,
-        "appearances": 6,
+        "appearances": 7,
         "minutes": 298,
-        "rating": "7.6"
+        "rating": "7.4"
       },
       "results": [
         {
@@ -87408,7 +87442,7 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 5,
+        "appearances": 6,
         "minutes": 226,
         "rating": "6.7"
       },
@@ -90539,7 +90573,7 @@
       "season_stats": {
         "goals": 0,
         "assists": 0,
-        "appearances": 3,
+        "appearances": 4,
         "minutes": 205,
         "rating": "6.9"
       },
@@ -130835,10 +130869,27 @@
         "goals": 0,
         "assists": 1,
         "appearances": 6,
-        "minutes": 297,
+        "minutes": 277,
         "rating": "6.5"
       },
       "results": [
+        {
+          "match_id": "YJGBHpeD",
+          "date": "2026-10-24",
+          "home_team": "Almeria",
+          "away_team": "Oviedo",
+          "score": "2-2",
+          "competition": "LaLiga2 (Spain)",
+          "result": "D",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "flashscore_url": "https://www.flashscore.com/match/YJGBHpeD/",
+          "youtube_url": "https://www.youtube.com/watch?v=LzMVnWrxFf8"
+        },
         {
           "match_id": "vJSxGXJ8",
           "date": "2026-10-18",
@@ -153969,23 +154020,6 @@
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/0U1hFu3n/",
           "youtube_url": null
-        },
-        {
-          "match_id": "xYRJ4kkR",
-          "date": "2023-10-24",
-          "home_team": "FC Arges",
-          "away_team": "CSM Slatina",
-          "score": "1-1",
-          "competition": "Liga 2 (Romania)",
-          "result": "D",
-          "player_minutes": 90,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/xYRJ4kkR/",
-          "youtube_url": null
         }
       ]
     },
@@ -163986,7 +164020,7 @@
           ],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/EmsQKKDr/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=tHCvYQRkCmg"
         },
         {
           "match_id": "IHefQtjL",
@@ -179836,23 +179870,6 @@
           "assist_minutes": [],
           "is_national": false,
           "flashscore_url": "https://www.flashscore.com/match/KpgOAHqj/",
-          "youtube_url": null
-        },
-        {
-          "match_id": "naHsWCc8",
-          "date": "2023-10-24",
-          "home_team": "Pisa",
-          "away_team": "Lecco",
-          "score": "1-2",
-          "competition": "Serie B (Italy)",
-          "result": "L",
-          "player_minutes": null,
-          "player_goals": 0,
-          "player_assists": 0,
-          "goal_minutes": [],
-          "assist_minutes": [],
-          "is_national": false,
-          "flashscore_url": "https://www.flashscore.com/match/naHsWCc8/",
           "youtube_url": null
         }
       ]
@@ -203250,5 +203267,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-24T19:42:50Z"
+  "updated_at": "2026-10-25T00:47:15Z"
 }
