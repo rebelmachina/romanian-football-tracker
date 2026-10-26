@@ -25926,7 +25926,7 @@
           "is_national": false,
           "home_logo": "https://static.flashscore.com/res/image/data/OvQtjVhl-0jIfCnDf.png",
           "away_logo": "https://static.flashscore.com/res/image/data/pre3mce5-hfKzvYIf.png",
-          "rating": "8.0",
+          "rating": "7.8",
           "flashscore_url": "https://www.flashscore.com/match/ADLMCOdn/",
           "youtube_url": "https://www.youtube.com/watch?v=Xh7PQFodbts"
         },
@@ -170268,7 +170268,7 @@
       "slug": "itu-catalin",
       "position": "Forward",
       "photo": "https://static.flashscore.com/res/image/data/AsLWJlHG-QXs5bwJL.png",
-      "age": 26,
+      "age": 27,
       "market_value": "€681k",
       "team": "CSKA Sofia",
       "team_logo": "https://static.flashscore.com/res/image/data/MZmpVA7k-hzxcfK0L.png",
@@ -238125,5 +238125,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-26T00:58:51Z"
+  "updated_at": "2026-10-26T11:44:30Z"
 }
