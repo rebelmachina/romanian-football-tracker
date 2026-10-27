@@ -1,5 +1,11 @@
 [
  {
+  "date": "2026-10-26",
+  "file": "stories/2026-10-26.png",
+  "post": "stories/2026-10-26-post.png",
+  "players": 1
+ },
+ {
   "date": "2026-10-25",
   "file": "stories/2026-10-25.png",
   "post": "stories/2026-10-25-post.png",
@@ -10,5 +16,11 @@
   "file": "stories/2026-10-24.png",
   "post": "stories/2026-10-24-post.png",
   "players": 5
+ },
+ {
+  "date": "2026-10-21",
+  "file": "stories/2026-10-21.png",
+  "post": "stories/2026-10-21-post.png",
+  "players": 1
  }
 ]

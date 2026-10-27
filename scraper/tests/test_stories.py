@@ -1,5 +1,5 @@
 from datetime import date
-from stories import collect, weekend_dates, plural, render_html
+from stories import collect, recent_dates, plural, render_html
 
 
 def _data():
@@ -23,10 +23,10 @@ def test_collect_skips_national_team_games():
     assert collect(_data(), "2026-10-25") == []
 
 
-def test_weekend_dates():
-    assert weekend_dates(date(2026, 10, 24)) == ["2026-10-23", "2026-10-24"]   # Sat
-    assert weekend_dates(date(2026, 10, 27)) == ["2026-10-23", "2026-10-24", "2026-10-25"]  # Tue
-    assert weekend_dates(date(2026, 10, 23)) == ["2026-10-23"]                 # Fri
+def test_recent_dates_rolling_week_any_weekday():
+    days = recent_dates(date(2026, 10, 26))          # a Monday
+    assert days[0] == "2026-10-26" and days[-1] == "2026-10-20"
+    assert len(days) == 7
 
 
 def test_plural_romanian():

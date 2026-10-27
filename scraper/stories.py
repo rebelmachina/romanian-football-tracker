@@ -1,4 +1,4 @@
-"""Instagram story + feed post PNGs per weekend day with Romanians who scored/assisted.
+"""Instagram story + feed post PNGs for every day Romanians scored/assisted.
 
 Reads site/data.json, renders a 1080x1920 HTML card per day with headless
 Chromium (Playwright) and writes site/stories/YYYY-MM-DD.png plus a
@@ -7,7 +7,7 @@ index.json the site uses to list them. Days with no goals/assists get no
 story (and a stale PNG for that day is removed).
 
 Usage:
-    python stories.py                         # Fri–Sun of the current weekend
+    python stories.py                         # the last 7 days, today included
     python stories.py --dates 2026-10-23 2026-10-24
 """
 from __future__ import annotations
@@ -23,6 +23,7 @@ DATA_PATH = ROOT / "site" / "data.json"
 OUT_DIR = ROOT / "site" / "stories"
 HANDLE = "@renasterea.nationalei"
 KEEP_DAYS = 70          # prune story PNGs older than this
+RECENT_DAYS = 7         # re-render this many days each run (late games, corrections)
 
 DAYS = ["LUNI", "MARȚI", "MIERCURI", "JOI", "VINERI", "SÂMBĂTĂ", "DUMINICĂ"]
 # Instagram formats: story 9:16, feed post 4:5 (largest portrait the feed shows)
@@ -56,10 +57,9 @@ def collect(data: dict, day: str) -> list[dict]:
     return out
 
 
-def weekend_dates(today: date) -> list[str]:
-    """Fri–Sun of the most recent weekend, not past today (Mon–Thu -> last weekend)."""
-    fri = today - timedelta(days=(today.weekday() - 4) % 7)
-    return [str(fri + timedelta(days=i)) for i in range(3) if fri + timedelta(days=i) <= today]
+def recent_dates(today: date, days: int = RECENT_DAYS) -> list[str]:
+    """Today and the days before it, newest first."""
+    return [str(today - timedelta(days=i)) for i in range(days)]
 
 
 def plural(n: int, one: str, many: str) -> str:
@@ -147,7 +147,8 @@ def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
            object-fit: contain; background: #fff; border-radius: 50%;
            padding: calc(16px * var(--s)); }}
   .body {{ min-width: 0; flex: 1; }}
-  .name {{ font-family: 'Bebas Neue', sans-serif; font-size: calc(70px * var(--s));
+  .name {{ padding-right: calc(190px * var(--s));   /* room for the result tag */
+           font-family: 'Bebas Neue', sans-serif; font-size: calc(70px * var(--s));
            line-height: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
   .pills {{ display: flex; gap: 12px; margin-top: calc(12px * var(--s)); align-items: center; }}
   .pill {{ font-weight: 800; font-size: calc(26px * var(--s)); letter-spacing: .04em;
@@ -161,7 +162,7 @@ def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
             font-size: calc(30px * var(--s)); font-weight: 700; }}
   .match .team {{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
                   max-width: 290px; }}
-  .match .score {{ background: var(--res); color: #06101f; border-radius: 10px; padding: 2px 14px; }}
+  .match .score {{ white-space: nowrap; flex: none; background: var(--res); color: #06101f; border-radius: 10px; padding: 2px 14px; }}
   .mini {{ width: calc(44px * var(--s)); height: calc(44px * var(--s)); flex: none;
            object-fit: contain; background: #fff; border-radius: 50%; padding: 4px; }}
   .crest-fallback {{ display: inline-flex; align-items: center; justify-content: center;
@@ -189,34 +190,53 @@ def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
     <div class="kicker">ROMÂNII DIN STRĂINĂTATE</div>
     <div class="day">{DAYS[d.weekday()]}</div>
     <div class="date">{d.day} {MONTHS[d.month - 1]} {d.year}</div>
-    <div class="sub">Goluri și pase de gol în campionatele străine</div>
+    <div class="sub">Goluri și pase de gol la echipele de club</div>
     <div class="cards">{cards}</div>
     <div class="handle"><b>{HANDLE.split('.')[0]}</b>.{HANDLE.split('.', 1)[1]}</div>
   </div>
 </body></html>"""
 
 
-# Shrink the card scale until the card stack fits its box (any player count).
+# Fit the card stack to its box: grow cards (up to 1.3x) when there are few,
+# shrink them when there are many — works for any player count.
 FIT_JS = """() => {
   const box = document.querySelector('.cards');
+  const set = s => document.body.style.setProperty('--s', s.toFixed(2));
+  const fits = () => box.scrollHeight <= box.clientHeight + 1;
+  // growing must not start truncating names or team names
+  const clipped = () => [...box.querySelectorAll('.name, .match .team')]
+    .some(el => el.scrollWidth > el.clientWidth + 1);
   let s = 1;
-  while (box.scrollHeight > box.clientHeight + 1 && s > 0.4) {
-    s -= 0.02;
-    document.body.style.setProperty('--s', s.toFixed(2));
+  if (!clipped()) {
+    while (s < 1.3) {
+      set(s + 0.02);
+      if (!fits() || clipped()) { set(s); break; }
+      s += 0.02;
+    }
   }
+  while (!fits() && s > 0.4) { s -= 0.02; set(s); }
 }"""
 
 
-def render_png(html: str, out: Path, height: int = 1920) -> None:
+def render_pngs(jobs: list[tuple[str, Path, int]]) -> None:
+    """Render (html, out_path, height) jobs with one shared browser."""
+    if not jobs:
+        return
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
-        page = browser.new_page(viewport={"width": 1080, "height": height})
-        page.set_content(html, wait_until="networkidle")
-        page.evaluate("document.fonts.ready")
-        page.evaluate(FIT_JS)
-        page.screenshot(path=str(out), full_page=False)
+        for html, out, height in jobs:
+            page = browser.new_page(viewport={"width": 1080, "height": height})
+            page.set_content(html, wait_until="networkidle")
+            page.evaluate("document.fonts.ready")
+            page.evaluate(FIT_JS)
+            page.screenshot(path=str(out), full_page=False)
+            page.close()
         browser.close()
+
+
+def render_png(html: str, out: Path, height: int = 1920) -> None:
+    render_pngs([(html, out, height)])
 
 
 def _write_index(data: dict, today: date) -> None:
@@ -235,14 +255,15 @@ def _write_index(data: dict, today: date) -> None:
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dates", nargs="*", help="YYYY-MM-DD days (default: current weekend)")
+    ap.add_argument("--dates", nargs="*", help="YYYY-MM-DD days (default: last 7 days)")
     ap.add_argument("--html", action="store_true", help="also write the .html next to each PNG")
     args = ap.parse_args(argv)
 
     today = date.today()
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for day in args.dates or weekend_dates(today):
+    jobs = []
+    for day in args.dates or recent_dates(today):
         entries = collect(data, day)
         for fmt, spec in FORMATS.items():
             out = OUT_DIR / f"{day}{spec['suffix']}.png"
@@ -252,10 +273,9 @@ def main(argv=None) -> int:
             html = render_html(day, entries, fmt)
             if args.html:
                 out.with_suffix(".html").write_text(html, encoding="utf-8")
-            render_png(html, out, spec["height"])
-            print(f"  {day}: {len(entries)} players -> {out.relative_to(ROOT)}")
-        if not entries:
-            print(f"  {day}: no goals/assists — no story")
+            jobs.append((html, out, spec["height"]))
+        print(f"  {day}: {len(entries)} players" if entries else f"  {day}: no goals/assists — no story")
+    render_pngs(jobs)
     _write_index(data, today)
     return 0
 
