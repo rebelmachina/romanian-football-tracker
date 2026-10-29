@@ -119897,7 +119897,7 @@
           "away_logo": "https://static.flashscore.com/res/image/data/MuhwhtwS-M1jIRGkS.png",
           "rating": null,
           "flashscore_url": "https://www.flashscore.com/match/Gj7mBnJl/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=oW0xbGgqrH0"
         },
         {
           "match_id": "xW4E3nbd",
@@ -123630,10 +123630,30 @@
         "goals": 0,
         "assists": 5,
         "appearances": 12,
-        "minutes": 439,
+        "minutes": 359,
         "rating": "7.3"
       },
       "results": [
+        {
+          "match_id": "COgmsgnI",
+          "date": "2026-10-29",
+          "home_team": "St. Louis City",
+          "away_team": "Portland Timbers",
+          "score": "2-3",
+          "competition": "MLS (USA)",
+          "result": "L",
+          "player_minutes": null,
+          "player_goals": 0,
+          "player_assists": 0,
+          "goal_minutes": [],
+          "assist_minutes": [],
+          "is_national": false,
+          "home_logo": "https://static.flashscore.com/res/image/data/fZQ24ABr-jmLPWdtA.png",
+          "away_logo": "https://static.flashscore.com/res/image/data/CEuiHggl-UuBN762q.png",
+          "rating": null,
+          "flashscore_url": "https://www.flashscore.com/match/COgmsgnI/",
+          "youtube_url": "https://www.youtube.com/watch?v=BazW2R-S0rA"
+        },
         {
           "match_id": "6PLsvTZ8",
           "date": "2026-10-25",
@@ -126240,7 +126260,7 @@
           "away_logo": "https://static.flashscore.com/res/image/data/nqEwF6GG-hfMSf4LN.png",
           "rating": null,
           "flashscore_url": "https://www.flashscore.com/match/htpPj6JE/",
-          "youtube_url": null
+          "youtube_url": "https://www.youtube.com/watch?v=1LSCsCZvVqg"
         },
         {
           "match_id": "xW4E3nbd",
@@ -238044,5 +238064,5 @@
     "points": 1455.89,
     "previous_rank": 54
   },
-  "updated_at": "2026-10-29T02:07:14Z"
+  "updated_at": "2026-10-29T11:58:08Z"
 }
