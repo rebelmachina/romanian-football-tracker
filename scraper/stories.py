@@ -1,8 +1,9 @@
-"""Instagram story + feed post PNGs for every day Romanians scored/assisted.
+"""Instagram story + feed post images for every day Romanians scored/assisted.
 
 Reads site/data.json, renders a 1080x1920 HTML card per day with headless
 Chromium (Playwright) and writes site/stories/YYYY-MM-DD.png plus a
-1080x1350 feed post YYYY-MM-DD-post.png, and an
+1080x1350 feed post YYYY-MM-DD-post.png (each also as .jpg, which the
+Instagram publishing API requires), and an
 index.json the site uses to list them. Days with no goals/assists get no
 story (and a stale PNG for that day is removed).
 
@@ -86,10 +87,9 @@ def _card(e: dict) -> str:
     own = e["team_logo"] or (e["home_logo"] if e["home"] == e["team"] else e["away_logo"])
     return f"""
     <div class="card res-{e["result"] or "N"}">
-      {result_tag}
       {_crest(own, e["team"] or e["name"], "club")}
       <div class="body">
-        <div class="name">{escape(e["name"])}</div>
+        <div class="head"><div class="name">{escape(e["name"])}</div>{result_tag}</div>
         <div class="pills">{"".join(pills)}{rating}</div>
         <div class="match">
           {_crest(e["home_logo"], e["home"], "mini")}
@@ -139,7 +139,8 @@ def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
   .res-W {{ --res: #2ecc71; }}  .res-D {{ --res: #8a93a6; }}
   .res-L {{ --res: #ef4a5a; }}  .res-N {{ --res: #FCD116; }}
   .card {{ border-left-color: var(--res); }}
-  .result {{ position: absolute; top: calc(22px * var(--s)); right: calc(26px * var(--s));
+  .head {{ display: flex; align-items: flex-start; gap: calc(18px * var(--s)); }}
+  .result {{ flex: none; margin-top: calc(-6px * var(--s)); margin-right: calc(-8px * var(--s));
              font-weight: 800; font-size: calc(20px * var(--s)); letter-spacing: .12em;
              color: var(--res); border: 2px solid var(--res); border-radius: 8px;
              padding: calc(4px * var(--s)) calc(10px * var(--s)); }}
@@ -147,7 +148,7 @@ def render_html(day: str, entries: list[dict], fmt: str = "story") -> str:
            object-fit: contain; background: #fff; border-radius: 50%;
            padding: calc(16px * var(--s)); }}
   .body {{ min-width: 0; flex: 1; }}
-  .name {{ padding-right: calc(190px * var(--s));   /* room for the result tag */
+  .name {{ flex: 1; min-width: 0;
            font-family: 'Bebas Neue', sans-serif; font-size: calc(70px * var(--s));
            line-height: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
   .pills {{ display: flex; gap: 12px; margin-top: calc(12px * var(--s)); align-items: center; }}
@@ -215,6 +216,11 @@ FIT_JS = """() => {
     }
   }
   while (!fits() && s > 0.4) { s -= 0.02; set(s); }
+  // a name that is still too long shrinks on its own card instead of being cut off
+  for (const el of box.querySelectorAll('.name')) {
+    let px = parseFloat(getComputedStyle(el).fontSize);
+    while (el.scrollWidth > el.clientWidth + 1 && px > 24) { px -= 1; el.style.fontSize = px + 'px'; }
+  }
 }"""
 
 
@@ -231,6 +237,8 @@ def render_pngs(jobs: list[tuple[str, Path, int]]) -> None:
             page.evaluate("document.fonts.ready")
             page.evaluate(FIT_JS)
             page.screenshot(path=str(out), full_page=False)
+            # the Instagram publishing API only accepts JPEG
+            page.screenshot(path=str(out.with_suffix(".jpg")), type="jpeg", quality=92)
             page.close()
         browser.close()
 
@@ -242,9 +250,9 @@ def render_png(html: str, out: Path, height: int = 1920) -> None:
 def _write_index(data: dict, today: date) -> None:
     cutoff = str(today - timedelta(days=KEEP_DAYS))
     items = []
-    for png in OUT_DIR.glob("????-??-??*.png"):
-        if png.name[:10] < cutoff:
-            png.unlink()
+    for img in [*OUT_DIR.glob("????-??-??*.png"), *OUT_DIR.glob("????-??-??*.jpg")]:
+        if img.name[:10] < cutoff:
+            img.unlink()
     for png in sorted(OUT_DIR.glob("????-??-??.png"), reverse=True):
         post = OUT_DIR / f"{png.stem}{FORMATS['post']['suffix']}.png"
         items.append({"date": png.stem, "file": f"stories/{png.name}",
@@ -269,6 +277,7 @@ def main(argv=None) -> int:
             out = OUT_DIR / f"{day}{spec['suffix']}.png"
             if not entries:
                 out.unlink(missing_ok=True)
+                out.with_suffix(".jpg").unlink(missing_ok=True)
                 continue
             html = render_html(day, entries, fmt)
             if args.html:
