@@ -25,13 +25,13 @@ players:
 - name: Alexandru Maxim
   flashscore_id: EFNpqcTT
   country: Turcia
-- name: Valentin Mihaila
+- name: Valentin Mihăilă
   flashscore_id: OOFN5OX4
   country: Turcia
 - name: Iustin Doicaru
   flashscore_id: WxrTardp
   country: Turcia
-- name: Horatiu Moldovan
+- name: Horațiu Moldovan
   flashscore_id: SxjadbLU
   country: Turcia
 - name: Ianis Hagi
@@ -40,7 +40,7 @@ players:
 - name: Marius Corbu
   flashscore_id: vgDQPYCi
   country: Ungaria
-- name: Stefan Vladoiu
+- name: Ștefan Vlădoiu
   flashscore_id: EDMFR6EF
   country: Ungaria
 - name: Paul Anton
@@ -64,16 +64,16 @@ players:
 - name: Valentin Cojocaru
   flashscore_id: MN37gnsn
   country: Polonia
-- name: Bogdan Racovitan
+- name: Bogdan Racovițan
   flashscore_id: Kpq2SX0B
   country: Polonia
-- name: Ioan Vermesan
+- name: Ioan Vermeșan
   flashscore_id: xpz5QLfl
   country: Polonia
 - name: Antonio Sefer
   flashscore_id: nsDflbah
   country: Israel
-- name: Raul Balbarau
+- name: Raul Bălbărău
   flashscore_id: ldPya5KI
   country: Israel
 - name: Daniel Paraschiv
@@ -88,22 +88,22 @@ players:
 - name: Nicolae Stanciu
   flashscore_id: tY8uva0F
   country: China
-- name: Andrei Burca
+- name: Andrei Burcă
   flashscore_id: 0QYAKJRN
   country: China
-- name: Alexandru Ionita
+- name: Alexandru Ioniță
   flashscore_id: d8R9tJwK
   country: China
-- name: Alexandru Mitrita
+- name: Alexandru Mitriță
   flashscore_id: I3EOIMtl
   country: China
-- name: Alexandru Cimpanu
+- name: Alexandru Cîmpanu
   flashscore_id: GYzkDZSr
   country: China
-- name: Rares Ilie
+- name: Rareș Ilie
   flashscore_id: jNjnLyHF
   country: Serie B
-- name: Rares Burnete
+- name: Rareș Burnete
   flashscore_id: vVyq9D0S
   country: Serie B
 - name: Antonio David
@@ -112,13 +112,13 @@ players:
 - name: Francesco Serban
   flashscore_id: tW9alLBa
   country: Serie B
-- name: Razvan Marin
+- name: Răzvan Marin
   flashscore_id: WYOcFAQk
   country: Grecia
 - name: Alexandru Pantea
   flashscore_id: 67qSFgVp
   country: Grecia
-- name: Adrian Sut
+- name: Adrian Șut
   flashscore_id: URPwCKBE
   country: Grecia
 - name: Octavian Popescu
@@ -127,40 +127,40 @@ players:
 - name: Vlad Dragomir
   flashscore_id: G41aVCK1
   country: Cipru
-- name: Florin Tanase
+- name: Florin Tănase
   flashscore_id: AZzWG5Q2
   country: Cipru
-- name: Atanas Trica
+- name: Atanas Trică
   flashscore_id: pUPrg1F1
   country: Cipru
 - name: Louis Munteanu
   flashscore_id: Ugzfi6aP
   country: SUA
-- name: Alexandru Matan
+- name: Alexandru Mățan
   flashscore_id: A9cyouqp
   country: SUA
 - name: Stefan Chirila
   flashscore_id: 4hwk5EB6
   country: SUA
-- name: Ionut Radu
+- name: Ionuț Radu
   flashscore_id: 4xYjfkEG
   country: LaLiga
-- name: Andrei Ratiu
+- name: Andrei Rațiu
   flashscore_id: Eo8SAMoI
   country: LaLiga
-- name: Radu Dragusin
+- name: Radu Drăgușin
   flashscore_id: ELzKkDJF
   country: Serie A
-- name: Daniel Birligea
+- name: Daniel Bîrligea
   flashscore_id: rioZTll9
   country: Serie A
 - name: Lisav Eissat
   flashscore_id: O02miEUm
   country: Championship
-- name: Andrei Coubis
+- name: Andrei Coubiș
   flashscore_id: Ywf0GF3H
   country: Championship
-- name: Alexandru Isfan
+- name: Alexandru Ișfan
   flashscore_id: vwalXaul
   country: Segunda Division
 - name: Enes Sali
@@ -178,10 +178,10 @@ players:
 - name: Ianis Stoica
   flashscore_id: CGYK9J8D
   country: Portugalia
-- name: Catalin Itu
+- name: Cătălin Itu
   flashscore_id: xdqFaent
   country: Bulgaria
-- name: Andrei Chindris
+- name: Andrei Chindriș
   flashscore_id: trwgtOY1
   country: Bulgaria
 - name: Liviu Antal
@@ -193,7 +193,7 @@ players:
 - name: Alexandru Tudorie
   flashscore_id: hhD9Rh3o
   country: Thailanda
-- name: Cristian Magerusan
+- name: Cristian Măgerușan
   flashscore_id: IB21elhn
   country: Thailanda
 - name: Andrei Florea
@@ -214,10 +214,10 @@ players:
 - name: Cristian Catrina
   flashscore_id: ""   # UNRESOLVED: no Al Rustaq/Oman profile found on Flashscore (verify)
   country: Oman
-- name: Virgil Ghita
+- name: Virgil Ghiță
   flashscore_id: dthOfJCO
   country: 2. Bundesliga
-- name: Ionut Nedelcearu
+- name: Ionuț Nedelcearu
   flashscore_id: MqNVQa4o
   country: Rusia
 - name: Raul Feher
@@ -229,7 +229,7 @@ players:
 - name: Mihai Lixandru
   flashscore_id: 06eZqNb0
   country: Arabia Saudita
-- name: Mihai Capatina
+- name: Mihai Căpățînă
   flashscore_id: 21RPSdX8
   country: Kazahstan
 - name: Darius Olaru
@@ -241,7 +241,7 @@ players:
 - name: Florinel Coman
   flashscore_id: vsoaSbd6
   country: Qatar
-- name: Ionut Cojocaru
+- name: Ionuț Cojocaru
   flashscore_id: h4fY57YP
   country: Malta
 - name: Dennis Man

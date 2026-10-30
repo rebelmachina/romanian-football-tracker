@@ -99,3 +99,10 @@ def test_previous_positions_skips_missing():
     data = {"players": [{"flashscore_id": "a", "position": "Defender"},
                         {"flashscore_id": "b", "position": None}]}
     assert _previous_positions(data) == {"a": "Defender"}
+
+
+def test_ascii_fold_strips_romanian_diacritics():
+    from scrape import ascii_fold
+    assert ascii_fold("Răzvan Marin") == "Razvan Marin"
+    assert ascii_fold("Mihai Căpățînă") == "Mihai Capatina"
+    assert ascii_fold("Ștefan Vlădoiu") == "Stefan Vladoiu"

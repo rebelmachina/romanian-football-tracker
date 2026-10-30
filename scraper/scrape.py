@@ -14,6 +14,7 @@ import argparse
 import json
 import sys
 import time
+import unicodedata
 from dataclasses import asdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -96,6 +97,11 @@ def build_player_record(cfg: PlayerConfig, hit: PlayerHit, pdata: PlayerData,
     }
 
 
+def ascii_fold(s: str) -> str:
+    """'Răzvan Ișfan' -> 'Razvan Isfan': the roster keeps diacritics, the search API doesn't."""
+    return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+
+
 def _previous_positions(data: dict) -> dict[str, str]:
     """flashscore_id -> position from a previous data.json, skipping blanks."""
     return {p["flashscore_id"]: p["position"] for p in data.get("players", [])
@@ -170,7 +176,7 @@ def run_full(session: requests.Session, players: list[PlayerConfig],
     records = []
     for cfg in players:
         try:
-            hits = search_players(cfg.name, session=session)
+            hits = search_players(ascii_fold(cfg.name), session=session)
             hit = next((h for h in hits if h.id == cfg.flashscore_id), None)
             if hit is None:
                 print(f"  ! no search match for {cfg.name} ({cfg.flashscore_id})")

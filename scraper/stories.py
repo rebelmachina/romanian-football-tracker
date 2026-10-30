@@ -219,7 +219,13 @@ FIT_JS = """() => {
   // a name that is still too long shrinks on its own card instead of being cut off
   for (const el of box.querySelectorAll('.name')) {
     let px = parseFloat(getComputedStyle(el).fontSize);
-    while (el.scrollWidth > el.clientWidth + 1 && px > 24) { px -= 1; el.style.fontSize = px + 'px'; }
+    while (el.scrollWidth > el.clientWidth + 1 && px > 20) { px -= 1; el.style.fontSize = px + 'px'; }
+  }
+  // same for a match line whose team names don't fit
+  for (const m of box.querySelectorAll('.match')) {
+    const cut = () => [...m.querySelectorAll('.team')].some(t => t.scrollWidth > t.clientWidth + 1);
+    let px = parseFloat(getComputedStyle(m).fontSize);
+    while (cut() && px > 14) { px -= 1; m.style.fontSize = px + 'px'; }
   }
 }"""
 

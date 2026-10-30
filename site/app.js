@@ -261,11 +261,14 @@ function card(p) {
   </div>`;
 }
 
+// "Răzvan" matches a search for "razvan"
+const fold = s => s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
+
 function matchesFilter(p, f) {
   if (STATE.pos && p.position !== STATE.pos) return false;
   if (STATE.league && p.group !== STATE.league) return false;
   if (!f) return true;
-  return (p.name + " " + (p.team || "") + " " + (p.group || "")).toLowerCase().includes(f);
+  return fold(p.name + " " + (p.team || "") + " " + (p.group || "")).includes(fold(f));
 }
 
 function anyFilterActive() {
